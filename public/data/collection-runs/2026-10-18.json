@@ -1,0 +1,198 @@
+{
+  "target_date": "2026-10-18",
+  "time_zone": "Asia/Bangkok",
+  "checked_at": "2026-10-19T04:16:29.067Z",
+  "status": "partial",
+  "added_feedback": 61,
+  "added_ratings": 0,
+  "collection_complete": false,
+  "summary_vn": "Ngày 18/10/2026: thêm 61 phản hồi, toàn bộ từ Facebook group (Community 52 = 9 bài + 43 bình luận, chợ mua bán 815754622673816 5 bài, group 473704433937505 3 bài, group Official 1 bình luận); chủ đề nổi bật là cuộc thi cây phong, cách tính giá theo hiệu ứng/kim tiêm và tính năng thả thú ở nông trại. Fanpage, YouTube và TikTok không có nội dung tiếng Thái mới chắc chắn thuộc ngày 18/10. Hai group vẫn chờ duyệt, một group bị từ chối. Sensor Tower bỏ qua theo runbook (người dùng tự nhập), không thêm rating.",
+  "sources": [
+    {
+      "key": "Facebook Group · playtogetherth",
+      "status": "partial",
+      "added_feedback": 52,
+      "detail": "Đọc New posts đến ranh giới 16–17/10 và Recent activity (~90 bài, đến hoạt động 2 ngày trước); mở permalink từng bài ngày 18/10 để đọc giờ tuyệt đối (ID bài ẩn danh không theo thứ tự thời gian: bài 02:11 ngày 18/10 có ID nhỏ hơn bài 23:59 ngày 17/10). Ngày 18/10: thêm 9 bài và 43 bình luận; bỏ 1 bài và các trả lời của admin. Bình luận nhãn \"≤11h\" (gần nửa đêm 18–19/10) bỏ qua; bình luận \"1d\" chỉ lấy khi nằm dưới bài đăng ngày 18/10 hoặc khi ID bình luận nằm trong khoảng ID của ngày 18/10 (2 bình luận ~00:05–00:10). Không mở toàn bộ chuỗi trả lời. Dữ liệu 14/09 – 18/10."
+    },
+    {
+      "key": "Facebook Group · 815754622673816",
+      "status": "partial",
+      "added_feedback": 5,
+      "detail": "Đọc New posts đến ranh giới 12/10. Ngày 18/10: thêm 5 bài rao bán (trái cây–nhân sâm–xu nông trại–đổi thời tiết, bán sỉ nhân sâm, thẻ–tiền nông trại–nhân sâm, món 130 baht, nhận cày xu Sweet Halloween 10:08 xác định qua permalink); bài nhãn 10h trở xuống là ngày 19/10. Bình luận \"a day ago\" duy nhất nằm dưới bài 20:49 ngày 17/10 (ID gần ngày 17/10) nên bỏ. Không đọc Recent activity."
+    },
+    {
+      "key": "Facebook Group · 1772363333745643",
+      "status": "partial",
+      "added_feedback": 1,
+      "detail": "Đọc New posts: bài mới nhất là bài admin (hướng dẫn Sweet Halloween, 0 bình luận). Thêm 1 bình luận người chơi dưới bài admin 17/10 (hỏi chỗ câu hiệu ứng băng/hơi lạnh) — lượt trước thấy nhãn \"5 hours ago\" lúc ~06:15 ngày 18/10; các bình luận \"1d\" khác không chắc ngày nên bỏ."
+    },
+    {
+      "key": "Facebook Group · 562362538882428",
+      "status": "inactive",
+      "added_feedback": 0,
+      "detail": "Kiểm tra New posts 19/10: feed không hiện bài mới (bài mới nhất vẫn 2023), không có bài ngày 18/10."
+    },
+    {
+      "key": "Facebook Group · 3252260471541104",
+      "status": "rejected",
+      "added_feedback": 0,
+      "detail": "Group riêng tư; trang chỉ hiện nút Join group (yêu cầu cũ bị từ chối, kiểm tra 19/10). Không gửi lại yêu cầu, không truy cập được bài/bình luận."
+    },
+    {
+      "key": "Facebook Group · 356675609124267",
+      "status": "pending",
+      "added_feedback": 0,
+      "detail": "Group riêng tư, vẫn còn nút Cancel request (kiểm tra 19/10): yêu cầu thành viên đang chờ duyệt; không đọc được bài/bình luận."
+    },
+    {
+      "key": "Facebook Group · 473704433937505",
+      "status": "partial",
+      "added_feedback": 3,
+      "detail": "Đọc New posts đến ranh giới 13/10: ngày 18/10 thêm 3 bài rao bán (nhận cày nông trại thuê; danh sách trái cây–nhân sâm–xu nông trại–hạt giống–đổi thời tiết; thẻ–tiền nông trại–nhân sâm); bình luận hiển thị không có ngày 18/10. Dữ liệu từ 14/10."
+    },
+    {
+      "key": "Facebook Group · 847315523442353",
+      "status": "pending",
+      "added_feedback": 0,
+      "detail": "Group riêng tư, vẫn còn nút Cancel request (kiểm tra 19/10): yêu cầu thành viên đang chờ duyệt; không đọc được bài/bình luận."
+    },
+    {
+      "key": "Facebook Fanpage · @playtogetherthailandofficial",
+      "status": "no_new_visible_comments",
+      "added_feedback": 0,
+      "detail": "Đọc 2 bài gần nhất (18/10 ~20:00 \"chọn trang phục hay phương tiện Sweet Halloween\": 1 bình luận; 17/10 gacha: không bình luận). Bình luận duy nhất có nhãn \"12h\" lúc ~12:10 ngày 19/10 (23:10–00:10, không chắc thuộc 18/10) nên bỏ qua. Loại bài chính thức, không lấy fanpage Global."
+    },
+    {
+      "key": "YouTube",
+      "status": "checked",
+      "added_feedback": 0,
+      "detail": "Tìm kiếm 3 từ khoá qua API tìm kiếm (lọc hôm nay, gl=TH) và trang Videos/Shorts của 7 creator qua API browse (RSS trả 404 lượt này) + 14 video/shorts mới nhất của kênh chính thức @playtogetherth. Không có video tiếng Thái về Play Together đăng 18/10 (video mới nhất của creator: 15/10). Bình luận dưới video creator và kênh chính thức: không có bình luận ngày 18/10. Chỉ đọc trang bình luận đầu."
+    },
+    {
+      "key": "TikTok",
+      "status": "checked",
+      "added_feedback": 0,
+      "detail": "Kênh chính thức: đọc bình luận 5 video mới nhất (13–16/10) qua API công khai, không có bình luận ngày 18/10. Trang creator R*** và L*** không tải được danh sách video (TikTok báo lỗi). Tìm kiếm \"เพลย์ทูเก็ตเตอร์\": không có video ngày 18/10. Không gặp CAPTCHA."
+    },
+    {
+      "key": "Google Play",
+      "status": "skipped",
+      "added_feedback": 0,
+      "detail": "Bỏ qua Sensor Tower/store theo runbook; người dùng tự nhập review và rating."
+    },
+    {
+      "key": "App Store",
+      "status": "skipped",
+      "added_feedback": 0,
+      "detail": "Bỏ qua Sensor Tower/store theo runbook; người dùng tự nhập review và rating."
+    }
+  ],
+  "ratings": {
+    "status": "skipped",
+    "added": 0,
+    "detail": "Bỏ qua Sensor Tower hoàn toàn theo runbook; không sửa ratings."
+  },
+  "new_feedback": {
+    "by_source": {
+      "Facebook Group · playtogetherth": 52,
+      "Facebook Group · 815754622673816": 5,
+      "Facebook Group · 473704433937505": 3,
+      "Facebook Group · 1772363333745643": 1
+    },
+    "by_kind": {
+      "post": 17,
+      "comment": 44
+    },
+    "by_sentiment": {
+      "Positive": 21,
+      "Negative": 5,
+      "Neutral": 34,
+      "Mixed": 1
+    },
+    "sentiment_percent": {
+      "Positive": 34.4,
+      "Negative": 8.2,
+      "Neutral": 55.7,
+      "Mixed": 1.6
+    }
+  },
+  "preservation": {
+    "before_items": 2010,
+    "after_items": 2071,
+    "added_ids": [
+      "facebook-629c7e5c7c7920ef",
+      "facebook-efec7d489be36708",
+      "facebook-720543bde622fa0f",
+      "facebook-e5609b3448145cae",
+      "facebook-f50aa02a8b9336d9",
+      "facebook-b2dcc497b29a0f5a",
+      "facebook-61dd89ff071880ae",
+      "facebook-0f75cbae95791e09",
+      "facebook-64ff580246b2b89c",
+      "facebook-6ab8ad9e98e0c957",
+      "facebook-cb2f36df1ea035d7",
+      "facebook-554cfc596779f212",
+      "facebook-be34f48f82aa2be5",
+      "facebook-e5de1687845e3006",
+      "facebook-b536929867496eb2",
+      "facebook-9fc4535163224867",
+      "facebook-4d96443a48400566",
+      "facebook-9e5151c5256da16c",
+      "facebook-46ecdd27815e808b",
+      "facebook-dd20a64247afbe63",
+      "facebook-5aa9a5f150ff68e9",
+      "facebook-4f5c3d99d4738ba6",
+      "facebook-56c14c470bee375e",
+      "facebook-e0e6ee478974b1a5",
+      "facebook-41b26f719270e27c",
+      "facebook-6a97354af194d43b",
+      "facebook-6f8099b94b00e99c",
+      "facebook-c817ccd532052367",
+      "facebook-8d3279adbbfe3a9f",
+      "facebook-4611484b81a41e81",
+      "facebook-c98cf88440a1d27a",
+      "facebook-d4a5486ee1c1f2cd",
+      "facebook-e77d4915c51cb386",
+      "facebook-aa1f78f84a21d198",
+      "facebook-8d2a3ecdcc6ce940",
+      "facebook-90e4860a4177d22f",
+      "facebook-d3a996b213e3504b",
+      "facebook-2b70361125759365",
+      "facebook-45518849fa54724c",
+      "facebook-c6dc45839254e488",
+      "facebook-7f5be37298ff448d",
+      "facebook-2f4677a5f0e145a4",
+      "facebook-5b3729941e69320e",
+      "facebook-075378ae2702e58c",
+      "facebook-ae624f7f98524496",
+      "facebook-5cd18fb6019fa380",
+      "facebook-96ef6fd4e7625a96",
+      "facebook-632b99d2429b3d19",
+      "facebook-c664e4c599cb04bc",
+      "facebook-bc861a2ca7d5a15b",
+      "facebook-81177db5e3fc5cea",
+      "facebook-6e7506ef8ab066d0",
+      "facebook-bbc9887af070217f",
+      "facebook-b34236b6d4032b21",
+      "facebook-d5804485b855653f",
+      "facebook-e7419a782ddf1305",
+      "facebook-7994817efab233a2",
+      "facebook-ce6eecb2876fd2fd",
+      "facebook-682ffc77373c16a5",
+      "facebook-6828e31ba246626f",
+      "facebook-221dee587e1eb9d4"
+    ],
+    "removed_ids": [],
+    "modified_existing_items": 0
+  },
+  "validation": {
+    "command": "npm run check",
+    "status": "pass (validate 271 daily files; node --test 19/19; chạy trực tiếp bằng node vì máy không có npm)"
+  },
+  "audit_warnings": [
+    "Trình duyệt dùng là trình duyệt tích hợp (Claude in Chrome không kết nối); Facebook đã đăng nhập sẵn.",
+    "Lượt chạy bắt đầu muộn (~10:48 ngày 19/10 thay vì 06:00) nên nhãn tương đối dài hơn: bài \"1d\" được xác định bằng giờ tuyệt đối trên trang permalink; bình luận dựa trên nhãn giờ (12–23h) hoặc vị trí dưới bài đăng ngày 18/10, date_precision=approximate. Nhãn và bản dịch do AI rà ngữ cảnh, needs_review=true.",
+    "Repo cục bộ chậm 20 commit và có thay đổi chưa commit của người dùng; lượt này làm việc trong git worktree riêng từ origin/main, không động vào thay đổi cục bộ.",
+    "Xuất dữ liệu đọc trực tiếp qua công cụ trình duyệt (không dùng form POST)."
+  ]
+}

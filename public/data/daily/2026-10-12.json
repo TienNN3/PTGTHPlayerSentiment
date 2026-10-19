@@ -3,34 +3,36 @@
   "generated_at": "2026-10-13T14:49:11.712Z",
   "data_mode": "production",
   "metrics": {
-    "volume": 24,
+    "volume": 25,
     "noise": 0,
     "by_source": {
-      "Facebook Group": 24
+      "Facebook Group": 24,
+      "App Store": 1
     },
     "by_sentiment": {
       "Positive": 2,
       "Neutral": 20,
-      "Negative": 2,
+      "Negative": 3,
       "Mixed": 0
     },
     "by_topic": {
       "Other": 15,
       "Activities (fishing, bugs, pets, housing, jobs, minigames)": 2,
       "Gacha / Shop / Pricing": 3,
-      "Login / Account / Data": 4
+      "Login / Account / Data": 4,
+      "Bug / Crash / Lag / Performance": 1
     },
     "by_segment": {
-      "unknown": 23,
+      "unknown": 24,
       "payer": 1
     },
-    "nss": 0,
+    "nss": -4,
     "nss_d1": null,
     "nss_7d_avg": null,
     "store": {
       "gp_avg": null,
-      "ios_avg": null,
-      "star_1": 0,
+      "ios_avg": 1,
+      "star_1": 1,
       "star_5": 0
     }
   },
@@ -1052,20 +1054,47 @@
       "text_vn_machine": "Ghé vào ủng hộ ạ",
       "text_en": "Bumping the post",
       "summary_en": "Stops by to support the post."
+    },
+    {
+      "id": "appstore-vng-4063f8833769e8ff",
+      "source": "App Store",
+      "link": "https://apps.apple.com/th/app/id1612175933",
+      "author_masked": "M***",
+      "app_name": "Play Together VNG",
+      "app_id": "1612175933",
+      "text_th": "Chs thường bị văng nhiều nhận đồ thỉnh thoảng hay mất. Nên chỉnh sửa thêm",
+      "text_vn": "Chơi thường bị văng nhiều, nhận đồ thỉnh thoảng hay bị mất. Nên chỉnh sửa thêm.",
+      "translation_method": "ai_contextual",
+      "sentiment": "Negative",
+      "confidence": 0.75,
+      "topic": "Bug / Crash / Lag / Performance",
+      "topic_secondary": [],
+      "theme": "Game bị văng và treo",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 1,
+      "intent": "bug",
+      "keywords": [
+        "văng game",
+        "mất vật phẩm"
+      ],
+      "summary_vn": "Báo văng game và thỉnh thoảng mất vật phẩm đã nhận.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Unhappy",
+      "store_tags": [
+        "Performance And Bugs",
+        "Service"
+      ],
+      "app_version": null,
+      "text_en": "The game often crashes, and items I receive sometimes go missing. Please fix this.",
+      "summary_en": "Reports frequent crashes and items sometimes going missing."
     }
   ],
   "ratings": [
-    {
-      "platform": "Google Play",
-      "app_name": "Play Together VNG",
-      "app_id": "com.vng.playtogether",
-      "granularity": "day",
-      "incremental_avg_rating": 3.5714,
-      "total_avg_rating": 4.6501,
-      "incremental_rating_count": 0.08509999999999973,
-      "total_rating_count": 254.4333,
-      "source": "Sensor Tower"
-    },
     {
       "platform": "App Store",
       "app_name": "Play Together VNG",
@@ -1075,6 +1104,17 @@
       "total_avg_rating": 3.9796,
       "incremental_rating_count": 6,
       "total_rating_count": 392,
+      "source": "Sensor Tower"
+    },
+    {
+      "platform": "Google Play",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "granularity": "day",
+      "incremental_avg_rating": 3.5714,
+      "total_avg_rating": 4.6501,
+      "incremental_rating_count": 0.08509999999999973,
+      "total_rating_count": 254.4333,
       "source": "Sensor Tower"
     }
   ]

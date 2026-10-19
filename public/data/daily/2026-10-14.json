@@ -1495,6 +1495,83 @@
       "translation_method": "ai_contextual",
       "label_method": "ai_review",
       "collected_at": "2026-10-14T23:32:02.478Z"
+    },
+    {
+      "id": "appstore-vng-041c48120653d082",
+      "source": "App Store",
+      "link": "https://apps.apple.com/th/app/id1612175933",
+      "author_masked": "w***",
+      "app_name": "Play Together VNG",
+      "app_id": "1612175933",
+      "text_th": "ยู. อะไรอ่ะ คือโหลดกลับมาเล่นแล้วบัญชีเก่าหายไปไหนอ่ะเสียใจนะเล่นมาตั้งนาน เอากลับมาได้ไหม😭😭😭",
+      "text_vn": "Gì vậy, tải về chơi lại mà tài khoản cũ đi đâu mất rồi? Buồn lắm, chơi lâu vậy rồi. Lấy lại được không 😭😭😭",
+      "translation_method": "ai_contextual",
+      "sentiment": "Negative",
+      "confidence": 0.75,
+      "topic": "Login / Account / Data",
+      "topic_secondary": [],
+      "theme": "Đăng nhập tài khoản",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 1,
+      "intent": "account",
+      "keywords": [
+        "mất dữ liệu",
+        "người chơi quay lại",
+        "chuyển tài khoản vng"
+      ],
+      "summary_vn": "Tải lại game thì mất tài khoản cũ, xin lấy lại.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Unhappy",
+      "store_tags": [
+        "Performance And Bugs",
+        "User Data And Privacy"
+      ],
+      "app_version": "2.32.0",
+      "text_en": "What? I downloaded it again to play and my old account is gone? So sad, I played for so long. Can I get it back 😭😭😭",
+      "summary_en": "Reinstalled and the old account is gone; asks to get it back."
+    },
+    {
+      "id": "appstore-vng-8084381b71b8c658",
+      "source": "App Store",
+      "link": "https://apps.apple.com/th/app/id1612175933",
+      "author_masked": "เ***",
+      "app_name": "Play Together VNG",
+      "app_id": "1612175933",
+      "text_th": "เกมดีมีคุณภาพ. อยากให้เพิ่มโอกาสปลายักอีกสักนิด",
+      "text_vn": "Game hay, chất lượng. Mong tăng tỉ lệ ra cá khổng lồ thêm chút nữa.",
+      "translation_method": "ai_contextual",
+      "sentiment": "Mixed",
+      "confidence": 0.75,
+      "topic": "Activities (fishing, bugs, pets, housing, jobs, minigames)",
+      "topic_secondary": [],
+      "theme": "Hoạt động và tính năng trong game",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 5,
+      "intent": "suggestion",
+      "keywords": [
+        "câu cá",
+        "tỉ lệ",
+        "khen game"
+      ],
+      "summary_vn": "Khen game, góp ý tăng tỉ lệ ra cá khổng lồ.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Mixed",
+      "store_tags": [
+        "Game Progression"
+      ],
+      "app_version": "2.32.0",
+      "text_en": "Great, high-quality game. I'd like the chance of giant fish to be a bit higher.",
+      "summary_en": "Praises the game, asks for a higher giant fish rate."
     }
   ],
   "report": {
@@ -1530,38 +1607,63 @@
     ]
   },
   "metrics": {
-    "volume": 40,
+    "volume": 42,
     "noise": 0,
     "by_source": {
       "Facebook Group": 37,
       "YouTube": 2,
-      "TikTok": 1
+      "TikTok": 1,
+      "App Store": 2
     },
     "by_sentiment": {
       "Positive": 9,
       "Neutral": 27,
-      "Negative": 4,
-      "Mixed": 0
+      "Negative": 5,
+      "Mixed": 1
     },
     "by_topic": {
-      "Login / Account / Data": 1,
-      "Activities (fishing, bugs, pets, housing, jobs, minigames)": 21,
+      "Login / Account / Data": 2,
+      "Activities (fishing, bugs, pets, housing, jobs, minigames)": 22,
       "Event & Update content": 6,
       "Social / Scam / Harassment / Toxic": 5,
       "Other": 7
     },
     "by_segment": {
-      "unknown": 40
+      "unknown": 42
     },
-    "nss": 12.5,
+    "nss": 9.5,
     "nss_d1": null,
     "nss_7d_avg": null,
     "store": {
       "gp_avg": null,
-      "ios_avg": null,
-      "star_1": 0,
-      "star_5": 0
+      "ios_avg": 3,
+      "star_1": 1,
+      "star_5": 1
     }
   },
-  "data_mode": "production"
+  "data_mode": "production",
+  "ratings": [
+    {
+      "platform": "App Store",
+      "app_name": "Play Together VNG",
+      "app_id": "1612175933",
+      "granularity": "day",
+      "incremental_avg_rating": 3.6667,
+      "total_avg_rating": 3.9797,
+      "incremental_rating_count": 3,
+      "total_rating_count": 395,
+      "source": "Sensor Tower"
+    },
+    {
+      "platform": "Google Play",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "granularity": "day",
+      "incremental_avg_rating": 1,
+      "total_avg_rating": 4.5658,
+      "incremental_rating_count": -0.8746,
+      "total_rating_count": 254.11419999999998,
+      "source": "Sensor Tower"
+    }
+  ]
 }

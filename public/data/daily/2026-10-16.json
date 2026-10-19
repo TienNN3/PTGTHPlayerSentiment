@@ -1685,6 +1685,45 @@
       "translation_method": "ai_contextual",
       "label_method": "ai_review",
       "collected_at": "2026-10-16T23:25:29.982Z"
+    },
+    {
+      "id": "appstore-vng-6e7d3bbe0441248f",
+      "source": "App Store",
+      "link": "https://apps.apple.com/th/app/id1612175933",
+      "author_masked": "K***",
+      "app_name": "Play Together VNG",
+      "app_id": "1612175933",
+      "text_th": "เสียดายแอคเก่ามาก. ลบเกมไม่ได้เล่นมา2-3ปีว่าจะกลับมาเล่นสรุปแอคเก่าหายแล้วอันที่เป็นglobalก็ไม่มีให้โหลดกลับไปเอาลิ้งต้องสร้างใหม่ จริงๆก็ไม่ได้เติมเยอะอะไรแต่เสียดายอุสาเล่นมาตั้งนานฟาร์มจนเก็บเงินได้เยอะมากๆมาเจออย่างงี้เสียความรู้สึกเลย ขอลบเกมทิ้งเลยละกัน",
+      "text_vn": "Tiếc acc cũ lắm. Xoá game 2–3 năm không chơi, định quay lại thì acc cũ mất rồi, bản Global cũng không còn để tải về lấy liên kết, phải tạo acc mới. Thật ra mình cũng không nạp nhiều, nhưng tiếc vì chơi lâu, cày nông trại tích được rất nhiều tiền mà gặp cảnh này thì hụt hẫng ghê. Thôi xoá game luôn vậy.",
+      "translation_method": "ai_contextual",
+      "sentiment": "Negative",
+      "confidence": 0.75,
+      "topic": "Login / Account / Data",
+      "topic_secondary": [],
+      "theme": "Đăng nhập tài khoản",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 1,
+      "intent": "account",
+      "keywords": [
+        "chuyển tài khoản vng",
+        "mất dữ liệu",
+        "người chơi quay lại"
+      ],
+      "summary_vn": "Người chơi cũ quay lại mất acc, không tải được bản Global để chuyển, bỏ game.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Unhappy",
+      "store_tags": [
+        "User Data And Privacy",
+        "Service"
+      ],
+      "app_version": "2.32.0",
+      "text_en": "Really miss my old account. I deleted the game 2–3 years ago and wanted to come back, but my old account is gone and the Global version isn't available to download to get the link, so I'd have to make a new one. I didn't spend much, but I played for so long and farmed loads of money — this is so disappointing. I'm just deleting the game.",
+      "summary_en": "Returning player lost their old account, can't get the Global app to transfer, quits."
     }
   ],
   "report": {
@@ -1720,22 +1759,23 @@
     ]
   },
   "metrics": {
-    "volume": 45,
+    "volume": 46,
     "noise": 0,
     "by_source": {
       "Facebook Group": 42,
       "YouTube": 1,
-      "TikTok": 2
+      "TikTok": 2,
+      "App Store": 1
     },
     "by_sentiment": {
       "Positive": 9,
       "Neutral": 24,
-      "Negative": 12,
+      "Negative": 13,
       "Mixed": 0
     },
     "by_topic": {
       "Activities (fishing, bugs, pets, housing, jobs, minigames)": 16,
-      "Login / Account / Data": 4,
+      "Login / Account / Data": 5,
       "Event & Update content": 7,
       "Social / Scam / Harassment / Toxic": 3,
       "Other": 8,
@@ -1744,17 +1784,41 @@
       "Gacha / Shop / Pricing": 3
     },
     "by_segment": {
-      "unknown": 45
+      "unknown": 46
     },
-    "nss": -6.7,
+    "nss": -8.7,
     "nss_d1": null,
     "nss_7d_avg": null,
     "store": {
       "gp_avg": null,
-      "ios_avg": null,
-      "star_1": 0,
+      "ios_avg": 1,
+      "star_1": 1,
       "star_5": 0
     }
   },
-  "data_mode": "production"
+  "data_mode": "production",
+  "ratings": [
+    {
+      "platform": "App Store",
+      "app_name": "Play Together VNG",
+      "app_id": "1612175933",
+      "granularity": "day",
+      "incremental_avg_rating": 4.8,
+      "total_avg_rating": 3.9901,
+      "incremental_rating_count": 5,
+      "total_rating_count": 404,
+      "source": "Sensor Tower"
+    },
+    {
+      "platform": "Google Play",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "granularity": "day",
+      "incremental_avg_rating": 5,
+      "total_avg_rating": 4.5477,
+      "incremental_rating_count": 0.4262,
+      "total_rating_count": 255.0776,
+      "source": "Sensor Tower"
+    }
+  ]
 }

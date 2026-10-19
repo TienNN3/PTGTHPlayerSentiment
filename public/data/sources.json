@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-19T04:16:29.067Z",
+  "updated_at": "2026-10-19T04:26:28.601Z",
   "note": "Danh sách nguồn được theo dõi. Tên lấy từ tiêu đề trang Facebook; trạng thái mô tả phạm vi thu thập, không phải số phản hồi.",
   "statuses": {
     "full": "Đủ 30 ngày",
@@ -172,12 +172,18 @@
       "name": "Google Play",
       "type": "store",
       "status": "store",
-      "detail": "Sensor Tower export 14/10: review TH app Play Together VNG 11/06 – 11/10/2026 (162 review) và rating theo ngày 13/04 – 12/10/2026; review app Global (HAEGIN) đến 12/09/2026. Trang store TH VNG và Global không có review ngày 13/10 hiển thị. Sensor Tower đã lọc riêng com.vng.playtogether và com.haegin.playtogether, ngày 13/10, All Languages gồm Thai: bảng No results. Dừng kiểm tra/export Sensor Tower theo yêu cầu người dùng; không kết luận toàn bộ store có 0 review.",
+      "detail": "Sensor Tower export 19/10 (người dùng tải): rating theo ngày app Play Together VNG (TH) 19/09 – 17/10/2026, khớp số cũ đến 12/10 và thêm 13–17/10. File review Google Play 20/09 – 19/10 (All Languages) chỉ có app Global (HAEGIN), không có review quốc gia TH nên không nhập. Review TH app VNG hiện có: 11/06 – 11/10/2026 (162 review); app Global (HAEGIN) đến 12/09/2026.",
       "last_check": {
         "target_date": "2026-10-18",
         "checked_at": "2026-10-19T04:16:29.067Z",
         "status": "skipped",
         "added_feedback": 0
+      },
+      "last_import": {
+        "imported_at": "2026-10-19T04:26:28.601Z",
+        "source": "Sensor Tower export (manual)",
+        "ratings_through": "2026-10-17",
+        "added_reviews": 0
       }
     },
     {
@@ -185,12 +191,18 @@
       "name": "App Store",
       "type": "store",
       "status": "store",
-      "detail": "Sensor Tower export 14/10: review TH app Play Together VNG 05/07 – 10/10/2026 (53 review) và rating theo ngày 04/07 – 12/10/2026; review app Global (HAEGIN) đến 25/06/2026. RSS TH VNG 1612175933: 50 review, mới nhất 10/10; Global HAEGIN 1402384531: 0 entry. Sensor Tower đã lọc riêng hai app, Thailand, 13/10: bảng No results. Dừng kiểm tra/export Sensor Tower theo yêu cầu người dùng.",
+      "detail": "Sensor Tower export 19/10 (người dùng tải): rating theo ngày app Play Together VNG (TH) 19/09 – 17/10/2026, khớp số cũ đến 12/10 và thêm 13–17/10. Review TH 20/09 – 19/10: 14 review, 10 đã có, thêm 4 review mới (12/10, 14/10 ×2, 16/10). Review TH app VNG hiện có: 05/07 – 16/10/2026 (57 review); app Global (HAEGIN) đến 25/06/2026.",
       "last_check": {
         "target_date": "2026-10-18",
         "checked_at": "2026-10-19T04:16:29.067Z",
         "status": "skipped",
         "added_feedback": 0
+      },
+      "last_import": {
+        "imported_at": "2026-10-19T04:26:28.601Z",
+        "source": "Sensor Tower export (manual)",
+        "ratings_through": "2026-10-17",
+        "added_reviews": 4
       }
     }
   ]

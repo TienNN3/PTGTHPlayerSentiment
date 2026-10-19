@@ -2581,5 +2581,29 @@
     "report_path": "data/collection-runs/2026-10-13.json",
     "html_report_path": "reports/2026-10-13.html",
     "summary_vn": "Quét lại ngày 13/10/2026: thêm 6 phản hồi từ group Community (3 bài, 3 bình luận). Hiện có 48 phản hồi xác định được ngày và 14 mục chỉ biết ngày quan sát, không tính thống kê. Ba group đang chờ duyệt, một group bị từ chối; YouTube và TikTok thu thập một phần. Dừng kiểm tra Sensor Tower theo yêu cầu người dùng; không thêm rating."
-  }
+  },
+  "ratings": [
+    {
+      "platform": "App Store",
+      "app_name": "Play Together VNG",
+      "app_id": "1612175933",
+      "granularity": "day",
+      "incremental_avg_rating": 5,
+      "total_avg_rating": 3.9821,
+      "incremental_rating_count": 0,
+      "total_rating_count": 392,
+      "source": "Sensor Tower"
+    },
+    {
+      "platform": "Google Play",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "granularity": "day",
+      "incremental_avg_rating": 3,
+      "total_avg_rating": 4.6327,
+      "incremental_rating_count": 0.5554000000000001,
+      "total_rating_count": 254.9889,
+      "source": "Sensor Tower"
+    }
+  ]
 }

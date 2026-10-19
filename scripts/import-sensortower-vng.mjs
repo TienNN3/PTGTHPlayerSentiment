@@ -36,7 +36,8 @@ function parseDelimited(raw) {
     } else field += char;
   }
   if (field || row.length) { row.push(field); parsed.push(row); }
-  const headers = parsed.shift();
+  // Export mới ghi "Total Avg. Rating"; quy về tên cũ "Total Avg Rating".
+  const headers = parsed.shift().map((header) => header.replace("Avg. ", "Avg "));
   return parsed.map((values) => Object.fromEntries(headers.map((header, index) => [header, values[index] ?? ""])));
 }
 

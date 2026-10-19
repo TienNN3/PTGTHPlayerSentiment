@@ -1572,6 +1572,40 @@
       "app_version": "2.32.0",
       "text_en": "Great, high-quality game. I'd like the chance of giant fish to be a bit higher.",
       "summary_en": "Praises the game, asks for a higher giant fish rate."
+    },
+    {
+      "id": "gplay-vng-0f04c79bc537b11a",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.vng.playtogether&hl=th",
+      "author_masked": "k***",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "text_th": "เกมนี้เริ่ด",
+      "text_vn": "Game này đỉnh.",
+      "translation_method": "ai_contextual",
+      "sentiment": "Positive",
+      "confidence": 0.75,
+      "topic": "Other",
+      "topic_secondary": [],
+      "theme": "Trải nghiệm game tích cực",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 5,
+      "intent": "praise",
+      "keywords": [
+        "khen game"
+      ],
+      "summary_vn": "Khen game đỉnh.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Happy",
+      "store_tags": [],
+      "app_version": "2.32.0",
+      "text_en": "This game is awesome.",
+      "summary_en": "Says the game is awesome."
     }
   ],
   "report": {
@@ -1607,16 +1641,17 @@
     ]
   },
   "metrics": {
-    "volume": 42,
+    "volume": 43,
     "noise": 0,
     "by_source": {
       "Facebook Group": 37,
       "YouTube": 2,
       "TikTok": 1,
-      "App Store": 2
+      "App Store": 2,
+      "Google Play": 1
     },
     "by_sentiment": {
-      "Positive": 9,
+      "Positive": 10,
       "Neutral": 27,
       "Negative": 5,
       "Mixed": 1
@@ -1626,19 +1661,19 @@
       "Activities (fishing, bugs, pets, housing, jobs, minigames)": 22,
       "Event & Update content": 6,
       "Social / Scam / Harassment / Toxic": 5,
-      "Other": 7
+      "Other": 8
     },
     "by_segment": {
-      "unknown": 42
+      "unknown": 43
     },
-    "nss": 9.5,
+    "nss": 11.6,
     "nss_d1": null,
     "nss_7d_avg": null,
     "store": {
-      "gp_avg": null,
+      "gp_avg": 5,
       "ios_avg": 3,
       "star_1": 1,
-      "star_5": 1
+      "star_5": 2
     }
   },
   "data_mode": "production",

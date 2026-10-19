@@ -3,16 +3,17 @@
   "generated_at": "2026-10-13T14:49:11.712Z",
   "data_mode": "production",
   "metrics": {
-    "volume": 25,
+    "volume": 26,
     "noise": 0,
     "by_source": {
       "Facebook Group": 24,
-      "App Store": 1
+      "App Store": 1,
+      "Google Play": 1
     },
     "by_sentiment": {
       "Positive": 2,
       "Neutral": 20,
-      "Negative": 3,
+      "Negative": 4,
       "Mixed": 0
     },
     "by_topic": {
@@ -20,17 +21,17 @@
       "Activities (fishing, bugs, pets, housing, jobs, minigames)": 2,
       "Gacha / Shop / Pricing": 3,
       "Login / Account / Data": 4,
-      "Bug / Crash / Lag / Performance": 1
+      "Bug / Crash / Lag / Performance": 2
     },
     "by_segment": {
-      "unknown": 24,
+      "unknown": 25,
       "payer": 1
     },
-    "nss": -4,
+    "nss": -7.7,
     "nss_d1": null,
     "nss_7d_avg": null,
     "store": {
-      "gp_avg": null,
+      "gp_avg": 3,
       "ios_avg": 1,
       "star_1": 1,
       "star_5": 0
@@ -1092,6 +1093,43 @@
       "app_version": null,
       "text_en": "The game often crashes, and items I receive sometimes go missing. Please fix this.",
       "summary_en": "Reports frequent crashes and items sometimes going missing."
+    },
+    {
+      "id": "gplay-vng-1fe3b6f8c70be1ca",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.vng.playtogether&hl=th",
+      "author_masked": "S***",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "text_th": "เวลาที่ฉันจะกระโดดมันกระโดดไม่ไป",
+      "text_vn": "Lúc mình bấm nhảy thì nhân vật không nhảy được.",
+      "translation_method": "ai_contextual",
+      "sentiment": "Negative",
+      "confidence": 0.75,
+      "topic": "Bug / Crash / Lag / Performance",
+      "topic_secondary": [],
+      "theme": "Game bị văng và treo",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 3,
+      "intent": "bug",
+      "keywords": [
+        "lỗi điều khiển",
+        "lỗi game"
+      ],
+      "summary_vn": "Báo lỗi nút nhảy không hoạt động.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Unhappy",
+      "store_tags": [
+        "Performance And Bugs"
+      ],
+      "app_version": "2.32.0",
+      "text_en": "When I try to jump, my character doesn't jump.",
+      "summary_en": "Reports the jump button not working."
     }
   ],
   "ratings": [

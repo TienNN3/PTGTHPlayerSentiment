@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-19T04:26:28.601Z",
+  "updated_at": "2026-10-19T04:31:46.575Z",
   "note": "Danh sách nguồn được theo dõi. Tên lấy từ tiêu đề trang Facebook; trạng thái mô tả phạm vi thu thập, không phải số phản hồi.",
   "statuses": {
     "full": "Đủ 30 ngày",
@@ -172,7 +172,7 @@
       "name": "Google Play",
       "type": "store",
       "status": "store",
-      "detail": "Sensor Tower export 19/10 (người dùng tải): rating theo ngày app Play Together VNG (TH) 19/09 – 17/10/2026, khớp số cũ đến 12/10 và thêm 13–17/10. File review Google Play 20/09 – 19/10 (All Languages) chỉ có app Global (HAEGIN), không có review quốc gia TH nên không nhập. Review TH app VNG hiện có: 11/06 – 11/10/2026 (162 review); app Global (HAEGIN) đến 12/09/2026.",
+      "detail": "Sensor Tower export 19/10 (người dùng tải): rating theo ngày app Play Together VNG (TH) 19/09 – 17/10/2026; review tiếng Thái app VNG 20/09 – 19/10: 34 review, 29 đã có, thêm 5 review mới (12/10, 13/10 ×2, 14/10, 15/10). Review TH app VNG hiện có: 11/06 – 15/10/2026 (167 review); app Global (HAEGIN) đến 12/09/2026.",
       "last_check": {
         "target_date": "2026-10-18",
         "checked_at": "2026-10-19T04:16:29.067Z",
@@ -180,10 +180,10 @@
         "added_feedback": 0
       },
       "last_import": {
-        "imported_at": "2026-10-19T04:26:28.601Z",
+        "imported_at": "2026-10-19T04:31:46.575Z",
         "source": "Sensor Tower export (manual)",
         "ratings_through": "2026-10-17",
-        "added_reviews": 0
+        "added_reviews": 5
       }
     },
     {

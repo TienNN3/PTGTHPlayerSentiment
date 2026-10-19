@@ -2939,6 +2939,40 @@
       "translation_method": "ai_contextual",
       "label_method": "ai_review",
       "collected_at": "2026-10-15T23:39:16.303Z"
+    },
+    {
+      "id": "gplay-vng-79fc6bf9cbc87788",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.vng.playtogether&hl=th",
+      "author_masked": "S***",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "text_th": "สนุกมากเลยค่ะ",
+      "text_vn": "Vui lắm luôn ạ.",
+      "translation_method": "ai_contextual",
+      "sentiment": "Positive",
+      "confidence": 0.75,
+      "topic": "Other",
+      "topic_secondary": [],
+      "theme": "Trải nghiệm game tích cực",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 5,
+      "intent": "praise",
+      "keywords": [
+        "khen game"
+      ],
+      "summary_vn": "Khen game rất vui.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Happy",
+      "store_tags": [],
+      "app_version": null,
+      "text_en": "So much fun.",
+      "summary_en": "Says the game is very fun."
     }
   ],
   "report": {
@@ -2974,15 +3008,16 @@
     ]
   },
   "metrics": {
-    "volume": 79,
+    "volume": 80,
     "noise": 0,
     "by_source": {
       "Facebook Group": 76,
       "YouTube": 2,
-      "TikTok": 1
+      "TikTok": 1,
+      "Google Play": 1
     },
     "by_sentiment": {
-      "Positive": 14,
+      "Positive": 15,
       "Neutral": 53,
       "Negative": 10,
       "Mixed": 2
@@ -2992,21 +3027,21 @@
       "Topup & Payment": 1,
       "Gacha / Shop / Pricing": 10,
       "Event & Update content": 12,
-      "Other": 9,
+      "Other": 10,
       "Bug / Crash / Lag / Performance": 2,
       "Login / Account / Data": 4
     },
     "by_segment": {
-      "unknown": 79
+      "unknown": 80
     },
-    "nss": 5.1,
+    "nss": 6.3,
     "nss_d1": null,
     "nss_7d_avg": null,
     "store": {
-      "gp_avg": null,
+      "gp_avg": 5,
       "ios_avg": null,
       "star_1": 0,
-      "star_5": 0
+      "star_5": 1
     }
   },
   "data_mode": "production",

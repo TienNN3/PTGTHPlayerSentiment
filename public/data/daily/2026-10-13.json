@@ -2417,40 +2417,119 @@
       "translation_method": "ai_contextual",
       "text_en": "Posting a reminder, time's almost up.",
       "summary_en": "Reminds everyone the event entry deadline is close."
+    },
+    {
+      "id": "gplay-vng-be74d5ef8bc117fe",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.vng.playtogether&hl=th",
+      "author_masked": "ธ***",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "text_th": "โหหหโหลดช้ามากรอตั้งนานก็ยังไม่เข้าให้สักทีฟังเพลงรอก็แล้วก็ยังไม่เข้าให้สักทีรอโคตรนานน่าโมโหมากชาติไหนจะได้เล่นถามจริง",
+      "text_vn": "Trời ơi tải chậm kinh khủng, đợi mãi vẫn không vào được, nghe nhạc chờ mà vẫn chưa vào được, đợi lâu điên luôn, bực quá, kiếp nào mới được chơi đây hả.",
+      "translation_method": "ai_contextual",
+      "sentiment": "Negative",
+      "confidence": 0.75,
+      "topic": "Bug / Crash / Lag / Performance",
+      "topic_secondary": [],
+      "theme": "Game bị văng và treo",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 1,
+      "intent": "performance",
+      "keywords": [
+        "lag",
+        "kết nối mạng",
+        "đăng nhập"
+      ],
+      "summary_vn": "Than tải game cực chậm, chờ lâu vẫn không vào được.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Unhappy",
+      "store_tags": [
+        "Performance And Bugs"
+      ],
+      "app_version": "2.32.0",
+      "text_en": "Ugh, loading is so slow. I waited forever and still couldn't get in — even listened to music while waiting and still nothing. So annoying. When will I ever get to play?",
+      "summary_en": "Complains loading is extremely slow and they still can't get in."
+    },
+    {
+      "id": "gplay-vng-d5410d5ae3189e1b",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.vng.playtogether&hl=th",
+      "author_masked": "V***",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "text_th": "คิดยังไงเอาเวียดนามมาบริหารไม่เข้าใจ ระบบไม่เสถียรเลยตั้งแต่เปลี่ยน ของก็แพงขึ้นนี้หงุดหงิดจนลบทิ้งไปแล้ว",
+      "text_vn": "Không hiểu sao lại đem Việt Nam vào vận hành. Từ lúc đổi tới giờ hệ thống không ổn định chút nào, đồ cũng đắt hơn, bực tới mức xoá game luôn rồi.",
+      "translation_method": "ai_contextual",
+      "sentiment": "Negative",
+      "confidence": 0.75,
+      "topic": "Other",
+      "topic_secondary": [],
+      "theme": "Góp ý trải nghiệm chung",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 1,
+      "intent": "complaint",
+      "keywords": [
+        "lỗi game",
+        "giá vật phẩm",
+        "xoá game"
+      ],
+      "summary_vn": "Không hài lòng với việc chuyển sang VNG: hệ thống kém ổn định, đồ đắt hơn, đã xoá game.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Unhappy",
+      "store_tags": [
+        "Performance And Bugs",
+        "Pricing",
+        "Updates And Maintenance"
+      ],
+      "app_version": null,
+      "text_en": "I don't get why they brought in a Vietnamese company to run it. Since the switch the system has been unstable, and items got more expensive. I got so annoyed I deleted the game.",
+      "summary_en": "Unhappy with the VNG switch: unstable system, pricier items, deleted the game."
     }
   ],
   "metrics": {
-    "volume": 62,
+    "volume": 64,
     "noise": 0,
     "by_source": {
-      "Facebook Group": 62
+      "Facebook Group": 62,
+      "Google Play": 2
     },
     "by_sentiment": {
       "Positive": 13,
       "Neutral": 41,
-      "Negative": 6,
+      "Negative": 8,
       "Mixed": 2
     },
     "by_topic": {
-      "Other": 42,
+      "Other": 43,
       "Event & Update content": 7,
       "Login / Account / Data": 2,
       "Activities (fishing, bugs, pets, housing, jobs, minigames)": 9,
       "Gacha / Shop / Pricing": 1,
-      "Bug / Crash / Lag / Performance": 1
+      "Bug / Crash / Lag / Performance": 2
     },
     "by_segment": {
-      "unknown": 60,
+      "unknown": 62,
       "midgame": 1,
       "veteran": 1
     },
-    "nss": 11.3,
+    "nss": 7.8,
     "nss_d1": null,
     "nss_7d_avg": null,
     "store": {
-      "gp_avg": null,
+      "gp_avg": 1,
       "ios_avg": null,
-      "star_1": 0,
+      "star_1": 2,
       "star_5": 0
     }
   },

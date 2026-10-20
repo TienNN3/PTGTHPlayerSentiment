@@ -1,0 +1,219 @@
+{
+  "target_date": "2026-10-20",
+  "time_zone": "Asia/Bangkok",
+  "checked_at": "2026-10-20T23:42:32.082Z",
+  "status": "partial",
+  "added_feedback": 80,
+  "added_ratings": 0,
+  "collection_complete": false,
+  "summary_vn": "Ngày 20/10/2026: thêm 80 phản hồi — Facebook group 78 (Community 71 = 21 bài + 50 bình luận, chợ mua bán 815754622673816 4 bài, group 473704433937505 2 bài, group chính thức 1 bài), fanpage 1 bình luận, TikTok 1 bình luận. Nổi bật: người chơi so kinh nghiệm trồng cây phong dự thi (vòi tưới, phụ thuộc may rủi), nản vì chế kim tiêm hiệu ứng khó, vẫn hỏi/gặp lỗi khi chuyển tài khoản sang VNG, và tranh cãi về việc admin group xoá bài. YouTube không có nội dung tiếng Thái mới. Hai group vẫn chờ duyệt, một group bị từ chối. Sensor Tower bỏ qua theo runbook (người dùng tự nhập), không thêm rating.",
+  "sources": [
+    {
+      "key": "Facebook Group · playtogetherth",
+      "status": "partial",
+      "added_feedback": 71,
+      "detail": "Đọc New posts đến ranh giới 18–19/10 (nhãn \"2 days ago\", 45 bài) và Recent activity; mở permalink 47 bài (bài 20/10 và toàn bộ bài 19/10) để đọc bình luận. Ngày 20/10: thêm 21 bài và 50 bình luận (bài 05:56 xác định qua permalink \"Yesterday at 5:56 AM\"; 2 bài nhãn 6h xác định bằng tooltip 23:37 ngày 20/10). Bình luận \"6h\" lấy theo ID nhỏ hơn mốc nửa đêm 20–21/10; bình luận \"a day ago\" chỉ lấy khi ID sau ~01:00 ngày 20/10. Bỏ bài/trả lời của admin, bình luận chỉ cảm ơn/tag/trống, bình luận ngày 21/10. Recent activity chỉ tải được ~20 bài (3 bài cũ không hiện bình luận mới). Không mở toàn bộ chuỗi trả lời. Dữ liệu 14/09 – 20/10."
+    },
+    {
+      "key": "Facebook Group · 815754622673816",
+      "status": "partial",
+      "added_feedback": 4,
+      "detail": "Đọc New posts đến ranh giới 18–19/10. Ngày 20/10: thêm 4 bài rao bán (đổi thời tiết/hạt giống 00:27 xác định qua permalink, tìm mua gấp, trái cây–nhân sâm–hạt giống, thẻ–tiền nông trại–nhân sâm). Bỏ bài \"หาครับ\" (giữa 23:30 ngày 19 và 00:27 ngày 20/10, không chắc ngày) và bài trùng cày xu ngày 19/10. Bình luận duy nhất là chủ bài báo đã mua được (bỏ). Không đọc Recent activity."
+    },
+    {
+      "key": "Facebook Group · 1772363333745643",
+      "status": "checked",
+      "added_feedback": 1,
+      "detail": "Đọc New posts: ngày 20/10 có 1 bài hỏi tìm bạn đi câu cá kẹo ngọt (16h); 2 câu trả lời không hiện khi mở permalink. Thêm 1 bài."
+    },
+    {
+      "key": "Facebook Group · 562362538882428",
+      "status": "inactive",
+      "added_feedback": 0,
+      "detail": "Kiểm tra New posts 21/10: không có bài mới (bài mới nhất vẫn 2023), không có bài ngày 20/10."
+    },
+    {
+      "key": "Facebook Group · 3252260471541104",
+      "status": "rejected",
+      "added_feedback": 0,
+      "detail": "Group riêng tư; trang chỉ hiện nút Join group (yêu cầu cũ bị từ chối, kiểm tra 21/10). Không gửi lại yêu cầu, không truy cập được bài/bình luận."
+    },
+    {
+      "key": "Facebook Group · 356675609124267",
+      "status": "pass (validate + node --test 19/19; chạy trực tiếp bằng node vì máy không có npm)",
+      "added_feedback": 0,
+      "detail": "Group riêng tư, vẫn còn nút Cancel request (kiểm tra 21/10): yêu cầu thành viên đang chờ duyệt; không đọc được bài/bình luận."
+    },
+    {
+      "key": "Facebook Group · 473704433937505",
+      "status": "partial",
+      "added_feedback": 2,
+      "detail": "Đọc New posts đến ranh giới 18/10: ngày 20/10 thêm 2 bài rao bán đăng chéo từ group chợ (thẻ–tiền nông trại–nhân sâm; trái cây–nhân sâm–hạt giống–đổi thời tiết); không có bình luận. Dữ liệu từ 14/10."
+    },
+    {
+      "key": "Facebook Group · 847315523442353",
+      "status": "pass (validate + node --test 19/19; chạy trực tiếp bằng node vì máy không có npm)",
+      "added_feedback": 0,
+      "detail": "Group riêng tư, vẫn còn nút Cancel request (kiểm tra 21/10): yêu cầu thành viên đang chờ duyệt; không đọc được bài/bình luận."
+    },
+    {
+      "key": "Facebook Fanpage · @playtogetherthailandofficial",
+      "status": "partial",
+      "added_feedback": 1,
+      "detail": "Bài mới 20/10 (POV câu cá buồn ngủ): 1 bình luận người dùng nhãn 13h → thêm 1. Bài ghim (Content Creator Program, chuyển tài khoản, 300 kim cương) là bài cũ. Loại bài chính thức, không lấy fanpage Global."
+    },
+    {
+      "key": "YouTube",
+      "status": "checked",
+      "added_feedback": 0,
+      "detail": "RSS 7 creator + RSS kênh chính thức @playtogetherth + tìm kiếm 7 từ khoá (lọc tuần, gl=TH). Không có video tiếng Thái về Play Together đăng 20/10 (mới nhất: creator 17/10, kênh chính thức 15/10). Bình luận trang đầu của 10 video gần nhất: không có bình luận ngày 20/10."
+    },
+    {
+      "key": "TikTok",
+      "status": "checked",
+      "added_feedback": 1,
+      "detail": "Kênh chính thức: video mới 20/10 13:27 có 9 bình luận ngày 20/10, chỉ 1 bình luận tiếng Thái (than tiền sửa cần câu) → thêm 1; còn lại tiếng Việt/emoji → bỏ; 4 video trước không có bình luận ngày 20/10. Creator R*** (mới nhất 16/10, 0 bình luận) và L*** (mới nhất 10/10, tải được sau khi bấm Làm mới). Tìm kiếm \"เพลย์ทูเก็ตเตอร์\": không có video ngày 20/10. Không gặp CAPTCHA."
+    },
+    {
+      "key": "Google Play",
+      "status": "skipped",
+      "added_feedback": 0,
+      "detail": "Bỏ qua Sensor Tower/store theo runbook; người dùng tự nhập review và rating."
+    },
+    {
+      "key": "App Store",
+      "status": "skipped",
+      "added_feedback": 0,
+      "detail": "Bỏ qua Sensor Tower/store theo runbook; người dùng tự nhập review và rating."
+    }
+  ],
+  "ratings": {
+    "status": "skipped",
+    "added": 0,
+    "detail": "Bỏ qua Sensor Tower hoàn toàn theo runbook; không sửa ratings."
+  },
+  "new_feedback": {
+    "by_source": {
+      "Facebook Group · playtogetherth": 71,
+      "Facebook Group · 1772363333745643": 1,
+      "Facebook Group · 815754622673816": 4,
+      "Facebook Group · 473704433937505": 2,
+      "Facebook Fanpage · @playtogetherthailandofficial": 1,
+      "TikTok": 1
+    },
+    "by_kind": {
+      "post": 28,
+      "comment": 52
+    },
+    "by_sentiment": {
+      "Neutral": 58,
+      "Negative": 9,
+      "Positive": 8,
+      "Mixed": 5
+    },
+    "sentiment_percent": {
+      "Neutral": 72.5,
+      "Negative": 11.3,
+      "Positive": 10,
+      "Mixed": 6.3
+    }
+  },
+  "preservation": {
+    "before_items": 2157,
+    "after_items": 2237,
+    "added_ids": [
+      "facebook-85109dc30f41d67d",
+      "facebook-12d3543e61dce1df",
+      "facebook-8fd7ac7a8ad3dbc8",
+      "facebook-2d189888277178a0",
+      "facebook-441ecbdbc637c05e",
+      "facebook-ca3a58c754f507dd",
+      "facebook-c770ef84485922fe",
+      "facebook-1bd53fb61a5f5086",
+      "facebook-c0c0038e11d3b341",
+      "facebook-be1d90ec470072d0",
+      "facebook-b0cbe739444ca52d",
+      "facebook-1c31cab2d16c4408",
+      "facebook-a9b0efcdbb1a96a5",
+      "facebook-aa270787e7a11a45",
+      "facebook-bd750c1c5d37b170",
+      "facebook-3c5817ee79f44d62",
+      "facebook-898de35a5a928167",
+      "facebook-7c93cb86276e407d",
+      "facebook-8defaae8aca6700b",
+      "facebook-d6a285229ec9e575",
+      "facebook-d4554ca270b792c7",
+      "facebook-27b086ff8713e7b4",
+      "facebook-4b76ed1e697c5dac",
+      "facebook-83d0f1a53deedf69",
+      "facebook-d09a110b027e13b6",
+      "facebook-b5967114c8b200f0",
+      "facebook-e6f58479ae3bb877",
+      "facebook-879ecdf725cb3052",
+      "facebook-40e879231f235720",
+      "facebook-f96db8164b9f57d5",
+      "facebook-5530875bb1fd1825",
+      "facebook-1f1c2bfdd4b295a5",
+      "facebook-a8970b313d1dae6a",
+      "facebook-173a117af1452633",
+      "facebook-ca92246da3fccb45",
+      "facebook-4995d8d2e08932bf",
+      "facebook-bb9ff2db69d65f9e",
+      "facebook-adc3007aca55d291",
+      "facebook-2cca0a4b7c5c2d24",
+      "facebook-153c3825cfd0f84c",
+      "facebook-b5de7634a115c488",
+      "facebook-7f34883720e18070",
+      "facebook-233795f3c255ac9e",
+      "facebook-68cee7e27b1e2594",
+      "facebook-8428f3f3b638d651",
+      "facebook-8d06965b9fa17508",
+      "facebook-53bdbcffea1dc97b",
+      "facebook-d14da67eea631f7c",
+      "facebook-4887c785da9c8de9",
+      "facebook-0652cfbee3695d37",
+      "facebook-b17dd3b096eb44dd",
+      "facebook-0ea89d9b05f13716",
+      "facebook-e3a6fbb9f2cd180a",
+      "facebook-08a7aa6e07eeb39f",
+      "facebook-cb3345f88269983d",
+      "facebook-b5a0dbb019822e60",
+      "facebook-4f0b094bf28deed8",
+      "facebook-9c3db3a4e5208ec9",
+      "facebook-3ef851efac847e20",
+      "facebook-70b94095c9eea860",
+      "facebook-87c848b572d40e60",
+      "facebook-02f028d8a5e2af97",
+      "facebook-bd450bd0b38d2294",
+      "facebook-c4719a7d28f722af",
+      "facebook-0d41ead12e0020ac",
+      "facebook-7ece66e64f19248b",
+      "facebook-d454d57a3b48470e",
+      "facebook-75fb9df33db6394b",
+      "facebook-5570e183111756d0",
+      "facebook-40005f0727dbbff1",
+      "facebook-6ad6a1990036207e",
+      "facebook-479e581e0c83ae0b",
+      "facebook-d5c881af70119ead",
+      "facebook-a71dbb78a448686f",
+      "facebook-f4a53c629d74ed96",
+      "facebook-838cbbf2330c95e1",
+      "facebook-dfc998cd1983c729",
+      "facebook-c7eedee46762cf43",
+      "facebook-985e5e7655dc75ff",
+      "tiktok-35c347d7836cb95a"
+    ],
+    "removed_ids": [],
+    "modified_existing_items": 0
+  },
+  "validation": {
+    "command": "npm run check",
+    "status": "pass (validate + node --test 19/19; chạy trực tiếp bằng node vì máy không có npm)"
+  },
+  "audit_warnings": [
+    "Trình duyệt dùng là trình duyệt tích hợp của Claude Code; Facebook đã đăng nhập sẵn.",
+    "Lượt chạy ~06:10–07:40 ngày 21/10: nhãn 7–23h là ngày 20/10; bài \"a day ago\"/6h xác định bằng giờ tuyệt đối trên permalink hoặc tooltip; bình luận 6h/\"a day ago\" xác định bằng ID bình luận (tăng theo thời gian, mốc 05:56 và 23:37 ngày 20/10). Nhãn và bản dịch do AI rà ngữ cảnh, needs_review=true.",
+    "Repo cục bộ chậm nhiều commit và có thay đổi chưa commit của người dùng (git pull --rebase bị từ chối); lượt này làm việc trong git worktree riêng từ origin/main, không động vào thay đổi cục bộ.",
+    "Xuất dữ liệu đọc trực tiếp qua công cụ trình duyệt (không dùng form POST)."
+  ]
+}

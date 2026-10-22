@@ -1,0 +1,200 @@
+{
+  "target_date": "2026-10-22",
+  "time_zone": "Asia/Bangkok",
+  "checked_at": "2026-10-22T23:43:22.944Z",
+  "status": "partial",
+  "added_feedback": 74,
+  "added_ratings": 0,
+  "collection_complete": false,
+  "summary_vn": "Ngày 22/10/2026: thêm 74 phản hồi — Facebook group Community 56 (16 bài + 40 bình luận), chợ mua bán 815754622673816 5 bài rao bán, group chính thức 8 (7 bài dự sự kiện Halloween + 1 bình luận), group 473704433937505 2 bài, YouTube 2 video của creator Teddy Chanelplay (minigame Trick or treat), TikTok 1 bình luận tiếng Thái. Nổi bật: người chơi hỏi nhiều về hiệu ứng đặc biệt (băng, ánh vàng, ảo ảnh), cách trồng cây khổng lồ và cần câu, hỏi cách chuyển tài khoản Global sang VNG (có người lỡ tạo nhân vật mới), thắc mắc gói thuyền trong cửa hàng, và than phiền chỉ có ít người trúng trong 250 phần thưởng sự kiện khoe farm. Fanpage không có bình luận người dùng mới. Hai group vẫn chờ duyệt, một group bị từ chối. Sensor Tower bỏ qua theo runbook (người dùng tự nhập), không thêm rating.",
+  "sources": [
+    {
+      "key": "Facebook Group · playtogetherth",
+      "status": "partial",
+      "added_feedback": 56,
+      "detail": "Đọc New posts đến mốc \"2 days ago\" (~45 bài, quét lại bằng cuộn từng bước) và Recent activity (~37 bài); mở permalink 16 bài người chơi ngày 22/10 và 19 bài cũ có hoạt động để đọc bình luận. Ngày 22/10: thêm 16 bài và 40 bình luận. Ranh giới ngày theo giờ hiện tại 06:12 ngày 23/10 (nhãn 7–30 giờ trước) và ID (mốc 00:00 ngày 22/10 ≈ 28715161e9, bài 28717933… lúc 04:09 theo tooltip nhóm chính thức). Bỏ bài/trả lời của admin, bài ngày 23/10 (nhãn 5h), bài không có chữ, bình luận chỉ cảm ơn/tag/sticker và trả lời nhãn \"1d\" dưới bài cũ không xác định được giờ. Không mở toàn bộ chuỗi trả lời. Dữ liệu 14/09 – 22/10."
+    },
+    {
+      "key": "Facebook Group · 815754622673816",
+      "status": "partial",
+      "added_feedback": 5,
+      "detail": "Đọc New posts đến ranh giới 21/10. Ngày 22/10: thêm 5 bài rao bán (nhãn 8–21 giờ trước, giờ xác định bằng permalink); không có bình luận. Nhiều bài là đăng chéo của cùng người bán. Không đọc Recent activity."
+    },
+    {
+      "key": "Facebook Group · 1772363333745643",
+      "status": "checked",
+      "added_feedback": 8,
+      "detail": "Đọc New posts: ngày 22/10 có 7 bài người chơi dự sự kiện khoe Halloween (#playtogetherTH), 1 bài chỉ có hashtag bị bỏ; bình luận người chơi: 1 (hỏi số giải 250 phần thưởng). Bỏ bài thông báo kết quả/bài của admin, bài 21/10 21:29 của admin group khác, và bình luận chỉ cảm ơn/emoji."
+    },
+    {
+      "key": "Facebook Group · 562362538882428",
+      "status": "inactive",
+      "added_feedback": 0,
+      "detail": "Kiểm tra New posts 23/10: không có bài mới (bài duy nhất hiển thị là bài admin cũ), không có bài ngày 22/10."
+    },
+    {
+      "key": "Facebook Group · 3252260471541104",
+      "status": "rejected",
+      "added_feedback": 0,
+      "detail": "Group riêng tư; trang chỉ hiện nút Join group (yêu cầu cũ bị từ chối, kiểm tra 23/10). Không gửi lại yêu cầu, không truy cập được bài/bình luận."
+    },
+    {
+      "key": "Facebook Group · 356675609124267",
+      "status": "pending",
+      "added_feedback": 0,
+      "detail": "Group riêng tư, vẫn còn nút Cancel request (kiểm tra 23/10): yêu cầu thành viên đang chờ duyệt; không đọc được bài/bình luận."
+    },
+    {
+      "key": "Facebook Group · 473704433937505",
+      "status": "partial",
+      "added_feedback": 2,
+      "detail": "Đọc New posts đến ranh giới 21/10: ngày 22/10 thêm 2 bài rao bán đăng chéo (thẻ theo sao lúc ~15h, trái cây–nhân sâm lúc ~09h; giờ xác định bằng permalink/nhãn); không có bình luận. Dữ liệu từ 14/10."
+    },
+    {
+      "key": "Facebook Group · 847315523442353",
+      "status": "pending",
+      "added_feedback": 0,
+      "detail": "Group riêng tư, vẫn còn nút Cancel request (kiểm tra 23/10): yêu cầu thành viên đang chờ duyệt; không đọc được bài/bình luận."
+    },
+    {
+      "key": "Facebook Fanpage · @playtogetherthailandofficial",
+      "status": "checked",
+      "added_feedback": 0,
+      "detail": "Các bài 22/10 (hé lộ khách sạn Merge ở Kaia, Content Creator Program, minigame quiz): không thấy bình luận người dùng nào ngày 22/10 trong phần hiển thị; bình luận duy nhất của người dùng trong vùng đọc là ngày 20/10 (đã nhập trước). Loại bài chính thức, không lấy fanpage Global."
+    },
+    {
+      "key": "YouTube",
+      "status": "checked",
+      "added_feedback": 2,
+      "detail": "RSS 7 creator hoạt động lại (HTTP 200); kênh chính thức đọc qua /@playtogetherth (12 video + 7 shorts). Ngày 22/10 có 2 video tiếng Thái của creator T*** (Teddy Chanelplay: minigame Trick or treat, 11:14 và 17:57 giờ Bangkok) — nhập 2 video, cả hai đều 0 bình luận. Tìm kiếm 7 từ khoá (lọc ngày/tuần, gl=TH): không có video tiếng Thái mới khác về Play Together. Bình luận của 19 video gần nhất: không có bình luận ngày 22/10."
+    },
+    {
+      "key": "TikTok",
+      "status": "checked",
+      "added_feedback": 1,
+      "detail": "Kênh chính thức: không có video mới 22/10; bình luận 22/10: 1 tiếng Thái (nhập) và 1 tiếng Việt (bỏ) dưới 2 video gần nhất. Creator R*** (mới nhất 16/10, không có video 22/10); L*** không tải được danh sách video. Tìm kiếm \"เพลย์ทูเก็ตเตอร์\": 2 video 22/10 đều của creator Việt (bỏ). Không gặp CAPTCHA."
+    }
+  ],
+  "ratings": {
+    "status": "skipped",
+    "added": 0,
+    "detail": "Bỏ qua Sensor Tower hoàn toàn theo runbook; không sửa ratings."
+  },
+  "new_feedback": {
+    "by_source": {
+      "Facebook Group · playtogetherth": 56,
+      "Facebook Group · 815754622673816": 5,
+      "Facebook Group · 473704433937505": 2,
+      "Facebook Group · 1772363333745643": 8,
+      "YouTube": 2,
+      "TikTok": 1
+    },
+    "by_kind": {
+      "post": 30,
+      "comment": 42,
+      "video": 2
+    },
+    "by_sentiment": {
+      "Neutral": 51,
+      "Positive": 13,
+      "Negative": 10
+    },
+    "sentiment_percent": {
+      "Neutral": 68.9,
+      "Positive": 17.6,
+      "Negative": 13.5
+    }
+  },
+  "preservation": {
+    "before_count": 2320,
+    "after_count": 2394,
+    "added_ids": [
+      "facebook-da52877b6a4ca004",
+      "facebook-a4491ba1a235ae6d",
+      "facebook-88cf5118a4f87cdd",
+      "facebook-eaa3ab1051d8294b",
+      "facebook-f0eb6629e7ecfe34",
+      "facebook-471063d7e2d2ab28",
+      "facebook-68b403d90b36573f",
+      "facebook-da8b6d474a0156be",
+      "facebook-40f3c72210533495",
+      "facebook-bd935ddef89e14c5",
+      "facebook-d5f5c5dbb0097ccc",
+      "facebook-4159653e2a4b4797",
+      "facebook-e95d07013d4af013",
+      "facebook-e27d17bfd07ff929",
+      "facebook-1e92a9df8a7b34f2",
+      "facebook-5268fd073679dc96",
+      "facebook-9dc53d8d00400b6d",
+      "facebook-98db63c32d7f91c8",
+      "facebook-20963ccb4fc4f053",
+      "facebook-594d88503fc869f7",
+      "facebook-25badd75727aa13c",
+      "facebook-788a9dd70cea59a5",
+      "facebook-365f873e3499656e",
+      "facebook-a7a57385d9962623",
+      "facebook-528946c9b006c2fb",
+      "facebook-053150f97acacbee",
+      "facebook-30f5e237c126bec3",
+      "facebook-4e0e2d1bc68a32b5",
+      "facebook-900a138f52f76035",
+      "facebook-9b850a503e71a2e2",
+      "facebook-e2e918e6e7b3b3e9",
+      "facebook-7427582b6125043f",
+      "facebook-39d84386d5dfbd9d",
+      "facebook-2af29a2887e8eaee",
+      "facebook-8600055933cbf999",
+      "facebook-f29249fdfcb32d3f",
+      "facebook-be9e972fc002ab2f",
+      "facebook-b18589628682492b",
+      "facebook-62442df258df2550",
+      "facebook-e92ce45bb92606c8",
+      "facebook-369685a5e42c4924",
+      "facebook-9cc26dbb820198db",
+      "facebook-9089566ca40c56f7",
+      "facebook-b9622fe1073c38a7",
+      "facebook-6a49363341fe4160",
+      "facebook-0c4f96fdfd58f04f",
+      "facebook-f3b7eddde483d72f",
+      "facebook-68f18c30dbe7fd29",
+      "facebook-d0f637c68198fcc0",
+      "facebook-dd637e7ed9b9ba23",
+      "facebook-bb698f7f0fcb66d1",
+      "facebook-46fea7fc60d6f8f6",
+      "facebook-39587d9735f7ec1a",
+      "facebook-2f31a1250faa1af2",
+      "facebook-36f3854937adccf3",
+      "facebook-df6691925b4f4a2e",
+      "facebook-595cec5686b9033f",
+      "facebook-ce70dde193e0d9d0",
+      "facebook-143ebfbf613fb3ff",
+      "facebook-fb1eab81450b37c3",
+      "facebook-ebca42e2fb97a359",
+      "facebook-28db8c5897e6298d",
+      "facebook-97ac3bc23a977ead",
+      "facebook-31157ecb9fc8da33",
+      "facebook-df2fa8bd092534d7",
+      "facebook-ab07f51ff9a497cf",
+      "facebook-7b26a322a6d1fe05",
+      "facebook-b4966bbcd458ca7b",
+      "facebook-32c1971ded829c79",
+      "facebook-fd749d9c4817b4de",
+      "facebook-48ebaca316612f85",
+      "youtube-38e8757e38e32e3f",
+      "youtube-b8da826964351aa3",
+      "tiktok-f0d631826ecf0d49"
+    ],
+    "removed_ids": [],
+    "modified_existing_items": 0
+  },
+  "validation": {
+    "command": "npm run check",
+    "status": "chờ chạy"
+  },
+  "audit_warnings": [
+    "Trình duyệt dùng là trình duyệt tích hợp của Claude Code; Facebook đã đăng nhập sẵn, không gặp đăng nhập/2FA/CAPTCHA.",
+    "Lượt chạy ~06:10–08:00 ngày 23/10: ngày D = 22/10 tương ứng nhãn 7–30 giờ trước; bài \"a day ago\" xác định theo ID (mốc 00:00 ngày 22/10 ≈ 28715161e9) và tooltip/permalink; bình luận \"1d\" dưới bài cũ không xác định được giờ nên bỏ. Nhãn và bản dịch do AI rà ngữ cảnh, needs_review=true.",
+    "Repo cục bộ có tham chiếu git hỏng `.git/refs/heads/main 2` (bản sao kiểu iCloud, trỏ tới object không tồn tại) làm `git pull/fetch` lỗi; đã di chuyển (không xoá) sang thư mục tạm của phiên.",
+    "Xuất dữ liệu đọc trực tiếp qua công cụ trình duyệt (không dùng form POST)."
+  ]
+}

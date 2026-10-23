@@ -554,7 +554,7 @@
     "Giải thích": "Explanation",
     "Chưa có phần giải thích.": "No explanation available.",
     "Xem tất cả": "Show all",
-    "Thu gọn": "Show less",
+    "Thu gọn": "Collapse",
     "Bộ lọc": "Filters",
     "Chỉ phản hồi cần xem": "Only feedback to review",
     "Gồm nội dung chưa rõ ngày": "Include items with unknown dates",
@@ -562,7 +562,11 @@
     "Bấm một ô để xem phản hồi theo ngày và từ khoá. Bảng có thể cuộn ngang.": "Tap a cell to view feedback for that date and keyword. The table scrolls horizontally.",
     "{0} ngày": "{0} days",
     "P{0} · {t0}": "P{0} · {t0}",
-    "Xem theo": "View by"
+    "Xem theo": "View by",
+    "Báo cáo": "Reports",
+    "Điều hướng": "Navigation",
+    "Thu gọn menu": "Collapse menu",
+    "Mở rộng menu": "Expand menu"
   },
   "terms": {
     "biểu tượng cảm xúc": "emoji",

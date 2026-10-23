@@ -8,7 +8,7 @@
   <link rel="icon" type="image/png" href="assets/vnggames-th-badge.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&family=Noto+Sans+Thai:wght@400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@500;600;700&family=Noto+Sans+Thai:wght@400;600&display=swap" rel="stylesheet">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js" referrerpolicy="no-referrer"></script>
   <style>
     :root { color-scheme:light; --bg:#f2f6fc; --surface:#fff; --surface-2:#f3f6fb; --surface-3:#e9f0fb; --text:#14213d; --muted:#64718a; --line:#dbe4f0; --brand:#2257d8; --brand-soft:#eaf0ff; --positive:#11966a; --negative:#e8495c; --neutral:#8d9ab0; --mixed:#e59a2f; --positive-soft:#e3f6ee; --negative-soft:#fdeaec; --mixed-soft:#fdf2e1; --shadow:0 12px 35px rgba(29,57,104,.08),0 2px 8px rgba(29,57,104,.04); }
@@ -440,13 +440,203 @@
       .feed-link { min-height:40px; display:inline-flex; align-items:center; }
       .feed-orig summary { min-height:40px; padding-top:10px; }
     }
+
+    /* ===== Premium SaaS design system (2026-10) — chỉ đổi cách thể hiện, dữ liệu và logic giữ nguyên ===== */
+    :root { --bg:#f5f7fc; --surface:#fff; --surface-2:#f7f8fc; --surface-3:#eef1f8; --text:#1e293b; --muted:#64748b; --line:#e7ecf3;
+      --brand:#7367f0; --brand-2:#9c8cff; --brand-soft:#efedfe; --brand-ink:#5a4fd6; --cyan:#00cfe8; --cyan-soft:#e0f9fc; --cyan-ink:#007f8f;
+      --positive:#28c76f; --negative:#ea5455; --mixed:#ff9f43; --neutral:#a8b1c2;
+      --positive-soft:#e5f8ed; --negative-soft:#fdeaea; --mixed-soft:#fff1e3; --neutral-soft:#eef1f6;
+      --positive-ink:#157a42; --negative-ink:#c0302f; --mixed-ink:#a6560a; --neutral-ink:#4b5568;
+      --grad:linear-gradient(135deg,#7367f0 0%,#9c8cff 100%);
+      --radius-lg:18px; --radius-md:14px; --radius-sm:10px;
+      --shadow:0 4px 24px rgba(30,41,59,.06); --shadow-hover:0 12px 32px rgba(30,41,59,.10);
+      --ease:cubic-bezier(.2,.7,.3,1); --font-head:"Poppins","Inter",sans-serif; --font-body:"Inter","Noto Sans Thai",sans-serif; }
+    [data-theme="dark"] { --bg:#0f1221; --surface:#181c2e; --surface-2:#1e2337; --surface-3:#262c44; --text:#e8ebf7; --muted:#9aa3bd; --line:#2b3150;
+      --brand:#8f86ff; --brand-2:#b1a8ff; --brand-soft:#26244a; --brand-ink:#b6afff; --cyan:#3ddcf0; --cyan-soft:#12343c; --cyan-ink:#7fe9f6;
+      --positive:#3ad37f; --negative:#f26869; --mixed:#ffae5e; --neutral:#7c87a0;
+      --positive-soft:#16352a; --negative-soft:#3d1f27; --mixed-soft:#3b2b1c; --neutral-soft:#262c44;
+      --positive-ink:#62e39c; --negative-ink:#ff8a8a; --mixed-ink:#ffc285; --neutral-ink:#c3cadb;
+      --grad:linear-gradient(135deg,#5b50d6 0%,#8a7dff 100%); --shadow:0 4px 24px rgba(0,0,0,.28); --shadow-hover:0 12px 32px rgba(0,0,0,.38); }
+    body { background:var(--bg); font-family:var(--font-body); font-size:14px; color:var(--text); -webkit-font-smoothing:antialiased; }
+    h1,h2,h3,.kpi-label,.side-brand strong,.period-title { font-family:var(--font-head); }
+    h1 { font-size:28px; font-weight:700; letter-spacing:-.02em; }
+    .section-title h2 { font-size:20px; font-weight:600; letter-spacing:-.01em; }
+    .card-head h2,.highlight-head h2,.priority-panel h2,.action-details > summary,.heatmap-details > summary,details.notes > summary,details.pending-list > summary { font-family:var(--font-head); font-size:15px; font-weight:600; }
+    .ico { width:20px; height:20px; flex:0 0 auto; display:block; }
+    a { color:var(--brand-ink); }
+    /* App shell: sidebar + main */
+    .app { display:grid; grid-template-columns:252px minmax(0,1fr); min-height:100vh; transition:grid-template-columns .2s var(--ease); }
+    .app.collapsed { grid-template-columns:80px minmax(0,1fr); }
+    .sidebar { position:sticky; top:0; z-index:20; height:100vh; display:flex; flex-direction:column; gap:6px; padding:22px 14px 16px; background:var(--surface); border-right:1px solid var(--line); }
+    .side-brand { display:flex; align-items:center; gap:12px; padding:0 6px 18px; margin-bottom:6px; border-bottom:1px solid var(--line); }
+    .side-brand img { width:44px; height:44px; border-radius:14px; object-fit:cover; flex:0 0 44px; box-shadow:0 6px 16px rgba(115,103,240,.25); }
+    .side-brand .side-text { display:grid; line-height:1.2; min-width:0; }
+    .side-brand strong { font-size:17px; font-weight:700; }
+    .side-brand span { font-size:12px; color:var(--muted); }
+    .side-label { padding:10px 12px 4px; font-size:11px; font-weight:600; letter-spacing:.08em; text-transform:uppercase; color:var(--muted); }
+    .sidebar .tabs { position:static; display:flex; flex-direction:column; gap:4px; margin:0; padding:0; border:0; border-radius:0; background:none; backdrop-filter:none; box-shadow:none; overflow:visible; }
+    .sidebar .tabs button { display:flex; align-items:center; gap:12px; width:100%; min-height:44px; padding:10px 12px; border:0; border-radius:12px; background:transparent; color:var(--muted); font-weight:500; text-align:left; white-space:nowrap; transition:background .18s var(--ease),color .18s var(--ease),box-shadow .18s var(--ease); }
+    .sidebar .tabs button:hover { background:var(--brand-soft); color:var(--brand-ink); }
+    .sidebar .tabs button.active { background:var(--grad); color:#fff; font-weight:600; box-shadow:0 8px 20px rgba(115,103,240,.32); }
+    [data-theme="dark"] .sidebar .tabs button.active { color:#fff; }
+    .sidebar .tabs .mobile-label { display:none; }
+    .sidebar .tabs .desktop-label { display:inline; flex:1; min-width:0; white-space:normal; line-height:1.3; }
+    .sidebar .tab-count { margin-left:auto; background:var(--surface-3); color:var(--muted); font-weight:600; }
+    .sidebar .tabs button.active .tab-count { background:rgba(255,255,255,.24); color:#fff; }
+    .side-foot { margin-top:auto; padding-top:12px; border-top:1px solid var(--line); }
+    .side-collapse { display:flex; align-items:center; gap:12px; width:100%; min-height:44px; padding:10px 12px; border:0; border-radius:12px; background:transparent; color:var(--muted); font-weight:500; }
+    .side-collapse:hover { background:var(--surface-3); color:var(--text); }
+    .app.collapsed .side-text,.app.collapsed .sidebar .tabs .desktop-label,.app.collapsed .sidebar .tab-count { display:none; }
+    .app.collapsed .side-brand { justify-content:center; padding-inline:0; }
+    .app.collapsed .sidebar .tabs button,.app.collapsed .side-collapse { justify-content:center; padding-inline:0; }
+    .app.collapsed .side-collapse .ico { transform:rotate(180deg); }
+    .shell { width:100%; max-width:1440px; margin:0 auto; padding:24px 28px 40px; }
+    /* Welcome banner */
+    header.hero { margin-bottom:18px; padding:22px 26px; border:0; border-radius:20px; background:var(--grad); color:#fff; box-shadow:0 14px 34px rgba(115,103,240,.28); }
+    header.hero::after { content:""; position:absolute; right:-60px; top:-80px; width:260px; height:260px; border-radius:50%; background:rgba(255,255,255,.10); pointer-events:none; }
+    header.hero .brand-logo { display:none; }
+    header.hero .eyebrow { color:rgba(255,255,255,.82); }
+    header.hero h1 { color:#fff; }
+    header.hero .hero-subtitle,header.hero #updated { color:rgba(255,255,255,.86) !important; }
+    header.hero .header-actions { position:relative; z-index:1; }
+    header.hero .btn { min-height:42px; border-color:rgba(255,255,255,.34); background:rgba(255,255,255,.16); color:#fff; }
+    header.hero .btn:hover { background:rgba(255,255,255,.28); border-color:rgba(255,255,255,.5); }
+    .icon-btn { display:inline-grid; place-items:center; width:42px; padding:0 !important; }
+    header.hero .badge { min-height:36px; padding:6px 12px; background:#fff; color:var(--negative-ink); box-shadow:0 4px 12px rgba(0,0,0,.12); }
+    /* Cards */
+    .card,.kpi-card,.kpi-band .source-card.static { border:1px solid var(--line); border-radius:var(--radius-lg); background:var(--surface); box-shadow:var(--shadow); transition:box-shadow .2s var(--ease),transform .2s var(--ease),border-color .2s var(--ease); }
+    .card { padding:22px; }
+    [data-theme="dark"] .card,[data-theme="dark"] .kpi-card { box-shadow:var(--shadow); }
+    .grid,.kpi-band,.overview-lead { gap:20px; margin-bottom:20px; }
+    .kpi-card[data-kpi-action]:hover,button.source-card:hover { box-shadow:var(--shadow-hover); transform:translateY(-2px); border-color:color-mix(in srgb,var(--brand) 30%,var(--line)); }
+    .controls { padding:16px 20px; margin-bottom:14px; }
+    .period-bar { justify-content:flex-start; gap:8px 10px; margin-bottom:18px; padding:0 4px; }
+    .period-icon { display:inline-grid; place-items:center; width:32px; height:32px; border-radius:10px; background:var(--brand-soft); color:var(--brand-ink); }
+    .period-icon .ico { width:17px; height:17px; }
+    .period-title { font-size:16px; font-weight:600; }
+    .scope-note { margin-left:auto; }
+    /* KPI cards with pastel icon containers */
+    .kpi-card { padding:20px 20px 14px; gap:4px; }
+    .kpi-card::before,.kpi-band .source-card.static::before { content:none; }
+    .kpi-icon { position:absolute; top:18px; right:18px; display:grid; place-items:center; width:44px; height:44px; border-radius:14px; background:var(--brand-soft); color:var(--brand-ink); }
+    .kpi-icon .ico { width:22px; height:22px; }
+    .kpi-card.pos .kpi-icon { background:var(--positive-soft); color:var(--positive-ink); }
+    .kpi-card.neg .kpi-icon { background:var(--negative-soft); color:var(--negative-ink); }
+    .kpi-card.warn .kpi-icon { background:var(--mixed-soft); color:var(--mixed-ink); }
+    .kpi-card.store .kpi-icon { background:var(--cyan-soft); color:var(--cyan-ink); }
+    .kpi-label { padding-right:52px; font-size:12px; font-weight:600; letter-spacing:.04em; text-transform:uppercase; color:var(--muted); }
+    .kpi-value { margin-top:6px; font-family:var(--font-body); font-size:32px; font-weight:700; letter-spacing:-.02em; }
+    .kpi-card.pos .kpi-value { color:var(--positive-ink); } .kpi-card.neg .kpi-value { color:var(--negative-ink); }
+    .kpi-delta { display:inline-flex; align-self:flex-start; margin-top:2px; padding:2px 8px; border-radius:999px; background:var(--surface-3); color:var(--muted); font-size:12px; }
+    .kpi-delta.good { background:var(--positive-soft); color:var(--positive-ink); } .kpi-delta.bad { background:var(--negative-soft); color:var(--negative-ink); }
+    .kpi-band .source-card.static { padding:20px; }
+    .kpi-band .source-card .value { font-size:28px; }
+    .up { color:var(--negative-ink); } .down { color:var(--positive-ink); }
+    .pos-text { color:var(--positive-ink); } .neg-text { color:var(--negative-ink); }
+    /* Highlight + priority */
+    .highlight { padding:20px 22px; border-left:0; background:linear-gradient(180deg,var(--brand-soft),var(--surface) 70%); }
+    .highlights li::before { content:""; display:inline-block; width:7px; height:7px; margin-right:10px; border-radius:50%; background:var(--brand); vertical-align:middle; }
+    .priority-panel { padding:20px 22px; border-left:0; background:linear-gradient(180deg,var(--mixed-soft),var(--surface) 70%); }
+    .mood-badge { font-weight:600; } .mood-badge.pos { color:var(--positive-ink); } .mood-badge.neg { color:var(--negative-ink); }
+    .voice-card { border-top:0; position:relative; overflow:hidden; }
+    .voice-card::before { content:""; position:absolute; inset:0 0 auto 0; height:4px; background:var(--brand); }
+    .voice-card.like::before { background:var(--positive); } .voice-card.dislike::before { background:var(--negative); } .voice-card.action::before { background:var(--mixed); }
+    /* Controls */
+    .btn { border-radius:var(--radius-sm); min-height:40px; font-weight:500; transition:background .18s var(--ease),border-color .18s var(--ease),color .18s var(--ease),box-shadow .18s var(--ease),transform .1s var(--ease); }
+    .btn:hover { background:var(--brand-soft); border-color:color-mix(in srgb,var(--brand) 40%,var(--line)); color:var(--brand-ink); }
+    .btn:active { transform:translateY(1px); }
+    .btn.primary,.preset.active,.quick-sent button.active { border-color:transparent; background:var(--grad); color:#fff; box-shadow:0 6px 14px rgba(115,103,240,.28); }
+    .btn.primary:hover,.preset.active:hover { color:#fff; filter:brightness(1.05); }
+    [data-theme="dark"] .btn.primary,[data-theme="dark"] .preset.active,[data-theme="dark"] .quick-sent button.active { color:#fff; }
+    .segmented { border-radius:12px; background:var(--surface-3); border-color:transparent; }
+    .segmented button { border-radius:9px; transition:background .18s var(--ease),color .18s var(--ease); }
+    .segmented button.active { color:var(--brand-ink); box-shadow:0 2px 8px rgba(30,41,59,.10); }
+    input,select { border-radius:var(--radius-sm); }
+    input:focus,select:focus { border-color:var(--brand); box-shadow:0 0 0 3px color-mix(in srgb,var(--brand) 20%,transparent); }
+    :is(button,summary,[role="button"],a,input,select):focus-visible { outline:3px solid color-mix(in srgb,var(--brand) 70%,transparent); outline-offset:2px; }
+    button.info { border-color:var(--line); background:var(--surface-2); color:var(--muted); }
+    button.info:hover { color:var(--brand-ink); border-color:var(--brand); }
+    /* Tags & chips: pastel background + dark text (đủ tương phản) */
+    .sentiment-tag { font-weight:600; }
+    .sentiment-tag.Positive { background:var(--positive-soft); color:var(--positive-ink); } .sentiment-tag.Negative { background:var(--negative-soft); color:var(--negative-ink); }
+    .sentiment-tag.Neutral { background:var(--neutral-soft); color:var(--neutral-ink); } .sentiment-tag.Mixed { background:var(--mixed-soft); color:var(--mixed-ink); }
+    .intent-tag { background:var(--brand-soft); color:var(--brand-ink); }
+    .status-chip { font-weight:600; } .status-full,.status-youtube,.status-tiktok { color:var(--positive-ink); } .status-partial { color:var(--mixed-ink); } .status-store { color:var(--brand-ink); }
+    .up-chip { color:var(--positive-ink); } .down-chip { color:var(--negative-ink); }
+    .chip,.kw-chip { transition:border-color .18s var(--ease),color .18s var(--ease); }
+    .quick-sent button { min-height:36px; transition:background .18s var(--ease),color .18s var(--ease); }
+    .level { border-radius:8px; }
+    /* Lists, tables, feed */
+    .bar-row { border-radius:10px; transition:background .15s var(--ease); }
+    .bar-track,.mix-bar,.sent-bar { border-radius:999px; }
+    th { background:var(--surface-2); color:var(--muted); }
+    th:first-child { border-top-left-radius:10px; } th:last-child { border-top-right-radius:10px; }
+    tbody tr:hover { background:color-mix(in srgb,var(--brand-soft) 55%,transparent); }
+    .source-card { border-top:0; position:relative; overflow:hidden; }
+    .source-cards > .source-card::before { content:""; position:absolute; inset:0 0 auto 0; height:4px; background:var(--grad); }
+    .source-cards > .source-card.no-data::before { background:var(--line); }
+    .source-cards { gap:20px; }
+    .feed-item { border-radius:var(--radius-md); border-left-width:4px; transition:box-shadow .2s var(--ease); }
+    .feed-item:hover { box-shadow:var(--shadow); }
+    .hm-cell { border-radius:7px; }
+    dialog { border-radius:20px; box-shadow:0 24px 60px rgba(15,18,33,.28); }
+    dialog::backdrop { background:rgba(15,18,33,.55); backdrop-filter:blur(2px); }
+    .tab-panel.active { animation:panelIn .22s var(--ease); }
+    @keyframes panelIn { from { opacity:0; transform:translateY(4px); } to { opacity:1; transform:none; } }
+    /* Tablet: sidebar chỉ còn icon */
+    @media (max-width:1199px) and (min-width:768px) {
+      .app,.app.collapsed { grid-template-columns:80px minmax(0,1fr); }
+      .app .side-text,.app .sidebar .tabs .desktop-label,.app .sidebar .tab-count,.side-foot { display:none; }
+      .side-brand { justify-content:center; padding-inline:0; }
+      .sidebar .tabs button { justify-content:center; padding-inline:0; }
+      .shell { padding:20px 20px 36px; }
+    }
+    /* Mobile: một cột, điều hướng dạng thanh dưới cùng */
+    @media (max-width:767px) {
+      .app,.app.collapsed { display:block; }
+      .sidebar { position:fixed; inset:auto 0 0 0; height:auto; flex-direction:row; padding:6px 8px calc(6px + env(safe-area-inset-bottom)); border-right:0; border-top:1px solid var(--line); box-shadow:0 -6px 24px rgba(30,41,59,.08); }
+      .side-brand,.side-label,.side-foot { display:none; }
+      .sidebar .tabs { flex:1; display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:4px; }
+      .sidebar .tabs button { flex-direction:column; justify-content:center; gap:3px; min-height:54px; padding:6px 2px; font-size:11px; white-space:normal; text-align:center; }
+      .sidebar .tabs button.active { box-shadow:0 4px 12px rgba(115,103,240,.3); }
+      .sidebar .tabs .desktop-label,.sidebar .tab-count { display:none !important; }
+      .sidebar .tabs .mobile-label { display:block !important; line-height:1.2; }
+      .shell { padding:12px 12px 96px; }
+      header.hero { padding:16px; border-radius:18px; }
+      header.hero .brand-logo { display:block; width:44px; height:44px; flex-basis:44px; }
+      header.hero h1 { font-size:20px; }
+      .card { padding:16px; border-radius:16px; }
+      .grid,.kpi-band,.overview-lead { gap:12px; margin-bottom:12px; }
+      .kpi-card { padding:14px 14px 10px; }
+      .kpi-icon { top:12px; right:12px; width:36px; height:36px; border-radius:11px; }
+      .kpi-icon .ico { width:18px; height:18px; }
+      .kpi-label { padding-right:42px; font-size:11px; }
+      .kpi-value { font-size:26px; }
+      .period-bar { margin-bottom:12px; }
+      .scope-note { margin-left:0; flex-basis:100%; }
+      .period-icon { display:none; }
+      .kpi-delta { border-radius:8px; line-height:1.4; }
+    }
+    @media (prefers-reduced-motion:reduce) { *,*::before,*::after { transition:none !important; animation:none !important; } }
   </style>
 </head>
 <body>
+<div class="app" id="app">
+  <aside class="sidebar" aria-label="Điều hướng">
+    <div class="side-brand"><img src="assets/vnggames-th-badge.png" alt="VNGGames Thailand Community"><div class="side-text"><strong>PTG TH</strong><span>Social Listening</span></div></div>
+    <div class="side-label side-text">Báo cáo</div>
+      <nav class="tabs" role="tablist" aria-label="Chọn góc nhìn">
+        <button role="tab" data-tab="overview" class="active" aria-label="Tổng quan"><span class="nav-icon"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect width="7" height="9" x="3" y="3" rx="1"/><rect width="7" height="5" x="14" y="3" rx="1"/><rect width="7" height="9" x="14" y="12" rx="1"/><rect width="7" height="5" x="3" y="16" rx="1"/></svg></span><span class="desktop-label">Tổng quan</span><span class="mobile-label" aria-hidden="true">Tổng quan</span></button>
+        <button role="tab" data-tab="sources" aria-label="Theo nguồn"><span class="nav-icon"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="16" y="16" width="6" height="6" rx="1"/><rect x="2" y="16" width="6" height="6" rx="1"/><rect x="9" y="2" width="6" height="6" rx="1"/><path d="M5 16v-3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v3"/><path d="M12 12V8"/></svg></span><span class="desktop-label">Theo nguồn</span><span class="mobile-label" aria-hidden="true">Nguồn</span></button>
+        <button role="tab" data-tab="store" aria-label="Đánh giá store"><span class="nav-icon"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/></svg></span><span class="desktop-label">Đánh giá store</span><span class="mobile-label" aria-hidden="true">Store</span></button>
+        <button role="tab" data-tab="feedback" aria-label="Danh sách phản hồi"><span class="nav-icon"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 9a2 2 0 0 1-2 2H6l-4 4V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2z"/><path d="M18 9h2a2 2 0 0 1 2 2v11l-4-4h-6a2 2 0 0 1-2-2v-1"/></svg></span><span class="desktop-label">Danh sách phản hồi</span><span class="mobile-label" aria-hidden="true">Phản hồi</span> <span id="feedbackTabCount" class="tab-count"></span></button>
+      </nav>
+    <div class="side-foot"><button id="sidebarCollapse" class="side-collapse" type="button" aria-label="Thu gọn menu" title="Thu gọn menu" aria-expanded="true"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect width="18" height="18" x="3" y="3" rx="2"/><path d="M9 3v18"/><path d="m16 15-3-3 3-3"/></svg><span class="side-text">Thu gọn</span></button></div>
+  </aside>
   <main class="shell">
     <header class="hero">
       <div class="brand-lockup"><div class="brand-logo"><img src="assets/vnggames-th-badge.png" alt="VNGGames Thailand Community"></div><div class="hero-copy"><div class="eyebrow">Thailand Community Intelligence</div><h1>PTG TH Player Feedback</h1><p class="hero-subtitle">Phản hồi người chơi Play Together Thái Lan · Facebook, YouTube, store</p><div id="updated" class="muted small">Đang tải dữ liệu...</div></div></div>
-      <div class="header-actions"><button id="helpToggle" class="btn help-btn" aria-label="Cách hoạt động, nguồn và quy tắc" title="Cách hoạt động, nguồn và quy tắc">?</button><button id="langToggle" class="btn lang-btn" data-raw title="Switch to English" aria-label="Switch to English">EN</button><button id="themeToggle" class="btn" aria-label="Đổi giao diện sáng/tối" title="Đổi giao diện sáng/tối">◐</button><button id="alertBadge" class="badge" hidden></button></div>
+      <div class="header-actions"><button id="helpToggle" class="btn help-btn icon-btn" aria-label="Cách hoạt động, nguồn và quy tắc" title="Cách hoạt động, nguồn và quy tắc"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><path d="M12 17h.01"/></svg></button><button id="langToggle" class="btn lang-btn" data-raw title="Switch to English" aria-label="Switch to English">EN</button><button id="themeToggle" class="btn icon-btn" aria-label="Đổi giao diện sáng/tối" title="Đổi giao diện sáng/tối"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg></button><button id="alertBadge" class="badge" hidden></button></div>
     </header>
     <div id="mockBanner" class="mock-banner"><strong>Dữ liệu demo.</strong> Các số liệu và quote hiện tại là dữ liệu mock tổng hợp, không phải tiếng nói người chơi thật.</div>
 
@@ -462,14 +652,8 @@
       </div>
       <div class="presets" aria-label="Chọn nhanh"><button id="customToggle" class="btn preset custom-toggle" aria-expanded="false">Tuỳ chọn ngày ▾</button><button class="btn preset" data-days="yesterday">Hôm qua</button><button class="btn preset active" data-days="7" aria-label="7 ngày gần nhất"><span class="desktop-label">7 ngày gần nhất</span><span class="mobile-label" aria-hidden="true">7 ngày</span></button><button class="btn preset" data-days="30" aria-label="30 ngày gần nhất"><span class="desktop-label">30 ngày gần nhất</span><span class="mobile-label" aria-hidden="true">30 ngày</span></button><button class="btn preset" data-days="month">Tháng này</button></div>
     </section>
-    <div class="period-bar"><span id="periodLabel" class="period-title"></span><span id="scopeNote" class="scope-note"></span></div>
+    <div class="period-bar"><span class="period-icon"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 2v4"/><path d="M16 2v4"/><rect width="18" height="18" x="3" y="4" rx="2"/><path d="M3 10h18"/></svg></span><span id="periodLabel" class="period-title"></span><span id="scopeNote" class="scope-note"></span></div>
 
-    <nav class="tabs" role="tablist" aria-label="Chọn góc nhìn">
-      <button role="tab" data-tab="overview" class="active">Tổng quan</button>
-      <button role="tab" data-tab="sources" aria-label="Theo nguồn"><span class="desktop-label">Theo nguồn</span><span class="mobile-label" aria-hidden="true">Nguồn</span></button>
-      <button role="tab" data-tab="store" aria-label="Đánh giá store"><span class="desktop-label">Đánh giá store</span><span class="mobile-label" aria-hidden="true">Store</span></button>
-      <button role="tab" data-tab="feedback" aria-label="Danh sách phản hồi"><span class="desktop-label">Danh sách phản hồi</span><span class="mobile-label" aria-hidden="true">Phản hồi</span> <span id="feedbackTabCount" class="tab-count"></span></button>
-    </nav>
 
     <!-- TAB 1: Tổng quan — chỉ số chính trên cùng, xu hướng ở giữa, chi tiết ở dưới -->
     <div class="tab-panel active" data-panel="overview">
@@ -562,6 +746,7 @@
 
     <details class="card notes"><summary>Ghi chú về dữ liệu</summary><ul id="dataNotes"></ul></details>
   </main>
+</div>
   <dialog id="helpDialog" class="help-dialog"><div class="help-head"><h2>Cách hoạt động</h2><div><button id="copyHelp" class="btn" title="Chép toàn bộ nội dung dạng Markdown để dán cho AI ở chat khác">Sao chép cho AI</button> <a id="helpRaw" class="btn" href="how-it-works.md" target="_blank" rel="noopener">Mở bản thô</a> <button class="btn" onclick="this.closest('dialog').close()">Đóng</button></div></div><div id="helpBody" class="help-body">Đang tải…</div></dialog>
   <dialog id="infoDialog"><button class="btn close" onclick="this.closest('dialog').close()">Đóng</button><h2>Giải thích</h2><p id="infoContent"></p></dialog>
   <dialog id="themeDialog"><button class="btn close" onclick="this.closest('dialog').close()">Đóng</button><div id="themeDetail"></div></dialog>
@@ -834,19 +1019,22 @@
       $('#summaryList').innerHTML=short.map(line=>`<li>${line}</li>`).join('');
     }
     function deltaShort(cur,prev){ if(!prev) return cur?'kỳ trước 0':'không đổi'; const d=cur-prev; if(!d) return 'không đổi so với kỳ trước'; if(prev<10) return `${d>0?'▲':d<0?'▼':''} ${Math.abs(d)} so với kỳ trước`.trim(); const p=Math.round(d/prev*100); return `${p>0?'▲':p<0?'▼':''} ${Math.abs(p)}% so với kỳ trước`.trim() }
+    // Icon Lucide (SVG nội tuyến) cho thẻ KPI.
+    const ICON_PATHS={messages:'<path d="M14 9a2 2 0 0 1-2 2H6l-4 4V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2z"/><path d="M18 9h2a2 2 0 0 1 2 2v11l-4-4h-6a2 2 0 0 1-2-2v-1"/>',smile:'<circle cx="12" cy="12" r="10"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/><path d="M9 9h.01"/><path d="M15 9h.01"/>',frown:'<circle cx="12" cy="12" r="10"/><path d="M16 16s-1.5-2-4-2-4 2-4 2"/><path d="M9 9h.01"/><path d="M15 9h.01"/>',alert:'<path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"/><path d="M12 9v4"/><path d="M12 17h.01"/>',star:'<path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"/>'};
+    const icon=name=>`<svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${ICON_PATHS[name]||''}</svg>`;
     function renderKpis(items,previous){
       const s=bySentiment(items),p=bySentiment(previous),n=items.length,gp=latestRating('Google Play'),ios=latestRating('App Store');
       const issueOf=list=>list.filter(i=>[...ISSUE_INTENTS,'complaint'].includes(intentOf(i)));
       const series=test=>state.context.map(d=>timelineItems(d).filter(test).length);
       const issues=issueOf(items),prevIssues=issueOf(previous).length,byI=k=>items.filter(i=>intentOf(i)===k).length;
       const tone=(d,goodUp)=>d===0?'':((d>0)===goodUp?'good':'bad');
-      const card=({label,value,unit='',sub,delta,cls='',spark:sp,color,action})=>`<article class="kpi-card ${cls}" ${action?`data-kpi-action="${action}" role="button" tabindex="0"`:''}><span class="kpi-label">${label}</span><span class="kpi-value">${value}<small>${unit}</small></span>${delta?`<span class="kpi-delta ${delta.tone}">${delta.text}</span>`:''}${sub?`<span class="kpi-sub">${sub}</span>`:''}${sp?spark(sp,color):''}</article>`;
+      const card=({label,value,unit='',sub,delta,cls='',spark:sp,color,action,ico})=>`<article class="kpi-card ${cls}" ${action?`data-kpi-action="${action}" role="button" tabindex="0"`:''}>${ico?`<span class="kpi-icon">${icon(ico)}</span>`:''}<span class="kpi-label">${label}</span><span class="kpi-value">${value}<small>${unit}</small></span>${delta?`<span class="kpi-delta ${delta.tone}">${delta.text}</span>`:''}${sub?`<span class="kpi-sub">${sub}</span>`:''}${sp?spark(sp,color):''}</article>`;
       $('#kpis').innerHTML=[
-        card({label:'Tổng phản hồi',value:fmt.format(n),delta:{text:deltaShort(n,previous.length),tone:''},sub:`${new Set(items.map(channelName)).size} nguồn có phản hồi`,spark:series(()=>true),color:cssVar('--brand'),action:'feedback'}),
-        card({label:'Tích cực',value:pct(s.Positive,n).replace('%',''),unit:'%',cls:'pos',delta:sentimentShareDelta(s.Positive,p.Positive,n,previous.length,true),sub:`${fmt.format(s.Positive)} phản hồi`,spark:series(i=>i.sentiment==='Positive'),color:cssVar('--positive'),action:'Positive'}),
-        card({label:'Tiêu cực',value:pct(s.Negative,n).replace('%',''),unit:'%',cls:'neg',delta:sentimentShareDelta(s.Negative,p.Negative,n,previous.length,false),sub:`${fmt.format(s.Negative)} phản hồi`,spark:series(i=>i.sentiment==='Negative'),color:cssVar('--negative'),action:'Negative'}),
-        card({label:'Phản hồi cần xem',value:fmt.format(issues.length),cls:issues.length?'warn':'',delta:{text:deltaShort(issues.length,prevIssues),tone:tone(issues.length-prevIssues,false)},sub:`${byI('bug')} lỗi · ${byI('performance')} crash/lag · ${byI('account')} tài khoản · ${byI('complaint')} phàn nàn`,spark:series(i=>[...ISSUE_INTENTS,'complaint'].includes(intentOf(i))),color:cssVar('--mixed'),action:'issues'}),
-        card({label:'Điểm store VNG',value:gp?gp.value.toFixed(2):'–',unit:' GP',sub:`App Store ${ios?ios.value.toFixed(2):'–'} · cập nhật ${gp?shortDate(gp.date):'–'}`,action:'store'})
+        card({label:'Tổng phản hồi',value:fmt.format(n),delta:{text:deltaShort(n,previous.length),tone:''},sub:`${new Set(items.map(channelName)).size} nguồn có phản hồi`,spark:series(()=>true),color:cssVar('--brand'),action:'feedback',ico:'messages'}),
+        card({label:'Tích cực',value:pct(s.Positive,n).replace('%',''),unit:'%',cls:'pos',delta:sentimentShareDelta(s.Positive,p.Positive,n,previous.length,true),sub:`${fmt.format(s.Positive)} phản hồi`,spark:series(i=>i.sentiment==='Positive'),color:cssVar('--positive'),action:'Positive',ico:'smile'}),
+        card({label:'Tiêu cực',value:pct(s.Negative,n).replace('%',''),unit:'%',cls:'neg',delta:sentimentShareDelta(s.Negative,p.Negative,n,previous.length,false),sub:`${fmt.format(s.Negative)} phản hồi`,spark:series(i=>i.sentiment==='Negative'),color:cssVar('--negative'),action:'Negative',ico:'frown'}),
+        card({label:'Phản hồi cần xem',value:fmt.format(issues.length),cls:issues.length?'warn':'',delta:{text:deltaShort(issues.length,prevIssues),tone:tone(issues.length-prevIssues,false)},sub:`${byI('bug')} lỗi · ${byI('performance')} crash/lag · ${byI('account')} tài khoản · ${byI('complaint')} phàn nàn`,spark:series(i=>[...ISSUE_INTENTS,'complaint'].includes(intentOf(i))),color:cssVar('--mixed'),action:'issues',ico:'alert'}),
+        card({label:'Điểm store VNG',value:gp?gp.value.toFixed(2):'–',unit:' GP',sub:`App Store ${ios?ios.value.toFixed(2):'–'} · cập nhật ${gp?shortDate(gp.date):'–'}`,cls:'store',action:'store',ico:'star'})
       ].join('');
       document.querySelectorAll('[data-kpi-action]').forEach(el=>el.onclick=()=>{const a=el.dataset.kpiAction; if(a==='store') setTab('store'); else if(a==='issues') focusExplorer({issuesOnly:true}); else if(a==='feedback') focusExplorer({}); else focusExplorer({sentimentFilter:a})});
     }
@@ -880,6 +1068,7 @@
     }
     function chart(id,type,data,opts={}){
       if(state.charts[id])state.charts[id].destroy();
+      if(window.Chart)Chart.defaults.font.family='Inter, "Noto Sans Thai", sans-serif';
       if(!window.Chart){$(`#${id}`).parentElement.innerHTML='<div class="empty">Không tải được thư viện biểu đồ.</div>';return}
       const text=cssVar('--muted'),grid='rgba(129,144,168,.15)';
       const options={responsive:true,maintainAspectRatio:false,interaction:{mode:'index',intersect:false},plugins:{legend:{position:'bottom',labels:{color:text,boxWidth:12,boxHeight:12}}},scales:{x:{ticks:{color:text,maxRotation:0,autoSkipPadding:8},grid:{display:false}},y:{ticks:{color:text,precision:0},grid:{color:grid},beginAtZero:true}},...opts};
@@ -901,7 +1090,7 @@
       $('#trendCaption').textContent=single?`30 ngày đến ${dateLabel(days.at(-1).date)} · cột đậm là ngày đang xem`:contextLabel; $('#trendInfo').title=trendText;
       const fade=color=>buckets.map(b=>single&&!b.dates.some(d=>selected.has(d))?`${color}59`:color);
       // Chế độ "Loại nội dung": 6 loại nhiều nhất trong khung, phần còn lại gộp vào "Khác".
-      const byIntent=state.trendView==='intent',topIntents=countBy(buckets.flatMap(b=>b.items),intentOf).slice(0,6).map(([k])=>k),INTENT_COLORS=['#2f80ed','#11966a','#e59a2f','#e8495c','#8e5cf7','#14a3b8','#8d9ab0'];
+      const byIntent=state.trendView==='intent',topIntents=countBy(buckets.flatMap(b=>b.items),intentOf).slice(0,6).map(([k])=>k),INTENT_COLORS=['#7367f0','#28c76f','#ff9f43','#ea5455','#00cfe8','#b8a9ff','#a8b1c2'];
       const series=byIntent?[...topIntents.map((k,idx)=>({key:k,label:INTENTS[k]||k,test:i=>intentOf(i)===k,color:INTENT_COLORS[idx]})),{key:'other',label:'Khác',test:i=>!topIntents.includes(intentOf(i)),color:INTENT_COLORS[6]}]:SENTIMENTS.map(s=>({key:s,label:sentimentLabel(s),test:i=>i.sentiment===s,color:cssVar(`--${s.toLowerCase()}`)}));
       const counts=ser=>buckets.map(b=>b.items.filter(ser.test).length);
       chart('sentimentChart','bar',{labels:buckets.map(b=>b.label),datasets:series.map(ser=>({label:ser.label,counts:counts(ser),data:counts(ser).map((n,i)=>share?(buckets[i].items.length?n/buckets[i].items.length*100:0):n),backgroundColor:fade(ser.color),borderRadius:2}))},{
@@ -912,7 +1101,7 @@
       const weekOf=date=>dateAdd(date,-((new Date(`${date}T00:00:00Z`).getUTCDay()+6)%7)),ratingWeeks=[...new Set(ratingRecent().filter(d=>STORES.some(p=>snapshot(d,p))).map(d=>weekOf(d.date)))].sort();
       const weekly=(platform,week)=>{const rows=state.ratingDays.filter(d=>weekOf(d.date)===week).map(d=>({...snapshot(d,platform),date:d.date})).filter(r=>Number.isFinite(r.total_avg_rating));if(!rows.length)return null;const fresh=newRatings(platform,true,week,dateAdd(week,6)),last=rows.at(-1);return{total:last.total_avg_rating,lastDate:last.granularity==='day'?last.date:dateAdd(week,6),avg:fresh.fallback?null:fresh.avg,count:fresh.fallback?null:fresh.count}};
       $('#ratingCaption').textContent=ratingWeeks.length?`Đường liền: điểm tích lũy cuối tuần · Đường đứt: điểm lượt mới trong tuần · 90 ngày tính đến ${dateLabel(state.ratingDays.at(-1).date)}`:'Chưa có dữ liệu rating trong 90 ngày gần nhất';
-      const storeColor={'Google Play':'#2f80ed','App Store':'#a64cff'},ratingSeries=Object.fromEntries(STORES.map(p=>[p,ratingWeeks.map(w=>weekly(p,w))]));
+      const storeColor={'Google Play':'#00cfe8','App Store':'#7367f0'},ratingSeries=Object.fromEntries(STORES.map(p=>[p,ratingWeeks.map(w=>weekly(p,w))]));
       chart('ratingChart','line',{labels:ratingWeeks.map(w=>`Tuần ${shortDate(w)}`),datasets:STORES.flatMap(platform=>[
         {label:`${platform} · tích lũy`,data:ratingSeries[platform].map(r=>r?.total??null),borderColor:storeColor[platform],backgroundColor:storeColor[platform],tension:.3,spanGaps:true,pointRadius:2},
         {label:`${platform} · lượt mới`,data:ratingSeries[platform].map(r=>r?.avg??null),borderColor:storeColor[platform],backgroundColor:storeColor[platform],borderDash:[5,4],tension:.3,spanGaps:true,pointRadius:3,counts:ratingSeries[platform].map(r=>r?.count??null)}
@@ -958,7 +1147,7 @@
         card('Facebook · Video · Store',`${byType('Facebook')}<small> · ${byType('Video')} · ${byType('Store')}</small>`,`${pct(byType('Facebook'),n)} từ Facebook`),
         card('Tiêu cực cao nhất',negRate?pct(Math.round(negRate[1]*1000),1000):'–',negRate?`${esc(sourceLabel(negRate[0]))} (nguồn ≥10 phản hồi)`:'Chưa đủ dữ liệu',negRate&&negRate[1]>.15?'neg':'')
       ].join('');
-      const palette=['#2257d8','#11966a','#e59a2f','#8e5cf7','#14a3b8','#e8495c','#8d9ab0'];
+      const palette=['#7367f0','#00cfe8','#28c76f','#ff9f43','#b8a9ff','#ea5455','#a8b1c2'];
       $('#shareCenter').innerHTML=`<b>${groups.length}</b><span>nguồn</span>`;
       $('#shareLegend').innerHTML=groups.map(([name,c],i)=>`<button class="legend-row" data-share-src="${esc(name)}"><i class="dot" style="background:${palette[i%palette.length]}"></i><span class="ellipsis">${esc(sourceLabel(name))}</span><b>${fmt.format(c)}</b><small>${pct(c,n)}</small></button>`).join('')||'<p class="empty-note">Chưa có dữ liệu trong kỳ.</p>';
       document.querySelectorAll('[data-share-src]').forEach(b=>b.onclick=()=>focusExplorer({sourceFilter:b.dataset.shareSrc}));
@@ -1146,6 +1335,10 @@
     const savedTheme=(()=>{try{return localStorage.getItem('ptg-theme')}catch{return null}})();
     document.documentElement.dataset.theme=savedTheme||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light');
     $('#themeToggle').onclick=()=>{const dark=document.documentElement.dataset.theme!=='dark';document.documentElement.dataset.theme=dark?'dark':'light';try{localStorage.setItem('ptg-theme',dark?'dark':'light')}catch{}if(state.selected.length)renderCharts()};
+    // Sidebar thu gọn / mở rộng (desktop), nhớ lựa chọn trong trình duyệt.
+    const setSidebar=collapsed=>{$('#app').classList.toggle('collapsed',collapsed);const b=$('#sidebarCollapse'),label=collapsed?'Mở rộng menu':'Thu gọn menu';b.setAttribute('aria-expanded',String(!collapsed));b.setAttribute('aria-label',label);b.title=label;try{localStorage.setItem('ptg-sidebar',collapsed?'collapsed':'open')}catch{}setTimeout(()=>Object.values(state.charts).forEach(c=>c.resize()),220)};
+    $('#sidebarCollapse').onclick=()=>setSidebar(!$('#app').classList.contains('collapsed'));
+    try{if(localStorage.getItem('ptg-sidebar')==='collapsed')$('#app').classList.add('collapsed')}catch{}
     $('#langToggle').onclick=()=>setLang(isEn()?'vi':'en');
     applyLangChrome();
     (isEn()?setLang('en'):Promise.resolve()).then(init);

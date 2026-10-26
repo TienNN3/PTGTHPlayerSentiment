@@ -1,0 +1,150 @@
+{
+  "target_date": "2026-10-26",
+  "time_zone": "Asia/Bangkok",
+  "checked_at": "2026-10-27T00:50:00.000Z",
+  "status": "partial",
+  "added_feedback": 26,
+  "added_ratings": 0,
+  "collection_complete": false,
+  "summary_vn": "Ngày 26/10/2026: thêm 26 phản hồi — Facebook group Community 12 (5 bài + 7 bình luận), chợ mua bán 815754622673816 8 bài rao bán, group 473704433937505 4 bài đăng chéo, group chính thức 2 (1 bài + 1 bình luận). Nổi bật: hỏi chuyển tài khoản Global sang VNG (300 kim cương, người chơi Steam), giá cây phong 1.533 kg, cách dùng xúc xắc nhân trong sự kiện mới, gói giảm giá 99฿ chỉ hiện ở một số tài khoản. Fanpage Thái, YouTube và TikTok không có phản hồi tiếng Thái mới (bình luận TikTok đều tiếng Việt). Hai group vẫn chờ duyệt, một group bị từ chối. Sensor Tower bỏ qua theo runbook (người dùng tự nhập), không thêm rating.",
+  "sources": [
+    {
+      "key": "Facebook Group · playtogetherth",
+      "status": "partial",
+      "added_feedback": 12,
+      "detail": "Đọc New posts (cuộn từng bước) và Recent activity; mở permalink các bài người chơi ngày 26/10 xác định giờ (21h, 16h, 12h, 9h, 9h trước lúc đọc ~06:40 ngày 27/10) và bình luận có nhãn giờ ngày 26/10 (kể cả dưới bài cũ). Ngày 26/10: thêm 5 bài và 7 bình luận. Bỏ bài/mã quà của Pemika Pernjaroen (bài thông báo code/hộp quay như bài chính thức), bình luận/trả lời của admin, bình luận chỉ có vài chữ vô nghĩa (ตุ๊กๆ, รอๆเลย), bình luận 1d mơ hồ gần nửa đêm và bài 27/10. Không mở toàn bộ chuỗi trả lời. Dữ liệu 14/09 – 26/10."
+    },
+    {
+      "key": "Facebook Group · 815754622673816",
+      "status": "partial",
+      "added_feedback": 8,
+      "detail": "Đọc New posts đến ranh giới 25/10 (Va Vi 23:58 ngày 25/10 bị loại bằng tooltip). Ngày 26/10: thêm 8 bài rao bán/thu mua (dịch vụ đổi thời tiết 23:59, bảng giá thẻ theo sao, bán tài khoản, bán cây phong, nhân sâm, thẻ BT21, nhận cày xu Sweet Halloween, bài hỏi bán trọn bộ 01:55); giờ xác định bằng nhãn giờ/tooltip. Bỏ bài \"เอ็มละ 5 บาท\" (~00:12 ngày 27/10) và bình luận của chính người bán. Không có bình luận người dùng khác. Không đọc Recent activity."
+    },
+    {
+      "key": "Facebook Group · 1772363333745643",
+      "status": "checked",
+      "added_feedback": 2,
+      "detail": "Đọc New posts: ngày 26/10 có 1 bài người chơi (chia sẻ ảnh hashtag Halloween lúc 01:43) và 1 bình luận (\"ตื่นละ\" 21h trước dưới bài hình vui của admin). Bỏ bài/bình luận của admin, bình luận chỉ ghi giờ (\"4.30pm\") và các bình luận ngày 25/10 đã có."
+    },
+    {
+      "key": "Facebook Group · 562362538882428",
+      "status": "inactive",
+      "added_feedback": 0,
+      "detail": "Kiểm tra New posts 27/10: không có bài mới (chỉ có bài admin từ 14/03/2023), không có bài ngày 26/10."
+    },
+    {
+      "key": "Facebook Group · 3252260471541104",
+      "status": "rejected",
+      "added_feedback": 0,
+      "detail": "Group riêng tư; trang chỉ hiện nút Join group (yêu cầu cũ bị từ chối, kiểm tra 27/10). Không gửi lại yêu cầu, không truy cập được bài/bình luận."
+    },
+    {
+      "key": "Facebook Group · 356675609124267",
+      "status": "pending",
+      "added_feedback": 0,
+      "detail": "Group riêng tư, vẫn còn nút Cancel request (kiểm tra 27/10): yêu cầu thành viên đang chờ duyệt; không đọc được bài/bình luận."
+    },
+    {
+      "key": "Facebook Group · 473704433937505",
+      "status": "partial",
+      "added_feedback": 4,
+      "detail": "Đọc New posts đến ranh giới 25/10: ngày 26/10 thêm 4 bài rao bán đăng chéo (bảng giá thẻ theo sao 8h trước, nhân sâm/tiền vườn 15h trước, thẻ BT21 và nhận cày xu Sweet Halloween 20h trước); không có bình luận. Bài Va Vi (a day ago) giống bài 23:58 ngày 25/10 nên không tính. Dữ liệu từ 14/10."
+    },
+    {
+      "key": "Facebook Group · 847315523442353",
+      "status": "pending",
+      "added_feedback": 0,
+      "detail": "Group riêng tư, vẫn còn nút Cancel request (kiểm tra 27/10): yêu cầu thành viên đang chờ duyệt; không đọc được bài/bình luận."
+    },
+    {
+      "key": "Facebook Fanpage · @playtogetherthailandofficial",
+      "status": "checked",
+      "added_feedback": 0,
+      "detail": "Bài đăng chính thức 26/10 (hộp quay cánh hoa 14h trước, cây mới 3 loại, Spotlight Partner Creator 18h trước, bộ đồ Twin Checkmate): không có bình luận tiếng Thái của người dùng đáng lấy. Spotlight có 4 bình luận/trả lời (GIF, \"Sooooo cute\" tiếng Anh, người dùng quen creator) nên bỏ. Loại bài chính thức, không lấy fanpage Global."
+    },
+    {
+      "key": "YouTube",
+      "status": "youtube",
+      "added_feedback": 0,
+      "detail": "Quét 7 kênh creator qua browse API (RSS vẫn 500): không có video tiếng Thái ngày 26/10 (mới nhất 22/10 của Teddy Chanelplay). Kênh chính thức /@playtogetherth: không có video/short mới ngày 26/10; short đố âm thanh 25/10 vẫn 2 bình luận đã lấy từ hôm qua, các video khác 0 bình luận. Tìm kiếm 7 từ khoá (ngày/tuần): không có video tiếng Thái mới về Play Together (video ngày 26/10 của Mây Mây là tiếng Việt)."
+    },
+    {
+      "key": "TikTok",
+      "status": "tiktok",
+      "added_feedback": 0,
+      "detail": "Kênh chính thức @playtogetherth.official: video mới nhất 24/10, 4 bình luận trong ngày 26/10 đều tiếng Việt (bỏ); không có video mới ngày 26/10. Trang creator lemondoggopt không có video ngày 26/10; rukkung2000 không tải được danh sách video. Tìm kiếm tiếng Thái: video ngày 26/10 là của kênh Global (tiếng Anh) hoặc creator Việt (Candy Play, BonPlay) nên bỏ. Không gặp CAPTCHA."
+    }
+  ],
+  "ratings": {
+    "status": "skipped",
+    "added": 0,
+    "detail": "Bỏ qua Sensor Tower hoàn toàn theo runbook; không sửa ratings."
+  },
+  "new_feedback": {
+    "by_source": {
+      "Facebook Group · playtogetherth": 12,
+      "Facebook Group · 1772363333745643": 2,
+      "Facebook Group · 815754622673816": 8,
+      "Facebook Group · 473704433937505": 4
+    },
+    "by_kind": {
+      "post": 18,
+      "comment": 8
+    },
+    "by_sentiment": {
+      "Negative": 0,
+      "Neutral": 26,
+      "Positive": 0,
+      "Mixed": 0
+    },
+    "sentiment_percent": {
+      "Negative": 0.0,
+      "Neutral": 100.0,
+      "Positive": 0.0,
+      "Mixed": 0.0
+    }
+  },
+  "preservation": {
+    "before_count": 2507,
+    "after_count": 2533,
+    "added_ids": [
+      "facebook-22cfa1b021f6475a",
+      "facebook-8efd7a6ee47ae433",
+      "facebook-1bf499eb517c2602",
+      "facebook-528376c1c007de11",
+      "facebook-aae31a335cfc3031",
+      "facebook-9c949bbbdd5b94ea",
+      "facebook-5aaea2f63733e3ff",
+      "facebook-1e0c65e05b2b56a0",
+      "facebook-331ad7963bcd89bc",
+      "facebook-d48155fa7810d589",
+      "facebook-ddda0f80eb2f8cfe",
+      "facebook-13bd667867166785",
+      "facebook-27f3778273be9015",
+      "facebook-c25f06cdc9b6a500",
+      "facebook-5036daea28fdbb98",
+      "facebook-2934c6e3e79ebd3d",
+      "facebook-fc7d7d709aa85362",
+      "facebook-d2975e74aa8b1b46",
+      "facebook-4fbf79ddd08cfcd5",
+      "facebook-b4cf9deb4bc1f9bc",
+      "facebook-f2584da94d0b60dc",
+      "facebook-2a53f52df724411a",
+      "facebook-6849825f65b3ee71",
+      "facebook-b3b16fb3bb50dd9d",
+      "facebook-272553493056f6ec",
+      "facebook-5bda1ce1fca54f05"
+    ],
+    "lost_ids": []
+  },
+  "validation": {
+    "command": "node scripts/validate-data.mjs && node --test",
+    "status": "pass (validate-data + 19 tests)"
+  },
+  "audit_warnings": [
+    "Trình duyệt dùng là trình duyệt tích hợp của Claude Code; Facebook đã đăng nhập sẵn, không gặp đăng nhập/2FA/CAPTCHA.",
+    "Lượt chạy ~06:10–07:50 ngày 27/10: ngày D = 26/10 tương ứng nhãn ~7–31 giờ trước; bài ẩn danh (ID không theo thứ tự thời gian) và bài gần nửa đêm xác định bằng nhãn giờ/tooltip trên permalink; bài chợ mua bán lúc 23:59 ngày 26/10 xác định bằng tooltip, bài ~00:12 ngày 27/10 loại theo ID. Nhãn và bản dịch do AI rà ngữ cảnh, needs_review=true.",
+    "Các bài của Pemika Pernjaroen (mã quà, hộp quay, hạt giống mới) được coi là nội dung chính thức nên không lấy ở lượt này (lượt 25/10 đã lấy một bài hạt giống mới).",
+    "Xuất dữ liệu đọc trực tiếp qua công cụ trình duyệt (không dùng form POST)."
+  ]
+}

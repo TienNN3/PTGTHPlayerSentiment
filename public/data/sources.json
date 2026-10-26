@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-24T04:15:22.007Z",
+  "updated_at": "2026-10-26T03:30:00.000Z",
   "note": "Danh sách nguồn được theo dõi. Tên lấy từ tiêu đề trang Facebook; trạng thái mô tả phạm vi thu thập, không phải số phản hồi.",
   "statuses": {
     "full": "Đủ 30 ngày",
@@ -17,13 +17,13 @@
       "name": "Play Together VNG : THAILAND Community",
       "type": "group",
       "status": "full",
-      "detail": "Đọc New posts (scan bằng cuộn từng bước) và Recent activity; mở permalink các bài người chơi ngày 23/10 và các bài cũ có bình luận ngày 23/10. Ngày 23/10: thêm 9 bài và 39 bình luận. Giờ bài lấy từ permalink (\"Yesterday at …\") và nhãn \"x giờ trước\" (đọc lúc 10:5x ngày 24/10); bình luận nhãn \"1d\" được xác định ngày bằng ID bình luận (neo 28701123592832115 = 20/10 23:37, ~9,6e9/phút). Bỏ bài/trả lời của admin, bài ngày 24/10, bình luận chỉ cảm ơn/emoji/link và đăng chéo trùng nội dung. Không mở toàn bộ chuỗi trả lời. Dữ liệu 14/09 – 23/10.",
+      "detail": "Đọc New posts (cuộn từng bước, quét 2 lần) và Recent activity; mở permalink các bài người chơi ngày 25/10 và các bài cũ có bình luận ngày 25/10. Ngày 25/10: thêm 8 bài và 25 bình luận/trả lời. Giờ bài xác định bằng nhãn \"x giờ trước\" (đọc lúc ~09:50 ngày 26/10) và tooltip giờ tuyệt đối trên permalink (bài ẩn danh có ID không theo thứ tự thời gian); bình luận nhãn \"1d\" được xác định ngày bằng ID bình luận. Bỏ bài/trả lời của admin, bài ngày 24/10 và 26/10, bình luận chỉ cảm ơn/ảnh/link. Không mở toàn bộ chuỗi trả lời. Dữ liệu 14/09 – 25/10.",
       "url": "https://www.facebook.com/groups/playtogetherth/",
       "last_check": {
-        "target_date": "2026-10-23",
-        "checked_at": "2026-10-24T04:15:22.007Z",
+        "target_date": "2026-10-25",
+        "checked_at": "2026-10-26T03:30:00.000Z",
         "status": "partial",
-        "added_feedback": 48
+        "added_feedback": 33
       }
     },
     {
@@ -31,11 +31,11 @@
       "name": "Play Together : THAILAND ตลาดนัดซื้อขาย (chợ mua bán)",
       "type": "group",
       "status": "full",
-      "detail": "Đọc New posts đến ranh giới 22/10. Ngày 23/10: thêm 4 bài rao bán (giờ xác định bằng permalink/nhãn giờ); bình luận chỉ là cập nhật của người bán (\"+++\", \"ออก\") nên bỏ. Bài 22:27 ngày 22/10 (hiện sau lượt trước) không tính vào ngày 23/10. Không đọc Recent activity.",
+      "detail": "Đọc New posts đến ranh giới 24/10. Ngày 25/10: thêm 4 bài rao bán/thu mua (bảng giá thẻ theo sao 09:50, thẻ BT21, nhận cày xu Sweet Halloween, danh sách trái cây–nhân sâm; giờ xác định bằng nhãn giờ/tooltip). Các bài đăng lặp từ 10:18 đến 22:50 ngày 24/10 và bài 00:xx ngày 26/10 không tính. Không có bình luận người dùng trong ngày. Không đọc Recent activity.",
       "url": "https://www.facebook.com/groups/815754622673816/",
       "last_check": {
-        "target_date": "2026-10-23",
-        "checked_at": "2026-10-24T04:15:22.007Z",
+        "target_date": "2026-10-25",
+        "checked_at": "2026-10-26T03:30:00.000Z",
         "status": "partial",
         "added_feedback": 4
       }
@@ -45,13 +45,13 @@
       "name": "Play Together VNG Thailand Official (group)",
       "type": "group",
       "status": "full",
-      "detail": "Đọc New posts: ngày 23/10 có 6 bài người chơi (5 bài khoe Halloween #playtogetherTH, 1 bài hỏi chữ trong game chuyển từ tiếng Thái sang tiếng Anh) và 1 bình luận của chủ bài. Bỏ bài/trả lời của admin, bài 00:18 ngày 24/10 (xác nhận bằng tooltip giờ), và bình luận chỉ cảm ơn.",
+      "detail": "Đọc New posts: ngày 25/10 có 2 bài người chơi (hỏi cộng dồn gói 7 ngày lúc 07:24, hỏi thú cưng cho câu cá) và 7 bình luận/trả lời của người chơi. Bỏ bài chỉ có link stream TikTok, bài/trả lời của admin, bài ngày 26/10 và bình luận chỉ cảm ơn.",
       "url": "https://www.facebook.com/groups/1772363333745643/",
       "last_check": {
-        "target_date": "2026-10-23",
-        "checked_at": "2026-10-24T04:15:22.007Z",
+        "target_date": "2026-10-25",
+        "checked_at": "2026-10-26T03:30:00.000Z",
         "status": "checked",
-        "added_feedback": 7
+        "added_feedback": 9
       }
     },
     {
@@ -59,11 +59,11 @@
       "name": "GOI : Let's Play Together 🇹🇭 (tìm phòng, tìm bạn chơi)",
       "type": "group",
       "status": "inactive",
-      "detail": "Kiểm tra New posts 24/10: không có bài mới (chỉ có bài admin cũ), không có bài ngày 23/10.",
+      "detail": "Kiểm tra New posts 26/10: không có bài mới (chỉ có bài admin cũ từ 2023), không có bài ngày 25/10.",
       "url": "https://www.facebook.com/groups/562362538882428/",
       "last_check": {
-        "target_date": "2026-10-23",
-        "checked_at": "2026-10-24T04:15:22.007Z",
+        "target_date": "2026-10-25",
+        "checked_at": "2026-10-26T03:30:00.000Z",
         "status": "inactive",
         "added_feedback": 0
       }
@@ -73,11 +73,11 @@
       "name": "Play Together TH พูดคุย/ซื้อขาย-แลกเปลี่ยน (thảo luận, mua bán)",
       "type": "group",
       "status": "not_collected",
-      "detail": "Group riêng tư; trang chỉ hiện nút Join group (yêu cầu cũ bị từ chối, kiểm tra 24/10). Không gửi lại yêu cầu, không truy cập được bài/bình luận.",
+      "detail": "Group riêng tư; trang chỉ hiện nút Join group (yêu cầu cũ bị từ chối, kiểm tra 26/10). Không gửi lại yêu cầu, không truy cập được bài/bình luận.",
       "url": "https://www.facebook.com/groups/3252260471541104/",
       "last_check": {
-        "target_date": "2026-10-23",
-        "checked_at": "2026-10-24T04:15:22.007Z",
+        "target_date": "2026-10-25",
+        "checked_at": "2026-10-26T03:30:00.000Z",
         "status": "rejected",
         "added_feedback": 0
       }
@@ -87,11 +87,11 @@
       "name": "PLAY TOGETHER THAILAND : แลกเปลี่ยน ซื้อขาย (trao đổi, mua bán)",
       "type": "group",
       "status": "pending",
-      "detail": "Group riêng tư, vẫn còn nút Cancel request (kiểm tra 24/10): yêu cầu thành viên đang chờ duyệt; không đọc được bài/bình luận.",
+      "detail": "Group riêng tư, vẫn còn nút Cancel request (kiểm tra 26/10): yêu cầu thành viên đang chờ duyệt; không đọc được bài/bình luận.",
       "url": "https://www.facebook.com/groups/356675609124267/",
       "last_check": {
-        "target_date": "2026-10-23",
-        "checked_at": "2026-10-24T04:15:22.007Z",
+        "target_date": "2026-10-25",
+        "checked_at": "2026-10-26T03:30:00.000Z",
         "status": "pending",
         "added_feedback": 0
       }
@@ -101,13 +101,13 @@
       "name": "ซื้อ-ขาย Play Together TH (mua bán)",
       "type": "group",
       "status": "partial",
-      "detail": "Đọc New posts đến ranh giới 22/10: ngày 23/10 thêm 2 bài rao bán đăng chéo (trái cây–nhân sâm lúc 07:03, mua thẻ theo sao lúc ~15h; giờ xác định bằng permalink/nhãn); không có bình luận. Dữ liệu từ 14/10.",
+      "detail": "Đọc New posts đến ranh giới 24/10: ngày 25/10 thêm 3 bài rao bán đăng chéo (\"หาครับ\" lúc 00:31, bảng giá thẻ theo sao lúc 09:50, danh sách trái cây–nhân sâm lúc ~10:50; giờ xác định bằng tooltip/nhãn); không có bình luận. Dữ liệu từ 14/10.",
       "url": "https://www.facebook.com/groups/473704433937505/",
       "last_check": {
-        "target_date": "2026-10-23",
-        "checked_at": "2026-10-24T04:15:22.007Z",
+        "target_date": "2026-10-25",
+        "checked_at": "2026-10-26T03:30:00.000Z",
         "status": "partial",
-        "added_feedback": 2
+        "added_feedback": 3
       }
     },
     {
@@ -115,11 +115,11 @@
       "name": "Play Together แลกเปลี่ยนข้อมูล - ซื้อขายต่างๆ (trao đổi, mua bán)",
       "type": "group",
       "status": "pending",
-      "detail": "Group riêng tư, vẫn còn nút Cancel request (kiểm tra 24/10): yêu cầu thành viên đang chờ duyệt; không đọc được bài/bình luận.",
+      "detail": "Group riêng tư, vẫn còn nút Cancel request (kiểm tra 26/10): yêu cầu thành viên đang chờ duyệt; không đọc được bài/bình luận.",
       "url": "https://www.facebook.com/groups/847315523442353/",
       "last_check": {
-        "target_date": "2026-10-23",
-        "checked_at": "2026-10-24T04:15:22.007Z",
+        "target_date": "2026-10-25",
+        "checked_at": "2026-10-26T03:30:00.000Z",
         "status": "pending",
         "added_feedback": 0
       }
@@ -129,13 +129,13 @@
       "name": "Fanpage Play Together Thailand Official",
       "type": "fanpage",
       "status": "partial",
-      "detail": "Các bài 21–23/10 (Kaia hotel, rewards, minigame tuk-tuk): không thấy bình luận người dùng có giờ rõ ràng ngày 23/10. Minigame đoán xe (đăng 22/10 18:00) có ~46 bình luận chỉ ghi \"1d\" nên không xác định được ngày 22 hay 23 → không nhập. Loại bài chính thức, không lấy fanpage Global.",
+      "detail": "Các bài đăng chính thức 25/10 (Merge Hotel 16h trước, đố âm thanh 14h trước): 2 bình luận người dùng có giờ rõ ràng ngày 25/10 (tooltip 19:36 cho bình luận đố âm thanh). Bài cũ hơn (3–5 ngày) không có bình luận mới. Loại bài chính thức, không lấy fanpage Global.",
       "url": "https://www.facebook.com/playtogetherthailandofficial",
       "last_check": {
-        "target_date": "2026-10-23",
-        "checked_at": "2026-10-24T04:15:22.007Z",
+        "target_date": "2026-10-25",
+        "checked_at": "2026-10-26T03:30:00.000Z",
         "status": "checked",
-        "added_feedback": 0
+        "added_feedback": 2
       }
     },
     {
@@ -143,13 +143,13 @@
       "name": "YouTube (video và bình luận tiếng Thái)",
       "type": "youtube",
       "status": "youtube",
-      "detail": "Quét 7 kênh creator (RSS vẫn 404 nên dùng trang kênh + /watch publishDate) và kênh chính thức /@playtogetherth: không có video tiếng Thái ngày 23/10 (mới nhất 22/10 và 14/10); bình luận 5 video mới nhất của kênh chính thức: 0. Tìm kiếm 7 từ khoá (tuần/ngày): kết quả chủ yếu của creator Việt, không có video tiếng Thái mới về Play Together.",
+      "detail": "Quét 7 kênh creator (RSS vẫn 404 nên dùng browse API + /watch publishDate): không có video tiếng Thái ngày 25/10 (mới nhất 22/10). Kênh chính thức /@playtogetherth: short đố âm thanh đăng 25/10 có 2 bình luận, 1 bình luận tiếng Thái được lấy (bình luận tiếng Việt bỏ); 7 video khác 0 bình luận. Tìm kiếm 6 từ khoá (ngày/tuần): không có video tiếng Thái mới về Play Together.",
       "url": "https://www.youtube.com/results?search_query=play+together+%E0%B9%84%E0%B8%97%E0%B8%A2",
       "last_check": {
-        "target_date": "2026-10-23",
-        "checked_at": "2026-10-24T04:15:22.007Z",
-        "status": "checked",
-        "added_feedback": 0
+        "target_date": "2026-10-25",
+        "checked_at": "2026-10-26T03:30:00.000Z",
+        "status": "youtube",
+        "added_feedback": 1
       },
       "official_channel_url": "https://www.youtube.com/@playtogetherth"
     },
@@ -158,12 +158,12 @@
       "name": "TikTok (video và bình luận tiếng Thái)",
       "type": "tiktok",
       "status": "tiktok",
-      "detail": "Kênh chính thức: không có video 23/10; bình luận trong khoảng 23/10 dưới 8 video gần nhất: 0. Creator R*** mới nhất 16/10; L*** không tải được danh sách video. Tìm kiếm tiếng Thái: video 23/10 duy nhất là của creator Việt (bỏ). Không gặp CAPTCHA.",
+      "detail": "Kênh chính thức @playtogetherth.official: video 24/10 có 14 bình luận tổng, 10 bình luận trong ngày 25/10 đều tiếng Việt (bỏ); không có video mới ngày 25/10. Trang creator R*** không tải được danh sách video; tìm kiếm tiếng Thái: không có video ngày 25/10. Không gặp CAPTCHA.",
       "url": "https://www.tiktok.com/@playtogetherth.official",
       "last_check": {
-        "target_date": "2026-10-23",
-        "checked_at": "2026-10-24T04:15:22.007Z",
-        "status": "checked",
+        "target_date": "2026-10-25",
+        "checked_at": "2026-10-26T03:30:00.000Z",
+        "status": "tiktok",
         "added_feedback": 0
       }
     },
@@ -174,8 +174,8 @@
       "status": "store",
       "detail": "Sensor Tower export 19/10 (người dùng tải): rating theo ngày app Play Together VNG (TH) 19/09 – 17/10/2026; review tiếng Thái app VNG 20/09 – 19/10: 34 review, 29 đã có, thêm 5 review mới (12/10, 13/10 ×2, 14/10, 15/10). Review TH app VNG hiện có: 11/06 – 15/10/2026 (167 review); app Global (HAEGIN) đến 12/09/2026.",
       "last_check": {
-        "target_date": "2026-10-23",
-        "checked_at": "2026-10-24T04:15:22.007Z",
+        "target_date": "2026-10-25",
+        "checked_at": "2026-10-26T03:30:00.000Z",
         "status": "skipped",
         "added_feedback": 0
       },
@@ -193,8 +193,8 @@
       "status": "store",
       "detail": "Sensor Tower export 19/10 (người dùng tải): rating theo ngày app Play Together VNG (TH) 19/09 – 17/10/2026, khớp số cũ đến 12/10 và thêm 13–17/10. Review TH 20/09 – 19/10: 14 review, 10 đã có, thêm 4 review mới (12/10, 14/10 ×2, 16/10). Review TH app VNG hiện có: 05/07 – 16/10/2026 (57 review); app Global (HAEGIN) đến 25/06/2026.",
       "last_check": {
-        "target_date": "2026-10-23",
-        "checked_at": "2026-10-24T04:15:22.007Z",
+        "target_date": "2026-10-25",
+        "checked_at": "2026-10-26T03:30:00.000Z",
         "status": "skipped",
         "added_feedback": 0
       },

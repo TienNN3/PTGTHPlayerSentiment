@@ -1,0 +1,170 @@
+{
+  "target_date": "2026-10-27",
+  "time_zone": "Asia/Bangkok",
+  "checked_at": "2026-10-27T23:31:55.983Z",
+  "status": "partial",
+  "added_feedback": 36,
+  "added_ratings": 0,
+  "collection_complete": false,
+  "summary_vn": "Ngày 27/10/2026: thêm 36 phản hồi — Facebook group Community 19 (9 bài + 10 bình luận), chợ mua bán 815754622673816 9 bài, group 473704433937505 3 bài đăng chéo, group chính thức 3 (2 bài + 1 bình luận), fanpage Thái 1 bình luận, TikTok 1 video creator Thái. Nổi bật: người chơi mong xe tuk-tuk được bán, thắc mắc cúp hạng 3 cuộc thi cây phong và cách tính điểm (không tính boost bạn bè), không đăng nhập được bằng Facebook, hỏi về thưởng 300 kim cương khi chuyển tài khoản. YouTube không có video/bình luận tiếng Thái mới (video ngày 27/10 đều tiếng Việt). Hai group vẫn chờ duyệt, một group bị từ chối. Sensor Tower bỏ qua theo runbook (người dùng tự nhập), không thêm rating.",
+  "sources": [
+    {
+      "key": "Facebook Group · playtogetherth",
+      "status": "partial",
+      "added_feedback": 19,
+      "detail": "Đọc New posts (cuộn từng bước) và Recent activity; mở permalink 9 bài người chơi ngày 27/10 (nhãn 10h–1d; bài 02:53 sáng 27/10 xác định bằng giờ tuyệt đối trên permalink, mốc ngày dựa vào ID bài ≥ 28783906…) và 10 bình luận có nhãn giờ ngày 27/10. Bỏ bài/mã quà/thông báo của Pemika Pernjaroen (bài chính thức), bài và trả lời của admin Walaipan Plawitsara, bình luận chỉ có \"นี่ค่ะ\"/lời cảm ơn, bình luận ngày 26/10 đã có. Không mở toàn bộ chuỗi trả lời. Dữ liệu 14/09 – 27/10."
+    },
+    {
+      "key": "Facebook Group · 815754622673816",
+      "status": "partial",
+      "added_feedback": 9,
+      "detail": "Đọc New posts đến ranh giới 26/10 (bài 2168746… 23:5x ngày 26/10 đã có): ngày 27/10 thêm 9 bài (rao bán thẻ/nhân sâm/tài khoản, nhận cày xu Sweet Halloween, 1 câu hỏi về khác biệt hai phiên bản game). Giờ xác định bằng nhãn giờ/bình luận và nội suy ID (bài 2169703… đăng ~00:20 ngày 28/10 nên loại). Không có bình luận người dùng khác. Không đọc Recent activity."
+    },
+    {
+      "key": "Facebook Group · 1772363333745643",
+      "status": "checked",
+      "added_feedback": 3,
+      "detail": "Đọc New posts: ngày 27/10 có 2 bài người chơi (đăng chéo bài xe tuk-tuk; bài tìm trao đổi/mua) và 1 bình luận (\"ให้ฟรีเลย\" dưới bài trao đổi). Bỏ bài/bình luận admin, trả lời có ID game, bài stream TikTok 25/10 và bài hashtag 01:42 ngày 26/10 đã có."
+    },
+    {
+      "key": "Facebook Group · 562362538882428",
+      "status": "inactive",
+      "added_feedback": 0,
+      "detail": "Không kiểm tra lại lượt này (lần kiểm tra trước 27/10: không có bài mới, chỉ có bài admin từ 14/03/2023)."
+    },
+    {
+      "key": "Facebook Group · 3252260471541104",
+      "status": "rejected",
+      "added_feedback": 0,
+      "detail": "Group riêng tư, yêu cầu cũ bị từ chối (kiểm tra gần nhất 27/10). Không gửi lại yêu cầu, không truy cập được bài/bình luận."
+    },
+    {
+      "key": "Facebook Group · 356675609124267",
+      "status": "pending",
+      "added_feedback": 0,
+      "detail": "Group riêng tư, yêu cầu thành viên đang chờ duyệt (kiểm tra gần nhất 27/10); không đọc được bài/bình luận."
+    },
+    {
+      "key": "Facebook Group · 473704433937505",
+      "status": "partial",
+      "added_feedback": 3,
+      "detail": "Đọc New posts đến ranh giới 26/10: ngày 27/10 thêm 3 bài rao bán đăng chéo (bảng giá thẻ theo sao 16h trước, danh sách trái cây/nhân sâm và bảng giá Va Vi ~19h trước); giờ nội suy từ ID bài (bài Va Vi 1788794… ~00:25 ngày 28/10 nên loại). Không có bình luận. Dữ liệu từ 14/10."
+    },
+    {
+      "key": "Facebook Group · 847315523442353",
+      "status": "pending",
+      "added_feedback": 0,
+      "detail": "Group riêng tư, yêu cầu thành viên đang chờ duyệt (kiểm tra gần nhất 27/10); không đọc được bài/bình luận."
+    },
+    {
+      "key": "Facebook Fanpage · @playtogetherthailandofficial",
+      "status": "partial",
+      "added_feedback": 1,
+      "detail": "Feed trang tải chậm, chỉ đọc được các bình luận hiển thị: 1 bình luận tiếng Thái của người dùng ngày 27/10 (hỏi về thưởng chuyển tài khoản, 12h trước) dưới bài thông báo chuyển tài khoản; bỏ trả lời của fanpage, bình luận tiếng Việt và bình luận cũ. Không mở từng bài. Loại bài chính thức, không lấy fanpage Global."
+    },
+    {
+      "key": "YouTube",
+      "status": "youtube",
+      "added_feedback": 0,
+      "detail": "Quét 7 kênh creator qua RSS (6 kênh trả về, 1 lỗi 404, 1 lỗi 500): không có video tiếng Thái ngày 27/10 (mới nhất 22/10 của Teddy Chanelplay). Tìm kiếm 4 từ khoá (lọc hôm nay): các video ngày 27/10 (Xunp Gaming, HAN, Anh Da Xanh) đều tiếng Việt nên bỏ. Kênh chính thức /@playtogetherth: không đọc được ngày/bình luận mới của các short, không thêm bình luận."
+    },
+    {
+      "key": "TikTok",
+      "status": "tiktok",
+      "added_feedback": 1,
+      "detail": "Kênh chính thức @playtogetherth.official: video mới nhất 24/10, chỉ 1 bình luận tiếng Việt trong ngày 26/10 (bỏ); không có video mới ngày 27/10. Creator lemondoggopt có video tiếng Thái 18:43 ngày 27/10 (trang trí vườn) nên thêm 1 video (3 bình luận chỉ là lời chào \"hi\", bỏ); rukkung2000 không có video mới (mới nhất 16/10). Không tìm kiếm từ khoá lượt này. Không gặp CAPTCHA."
+    },
+    {
+      "key": "Google Play",
+      "status": "skipped",
+      "added_feedback": 0,
+      "detail": "Sensor Tower export 19/10 (người dùng tải): rating theo ngày app Play Together VNG (TH) 19/09 – 17/10/2026; review tiếng Thái app VNG 20/09 – 19/10: 34 review, 29 đã có, thêm 5 review mới (12/10, 13/10 ×2, 14/10, 15/10). Review TH app VNG hiện có: 11/06 – 15/10/2026 (167 review); app Global (HAEGIN) đến 12/09/2026."
+    },
+    {
+      "key": "App Store",
+      "status": "skipped",
+      "added_feedback": 0,
+      "detail": "Sensor Tower export 19/10 (người dùng tải): rating theo ngày app Play Together VNG (TH) 19/09 – 17/10/2026, khớp số cũ đến 12/10 và thêm 13–17/10. Review TH 20/09 – 19/10: 14 review, 10 đã có, thêm 4 review mới (12/10, 14/10 ×2, 16/10). Review TH app VNG hiện có: 05/07 – 16/10/2026 (57 review); app Global (HAEGIN) đến 25/06/2026."
+    }
+  ],
+  "ratings": {
+    "status": "skipped",
+    "added": 0,
+    "detail": "Bỏ qua Sensor Tower hoàn toàn theo runbook; không sửa ratings."
+  },
+  "new_feedback": {
+    "by_source": {
+      "Facebook Group · playtogetherth": 19,
+      "Facebook Group · 1772363333745643": 3,
+      "Facebook Group · 815754622673816": 9,
+      "Facebook Group · 473704433937505": 3,
+      "Facebook Fanpage · @playtogetherthailandofficial": 1,
+      "TikTok": 1
+    },
+    "by_kind": {
+      "post": 23,
+      "comment": 12,
+      "video": 1
+    },
+    "by_sentiment": {
+      "Positive": 6,
+      "Neutral": 27,
+      "Negative": 3,
+      "Mixed": 0
+    },
+    "sentiment_percent": {
+      "Positive": 17,
+      "Neutral": 75,
+      "Negative": 8,
+      "Mixed": 0
+    }
+  },
+  "preservation": {
+    "before_count": 2533,
+    "after_count": 2569,
+    "added_ids": [
+      "facebook-ef2038a5bfb9b6c2",
+      "facebook-44f9c3d20220051a",
+      "facebook-1b434cb8ede80586",
+      "facebook-16740c49d7ebd52d",
+      "facebook-016850fccc5c4e0f",
+      "facebook-400994d70951c97b",
+      "facebook-10a5018ef31ad22d",
+      "facebook-a548859f67501458",
+      "facebook-1cb730c94094addf",
+      "facebook-dbdf74f2604e633b",
+      "facebook-beef5ef0ac41b7c5",
+      "facebook-29e6450b6509a8f9",
+      "facebook-3d76b81bf0c3f018",
+      "facebook-d5dee48c351f240b",
+      "facebook-75c585e06847eeae",
+      "facebook-d15686016122976c",
+      "facebook-7799240582528af7",
+      "facebook-db44af549ac59621",
+      "facebook-5dca76f4cd1acd9e",
+      "facebook-495fa428826e1ba1",
+      "facebook-67ac451f3537d20e",
+      "facebook-7752485a37ff0a51",
+      "facebook-9650f310dee649f0",
+      "facebook-3b701146e90d9aeb",
+      "facebook-183c8df80b97c6c8",
+      "facebook-f7bed82021a6f018",
+      "facebook-5eb4d1f08643cafc",
+      "facebook-324ffdc3d8143307",
+      "facebook-87f00a081018bc44",
+      "facebook-73dfc9a7c339679a",
+      "facebook-3369dd71f780b913",
+      "facebook-e8b0ed3ad4ea60d0",
+      "facebook-80a16a008a8e3c39",
+      "facebook-97a4e8fd2343827d",
+      "facebook-4fda9b0cd13a9481",
+      "tiktok-2730e1ebe849a7b2"
+    ],
+    "lost_ids": []
+  },
+  "validation": {
+    "command": "node scripts/validate-data.mjs && node --test",
+    "status": "pass (validate-data + 19 tests)"
+  },
+  "audit_warnings": []
+}

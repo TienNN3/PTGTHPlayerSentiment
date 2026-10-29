@@ -1,0 +1,108 @@
+{
+  "target_date": "2026-10-28",
+  "time_zone": "Asia/Bangkok",
+  "checked_at": "2026-10-29T03:50:00.000Z",
+  "status": "partial",
+  "added_feedback": 22,
+  "added_ratings": 0,
+  "collection_complete": false,
+  "summary_vn": "Ngày 28/10/2026: thêm 22 phản hồi — group Community 10 (5 bài + 5 bình luận), chợ mua bán 815754622673816 6 bài, group chính thức 3, group 473704433937505 3 bài rao bán. Nổi bật: báo không về nhà được để giao rau, hỏi app Global còn chơi được không khi đi Nhật, hỏi code quà tặng và vị trí câu cá. Fanpage có 1 bình luận nhưng link dạng reel không nhập được; YouTube và TikTok không có nội dung tiếng Thái mới. Sensor Tower bỏ qua theo runbook, không thêm rating.",
+  "sources": [
+    {
+      "key": "Facebook Group · playtogetherth",
+      "status": "partial",
+      "added_feedback": 10,
+      "detail": "Đọc New posts (cuộn từng bước, quét feed): ngày 28/10 có 5 bài người chơi và 5 bình luận có nhãn giờ ngày 28/10 (11h–21h). Bỏ bài/trả lời admin, bài chính thức của Pemika Pernjaroen, bình luận ngày 27/10 và 29/10. Chưa quét Recent activity, không mở toàn bộ chuỗi trả lời. Dữ liệu 14/09 – 28/10."
+    },
+    {
+      "key": "Facebook Group · 815754622673816",
+      "status": "partial",
+      "added_feedback": 6,
+      "detail": "Đọc New posts: ngày 28/10 thêm 6 bài rao bán (dịch vụ đổi thời tiết, trái cây/nhân sâm, thẻ, tiền nông trại). Giờ nội suy theo ID bài (bài 2170743… ~02h ngày 29/10 nên loại). Không có bình luận người dùng ngày 28/10."
+    },
+    {
+      "key": "Facebook Group · 1772363333745643",
+      "status": "checked",
+      "added_feedback": 3,
+      "detail": "Đọc New posts: ngày 28/10 có 2 bài người chơi (chúc Halloween; hỏi 'vua cá') và 1 bình luận trả lời. Bỏ bài/trả lời admin, bài ngày 27/10 đã có và bài ngày 29/10."
+    },
+    {
+      "key": "Facebook Group · 562362538882428",
+      "status": "inactive",
+      "added_feedback": 0,
+      "detail": "Không kiểm tra lại lượt này (trạng thái giữ nguyên lần trước)."
+    },
+    {
+      "key": "Facebook Group · 3252260471541104",
+      "status": "rejected",
+      "added_feedback": 0,
+      "detail": "Không kiểm tra lại lượt này (trạng thái giữ nguyên lần trước)."
+    },
+    {
+      "key": "Facebook Group · 356675609124267",
+      "status": "pending",
+      "added_feedback": 0,
+      "detail": "Không kiểm tra lại lượt này (trạng thái giữ nguyên lần trước)."
+    },
+    {
+      "key": "Facebook Group · 473704433937505",
+      "status": "partial",
+      "added_feedback": 3,
+      "detail": "Đọc New posts: ngày 28/10 thêm 3 bài rao bán đăng chéo (Va Vi, Med Noon ×2); giờ nội suy từ ID bài (bài 1789713… ~03h ngày 29/10 nên loại). Không có bình luận."
+    },
+    {
+      "key": "Facebook Group · 847315523442353",
+      "status": "pending",
+      "added_feedback": 0,
+      "detail": "Không kiểm tra lại lượt này (trạng thái giữ nguyên lần trước)."
+    },
+    {
+      "key": "Facebook Fanpage · @playtogetherthailandofficial",
+      "status": "partial",
+      "added_feedback": 0,
+      "detail": "Chỉ đọc được các bình luận hiển thị: 1 bình luận tiếng Thái ngày 28/10 (dưới video reel) nhưng link dạng reel không khớp định dạng import nên chưa nhập. Không thêm phản hồi."
+    },
+    {
+      "key": "YouTube",
+      "status": "youtube",
+      "added_feedback": 0,
+      "detail": "Tìm kiếm 5 từ khoá (lọc hôm nay): không có video tiếng Thái về Play Together, các video ngày 28/10 đều tiếng Việt. RSS các kênh creator trả 404 nên không quét được."
+    },
+    {
+      "key": "TikTok",
+      "status": "tiktok",
+      "added_feedback": 0,
+      "detail": "Kênh chính thức @playtogetherth.official: video 28/10 có 5 bình luận trong ngày nhưng đều tiếng Việt (bỏ); video 25–27/10 chỉ bình luận tiếng Việt. lemondoggopt và rukkung2000 không có video mới. Tìm kiếm tiếng Thái không thấy video ngày 28/10. Không gặp CAPTCHA."
+    },
+    {
+      "key": "Google Play",
+      "status": "skipped",
+      "added_feedback": 0,
+      "detail": "Sensor Tower bỏ qua theo runbook (người dùng tự nhập)."
+    },
+    {
+      "key": "App Store",
+      "status": "skipped",
+      "added_feedback": 0,
+      "detail": "Sensor Tower bỏ qua theo runbook (người dùng tự nhập)."
+    }
+  ],
+  "new_feedback": {
+    "by_source": {
+      "Facebook Group · playtogetherth": 10,
+      "Facebook Group · 1772363333745643": 3,
+      "Facebook Group · 815754622673816": 6,
+      "Facebook Group · 473704433937505": 3
+    },
+    "by_kind": {
+      "post": 16,
+      "comment": 6
+    },
+    "by_sentiment": {
+      "Positive": 2,
+      "Negative": 3,
+      "Neutral": 17,
+      "Mixed": 0
+    }
+  }
+}

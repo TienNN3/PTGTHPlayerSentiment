@@ -17,6 +17,7 @@ const staging = JSON.parse(await readFile(inputPath, "utf8"));
 if (!staging.collection?.collected_at || !/^\d{4}-\d{2}-\d{2}$/.test(staging.collection?.target_date || "") || !Array.isArray(staging.items)) {
   throw new Error("Staging JSON must contain collection.collected_at, collection.target_date (YYYY-MM-DD) and items[]");
 }
+const rosterKeys = new Set(JSON.parse(await readFile(join(root, "public/data/sources.json"), "utf8")).sources.map((entry) => entry.key));
 const themes = new Set(JSON.parse(await readFile(join(root, "public/data/themes.json"), "utf8")).themes.map((theme) => theme.label));
 const topicOf = Object.fromEntries(JSON.parse(await readFile(join(root, "public/data/themes.json"), "utf8")).themes.map((theme) => [theme.label, theme.topic]));
 const INTENTS = new Set(["question", "answer", "share", "event_entry", "bug", "performance", "account", "complaint", "suggestion", "praise", "trade", "social", "chat"]);
@@ -53,6 +54,8 @@ for (const raw of staging.items) {
   if (!themes.has(raw.theme)) problems.push(`unknown theme ${raw.theme}`);
   if (!["published_at", "observed_at"].includes(raw.date_basis)) problems.push("date_basis must be published_at or observed_at");
   if (raw.date_basis === "published_at" && raw.date !== staging.collection.target_date) problems.push(`date ${raw.date} is not the target date ${staging.collection.target_date}`);
+  const community = raw.community || (raw.source === "YouTube" || raw.source === "TikTok" ? raw.source : "");
+  if (!rosterKeys.has(community)) problems.push(`community "${community}" is not a key in public/data/sources.json (add new groups with scripts/add-source.mjs first)`);
   if (raw.source === "Facebook Fanpage" && raw.content_kind !== "comment") problems.push("fanpage data must be user comments only");
   if (pii.test(`${raw.text_th}\n${raw.text_vn}\n${raw.text_en}`)) problems.push("possible PII in text");
   if (problems.length) { errors.push(`${where}: ${problems.join("; ")}`); continue; }

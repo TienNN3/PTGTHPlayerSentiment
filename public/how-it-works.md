@@ -122,6 +122,7 @@ Bản dịch phải đọc một lần là hiểu, đúng ngữ cảnh game. Kh�
 
 - Mỗi ngày **6:00 sáng** (giờ máy, có thể trễ vài phút), task `ptg-th-daily-feedback` trong Claude desktop thu thập phản hồi của **ngày hôm trước** (Facebook group, fanpage Thái, YouTube, TikTok) từ trình duyệt Chrome người dùng để sẵn và đã đăng nhập, rồi cập nhật dữ liệu, chạy kiểm tra, commit và push.
 - **Không** đụng Sensor Tower: rating/review store do người dùng nhập tay bằng `import-sensortower-vng.mjs`.
+- **Tự tìm nguồn mới** mỗi lượt: group Facebook, kênh YouTube, creator TikTok mới nói về Play Together bằng tiếng Thái và có hoạt động trong 30 ngày được thêm bằng `scripts/add-source.mjs` (group vào `public/data/sources.json`, kênh/creator vào `docs/collection-targets.json`). Group riêng tư được ghi trạng thái **Mới phát hiện · cần tham gia** để người dùng tự bấm tham gia; nguồn không phù hợp được ghi vào `rejected` để không kiểm tra lại.
 - Các bước chi tiết: `docs/daily-collection.md`. Nhập bằng `scripts/import-daily.mjs` (chỉ thêm, trùng thì bỏ qua, sai định dạng thì từ chối cả lượt); `scripts/receive-staging.mjs` nhận dữ liệu từ trang Facebook qua form POST.
 - Gặp đăng nhập / 2FA / CAPTCHA thì nguồn đó được ghi `blocked`, không tự xử lý. Kết quả từng lượt nằm ở `public/data/collection-runs/<ngày>.json`.
 - Ứng dụng Claude phải đang mở lúc 6:00; nếu đóng, task chạy khi mở lại.

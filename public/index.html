@@ -561,7 +561,7 @@
     .sentiment-tag.Positive { background:var(--positive-soft); color:var(--positive-ink); } .sentiment-tag.Negative { background:var(--negative-soft); color:var(--negative-ink); }
     .sentiment-tag.Neutral { background:var(--neutral-soft); color:var(--neutral-ink); } .sentiment-tag.Mixed { background:var(--mixed-soft); color:var(--mixed-ink); }
     .intent-tag { background:var(--brand-soft); color:var(--brand-ink); }
-    .status-chip { font-weight:600; } .status-full,.status-youtube,.status-tiktok { color:var(--positive-ink); } .status-partial { color:var(--mixed-ink); } .status-store { color:var(--brand-ink); }
+    .status-chip { font-weight:600; } .status-full,.status-youtube,.status-tiktok { color:var(--positive-ink); } .status-discovered { background:var(--cyan-soft); color:var(--cyan-ink); } .status-partial { color:var(--mixed-ink); } .status-store { color:var(--brand-ink); }
     .up-chip { color:var(--positive-ink); } .down-chip { color:var(--negative-ink); }
     .chip,.kw-chip { transition:border-color .18s var(--ease),color .18s var(--ease); }
     .quick-sent button { min-height:36px; transition:background .18s var(--ease),color .18s var(--ease); }
@@ -1155,8 +1155,8 @@
     }
     function renderSourceCards(items,previous){
       const undated=rawSelectedItems().filter(i=>i.date_basis==='observed_at');
-      const order={full:0,partial:1,youtube:1.5,tiktok:1.6,store:2,inactive:3,not_collected:4,pending:5};
-      const idleStatus=st=>st==='pending'||st==='not_collected'||st==='inactive';
+      const order={full:0,partial:1,youtube:1.5,tiktok:1.6,store:2,inactive:3,not_collected:4,pending:5,discovered:6};
+      const idleStatus=st=>st==='pending'||st==='not_collected'||st==='inactive'||st==='discovered';
       const extra=[...new Set([...items,...previous].map(channelName))].filter(n=>!rosterEntry(n)).map(key=>({key,status:'partial'}));
       const entries=[...roster(),...extra].map(r=>({...r,count:items.filter(i=>channelName(i)===r.key).length})).sort((a,b)=>(order[a.status]??9)-(order[b.status]??9)||b.count-a.count);
       const statusText=k=>state.sources?.statuses?.[k]||k;
@@ -1164,7 +1164,7 @@
       $('#sourceCoverage').innerHTML=roster().length?`Đang theo dõi <strong>${entries.filter(e=>e.type==='group'||e.type==='fanpage').length}</strong> nguồn Facebook, <strong>${entries.filter(e=>e.type==='youtube'||e.type==='tiktok').length}</strong> nguồn video (YouTube, TikTok) và <strong>${entries.filter(e=>e.type==='store').length}</strong> store · ${entries.filter(e=>e.status==='full').length} group đủ 30 ngày, ${entries.filter(e=>e.status==='partial').length?`${entries.filter(e=>e.status==='partial').length} group thu thập một phần, `:''}${waiting.length} nguồn chưa có dữ liệu (chờ duyệt, chưa thu thập hoặc không có bài mới) · kỳ này có phản hồi từ <strong>${entries.filter(e=>e.count).length}</strong> nguồn.`:'';
       const pending=entries.filter(e=>idleStatus(e.status)&&!e.count);
       $('#sourcePending').hidden=!pending.length;
-      $('#sourcePending').innerHTML=`<summary>${pending.length} nguồn chưa có dữ liệu <span class="muted small">(chờ duyệt, chưa thu thập hoặc không có bài mới) · bấm để xem</span></summary>`+pending.map(e=>`<div class="pending-row"><span class="status-chip status-${esc(e.status)}">${esc(statusText(e.status))}</span><span><strong>${esc(sourceLabel(e.key))}</strong><br><span class="muted small">${esc(e.detail||'')}</span></span>${e.url?`<a class="small" href="${esc(e.url)}" target="_blank" rel="noopener">Mở ↗</a>`:'<span></span>'}</div>`).join('');
+      $('#sourcePending').innerHTML=`<summary>${pending.length} nguồn chưa có dữ liệu <span class="muted small">(chờ duyệt, mới phát hiện, chưa thu thập hoặc không có bài mới) · bấm để xem</span></summary>`+pending.map(e=>`<div class="pending-row"><span class="status-chip status-${esc(e.status)}">${esc(statusText(e.status))}</span><span><strong>${esc(sourceLabel(e.key))}</strong><br><span class="muted small">${esc(e.detail||'')}</span></span>${e.url?`<a class="small" href="${esc(e.url)}" target="_blank" rel="noopener">Mở ↗</a>`:'<span></span>'}</div>`).join('');
       $('#sourceCards').innerHTML=entries.filter(e=>!pending.includes(e)).map(e=>{const name=e.key,group=items.filter(i=>channelName(i)===name),before=previous.filter(i=>channelName(i)===name).length,s=bySentiment(group),trend=state.context.map(d=>timelineItems(d).filter(i=>channelName(i)===name).length),d=group.length-before,noData=idleStatus(e.status),und=undated.filter(i=>channelName(i)===name).length;
         const body=noData?`<span class="sub">${esc(e.detail||'')}</span>`:`${spark(trend,cssVar('--brand'))}<span class="sub">${esc(sourceKind(name,group))}${und?` · ${und} chưa rõ ngày`:''}</span><span class="sub">${group.length?`<span class="pos-text">${s.Positive} tích cực</span> · <span class="neg-text">${s.Negative} tiêu cực</span> · `:''}kỳ trước ${before}</span>${group.length?`<span class="sub">Từ khoá: ${countKeywords(group).slice(0,3).map(([k])=>esc(k)).join(', ')}</span>`:''}`;
         const heading=`<span class="label">${esc(sourceLabel(name))}</span><span class="value">${noData?'–':fmt.format(group.length)} ${!noData&&d?`<span class="delta-chip neutral-chip">${d>0?'▲':'▼'} ${Math.abs(d)}</span>`:''}</span>`;

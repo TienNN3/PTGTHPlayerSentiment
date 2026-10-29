@@ -566,7 +566,10 @@
     "Báo cáo": "Reports",
     "Điều hướng": "Navigation",
     "Thu gọn menu": "Collapse menu",
-    "Mở rộng menu": "Expand menu"
+    "Mở rộng menu": "Expand menu",
+    "(chờ duyệt, mới phát hiện, chưa thu thập hoặc không có bài mới) · bấm để xem": "(pending approval, newly found, not collected or no new posts) · click to see",
+    "Mới phát hiện · cần tham gia": "Newly found · needs joining",
+    "Phát hiện ngày {0} qua tìm kiếm hằng ngày.": "Found on {0} by the daily search."
   },
   "terms": {
     "biểu tượng cảm xúc": "emoji",

@@ -116,6 +116,7 @@ Translations must be clear on first read and fit the game context. No word-by-wo
 
 - Every day at **6:00 AM** (local machine time, may start a few minutes late) the Claude desktop task `ptg-th-daily-feedback` collects **the previous day's** feedback (Facebook groups, Thai fanpage, YouTube, TikTok) from the Chrome window the user leaves open and logged in, then updates the data, runs the checks, commits and pushes.
 - It does **not** touch Sensor Tower: store ratings/reviews are imported by hand with `import-sensortower-vng.mjs`.
+- **Finds new sources** every run: new Facebook groups, YouTube channels and TikTok creators that talk about Play Together in Thai and were active in the last 30 days are added with `scripts/add-source.mjs` (groups go to `public/data/sources.json`, channels/creators to `docs/collection-targets.json`). Private groups get the status **Newly found · needs joining** so the user can join them; unsuitable sources go to `rejected` so they are not checked again.
 - Step-by-step: `docs/daily-collection.md`. Import with `scripts/import-daily.mjs` (add-only, duplicates skipped, any invalid item rejects the whole batch); `scripts/receive-staging.mjs` receives data from Facebook pages via form POST.
 - Login / 2FA / CAPTCHA screens are recorded as `blocked` and never handled automatically. Each run's result is in `public/data/collection-runs/<date>.json`.
 - The Claude app must be open at 6:00; if it is closed, the task runs when the app is opened again.

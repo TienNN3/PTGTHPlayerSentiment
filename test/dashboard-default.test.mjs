@@ -195,3 +195,16 @@ test("compares sentiment shares in percentage points, with counts for small prio
   assert.equal(compare(3,0,12,0,false).text, "Kỳ trước chưa có phản hồi");
   assert.equal(compare(0,4,0,40,false).text, "Tỷ lệ: giảm 10 điểm %");
 });
+
+test("keeps the source lists open for new groups, channels and creators found each day", async () => {
+  const targets = JSON.parse(await readFile(new URL("../docs/collection-targets.json", import.meta.url), "utf8"));
+  for (const key of ["youtube_channels", "tiktok_creators", "rejected"]) assert.ok(Array.isArray(targets[key]), `${key} must be a list`);
+  for (const key of ["facebook_groups", "youtube", "tiktok"]) assert.ok(targets.discovery_queries[key].length > 0);
+  for (const channel of targets.youtube_channels) assert.match(channel.id, /^UC[\w-]{22}$/);
+  const roster = JSON.parse(await readFile(new URL("../public/data/sources.json", import.meta.url), "utf8"));
+  assert.ok(roster.statuses.discovered, "status for newly found private groups");
+  const html = await readFile(new URL("../public/index.html", import.meta.url), "utf8");
+  assert.match(html, /st==='discovered'/);
+  const runbook = await readFile(new URL("../docs/daily-collection.md", import.meta.url), "utf8");
+  assert.match(runbook, /## 2b\. Tìm nguồn mới/);
+});

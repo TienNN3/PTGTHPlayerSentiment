@@ -11,11 +11,11 @@ Repo: `/Users/nhattien/Documents/ChatGPT/PTGTHPlayer` · Production: https://tie
 - **Ngày mục tiêu** `D` = hôm qua theo giờ Bangkok (chạy lúc 06:00 ngày 15/10 thì `D` = 14/10).
 - **Có thu thập**: Facebook group (bài đăng + bình luận), fanpage Thái (chỉ bình luận người dùng), YouTube (video tiếng Thái của creator + bình luận tiếng Thái), TikTok (video tiếng Thái của creator + bình luận tiếng Thái).
 - **Bỏ qua**: Sensor Tower (rating và review store). Người dùng tự nhập tay bằng `scripts/import-sensortower-vng.mjs`. Không mở Sensor Tower, không sửa `ratings`.
-- Danh sách nguồn và URL: `public/data/sources.json`. Nguồn `pending` / `not_collected` / `inactive`: chỉ mở kiểm tra nhanh trạng thái (đã được duyệt chưa, có bài mới không) rồi ghi vào `last_check`.
+- Danh sách nguồn và URL: group/fanpage Facebook ở `public/data/sources.json`; kênh YouTube, creator TikTok và từ khoá tìm kiếm ở `docs/collection-targets.json`. Hai danh sách này **không cố định**: mỗi lượt chạy tìm thêm nguồn mới (mục 2b) và bổ sung bằng `scripts/add-source.mjs`. Nguồn `pending` / `not_collected` / `inactive`: chỉ mở kiểm tra nhanh trạng thái (đã được duyệt chưa, có bài mới không) rồi ghi vào `last_check`.
 
 ## 1. Trình duyệt
 
-- Người dùng để sẵn trình duyệt **Chrome đã đăng nhập Facebook** → dùng Claude in Chrome (`mcp__claude-in-chrome__*`). Không có thì dùng trình duyệt tích hợp (`mcp__Claude_Browser__*`) nếu đã đăng nhập.
+- **Chỉ** dùng trình duyệt tích hợp của Claude Code (`mcp__Claude_Browser__*`), đã đăng nhập Facebook sẵn. **Không** dùng Claude in Chrome (`mcp__claude-in-chrome__*`).
 - **Không** đăng nhập, nhập mật khẩu, nhập mã 2FA, giải CAPTCHA, tham gia group, bấm like/comment hay gửi gì. Gặp màn đăng nhập / 2FA / checkpoint / CAPTCHA: ghi nguồn đó `status: "blocked"` kèm lý do, bỏ qua và làm tiếp các nguồn khác.
 - Facebook chặn fetch/clipboard bằng CSP. Chuyển dữ liệu ra bằng form POST tới máy nhận cục bộ: chạy nền `node scripts/receive-staging.mjs .staging/daily-D/facebook-raw.json` (cổng 4176), trong trang tạo `<form method="post" action="http://127.0.0.1:4176/">` + `<textarea name="payload">` chứa JSON rồi submit.
 - Công cụ `javascript_tool` giới hạn ~45 giây: chạy bộ quét nền trong trang (gán vào `window.__job`) rồi hỏi kết quả nhiều lần.
@@ -34,12 +34,36 @@ Repo: `/Users/nhattien/Documents/ChatGPT/PTGTHPlayer` · Production: https://tie
 
 ### YouTube
 - Tìm `https://www.youtube.com/results?search_query=<từ khoá>&sp=EgIIAg%3D%3D` (lọc hôm nay/tuần) với các từ khoá: `play together`, `playtogether vng`, `เพลย์ทูเก็ตเตอร์`, `play together ไทย`, `#playtogethervng`, tên sự kiện đang chạy.
-- Quét RSS kênh creator Thái đã biết: `https://www.youtube.com/feeds/videos.xml?channel_id=<id>` với `UCuRaLOKpnBFgK2K5gbRlcrA, UCiLpWSUJsQGizA1nglqJGog, UCGoL2q1h7J30hnmoWK3AdjQ, UC6PsLX8cJ5s81ZcqjcBhhZQ, UCr15fC3CNa4yrk18385tNDg, UCJ6kqLPI4aALUa0p3kJJUKQ, UCS3hyl-eq4vLKYNXEWTivyg` (DOMParser bị Trusted Types chặn → tách RSS bằng regex).
+- Quét RSS mọi kênh `status: "active"` trong `youtube_channels` của `docs/collection-targets.json`: `https://www.youtube.com/feeds/videos.xml?channel_id=<id>` (DOMParser bị Trusted Types chặn → tách RSS bằng regex).
 - Chỉ giữ video có tiêu đề/mô tả chữ Thái, đăng ngày `D`. Mỗi video creator = 1 phản hồi (`content_kind: "video"`); bình luận tiếng Thái ngày `D` dưới video (bình luận cũ chỉ có ngày gần đúng → `date_precision: "approximate"`). Kênh chính thức Play Together VNG TH: chỉ lấy bình luận. Bỏ bình luận của chủ kênh, lời chào, link.
 
 ### TikTok
-- Quét kênh `@playtogetherth.official` (chỉ bình luận) và creator `@lemondoggopt`, `@rukkung2000`, cùng tìm kiếm `play together`, `เพลย์ทูเก็ตเตอร์`, `#playtogethervng`.
+- Quét kênh chính thức trong `tiktok_official` (chỉ bình luận), mọi creator `status: "active"` trong `tiktok_creators`, và tìm kiếm theo `discovery_queries.tiktok` (đều ở `docs/collection-targets.json`).
 - Ngày video lấy từ ID (giây = `BigInt(id) >> 32n`). Chỉ giữ video tiếng Thái ngày `D`; bình luận tiếng Thái (bỏ bình luận tiếng Việt, chủ kênh, chỉ emoji). Gặp CAPTCHA: ghi `blocked`, không giải.
+
+## 2b. Tìm nguồn mới (mỗi lượt, tối đa ~15 phút)
+
+Mục tiêu: danh sách nguồn không bị cố định. Khi có group cộng đồng, kênh YouTube hay creator TikTok mới nói về Play Together bằng tiếng Thái thì đưa vào theo dõi.
+
+1. **Facebook group**: tìm `https://www.facebook.com/search/groups/?q=<từ khoá>` với từng từ khoá trong `discovery_queries.facebook_groups`; xem thêm link group được nhắc trong bài của các group đang theo dõi.
+2. **YouTube**: trong kết quả tìm kiếm của mục 2, ghi lại các kênh có video tiếng Thái về Play Together mà chưa có trong `youtube_channels`.
+3. **TikTok**: tương tự với các creator trong kết quả tìm kiếm/hashtag chưa có trong `tiktok_creators`.
+4. Bỏ qua nguồn đã có trong `sources.json`, `collection-targets.json` hoặc trong `rejected`.
+
+Tiêu chí nhận một nguồn mới (phải đủ cả 3):
+- Nội dung chính là **Play Together** (không phải game khác), bằng **tiếng Thái** hoặc cộng đồng người chơi Thái (kênh/creator Việt Nam thì loại).
+- Có hoạt động trong **30 ngày gần nhất** (bài/video mới nhất ≤ 30 ngày).
+- Là cộng đồng/creator thật (không phải trang spam, bán hack, lừa đảo).
+
+Cách thêm (script tự chống trùng và kiểm tra định dạng, không xoá nguồn cũ):
+- Group **công khai** đọc được bài: `node scripts/add-source.mjs group <id|slug> --name "<tiêu đề trang>" --status partial --detail "Phát hiện D; theo dõi từ D; ~N thành viên"` rồi thu thập luôn ngày `D` cho group đó như mục 2.
+- Group **riêng tư**: `node scripts/add-source.mjs group <id> --name "<tiêu đề>" --status discovered --detail "Riêng tư, ~N thành viên, bài mới nhất …; cần người dùng bấm tham gia"`. **Không** tự bấm tham gia/trả lời câu hỏi; ghi vào báo cáo cuối lượt để người dùng tự tham gia. Khi đã được duyệt, lượt sau đổi `status` sang `partial` và thu thập.
+- Kênh YouTube: `node scripts/add-source.mjs youtube <UC…channelId> --name "<tên kênh>" --note "<video bằng chứng, ngày>"` (lấy channel id dạng `UC…` từ trang kênh/RSS, không dùng @handle).
+- Creator TikTok: `node scripts/add-source.mjs tiktok <handle> --note "<video bằng chứng, ngày>"`.
+- Đã kiểm tra nhưng không phù hợp: `node scripts/add-source.mjs reject <group|youtube|tiktok> <id> --reason "<lý do>"` để lượt sau không kiểm tra lại.
+- Nguồn đang theo dõi mà > 30 ngày không có bài/video mới: group đổi `status` sang `inactive`, kênh/creator đổi `status` sang `inactive` (không xoá).
+- Không theo dõi/follow, không like, không bình luận. Fanpage: vẫn chỉ fanpage Thái chính thức.
+- Ghi kết quả vào `collection-runs/D.json` trường `discovery`: `{ "queries": [...], "added": [{type,id,name,status,evidence}], "rejected": [...], "needs_user_action": ["Tham gia group … (riêng tư)"] }`.
 
 ## 3. Làm sạch, dịch, gắn nhãn
 
@@ -47,7 +71,7 @@ Ghi staging `.staging/daily-D/items.json` theo dạng:
 
 ```json
 { "collection": { "collected_at": "<ISO>", "target_date": "D" },
-  "items": [ { "source": "Facebook Group", "community": "playtogetherth", "link": "…", "author_masked": "X***",
+  "items": [ { "source": "Facebook Group", "community": "Facebook Group · playtogetherth", "link": "…", "author_masked": "X***",
     "text_th": "…", "text_vn": "…", "text_en": "…", "summary_vn": "…", "summary_en": "…",
     "content_kind": "post|comment|video", "activity_type": "Bài đăng|Bình luận|Video của người chơi",
     "date": "D", "date_basis": "published_at", "published_label": "<nhãn gốc>",
@@ -56,7 +80,7 @@ Ghi staging `.staging/daily-D/items.json` theo dạng:
 ```
 
 - Che tên tác giả dạng `X***` (ký tự đầu + `***`). Xoá số điện thoại, LINE ID, email, tên người được tag (thay bằng `[redacted]`).
-- `community`: id group (vd `playtogetherth`, `815754622673816`), `@playtogetherthailandofficial` cho fanpage, `YouTube` / `TikTok`.
+- `community`: đúng `key` trong `sources.json`, vd `Facebook Group · playtogetherth`, `Facebook Fanpage · @playtogetherthailandofficial`, `YouTube`, `TikTok` (group mới phải được thêm vào `sources.json` trước khi nhập phản hồi của nó).
 - Nội dung không xác định được ngày đăng: `date_basis: "observed_at"` (được tách riêng, không tính thống kê).
 - `text_vn`: dịch Thái → Việt theo ngữ cảnh game (`docs/translation-guide.md`); **`ค้างคาว` = con dơi**. `text_en` / `summary_en`: tiếng Anh dễ hiểu, không hàn lâm.
 - `intent` (1 loại): question, answer, share, event_entry, bug, performance, account, complaint, suggestion, praise, trade, social, chat. `keywords`: 1–4 từ khoá tiếng Việt chữ thường, dùng lại từ vựng có sẵn (xem `terms` trong `public/i18n/en.json`); từ khoá mới thì thêm bản tiếng Anh vào `terms`. `summary_vn`: 1 câu ngắn. `theme`: đúng một nhãn trong `public/data/themes.json`.
@@ -74,11 +98,11 @@ Ghi staging `.staging/daily-D/items.json` theo dạng:
 ## 5. Commit và push
 
 - `git pull --rebase origin main` trước (người dùng có thể đã push từ máy khác).
-- Chỉ add file dữ liệu/tài liệu liên quan (`public/data`, `public/i18n/en.json` nếu có từ khoá mới). Không add `.staging/`, `public/reports/`, file ảnh lạ.
+- Chỉ add file dữ liệu/tài liệu liên quan (`public/data`, `docs/collection-targets.json` nếu có nguồn mới, `public/i18n/en.json` nếu có từ khoá mới). Không add `.staging/`, `public/reports/`, file ảnh lạ.
 - Commit: `Update PTG TH feedback for D` (thân commit: số phản hồi thêm theo nguồn, nguồn bị chặn).
 - `git push origin main` (nếu sandbox chặn mạng thì chạy lại lệnh push ngoài sandbox), rồi `gh run watch` để chờ GitHub Pages deploy.
 - Không có phản hồi mới: vẫn cập nhật `collection-runs/D.json` + `sources.json` (trạng thái kiểm tra) rồi commit.
 
 ## 6. Báo cáo cuối lượt
 
-Tóm tắt ngắn bằng tiếng Việt: ngày `D`, số phản hồi thêm theo nguồn và cảm xúc, nguồn bị chặn và lý do (đăng nhập, 2FA, CAPTCHA, chờ duyệt), commit + trạng thái deploy, việc cần người dùng làm (vd đăng nhập lại Facebook).
+Tóm tắt ngắn bằng tiếng Việt: ngày `D`, số phản hồi thêm theo nguồn và cảm xúc, **nguồn mới phát hiện** (đã thêm / cần người dùng tham gia), nguồn bị chặn và lý do (đăng nhập, 2FA, CAPTCHA, chờ duyệt), commit + trạng thái deploy, việc cần người dùng làm (vd đăng nhập lại Facebook).

@@ -1,0 +1,129 @@
+{
+  "target_date": "2026-10-29",
+  "time_zone": "Asia/Bangkok",
+  "checked_at": "2026-10-30T06:30:45.004Z",
+  "status": "partial",
+  "added_feedback": 57,
+  "added_ratings": 0,
+  "collection_complete": false,
+  "summary_vn": "Ngày 29/10/2026: thêm 57 phản hồi — group Community 33 (21 bài + 12 bình luận), group chính thức 7, chợ mua bán 815754622673816 8, group 473704433937505 7, YouTube 2 video. Nổi bật: người chơi phàn nàn sự kiện Merge Hotel bắt chạy lên xuống quá nhiều (NPC Rosie/Vincent), báo game treo/nóng máy sau cập nhật và lỗi đăng nhập. Fanpage và TikTok không có nội dung mới. Sensor Tower bỏ qua theo runbook, không thêm rating.",
+  "sources": [
+    {
+      "key": "Facebook Group · playtogetherth",
+      "status": "partial",
+      "added_feedback": 33,
+      "detail": "Đọc New posts (cuộn từng bước): ngày 29/10 có 21 bài người chơi (nhãn giờ 15h–23h trước và 'Yesterday' từ 10:12) và 12 bình luận dưới 2 bài về sự kiện Merge Hotel. Bỏ bài/trả lời admin (Walaipan, Pemika), bài ngày 28/10 và 30/10. Chưa quét Recent activity, chỉ mở bình luận của 2 bài. Dữ liệu 14/09 – 29/10."
+    },
+    {
+      "key": "Facebook Group · 815754622673816",
+      "status": "partial",
+      "added_feedback": 8,
+      "detail": "Đọc New posts: ngày 29/10 thêm 8 bài rao bán (nhân sâm, thẻ, tiền nông trại, dịch vụ cày Merge Hotel). Mốc 29/10 từ bài 2170743… (~02h). Bỏ bài trống 'สอบถามได้'. Không có bình luận người dùng."
+    },
+    {
+      "key": "Facebook Group · 1772363333745643",
+      "status": "checked",
+      "added_feedback": 7,
+      "detail": "Đọc New posts: ngày 29/10 có 7 bài người chơi (hỏi nhiệm vụ, lỗi đăng nhập, tìm bạn, hạt giống bao báp, câu cá). Bỏ bài/trả lời admin và bài ngày 28/10, 30/10. Không đọc bình luận."
+    },
+    {
+      "key": "Facebook Group · 562362538882428",
+      "status": "inactive",
+      "added_feedback": 0,
+      "detail": "Không kiểm tra lại lượt này (lần kiểm tra trước: không có bài mới, chỉ có bài admin từ 14/03/2023)."
+    },
+    {
+      "key": "Facebook Group · 3252260471541104",
+      "status": "rejected",
+      "added_feedback": 0,
+      "detail": "Group riêng tư, yêu cầu cũ bị từ chối; kiểm tra 30/10 vẫn thấy nút Join (chưa là thành viên). Không gửi lại yêu cầu, không đọc được bài."
+    },
+    {
+      "key": "Facebook Group · 356675609124267",
+      "status": "pending",
+      "added_feedback": 0,
+      "detail": "Group riêng tư, yêu cầu thành viên vẫn chờ duyệt (kiểm tra 30/10); không đọc được bài/bình luận."
+    },
+    {
+      "key": "Facebook Group · 473704433937505",
+      "status": "partial",
+      "added_feedback": 7,
+      "detail": "Đọc New posts: ngày 29/10 thêm 7 bài rao bán đăng chéo (Va Vi, Med Noon, Suphasorn Zx, Cha Ton, Yas Min). Mốc 29/10 từ bài 1789713… (~03h). Không có bình luận."
+    },
+    {
+      "key": "Facebook Group · 847315523442353",
+      "status": "pending",
+      "added_feedback": 0,
+      "detail": "Group riêng tư, yêu cầu thành viên vẫn chờ duyệt (kiểm tra 30/10); không đọc được bài/bình luận."
+    },
+    {
+      "key": "Facebook Group · 253674809721451",
+      "status": "partial",
+      "added_feedback": 0,
+      "detail": "Phát hiện 30/10; công khai, ~6K thành viên; bài mới nhất 28/10 (tìm mua thẻ), không có bài ngày 29/10."
+    },
+    {
+      "key": "Facebook Fanpage · @playtogetherthailandofficial",
+      "status": "partial",
+      "added_feedback": 0,
+      "detail": "Mở trang 30/10: các bài gần đây không hiển thị số bình luận người dùng nên không có bình luận ngày 29/10 để nhập."
+    },
+    {
+      "key": "YouTube",
+      "status": "youtube",
+      "added_feedback": 2,
+      "detail": "Tìm bằng API (play together, เพลย์ทูเก็ตเตอร์, play together ไทย, playtogether vng; lọc hôm nay) và kiểm tra video mới nhất của 7 kênh theo dõi (RSS lỗi 404): 2 video Thái ngày 29/10 (Teddy Chanelplay, Wine Channel, bản cập nhật 2.33.0). Bình luận Thái ngày 29/10 chỉ có 1 câu cổ vũ ngắn nên không nhập."
+    },
+    {
+      "key": "TikTok",
+      "status": "tiktok",
+      "added_feedback": 0,
+      "detail": "Kiểm tra lemondoggopt (video mới nhất 27/10), rukkung2000 (16/10), tìm 'เพลย์ทูเก็ตเตอร์': không có video tiếng Thái ngày 29/10. Kênh chính thức không có bình luận mới đọc được."
+    }
+  ],
+  "new_feedback": {
+    "by_source": {
+      "Facebook Group": 55,
+      "YouTube": 2
+    },
+    "by_kind": {
+      "post": 36,
+      "comment": 12,
+      "video": 2
+    },
+    "by_sentiment": {
+      "Negative": 18,
+      "Neutral": 31,
+      "Positive": 4,
+      "Mixed": 4
+    }
+  },
+  "discovery": {
+    "queries": [
+      "Facebook groups: play together ไทย",
+      "YouTube: play together, เพลย์ทูเก็ตเตอร์, play together ไทย, playtogether vng",
+      "TikTok: เพลย์ทูเก็ตเตอร์"
+    ],
+    "added": [
+      {
+        "type": "group",
+        "id": "253674809721451",
+        "name": "PLAYTOGETHER THAILAND [พูดคุย-ซื้อ-ขาย]",
+        "status": "partial",
+        "evidence": "Group công khai ~6K thành viên, bài mới nhất 28/10"
+      }
+    ],
+    "rejected": [
+      {
+        "type": "youtube",
+        "id": "UCoEILn5h744zy8tZsvfzvWQ",
+        "name": "AlishaMia TV",
+        "reason": "Kênh tiếng Anh về bản Global, không phải creator Thái"
+      }
+    ],
+    "needs_user_action": [
+      "Duyệt/theo dõi yêu cầu tham gia group 356675609124267 và 847315523442353 (đang chờ duyệt); group 3252260471541104 (riêng tư, ~16.8K thành viên) cần người dùng gửi lại yêu cầu tham gia. Gợi ý group công khai khác: 'แลกเปลี่ยนการ์ด/ผัก Play Together Thailand' (~2K thành viên) chưa xác minh link."
+    ],
+    "note": "TikTok: kết quả tìm kiếm có @lonelystonie.ptg, @kez_.r chưa xác định được ngôn ngữ nên chưa thêm."
+  }
+}

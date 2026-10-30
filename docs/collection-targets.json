@@ -1,27 +1,120 @@
 {
   "note": "Danh sách kênh/creator và từ khoá tìm kiếm cho lượt thu thập hằng ngày. Lượt chạy được phép bổ sung bằng scripts/add-source.mjs; không xoá mục cũ (đổi status thay vì xoá). Group/fanpage Facebook nằm trong public/data/sources.json.",
-  "updated_at": "2026-10-29",
+  "updated_at": "2026-10-30",
   "discovery_queries": {
-    "facebook_groups": ["Play Together Thailand", "Play Together VNG Thailand", "เพลย์ทูเก็ตเตอร์", "play together ไทย", "ซื้อขาย play together", "แลกเปลี่ยน play together", "play together th"],
-    "youtube": ["play together", "playtogether vng", "เพลย์ทูเก็ตเตอร์", "play together ไทย", "#playtogethervng", "#playtogetherth"],
-    "tiktok": ["play together", "เพลย์ทูเก็ตเตอร์", "#playtogethervng", "#playtogetherth", "play together ไทย"]
+    "facebook_groups": [
+      "Play Together Thailand",
+      "Play Together VNG Thailand",
+      "เพลย์ทูเก็ตเตอร์",
+      "play together ไทย",
+      "ซื้อขาย play together",
+      "แลกเปลี่ยน play together",
+      "play together th"
+    ],
+    "youtube": [
+      "play together",
+      "playtogether vng",
+      "เพลย์ทูเก็ตเตอร์",
+      "play together ไทย",
+      "#playtogethervng",
+      "#playtogetherth"
+    ],
+    "tiktok": [
+      "play together",
+      "เพลย์ทูเก็ตเตอร์",
+      "#playtogethervng",
+      "#playtogetherth",
+      "play together ไทย"
+    ]
   },
   "youtube_channels": [
-    { "id": "UCuRaLOKpnBFgK2K5gbRlcrA", "status": "active", "added": "2026-10-13", "source": "seed" },
-    { "id": "UCiLpWSUJsQGizA1nglqJGog", "name": "", "status": "active", "added": "2026-10-13", "source": "seed" },
-    { "id": "UCGoL2q1h7J30hnmoWK3AdjQ", "name": "", "status": "active", "added": "2026-10-13", "source": "seed" },
-    { "id": "UC6PsLX8cJ5s81ZcqjcBhhZQ", "name": "", "status": "active", "added": "2026-10-13", "source": "seed" },
-    { "id": "UCr15fC3CNa4yrk18385tNDg", "name": "", "status": "active", "added": "2026-10-13", "source": "seed" },
-    { "id": "UCJ6kqLPI4aALUa0p3kJJUKQ", "name": "", "status": "active", "added": "2026-10-13", "source": "seed" },
-    { "id": "UCS3hyl-eq4vLKYNXEWTivyg", "name": "", "status": "active", "added": "2026-10-13", "source": "seed" }
+    {
+      "id": "UCuRaLOKpnBFgK2K5gbRlcrA",
+      "status": "active",
+      "added": "2026-10-13",
+      "source": "seed"
+    },
+    {
+      "id": "UCiLpWSUJsQGizA1nglqJGog",
+      "name": "",
+      "status": "active",
+      "added": "2026-10-13",
+      "source": "seed"
+    },
+    {
+      "id": "UCGoL2q1h7J30hnmoWK3AdjQ",
+      "name": "",
+      "status": "active",
+      "added": "2026-10-13",
+      "source": "seed"
+    },
+    {
+      "id": "UC6PsLX8cJ5s81ZcqjcBhhZQ",
+      "name": "",
+      "status": "active",
+      "added": "2026-10-13",
+      "source": "seed"
+    },
+    {
+      "id": "UCr15fC3CNa4yrk18385tNDg",
+      "name": "",
+      "status": "active",
+      "added": "2026-10-13",
+      "source": "seed"
+    },
+    {
+      "id": "UCJ6kqLPI4aALUa0p3kJJUKQ",
+      "name": "",
+      "status": "active",
+      "added": "2026-10-13",
+      "source": "seed"
+    },
+    {
+      "id": "UCS3hyl-eq4vLKYNXEWTivyg",
+      "name": "",
+      "status": "active",
+      "added": "2026-10-13",
+      "source": "seed"
+    }
   ],
-  "youtube_official": [{ "handle": "playtogetherth", "name": "Play Together VNG TH (kênh chính thức, chỉ lấy bình luận)" }],
+  "youtube_official": [
+    {
+      "handle": "playtogetherth",
+      "name": "Play Together VNG TH (kênh chính thức, chỉ lấy bình luận)"
+    }
+  ],
   "tiktok_creators": [
-    { "handle": "lemondoggopt", "status": "active", "added": "2026-10-14", "source": "seed" },
-    { "handle": "rukkung2000", "status": "active", "added": "2026-10-14", "source": "seed" }
+    {
+      "handle": "lemondoggopt",
+      "status": "active",
+      "added": "2026-10-14",
+      "source": "seed"
+    },
+    {
+      "handle": "rukkung2000",
+      "status": "active",
+      "added": "2026-10-14",
+      "source": "seed"
+    }
   ],
-  "tiktok_official": [{ "handle": "playtogetherth.official", "name": "Kênh chính thức (chỉ lấy bình luận)" }],
+  "tiktok_official": [
+    {
+      "handle": "playtogetherth.official",
+      "name": "Kênh chính thức (chỉ lấy bình luận)"
+    }
+  ],
   "rejected": [
-    { "type": "note", "id": "-", "reason": "Ghi các nguồn đã kiểm tra nhưng không phù hợp (không phải tiếng Thái, không về Play Together, kênh Việt Nam, spam) để lượt sau không kiểm tra lại.", "checked": "2026-10-29" }
+    {
+      "type": "note",
+      "id": "-",
+      "reason": "Ghi các nguồn đã kiểm tra nhưng không phù hợp (không phải tiếng Thái, không về Play Together, kênh Việt Nam, spam) để lượt sau không kiểm tra lại.",
+      "checked": "2026-10-29"
+    },
+    {
+      "type": "youtube",
+      "id": "UCoEILn5h744zy8tZsvfzvWQ",
+      "reason": "AlishaMia TV: kênh tiếng Anh (video hướng dẫn Play Together bản Global), không phải creator Thái; kiểm tra 30/10",
+      "checked": "2026-10-30"
+    }
   ]
 }

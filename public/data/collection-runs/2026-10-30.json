@@ -1,0 +1,104 @@
+{
+  "target_date": "2026-10-30",
+  "time_zone": "Asia/Bangkok",
+  "checked_at": "2026-10-31T07:36:32.657Z",
+  "status": "partial",
+  "added_feedback": 17,
+  "added_ratings": 0,
+  "collection_complete": false,
+  "summary_vn": "Ngày 30/10/2026: thêm 17 phản hồi — group Community 14 bài, group chính thức 2, chợ mua bán 815754622673816 1. Nổi bật: mất tài khoản sau khi chuyển VNG (Facebook bị khóa), không đăng nhập được sau cập nhật, chê cây baobab mới (tỉ lệ 17%, xấu). Trình duyệt tích hợp bị ẩn nên feed chậm: chưa quét các group mua bán khác, fanpage, YouTube, TikTok và chưa tìm nguồn mới. Sensor Tower bỏ qua theo runbook.",
+  "sources": [
+    {
+      "key": "Facebook Group · playtogetherth",
+      "status": "partial",
+      "added_feedback": 14,
+      "detail": "Đọc New posts + Recent activity: ngày 30/10 có 14 bài người chơi (nhãn giờ 9h–22h trước và bài 01:37). Bỏ bài admin (Walaipan, Pemika) và bài 29/10, 31/10. Không thấy bình luận người dùng. Dữ liệu 14/09 – 30/10."
+    },
+    {
+      "key": "Facebook Group · 815754622673816",
+      "status": "partial",
+      "added_feedback": 1,
+      "detail": "Chỉ đọc được bài mới nhất (rao bán thẻ/nhân sâm ~23:50 30/10); feed không tải thêm vì trình duyệt bị ẩn nên chưa quét đủ ngày 30/10."
+    },
+    {
+      "key": "Facebook Group · 1772363333745643",
+      "status": "partial",
+      "added_feedback": 2,
+      "detail": "Đọc New posts: ngày 30/10 có 2 bài người chơi (01:37 và ~14:30). Bỏ bài admin. Không đọc bình luận."
+    },
+    {
+      "key": "Facebook Group · 562362538882428",
+      "status": "not_checked",
+      "added_feedback": 0,
+      "detail": "Không kiểm tra lượt này: trình duyệt tích hợp bị ẩn nên không cuộn/tải được feed."
+    },
+    {
+      "key": "Facebook Group · 3252260471541104",
+      "status": "not_checked",
+      "added_feedback": 0,
+      "detail": "Không kiểm tra lượt này: trình duyệt tích hợp bị ẩn nên không cuộn/tải được feed."
+    },
+    {
+      "key": "Facebook Group · 356675609124267",
+      "status": "not_checked",
+      "added_feedback": 0,
+      "detail": "Không kiểm tra lượt này: trình duyệt tích hợp bị ẩn nên không cuộn/tải được feed."
+    },
+    {
+      "key": "Facebook Group · 473704433937505",
+      "status": "not_checked",
+      "added_feedback": 0,
+      "detail": "Không kiểm tra lượt này: trình duyệt tích hợp bị ẩn nên không cuộn/tải được feed."
+    },
+    {
+      "key": "Facebook Group · 847315523442353",
+      "status": "not_checked",
+      "added_feedback": 0,
+      "detail": "Không kiểm tra lượt này: trình duyệt tích hợp bị ẩn nên không cuộn/tải được feed."
+    },
+    {
+      "key": "Facebook Group · 253674809721451",
+      "status": "not_checked",
+      "added_feedback": 0,
+      "detail": "Không kiểm tra lượt này: trình duyệt tích hợp bị ẩn nên không cuộn/tải được feed."
+    },
+    {
+      "key": "Facebook Fanpage · @playtogetherthailandofficial",
+      "status": "not_checked",
+      "added_feedback": 0,
+      "detail": "Không kiểm tra lượt này: trình duyệt tích hợp bị ẩn nên không cuộn/tải được feed."
+    },
+    {
+      "key": "YouTube",
+      "status": "not_checked",
+      "added_feedback": 0,
+      "detail": "Không kiểm tra lượt này: trình duyệt tích hợp bị ẩn nên không cuộn/tải được feed."
+    },
+    {
+      "key": "TikTok",
+      "status": "not_checked",
+      "added_feedback": 0,
+      "detail": "Không kiểm tra lượt này: trình duyệt tích hợp bị ẩn nên không cuộn/tải được feed."
+    }
+  ],
+  "new_feedback": {
+    "by_source": {
+      "Facebook Group": 17
+    },
+    "by_kind": {
+      "post": 17
+    },
+    "by_sentiment": {
+      "Neutral": 8,
+      "Negative": 8,
+      "Positive": 1
+    }
+  },
+  "discovery": {
+    "queries": [],
+    "added": [],
+    "rejected": [],
+    "needs_user_action": [],
+    "note": "Không tìm nguồn mới lượt này do trình duyệt bị ẩn (không tải được trang)."
+  }
+}

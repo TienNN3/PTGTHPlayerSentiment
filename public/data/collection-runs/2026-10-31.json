@@ -1,0 +1,104 @@
+{
+  "target_date": "2026-10-31",
+  "time_zone": "Asia/Bangkok",
+  "checked_at": "2026-11-01T02:29:36.613Z",
+  "status": "partial",
+  "added_feedback": 26,
+  "added_ratings": 0,
+  "collection_complete": false,
+  "summary_vn": "Ngày 31/10/2026: thêm 26 phản hồi — group Community 18 bài, chợ mua bán 815754622673816 5, group mua bán 473704433937505 3 (bài rao bán đăng chéo). Nổi bật: nhiều người không đăng nhập/liên kết được tài khoản VNG sau cập nhật, hỏi chuyển từ Steam sang VNG, than nhiệm vụ gối khách sạn phải chạy nhiều; khoe cây baobab/rau khổng lồ. Fanpage không tải được, YouTube/TikTok chưa kiểm tra được và chưa tìm nguồn mới do công cụ lỗi tạm thời. Sensor Tower bỏ qua theo runbook.",
+  "sources": [
+    {
+      "key": "Facebook Group · playtogetherth",
+      "status": "partial",
+      "added_feedback": 18,
+      "detail": "Đọc New posts + permalink từng bài: ngày 31/10 có 18 bài người chơi (nhãn 9h–a day ago), bỏ bài admin. Bình luận đọc được nhưng không nhập (ngắn/hỏi đáp, không có ID bình luận). Dữ liệu 14/09 – 31/10."
+    },
+    {
+      "key": "Facebook Group · 815754622673816",
+      "status": "partial",
+      "added_feedback": 5,
+      "detail": "New posts: ngày 31/10 có 5 bài rao bán/dịch vụ cày (10h–22h trước). Không đọc bình luận."
+    },
+    {
+      "key": "Facebook Group · 1772363333745643",
+      "status": "partial",
+      "added_feedback": 0,
+      "detail": "Đọc New posts: ngày 31/10 chỉ có bài admin, không có bài người chơi mới."
+    },
+    {
+      "key": "Facebook Group · 562362538882428",
+      "status": "not_checked",
+      "added_feedback": 0,
+      "detail": "Không kiểm tra lượt này (ưu tiên nhóm hoạt động); trạng thái giữ nguyên từ lần kiểm tra trước."
+    },
+    {
+      "key": "Facebook Group · 3252260471541104",
+      "status": "not_checked",
+      "added_feedback": 0,
+      "detail": "Không kiểm tra lượt này (ưu tiên nhóm hoạt động); trạng thái giữ nguyên từ lần kiểm tra trước."
+    },
+    {
+      "key": "Facebook Group · 356675609124267",
+      "status": "not_checked",
+      "added_feedback": 0,
+      "detail": "Không kiểm tra lượt này (ưu tiên nhóm hoạt động); trạng thái giữ nguyên từ lần kiểm tra trước."
+    },
+    {
+      "key": "Facebook Group · 473704433937505",
+      "status": "partial",
+      "added_feedback": 3,
+      "detail": "New posts: ngày 31/10 có 3 bài rao bán đăng chéo (Cha Ton, Med Noon, Aco Fabe). Không đọc bình luận."
+    },
+    {
+      "key": "Facebook Group · 847315523442353",
+      "status": "not_checked",
+      "added_feedback": 0,
+      "detail": "Không kiểm tra lượt này (ưu tiên nhóm hoạt động); trạng thái giữ nguyên từ lần kiểm tra trước."
+    },
+    {
+      "key": "Facebook Group · 253674809721451",
+      "status": "not_checked",
+      "added_feedback": 0,
+      "detail": "Không kiểm tra lượt này (ưu tiên nhóm hoạt động); trạng thái giữ nguyên từ lần kiểm tra trước."
+    },
+    {
+      "key": "Facebook Fanpage · @playtogetherthailandofficial",
+      "status": "not_checked",
+      "added_feedback": 0,
+      "detail": "Trang không tải được nội dung bài/bình luận trong trình duyệt tích hợp lượt này nên không có bình luận để nhập."
+    },
+    {
+      "key": "YouTube",
+      "status": "not_checked",
+      "added_feedback": 0,
+      "detail": "Không kiểm tra được: RSS 404 và công cụ chạy script bị lỗi tạm thời; tìm kiếm trang chỉ trả kết quả không liên quan (không có video Thái về Play Together ngày 31/10)."
+    },
+    {
+      "key": "TikTok",
+      "status": "not_checked",
+      "added_feedback": 0,
+      "detail": "Không kiểm tra lượt này (hết thời gian/công cụ lỗi tạm thời)."
+    }
+  ],
+  "new_feedback": {
+    "by_source": {
+      "Facebook Group": 26
+    },
+    "by_kind": {
+      "post": 26
+    },
+    "by_sentiment": {
+      "Neutral": 15,
+      "Positive": 5,
+      "Negative": 6
+    }
+  },
+  "discovery": {
+    "queries": [],
+    "added": [],
+    "rejected": [],
+    "needs_user_action": [],
+    "note": "Không tìm nguồn mới lượt này: công cụ chạy script trong trình duyệt bị lỗi tạm thời và hết thời gian."
+  }
+}

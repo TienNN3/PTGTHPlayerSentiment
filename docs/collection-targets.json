@@ -79,10 +79,10 @@
     {
       "id": "UC6-B6N5F-sxDGOzF8Vd4m2Q",
       "name": "BEDY TOGETHER",
-      "status": "active",
+      "status": "inactive",
       "added": "2026-11-02",
       "source": "discovery",
-      "note": "Video eftUj5zUYN4 (30/10/2026) tiếng Thái về minigame khách sạn Play Together; phát hiện 01/11"
+      "note": "Video eftUj5zUYN4 (30/10/2026) tiếng Thái về minigame khách sạn Play Together; phát hiện 01/11; 03/11: tiêu đề video tiếng Việt (kênh Việt Nam) → ngừng theo dõi"
     }
   ],
   "youtube_official": [
@@ -135,6 +135,12 @@
       "id": "675472233698608",
       "reason": "เพทูเกตเตอร์: group 2 thành viên, không có nội dung; kiểm tra 02/11",
       "checked": "2026-11-02"
+    },
+    {
+      "type": "youtube",
+      "id": "UC6-B6N5F-sxDGOzF8Vd4m2Q",
+      "reason": "BEDY TOGETHER: kênh Việt Nam (tiêu đề video tiếng Việt), đã thêm nhầm 02/11; đổi sang inactive",
+      "checked": "2026-11-03"
     }
   ]
 }

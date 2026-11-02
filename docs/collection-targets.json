@@ -1,6 +1,6 @@
 {
   "note": "Danh sách kênh/creator và từ khoá tìm kiếm cho lượt thu thập hằng ngày. Lượt chạy được phép bổ sung bằng scripts/add-source.mjs; không xoá mục cũ (đổi status thay vì xoá). Group/fanpage Facebook nằm trong public/data/sources.json.",
-  "updated_at": "2026-10-30",
+  "updated_at": "2026-11-02",
   "discovery_queries": {
     "facebook_groups": [
       "Play Together Thailand",
@@ -75,6 +75,14 @@
       "status": "active",
       "added": "2026-10-13",
       "source": "seed"
+    },
+    {
+      "id": "UC6-B6N5F-sxDGOzF8Vd4m2Q",
+      "name": "BEDY TOGETHER",
+      "status": "active",
+      "added": "2026-11-02",
+      "source": "discovery",
+      "note": "Video eftUj5zUYN4 (30/10/2026) tiếng Thái về minigame khách sạn Play Together; phát hiện 01/11"
     }
   ],
   "youtube_official": [
@@ -115,6 +123,18 @@
       "id": "UCoEILn5h744zy8tZsvfzvWQ",
       "reason": "AlishaMia TV: kênh tiếng Anh (video hướng dẫn Play Together bản Global), không phải creator Thái; kiểm tra 30/10",
       "checked": "2026-10-30"
+    },
+    {
+      "type": "group",
+      "id": "2636464076591965",
+      "reason": "ริช 999 ทูเก็ตเตอร์ เพื่อความยั่งยืน: group công khai 274 thành viên nhưng không phải cộng đồng Play Together (nội dung lạ/spam); kiểm tra 02/11",
+      "checked": "2026-11-02"
+    },
+    {
+      "type": "group",
+      "id": "675472233698608",
+      "reason": "เพทูเกตเตอร์: group 2 thành viên, không có nội dung; kiểm tra 02/11",
+      "checked": "2026-11-02"
     }
   ]
 }

@@ -1,0 +1,130 @@
+{
+  "target_date": "2026-11-01",
+  "time_zone": "Asia/Bangkok",
+  "checked_at": "2026-11-02T02:37:58.579Z",
+  "status": "partial",
+  "added_feedback": 24,
+  "added_ratings": 0,
+  "collection_complete": false,
+  "summary_vn": "Ngày 01/11/2026: thêm 24 phản hồi — group Community 18 bài (chủ yếu hỏi đáp câu cá/cần câu, sự kiện đào kho báu, 1 người kẹt màn tải tài nguyên khi quay lại game), chợ mua bán 815754622673816 3, group mua bán 473704433937505 2 (bài rao bán), YouTube 1 video creator Thái. Fanpage không tải được; TikTok không có video Thái ngày D; bình luận YouTube/TikTok chưa quét. Phát hiện thêm kênh YouTube BEDY TOGETHER. Sensor Tower bỏ qua theo runbook.",
+  "sources": [
+    {
+      "key": "Facebook Group · playtogetherth",
+      "status": "partial",
+      "added_feedback": 18,
+      "detail": "Đọc New posts + xác minh giờ qua tooltip permalink: ngày 01/11 có 18 bài người chơi (nhãn 12h–a day ago), bỏ bài admin và 2 bài 9h trước (đã sang 02/11). Bình luận không nhập. Dữ liệu 14/09 – 01/11."
+    },
+    {
+      "key": "Facebook Group · 815754622673816",
+      "status": "partial",
+      "added_feedback": 3,
+      "detail": "New posts: ngày 01/11 có 3 bài rao bán (16h–a day ago). Không đọc bình luận."
+    },
+    {
+      "key": "Facebook Group · 1772363333745643",
+      "status": "partial",
+      "added_feedback": 0,
+      "detail": "Đọc New posts: ngày 01/11 chỉ có bài admin (code PTHELLOAUTUMN…), không có bài người chơi mới."
+    },
+    {
+      "key": "Facebook Group · 562362538882428",
+      "status": "not_checked",
+      "added_feedback": 0,
+      "detail": "Không kiểm tra lượt này; trạng thái giữ nguyên từ lần kiểm tra trước."
+    },
+    {
+      "key": "Facebook Group · 3252260471541104",
+      "status": "not_checked",
+      "added_feedback": 0,
+      "detail": "Không kiểm tra lượt này; trạng thái giữ nguyên từ lần kiểm tra trước."
+    },
+    {
+      "key": "Facebook Group · 356675609124267",
+      "status": "not_checked",
+      "added_feedback": 0,
+      "detail": "Không kiểm tra lượt này; trạng thái giữ nguyên từ lần kiểm tra trước."
+    },
+    {
+      "key": "Facebook Group · 473704433937505",
+      "status": "partial",
+      "added_feedback": 2,
+      "detail": "New posts: ngày 01/11 có 2 bài rao bán đăng chéo (Med Noon, Va Vi). Không đọc bình luận."
+    },
+    {
+      "key": "Facebook Group · 847315523442353",
+      "status": "not_checked",
+      "added_feedback": 0,
+      "detail": "Không kiểm tra lượt này; trạng thái giữ nguyên từ lần kiểm tra trước."
+    },
+    {
+      "key": "Facebook Group · 253674809721451",
+      "status": "partial",
+      "added_feedback": 0,
+      "detail": "Đọc New posts: bài mới nhất cách đây 4 ngày, không có bài ngày 01/11."
+    },
+    {
+      "key": "Facebook Fanpage · @playtogetherthailandofficial",
+      "status": "not_checked",
+      "added_feedback": 0,
+      "detail": "Trang không tải được nội dung bài/bình luận trong trình duyệt tích hợp lượt này nên không có bình luận để nhập."
+    },
+    {
+      "key": "YouTube",
+      "status": "partial",
+      "added_feedback": 1,
+      "detail": "Quét browse API 7 kênh theo dõi (RSS 404): 1 video Thái ngày 01/11 (Teddy Chanelplay, 16:47). Bình luận chưa quét. Tìm kiếm Thái/Việt không ra thêm video Thái ngày 01/11."
+    },
+    {
+      "key": "TikTok",
+      "status": "partial",
+      "added_feedback": 0,
+      "detail": "Kiểm tra lemondoggopt, rukkung2000 và tìm kiếm 'play together ไทย': không có video Thái ngày 01/11 (video mới nhất của kênh chính thức 30/10). Bình luận kênh chính thức chưa quét."
+    }
+  ],
+  "new_feedback": {
+    "by_source": {
+      "Facebook Group": 23,
+      "YouTube": 1
+    },
+    "by_kind": {
+      "post": 23,
+      "video": 1
+    },
+    "by_sentiment": {
+      "Neutral": 17,
+      "Negative": 3,
+      "Positive": 4
+    }
+  },
+  "discovery": {
+    "queries": [
+      "facebook groups: Play Together Thailand",
+      "facebook groups: เพลย์ทูเก็ตเตอร์",
+      "youtube: play together vng",
+      "youtube: เพลย์ทูเก็ตเตอร์",
+      "tiktok: play together ไทย"
+    ],
+    "added": [
+      {
+        "type": "youtube",
+        "id": "UC6-B6N5F-sxDGOzF8Vd4m2Q",
+        "name": "BEDY TOGETHER",
+        "status": "active",
+        "evidence": "Video eftUj5zUYN4 (30/10/2026) tiếng Thái về minigame khách sạn Play Together"
+      }
+    ],
+    "rejected": [
+      {
+        "type": "group",
+        "id": "2636464076591965",
+        "reason": "Không phải cộng đồng Play Together (nội dung lạ)"
+      },
+      {
+        "type": "group",
+        "id": "675472233698608",
+        "reason": "Group 2 thành viên, không có nội dung"
+      }
+    ],
+    "needs_user_action": []
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-31",
+  "updated_at": "2026-11-01",
   "note": "Danh sách nguồn được theo dõi. Tên lấy từ tiêu đề trang Facebook; trạng thái mô tả phạm vi thu thập, không phải số phản hồi.",
   "statuses": {
     "full": "Đủ 30 ngày",
@@ -18,11 +18,11 @@
       "name": "Play Together VNG : THAILAND Community",
       "type": "group",
       "status": "full",
-      "detail": "Đọc New posts + permalink từng bài: ngày 31/10 có 18 bài người chơi (nhãn 9h–a day ago), bỏ bài admin. Bình luận đọc được nhưng không nhập (ngắn/hỏi đáp, không có ID bình luận). Dữ liệu 14/09 – 31/10.",
+      "detail": "Đọc New posts + xác minh giờ qua tooltip permalink: ngày 01/11 có 18 bài người chơi (nhãn 12h–a day ago), bỏ bài admin và 2 bài 9h trước (đã sang 02/11). Bình luận không nhập. Dữ liệu 14/09 – 01/11.",
       "url": "https://www.facebook.com/groups/playtogetherth/",
       "last_check": {
-        "target_date": "2026-10-31",
-        "checked_at": "2026-11-01T02:29:36.613Z",
+        "target_date": "2026-11-01",
+        "checked_at": "2026-11-02T02:37:58.579Z",
         "status": "partial",
         "added_feedback": 18
       }
@@ -32,13 +32,13 @@
       "name": "Play Together : THAILAND ตลาดนัดซื้อขาย (chợ mua bán)",
       "type": "group",
       "status": "full",
-      "detail": "New posts: ngày 31/10 có 5 bài rao bán/dịch vụ cày (10h–22h trước). Không đọc bình luận.",
+      "detail": "New posts: ngày 01/11 có 3 bài rao bán (16h–a day ago). Không đọc bình luận.",
       "url": "https://www.facebook.com/groups/815754622673816/",
       "last_check": {
-        "target_date": "2026-10-31",
-        "checked_at": "2026-11-01T02:29:36.613Z",
+        "target_date": "2026-11-01",
+        "checked_at": "2026-11-02T02:37:58.579Z",
         "status": "partial",
-        "added_feedback": 5
+        "added_feedback": 3
       }
     },
     {
@@ -46,11 +46,11 @@
       "name": "Play Together VNG Thailand Official (group)",
       "type": "group",
       "status": "full",
-      "detail": "Đọc New posts: ngày 31/10 chỉ có bài admin, không có bài người chơi mới.",
+      "detail": "Đọc New posts: ngày 01/11 chỉ có bài admin (code PTHELLOAUTUMN…), không có bài người chơi mới.",
       "url": "https://www.facebook.com/groups/1772363333745643/",
       "last_check": {
-        "target_date": "2026-10-31",
-        "checked_at": "2026-11-01T02:29:36.613Z",
+        "target_date": "2026-11-01",
+        "checked_at": "2026-11-02T02:37:58.579Z",
         "status": "partial",
         "added_feedback": 0
       }
@@ -63,8 +63,8 @@
       "detail": "Không kiểm tra lại lượt này (lần kiểm tra trước: không có bài mới, chỉ có bài admin từ 14/03/2023).",
       "url": "https://www.facebook.com/groups/562362538882428/",
       "last_check": {
-        "target_date": "2026-10-31",
-        "checked_at": "2026-11-01T02:29:36.613Z",
+        "target_date": "2026-11-01",
+        "checked_at": "2026-11-02T02:37:58.579Z",
         "status": "not_checked",
         "added_feedback": 0
       }
@@ -77,8 +77,8 @@
       "detail": "Group riêng tư, yêu cầu cũ bị từ chối; kiểm tra 30/10 vẫn thấy nút Join (chưa là thành viên). Không gửi lại yêu cầu, không đọc được bài.",
       "url": "https://www.facebook.com/groups/3252260471541104/",
       "last_check": {
-        "target_date": "2026-10-31",
-        "checked_at": "2026-11-01T02:29:36.613Z",
+        "target_date": "2026-11-01",
+        "checked_at": "2026-11-02T02:37:58.579Z",
         "status": "not_checked",
         "added_feedback": 0
       }
@@ -91,8 +91,8 @@
       "detail": "Group riêng tư, yêu cầu thành viên vẫn chờ duyệt (kiểm tra 30/10); không đọc được bài/bình luận.",
       "url": "https://www.facebook.com/groups/356675609124267/",
       "last_check": {
-        "target_date": "2026-10-31",
-        "checked_at": "2026-11-01T02:29:36.613Z",
+        "target_date": "2026-11-01",
+        "checked_at": "2026-11-02T02:37:58.579Z",
         "status": "not_checked",
         "added_feedback": 0
       }
@@ -102,13 +102,13 @@
       "name": "ซื้อ-ขาย Play Together TH (mua bán)",
       "type": "group",
       "status": "partial",
-      "detail": "New posts: ngày 31/10 có 3 bài rao bán đăng chéo (Cha Ton, Med Noon, Aco Fabe). Không đọc bình luận.",
+      "detail": "New posts: ngày 01/11 có 2 bài rao bán đăng chéo (Med Noon, Va Vi). Không đọc bình luận.",
       "url": "https://www.facebook.com/groups/473704433937505/",
       "last_check": {
-        "target_date": "2026-10-31",
-        "checked_at": "2026-11-01T02:29:36.613Z",
+        "target_date": "2026-11-01",
+        "checked_at": "2026-11-02T02:37:58.579Z",
         "status": "partial",
-        "added_feedback": 3
+        "added_feedback": 2
       }
     },
     {
@@ -119,8 +119,8 @@
       "detail": "Group riêng tư, yêu cầu thành viên vẫn chờ duyệt (kiểm tra 30/10); không đọc được bài/bình luận.",
       "url": "https://www.facebook.com/groups/847315523442353/",
       "last_check": {
-        "target_date": "2026-10-31",
-        "checked_at": "2026-11-01T02:29:36.613Z",
+        "target_date": "2026-11-01",
+        "checked_at": "2026-11-02T02:37:58.579Z",
         "status": "not_checked",
         "added_feedback": 0
       }
@@ -130,13 +130,13 @@
       "name": "PLAYTOGETHER THAILAND [พูดคุย-ซื้อ-ขาย] (thảo luận, mua bán)",
       "type": "group",
       "status": "partial",
-      "detail": "Phát hiện 30/10; công khai, ~6K thành viên; bài mới nhất 28/10 (tìm mua thẻ), không có bài ngày 29/10.",
+      "detail": "Đọc New posts: bài mới nhất cách đây 4 ngày, không có bài ngày 01/11.",
       "url": "https://www.facebook.com/groups/253674809721451/",
       "discovered_at": "2026-10-30",
       "last_check": {
-        "target_date": "2026-10-31",
-        "checked_at": "2026-11-01T02:29:36.613Z",
-        "status": "not_checked",
+        "target_date": "2026-11-01",
+        "checked_at": "2026-11-02T02:37:58.579Z",
+        "status": "partial",
         "added_feedback": 0
       }
     },
@@ -148,8 +148,8 @@
       "detail": "Trang không tải được nội dung bài/bình luận trong trình duyệt tích hợp lượt này nên không có bình luận để nhập.",
       "url": "https://www.facebook.com/playtogetherthailandofficial",
       "last_check": {
-        "target_date": "2026-10-31",
-        "checked_at": "2026-11-01T02:29:36.613Z",
+        "target_date": "2026-11-01",
+        "checked_at": "2026-11-02T02:37:58.579Z",
         "status": "not_checked",
         "added_feedback": 0
       }
@@ -159,13 +159,13 @@
       "name": "YouTube (video và bình luận tiếng Thái)",
       "type": "youtube",
       "status": "youtube",
-      "detail": "Không kiểm tra được: RSS 404 và công cụ chạy script bị lỗi tạm thời; tìm kiếm trang chỉ trả kết quả không liên quan (không có video Thái về Play Together ngày 31/10).",
+      "detail": "Quét browse API 7 kênh theo dõi (RSS 404): 1 video Thái ngày 01/11 (Teddy Chanelplay, 16:47). Bình luận chưa quét. Tìm kiếm Thái/Việt không ra thêm video Thái ngày 01/11.",
       "url": "https://www.youtube.com/results?search_query=play+together+%E0%B9%84%E0%B8%97%E0%B8%A2",
       "last_check": {
-        "target_date": "2026-10-31",
-        "checked_at": "2026-11-01T02:29:36.613Z",
-        "status": "not_checked",
-        "added_feedback": 0
+        "target_date": "2026-11-01",
+        "checked_at": "2026-11-02T02:37:58.579Z",
+        "status": "partial",
+        "added_feedback": 1
       },
       "official_channel_url": "https://www.youtube.com/@playtogetherth"
     },
@@ -174,12 +174,12 @@
       "name": "TikTok (video và bình luận tiếng Thái)",
       "type": "tiktok",
       "status": "tiktok",
-      "detail": "Không kiểm tra lượt này (hết thời gian/công cụ lỗi tạm thời).",
+      "detail": "Kiểm tra lemondoggopt, rukkung2000 và tìm kiếm 'play together ไทย': không có video Thái ngày 01/11 (video mới nhất của kênh chính thức 30/10). Bình luận kênh chính thức chưa quét.",
       "url": "https://www.tiktok.com/@playtogetherth.official",
       "last_check": {
-        "target_date": "2026-10-31",
-        "checked_at": "2026-11-01T02:29:36.613Z",
-        "status": "not_checked",
+        "target_date": "2026-11-01",
+        "checked_at": "2026-11-02T02:37:58.579Z",
+        "status": "partial",
         "added_feedback": 0
       }
     },

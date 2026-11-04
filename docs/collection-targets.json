@@ -1,6 +1,6 @@
 {
   "note": "Danh sách kênh/creator và từ khoá tìm kiếm cho lượt thu thập hằng ngày. Lượt chạy được phép bổ sung bằng scripts/add-source.mjs; không xoá mục cũ (đổi status thay vì xoá). Group/fanpage Facebook nằm trong public/data/sources.json.",
-  "updated_at": "2026-11-04",
+  "updated_at": "2026-11-05",
   "discovery_queries": {
     "facebook_groups": [
       "Play Together Thailand",
@@ -147,6 +147,24 @@
       "id": "boppidaily",
       "reason": "Bop Pi (@boppidaily): creator Việt Nam (video/bình luận tiếng Việt, cộng đồng Việt), dù video review xe tuktuk Thái; kiểm tra 04/11",
       "checked": "2026-11-04"
+    },
+    {
+      "type": "youtube",
+      "id": "UCE6zoF5WX0iTZh_mGyA5OhQ",
+      "reason": "Anh Da Xanh Ốm Yếu - Play TogetherVNG: kênh Việt Nam (tên/cộng đồng Việt), chỉ đặt tiêu đề shorts tiếng Thái; kiểm tra 05/11",
+      "checked": "2026-11-05"
+    },
+    {
+      "type": "youtube",
+      "id": "UC2s3gWJ_rXNo5y-6LNY_XPQ",
+      "reason": "ThắngPllay: kênh Việt Nam (tên Việt, hashtag ptgcreator), tiêu đề Thái chỉ là dịch; kiểm tra 05/11",
+      "checked": "2026-11-05"
+    },
+    {
+      "type": "group",
+      "id": "1088482618261280",
+      "reason": "Play Together GLOBAL: group quốc tế tiếng Anh, không phải cộng đồng Thái; kiểm tra 05/11",
+      "checked": "2026-11-05"
     }
   ]
 }

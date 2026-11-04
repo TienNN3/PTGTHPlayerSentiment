@@ -1,6 +1,6 @@
 {
   "note": "Danh sách kênh/creator và từ khoá tìm kiếm cho lượt thu thập hằng ngày. Lượt chạy được phép bổ sung bằng scripts/add-source.mjs; không xoá mục cũ (đổi status thay vì xoá). Group/fanpage Facebook nằm trong public/data/sources.json.",
-  "updated_at": "2026-11-02",
+  "updated_at": "2026-11-04",
   "discovery_queries": {
     "facebook_groups": [
       "Play Together Thailand",
@@ -141,6 +141,12 @@
       "id": "UC6-B6N5F-sxDGOzF8Vd4m2Q",
       "reason": "BEDY TOGETHER: kênh Việt Nam (tiêu đề video tiếng Việt), đã thêm nhầm 02/11; đổi sang inactive",
       "checked": "2026-11-03"
+    },
+    {
+      "type": "tiktok",
+      "id": "boppidaily",
+      "reason": "Bop Pi (@boppidaily): creator Việt Nam (video/bình luận tiếng Việt, cộng đồng Việt), dù video review xe tuktuk Thái; kiểm tra 04/11",
+      "checked": "2026-11-04"
     }
   ]
 }

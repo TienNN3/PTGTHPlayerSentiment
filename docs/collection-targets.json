@@ -1,6 +1,6 @@
 {
   "note": "Danh sách kênh/creator và từ khoá tìm kiếm cho lượt thu thập hằng ngày. Lượt chạy được phép bổ sung bằng scripts/add-source.mjs; không xoá mục cũ (đổi status thay vì xoá). Group/fanpage Facebook nằm trong public/data/sources.json.",
-  "updated_at": "2026-11-05",
+  "updated_at": "2026-11-06",
   "discovery_queries": {
     "facebook_groups": [
       "Play Together Thailand",
@@ -165,6 +165,12 @@
       "id": "1088482618261280",
       "reason": "Play Together GLOBAL: group quốc tế tiếng Anh, không phải cộng đồng Thái; kiểm tra 05/11",
       "checked": "2026-11-05"
+    },
+    {
+      "type": "group",
+      "id": "223606940317809",
+      "reason": "Play Together VNG 🇻🇳 — group Việt Nam, không phải cộng đồng Thái (kiểm tra 06/11)",
+      "checked": "2026-11-06"
     }
   ]
 }

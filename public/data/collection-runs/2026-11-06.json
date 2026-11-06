@@ -1,0 +1,116 @@
+{
+  "target_date": "2026-11-06",
+  "time_zone": "Asia/Bangkok",
+  "checked_at": "2026-11-06T23:26:34.694Z",
+  "status": "partial",
+  "added_feedback": 64,
+  "added_ratings": 0,
+  "collection_complete": false,
+  "summary_vn": "Ngày 06/11/2026: thêm 64 phản hồi — group Community 51 (16 bài + 35 bình luận: hết hạn chuyển tài khoản VNG, nhiệm vụ trứng gà/pad thai/thư cam sự kiện tuk tuk, lỗi thanh toán Plus), group chính thức 1 bài, chợ mua bán 815754622673816 4 bài, group mua bán 473704433937505 3 bài, group thẻ 1 bài, YouTube 2 video creator Thái, TikTok 1 video + 1 bình luận. Fanpage không đọc được bình luận; không đọc bình luận dưới video YouTube. Không có nguồn Thái mới (loại 1 creator TikTok và 2 kênh YouTube không phù hợp). Sensor Tower bỏ qua theo runbook.",
+  "sources": [
+    {
+      "key": "Facebook Group · playtogetherth",
+      "status": "partial",
+      "added_feedback": 51,
+      "detail": "New posts: 16 bài người chơi ngày 06/11 (chuyển tài khoản VNG/hết hạn 26, nhiệm vụ trứng gà–pad thai–tuk tuk, thư cam mất, lỗi thanh toán Plus [9013], thú cưng) + 35 bình luận cấp 1 dưới các bài đó (nhãn thời gian tương đối). Bỏ bài/bình luận admin (Walaipan Plawitsara, bài hướng dẫn/mã quà), bình luận của chính tác giả bài, trả lời lồng nhau, bình luận ≤6 giờ (đã sang 07/11). Ngày bài ước theo nhãn giờ/ID. Không quét Recent activity. Dữ liệu 14/09 – 06/11."
+    },
+    {
+      "key": "Facebook Group · 815754622673816",
+      "status": "partial",
+      "added_feedback": 4,
+      "detail": "New posts: ngày 06/11 có 4 bài rao bán (nhân sâm, nhận cày thuê Merge Hotel, trái cây/cây/tiền nông trại, bài tìm thẻ). Không đọc bình luận."
+    },
+    {
+      "key": "Facebook Group · 1772363333745643",
+      "status": "partial",
+      "added_feedback": 1,
+      "detail": "New posts: 1 bài người chơi ngày 06/11 (không chuyển được tài khoản vì yêu cầu mã); còn lại là bài admin/trang (mã quà PTSUPERPETS/PTSUPERHERO, công thức pad thai/gà nướng, hướng dẫn tuk tuk). Không đọc bình luận."
+    },
+    {
+      "key": "Facebook Group · 473704433937505",
+      "status": "partial",
+      "added_feedback": 3,
+      "detail": "New posts: ngày 06/11 có 3 bài rao bán (nhân sâm, nhận cày thuê Merge Hotel, trái cây/cây/tiền nông trại)."
+    },
+    {
+      "key": "Facebook Group · 253674809721451",
+      "status": "partial",
+      "added_feedback": 0,
+      "detail": "New posts: không có bài ngày 06/11 (bài mới nhất vẫn từ 28/10)."
+    },
+    {
+      "key": "Facebook Group · 493177613552238",
+      "status": "partial",
+      "added_feedback": 1,
+      "detail": "New posts: 1 bài tìm thẻ ngày 06/11 (nhãn 21h); các bài khác đã nhập hoặc cũ hơn."
+    },
+    {
+      "key": "Facebook Fanpage · @playtogetherthailandofficial",
+      "status": "partial",
+      "added_feedback": 0,
+      "detail": "Trang không hiển thị bình luận đọc được trong trình duyệt lượt này (không có khối bài/bình luận); không xác nhận được bình luận người dùng ngày 06/11."
+    },
+    {
+      "key": "YouTube",
+      "status": "partial",
+      "added_feedback": 2,
+      "detail": "Kênh theo dõi: Teddy Chanelplay có 2 video ngày 06/11 (Siam Town club/tuk tuk, ngày 2); Wine Channel, Malong Gaming, Nanannew... không có video ngày 06/11. RSS lỗi (404/500) nên dùng API duyệt kênh + trang /watch. Kênh chính thức Play Together VNG TH (video 06/11, 3 lượt xem) không đọc được bình luận. Tìm kiếm (play together, เพลย์ทูเก็ตเตอร์, play together ไทย, #playtogetherth...): chỉ thấy kênh Việt/Anh đã loại. Chưa lấy được bình luận dưới video Teddy."
+    },
+    {
+      "key": "TikTok",
+      "status": "partial",
+      "added_feedback": 2,
+      "detail": "@rukkung2000 có 1 video ngày 06/11 (12:34 Bangkok, mua đồ tuk tuk ngày 2; bình luận duy nhất là của chủ kênh nên bỏ). @lemondoggopt không có video mới (gần nhất 27/10). Kênh chính thức: 1 bình luận tiếng Thái ngày 06/11 (bỏ bình luận tiếng Việt/Ả Rập/chữ lạ). Tìm kiếm \"play together ไทย\": thấy @thankdakiuiu (Việt Nam, đã loại)."
+    }
+  ],
+  "new_feedback": {
+    "by_community": {
+      "Facebook Group · playtogetherth": 51,
+      "Facebook Group · 1772363333745643": 1,
+      "Facebook Group · 815754622673816": 4,
+      "Facebook Group · 473704433937505": 3,
+      "Facebook Group · 493177613552238": 1,
+      "YouTube": 2,
+      "TikTok": 2
+    },
+    "by_sentiment": {
+      "Negative": 13,
+      "Positive": 8,
+      "Neutral": 43
+    },
+    "by_content_kind": {
+      "post": 25,
+      "comment": 36,
+      "video": 3
+    }
+  },
+  "discovery": {
+    "queries": [
+      "facebook groups: play together thailand, เพลย์ทูเก็ตเตอร์",
+      "youtube: play together, เพลย์ทูเก็ตเตอร์, play together ไทย, #playtogetherth, play together ตุ๊กตุ๊ก, play together กิจกรรม",
+      "tiktok: play together ไทย"
+    ],
+    "added": [],
+    "rejected": [
+      {
+        "type": "tiktok",
+        "id": "thankdakiuiu",
+        "reason": "Creator Việt Nam (Đô Nết)"
+      },
+      {
+        "type": "youtube",
+        "id": "UC7UW-oHOq1VPbfUyoQRQhoQ",
+        "reason": "BabiKiềuMyPT: kênh Việt Nam, tiêu đề Thái hiếm"
+      },
+      {
+        "type": "youtube",
+        "id": "UC7qzgnDJjhYNgavTfDqYVw",
+        "reason": "Bah.PlayTogether: kênh tiếng Anh (Global)"
+      }
+    ],
+    "needs_user_action": [
+      "Group riêng tư đang chờ duyệt: https://www.facebook.com/groups/847315523442353/ và https://www.facebook.com/groups/356675609124267/; group bị từ chối https://www.facebook.com/groups/3252260471541104/ (tự gửi lại yêu cầu nếu muốn)"
+    ]
+  },
+  "sensor_tower": "Bỏ qua theo runbook (người dùng tự cập nhật)."
+}

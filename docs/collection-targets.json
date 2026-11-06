@@ -1,6 +1,6 @@
 {
   "note": "Danh sách kênh/creator và từ khoá tìm kiếm cho lượt thu thập hằng ngày. Lượt chạy được phép bổ sung bằng scripts/add-source.mjs; không xoá mục cũ (đổi status thay vì xoá). Group/fanpage Facebook nằm trong public/data/sources.json.",
-  "updated_at": "2026-11-06",
+  "updated_at": "2026-11-07",
   "discovery_queries": {
     "facebook_groups": [
       "Play Together Thailand",
@@ -171,6 +171,24 @@
       "id": "223606940317809",
       "reason": "Play Together VNG 🇻🇳 — group Việt Nam, không phải cộng đồng Thái (kiểm tra 06/11)",
       "checked": "2026-11-06"
+    },
+    {
+      "type": "tiktok",
+      "id": "thankdakiuiu",
+      "reason": "Đô Nết (@thankdakiuiu): creator Việt Nam (bio/cộng đồng Việt, 97K follower), chỉ xuất hiện trong tìm kiếm; kiểm tra 07/11",
+      "checked": "2026-11-07"
+    },
+    {
+      "type": "youtube",
+      "id": "UC7UW-oHOq1VPbfUyoQRQhoQ",
+      "reason": "BabiKiềuMyPT: kênh Việt Nam (tên Việt, video khác tiếng Việt), chỉ có 1 video đặt tiêu đề tiếng Thái; kiểm tra 07/11",
+      "checked": "2026-11-07"
+    },
+    {
+      "type": "youtube",
+      "id": "UC7qzgnDJjhYNgavTfDqYVw",
+      "reason": "Bah.PlayTogether: kênh tiếng Anh (mã quà bản Global), không phải creator Thái; kiểm tra 07/11",
+      "checked": "2026-11-07"
     }
   ]
 }

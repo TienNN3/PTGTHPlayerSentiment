@@ -1,0 +1,119 @@
+{
+  "target_date": "2026-11-07",
+  "time_zone": "Asia/Bangkok",
+  "checked_at": "2026-11-07T23:29:23.245Z",
+  "status": "partial",
+  "added_feedback": 32,
+  "added_ratings": 0,
+  "collection_complete": false,
+  "summary_vn": "Ngày 07/11/2026: thêm 32 phản hồi — group Community 24 (10 bài + 14 bình luận: code không nhập được, không có nhiệm vụ, hộp thư biến mất, trứng sự kiện, nhiệm vụ tuk tuk ngày 3), chợ mua bán 815754622673816 4 bài, group mua bán 473704433937505 2 bài, YouTube 1 video creator Thái, TikTok 1 bình luận. Fanpage không đọc được; chưa quét Recent activity, không đọc bình luận ở group chợ/YouTube; RSS YouTube lỗi 404. Không có nguồn Thái mới (loại 4 group không phù hợp). Sensor Tower bỏ qua theo runbook.",
+  "sources": [
+    {
+      "key": "Facebook Group · playtogetherth",
+      "status": "partial",
+      "added_feedback": 24,
+      "detail": "New posts: 10 bài người chơi ngày 07/11 (code không nhập được, không có nhiệm vụ, tìm bạn, hộp thư biến mất, hiệu ứng đặc biệt, thú cưng máy bay giấy, nhiệm vụ tuk tuk ngày 3, trứng sự kiện, guitar) + 14 bình luận cấp 1 hiển thị dưới các bài đó (nhãn thời gian tương đối). Bỏ bài/bình luận admin và moderator, trả lời lồng nhau, bài announcement Pemika. Ngày bài ước theo nhãn giờ/ID. Không quét Recent activity. Dữ liệu 14/09 – 07/11."
+    },
+    {
+      "key": "Facebook Group · 815754622673816",
+      "status": "partial",
+      "added_feedback": 4,
+      "detail": "New posts: ngày 07/11 có 4 bài (hỏi giá cây baobab, rao bán tài khoản gắn mail khuyến mãi sinh nhật, rao nhân sâm/thẻ/tiền nông trại, rao trái cây/cây). Không đọc bình luận."
+    },
+    {
+      "key": "Facebook Group · 1772363333745643",
+      "status": "partial",
+      "added_feedback": 0,
+      "detail": "New posts: ngày 07/11 chỉ có bài admin/trang (mã quà, công thức nấu ăn, bài đùa); không có bài người chơi mới (bài hỏi chuyển tài khoản đã nhập 06/11). Không đọc bình luận."
+    },
+    {
+      "key": "Facebook Group · 473704433937505",
+      "status": "partial",
+      "added_feedback": 2,
+      "detail": "New posts: ngày 07/11 có 2 bài rao bán (thẻ/nhân sâm/tiền nông trại, trái cây/cây); các bài còn lại cũ hơn."
+    },
+    {
+      "key": "Facebook Group · 253674809721451",
+      "status": "partial",
+      "added_feedback": 0,
+      "detail": "New posts: không có bài ngày 07/11 (bài mới nhất vẫn từ 28/10)."
+    },
+    {
+      "key": "Facebook Group · 493177613552238",
+      "status": "partial",
+      "added_feedback": 0,
+      "detail": "New posts: không có bài ngày 07/11 (bài mới nhất nhãn 'a day ago' đã nhập 06/11)."
+    },
+    {
+      "key": "Facebook Fanpage · @playtogetherthailandofficial",
+      "status": "partial",
+      "added_feedback": 0,
+      "detail": "Trang không hiển thị bài/bình luận đọc được trong trình duyệt lượt này (không có khối bài); không xác nhận được bình luận người dùng ngày 07/11."
+    },
+    {
+      "key": "YouTube",
+      "status": "partial",
+      "added_feedback": 1,
+      "detail": "Quét tìm kiếm 8 từ khoá (lọc hôm nay/tuần): 1 video creator Thái ngày 07/11 (Teddy Chanelplay, nhiệm vụ câu lạc bộ ngày 3). RSS kênh trả 404 (chỉ 1/7 kênh đọc được), nên dựa vào kết quả tìm kiếm. Không đọc bình luận dưới video."
+    },
+    {
+      "key": "TikTok",
+      "status": "partial",
+      "added_feedback": 1,
+      "detail": "Kênh chính thức: 1 bình luận tiếng Thái ngày 07/11 (video 7704978052249439494); bỏ bình luận tiếng Việt. creator lemondoggopt không có video mới; rukkung2000 không tải được lưới video; tìm kiếm 'play together ไทย' chỉ ra kênh chính thức."
+    }
+  ],
+  "discovery": {
+    "queries": [
+      "facebook group: Play Together Thailand",
+      "facebook group: เพลย์ทูเก็ตเตอร์",
+      "facebook group: ซื้อขาย play together",
+      "youtube: play together, playtogether vng, เพลย์ทูเก็ตเตอร์, play together ไทย, #playtogethervng, #playtogetherth (+ alien invasion, tuk tuk)",
+      "tiktok: play together ไทย"
+    ],
+    "added": [],
+    "rejected": [
+      {
+        "type": "group",
+        "id": "ptvng",
+        "reason": "Group Việt Nam"
+      },
+      {
+        "type": "group",
+        "id": "1412017087180297",
+        "reason": "Game khác (We Play)"
+      },
+      {
+        "type": "group",
+        "id": "1795343954164653",
+        "reason": "Game khác (We Play)"
+      },
+      {
+        "type": "group",
+        "id": "145304313873973",
+        "reason": "Cộng đồng Philippines"
+      }
+    ],
+    "needs_user_action": [
+      "Group riêng tư đang chờ duyệt: 356675609124267, 847315523442353; group 3252260471541104 chưa là thành viên (yêu cầu cũ bị từ chối) — nếu muốn thu thập, người dùng tự tham gia/kiểm tra."
+    ]
+  },
+  "sensor_tower": "Bỏ qua theo runbook (người dùng tự cập nhật tay).",
+  "new_feedback": {
+    "by_source": {
+      "Facebook Group": 30,
+      "YouTube": 1,
+      "TikTok": 1
+    },
+    "by_kind": {
+      "post": 16,
+      "comment": 15,
+      "video": 1
+    },
+    "by_sentiment": {
+      "Negative": 5,
+      "Neutral": 20,
+      "Positive": 7
+    }
+  }
+}

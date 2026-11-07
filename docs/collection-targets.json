@@ -1,6 +1,6 @@
 {
   "note": "Danh sách kênh/creator và từ khoá tìm kiếm cho lượt thu thập hằng ngày. Lượt chạy được phép bổ sung bằng scripts/add-source.mjs; không xoá mục cũ (đổi status thay vì xoá). Group/fanpage Facebook nằm trong public/data/sources.json.",
-  "updated_at": "2026-11-07",
+  "updated_at": "2026-11-08",
   "discovery_queries": {
     "facebook_groups": [
       "Play Together Thailand",
@@ -189,6 +189,30 @@
       "id": "UC7qzgnDJjhYNgavTfDqYVw",
       "reason": "Bah.PlayTogether: kênh tiếng Anh (mã quà bản Global), không phải creator Thái; kiểm tra 07/11",
       "checked": "2026-11-07"
+    },
+    {
+      "type": "group",
+      "id": "ptvng",
+      "reason": "Play Together Việt Nam Official: group Việt Nam, không phải cộng đồng Thái; kiểm tra 08/11",
+      "checked": "2026-11-08"
+    },
+    {
+      "type": "group",
+      "id": "1412017087180297",
+      "reason": "We play ตลาดซื้อ-ขาย: game khác (We Play), không phải Play Together; kiểm tra 08/11",
+      "checked": "2026-11-08"
+    },
+    {
+      "type": "group",
+      "id": "1795343954164653",
+      "reason": "Weplay Thailand ซื้อขาย - พูดคุย: game khác (We Play), không phải Play Together; kiểm tra 08/11",
+      "checked": "2026-11-08"
+    },
+    {
+      "type": "group",
+      "id": "145304313873973",
+      "reason": "Play Together PH: cộng đồng Philippines, không phải Thái; kiểm tra 08/11",
+      "checked": "2026-11-08"
     }
   ]
 }

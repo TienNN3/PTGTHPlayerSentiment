@@ -1,0 +1,95 @@
+{
+  "target_date": "2026-11-08",
+  "time_zone": "Asia/Bangkok",
+  "checked_at": "2026-11-08T23:24:09.947Z",
+  "status": "partial",
+  "added_feedback": 57,
+  "added_ratings": 0,
+  "collection_complete": false,
+  "summary_vn": "Ngày 08/11/2026: thêm 57 phản hồi — group Community 42 (19 bài + 23 bình luận: nhiệm vụ câu cá balloon 7 quá khó, NPC bán hoa biến mất, lai thú cưng, chuyển tài khoản VNG, web nạp nhầm hình trang phục), chợ mua bán 815754622673816 6 bài, group mua bán 473704433937505 3 bài, group Official 2 bài, group trao đổi 493177613552238 1 bài, YouTube 2 video creator Thái, TikTok 1 bình luận. Fanpage không đọc được; chưa quét Recent activity, không đọc bình luận ở group chợ/YouTube; bỏ các mục nhãn ~6 giờ (sát 00:00 09/11). Không có nguồn Thái mới. Sensor Tower bỏ qua theo runbook.",
+  "sources": [
+    {
+      "key": "Facebook Group · playtogetherth",
+      "status": "partial",
+      "added_feedback": 42,
+      "detail": "New posts: 19 bài người chơi ngày 08/11 (gói hàng tháng, câu cá nhiệm vụ balloon 7, chuyển tài khoản VNG, NPC bán hoa biến mất, lai thú cưng, web nạp nhầm hình trang phục…) + 23 bình luận cấp 1 hiển thị dưới các bài đó (nhãn thời gian tương đối). Bỏ bài/bình luận admin, trả lời lồng nhau, bình luận chỉ có GIF/link, và các bài/bình luận nhãn ~6 giờ trở xuống (sát hoặc sau 00:00 09/11). Không quét Recent activity. Dữ liệu 14/09 – 08/11."
+    },
+    {
+      "key": "Facebook Group · 815754622673816",
+      "status": "partial",
+      "added_feedback": 6,
+      "detail": "New posts: ngày 08/11 có 6 bài rao bán/mua (mua tài khoản, thẻ, nhân sâm/trái cây, nhận đào thuê đảo). Không đọc bình luận."
+    },
+    {
+      "key": "Facebook Group · 1772363333745643",
+      "status": "partial",
+      "added_feedback": 2,
+      "detail": "New posts: ngày 08/11 có 2 bài người chơi (bài giá 20 baht, bài tìm trao đổi của người mới); bỏ bài admin/trang (công thức nấu ăn). Không đọc bình luận."
+    },
+    {
+      "key": "Facebook Group · 473704433937505",
+      "status": "partial",
+      "added_feedback": 3,
+      "detail": "New posts: ngày 08/11 có 3 bài rao bán (thẻ, nhân sâm/trái cây); cùng nội dung với group chợ 815754622673816."
+    },
+    {
+      "key": "Facebook Group · 253674809721451",
+      "status": "partial",
+      "added_feedback": 0,
+      "detail": "New posts: không có bài ngày 08/11 (bài mới nhất vẫn từ 28/10)."
+    },
+    {
+      "key": "Facebook Group · 493177613552238",
+      "status": "partial",
+      "added_feedback": 1,
+      "detail": "New posts: ngày 08/11 có 1 bài tìm trao đổi (nhãn 18 giờ trước)."
+    },
+    {
+      "key": "Facebook Fanpage · @playtogetherthailandofficial",
+      "status": "partial",
+      "added_feedback": 0,
+      "detail": "Trang không hiển thị khối bài/bình luận đọc được trong trình duyệt lượt này; không xác nhận được bình luận người dùng ngày 08/11."
+    },
+    {
+      "key": "YouTube",
+      "status": "partial",
+      "added_feedback": 2,
+      "detail": "Tìm kiếm 8 từ khoá (lọc hôm nay/tuần) + RSS 8 kênh theo dõi: 2 video creator Thái ngày 08/11 (Teddy Chanelplay: nhiệm vụ câu lạc bộ ngày 4, xe tuk tuk). Không đọc bình luận dưới video. Không có kênh Thái mới."
+    },
+    {
+      "key": "TikTok",
+      "status": "partial",
+      "added_feedback": 1,
+      "detail": "Kênh chính thức: không có video mới ngày 08/11; 1 bình luận tiếng Thái ngày 08/11 (video 7705013332008373510); bỏ bình luận tiếng Việt/chào hỏi. Creator lemondoggopt và rukkung2000 không kiểm tra lượt này."
+    }
+  ],
+  "discovery": {
+    "queries": [
+      "facebook group: play together ไทย",
+      "youtube: play together, playtogether vng, เพลย์ทูเก็ตเตอร์, play together ไทย, #playtogethervng, #playtogetherth (+ alien invasion, tuk tuk)"
+    ],
+    "added": [],
+    "rejected": [],
+    "needs_user_action": [
+      "Group riêng tư đang chờ duyệt: 356675609124267, 847315523442353; group 3252260471541104 chưa là thành viên (yêu cầu cũ bị từ chối) — nếu muốn thu thập, người dùng tự tham gia/kiểm tra."
+    ]
+  },
+  "sensor_tower": "Bỏ qua theo runbook (người dùng tự cập nhật tay).",
+  "new_feedback": {
+    "by_source": {
+      "Facebook Group": 54,
+      "YouTube": 2,
+      "TikTok": 1
+    },
+    "by_kind": {
+      "post": 30,
+      "comment": 25,
+      "video": 2
+    },
+    "by_sentiment": {
+      "Neutral": 35,
+      "Positive": 11,
+      "Negative": 11
+    }
+  }
+}

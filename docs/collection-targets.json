@@ -1,6 +1,6 @@
 {
   "note": "Danh sách kênh/creator và từ khoá tìm kiếm cho lượt thu thập hằng ngày. Lượt chạy được phép bổ sung bằng scripts/add-source.mjs; không xoá mục cũ (đổi status thay vì xoá). Group/fanpage Facebook nằm trong public/data/sources.json.",
-  "updated_at": "2026-11-08",
+  "updated_at": "2026-11-10",
   "discovery_queries": {
     "facebook_groups": [
       "Play Together Thailand",
@@ -30,9 +30,10 @@
   "youtube_channels": [
     {
       "id": "UCuRaLOKpnBFgK2K5gbRlcrA",
-      "status": "active",
+      "status": "inactive",
       "added": "2026-10-13",
-      "source": "seed"
+      "source": "seed",
+      "note": "Video PTG mới nhất 17/09/2026 (>30 ngày); chuyển inactive 10/11"
     },
     {
       "id": "UCiLpWSUJsQGizA1nglqJGog",
@@ -51,9 +52,10 @@
     {
       "id": "UC6PsLX8cJ5s81ZcqjcBhhZQ",
       "name": "",
-      "status": "active",
+      "status": "inactive",
       "added": "2026-10-13",
-      "source": "seed"
+      "source": "seed",
+      "note": "Video PTG mới nhất 01/10/2026 (>30 ngày); chuyển inactive 10/11"
     },
     {
       "id": "UCr15fC3CNa4yrk18385tNDg",
@@ -72,9 +74,10 @@
     {
       "id": "UCS3hyl-eq4vLKYNXEWTivyg",
       "name": "",
-      "status": "active",
+      "status": "inactive",
       "added": "2026-10-13",
-      "source": "seed"
+      "source": "seed",
+      "note": "Video PTG mới nhất 01/10/2026 (>30 ngày); chuyển inactive 10/11"
     },
     {
       "id": "UC6-B6N5F-sxDGOzF8Vd4m2Q",
@@ -213,6 +216,30 @@
       "id": "145304313873973",
       "reason": "Play Together PH: cộng đồng Philippines, không phải Thái; kiểm tra 08/11",
       "checked": "2026-11-08"
+    },
+    {
+      "type": "youtube",
+      "id": "UCSqjwkIjiQ4wx9AgtGUHVZA",
+      "reason": "kênh tiếng Việt/Anh, không phải Thái",
+      "checked": "2026-11-10"
+    },
+    {
+      "type": "youtube",
+      "id": "UCCNdXSH4UZT2iYCX-HocotA",
+      "reason": "kênh Việt Nam",
+      "checked": "2026-11-10"
+    },
+    {
+      "type": "youtube",
+      "id": "UCLV95KHB25TZl83ii_-MllQ",
+      "reason": "kênh Việt Nam",
+      "checked": "2026-11-10"
+    },
+    {
+      "type": "youtube",
+      "id": "UCBasmsv5cjlL4cvpt_vMkSQ",
+      "reason": "video tiếng Anh, không phải Thái",
+      "checked": "2026-11-10"
     }
   ]
 }

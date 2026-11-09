@@ -1,0 +1,127 @@
+{
+  "target_date": "2026-11-09",
+  "time_zone": "Asia/Bangkok",
+  "checked_at": "2026-11-09T23:23:47.869Z",
+  "status": "partial",
+  "added_feedback": 50,
+  "added_ratings": 0,
+  "collection_complete": false,
+  "summary_vn": "Ngày 09/11/2026: thêm 50 phản hồi — group Community 38 (15 bài + bình luận: chuyển sang VNG, nâng cấp cần câu rồng, kim cương xanh, rađa câu cá, nhiệm vụ tuk tuk không hiện, ảnh đại diện xám), group chợ 815754622673816 6 bài, group mua bán 473704433937505 1 bài, group trao đổi 493177613552238 3 bài, group Official 1 bài, YouTube 1 video creator Thái. Fanpage chỉ hiện mục Featured; TikTok không có video ngày 09/11; chưa đọc bình luận ở group chợ/YouTube. Không có nguồn Thái mới (tìm group Facebook/YouTube); 3 kênh YouTube >30 ngày chuyển inactive. Sensor Tower bỏ qua theo runbook.",
+  "sources": [
+    {
+      "key": "Facebook Group · playtogetherth",
+      "status": "partial",
+      "added_feedback": 38,
+      "detail": "New posts + mở từng bài: 15 bài người chơi và bình luận cấp 1 ngày 09/11 (chuyển VNG, cần câu rồng, kim cương xanh, rađa câu cá, nhiệm vụ tuk tuk không hiện, ảnh đại diện xám, đáp án sự kiện…). Bỏ bài/bình luận admin, trả lời lồng nhau, bình luận chỉ có link/GIF, bài nhãn 5 giờ (sau 00:00 10/11). Dữ liệu 14/09 – 09/11."
+    },
+    {
+      "key": "Facebook Group · 815754622673816",
+      "status": "partial",
+      "added_feedback": 6,
+      "detail": "New posts: ngày 09/11 có 6 bài rao bán (trái cây/nhân sâm, tài khoản 700฿). Không đọc bình luận."
+    },
+    {
+      "key": "Facebook Group · 1772363333745643",
+      "status": "partial",
+      "added_feedback": 1,
+      "detail": "New posts: ngày 09/11 có 1 bài người chơi (hỏi đáp án); bỏ bài admin/trang (công thức nấu ăn). Không đọc bình luận."
+    },
+    {
+      "key": "Facebook Group · 473704433937505",
+      "status": "partial",
+      "added_feedback": 1,
+      "detail": "New posts: ngày 09/11 có 1 bài rao bán (trái cây/nhân sâm), cùng nội dung với group chợ 815754622673816."
+    },
+    {
+      "key": "Facebook Group · 253674809721451",
+      "status": "partial",
+      "added_feedback": 0,
+      "detail": "Chưa kiểm tra lại lượt này (bài mới nhất lần trước vẫn 28/10)."
+    },
+    {
+      "key": "Facebook Group · 493177613552238",
+      "status": "partial",
+      "added_feedback": 3,
+      "detail": "New posts: ngày 09/11 có 3 bài tìm trao đổi thẻ (bỏ 1 bài không có chữ)."
+    },
+    {
+      "key": "Facebook Fanpage · @playtogetherthailandofficial",
+      "status": "partial",
+      "added_feedback": 0,
+      "detail": "Trang mở được nhưng chỉ hiển thị mục Featured, không có khối bài/bình luận gần đây đọc được; không xác nhận được bình luận người dùng ngày 09/11."
+    },
+    {
+      "key": "YouTube",
+      "status": "partial",
+      "added_feedback": 1,
+      "detail": "Tìm kiếm 7 từ khoá (lọc hôm nay/tuần) + RSS 7 kênh active: 1 video creator Thái ngày 09/11 (Teddy Chanelplay: nhiệm vụ câu lạc bộ Siam Town ngày 5), không có bình luận. Không đọc kênh chính thức. Không có kênh Thái mới; 3 kênh >30 ngày không hoạt động chuyển inactive."
+    },
+    {
+      "key": "TikTok",
+      "status": "partial",
+      "added_feedback": 0,
+      "detail": "Creator rukkung2000 (video mới nhất 08/11) và lemondoggopt (27/10): không có video ngày 09/11. Không quét kênh chính thức/tìm kiếm lượt này."
+    }
+  ],
+  "discovery": {
+    "queries": [
+      "facebook group: Play Together Thailand, เพลย์ทูเก็ตเตอร์",
+      "youtube: play together ไทย, play together, playtogether vng, เพลย์ทูเก็ตเตอร์, #playtogethervng, #playtogetherth, ตัวตึงสยามทาวน์"
+    ],
+    "added": [],
+    "rejected": [
+      {
+        "type": "youtube",
+        "id": "UCSqjwkIjiQ4wx9AgtGUHVZA",
+        "name": "Khang Shark",
+        "reason": "không phải Thái"
+      },
+      {
+        "type": "youtube",
+        "id": "UCCNdXSH4UZT2iYCX-HocotA",
+        "name": "Duy Quốc",
+        "reason": "kênh Việt Nam"
+      },
+      {
+        "type": "youtube",
+        "id": "UCLV95KHB25TZl83ii_-MllQ",
+        "name": "Kietxplay",
+        "reason": "kênh Việt Nam"
+      },
+      {
+        "type": "youtube",
+        "id": "UCBasmsv5cjlL4cvpt_vMkSQ",
+        "name": "JunB Play",
+        "reason": "tiếng Anh, không phải Thái"
+      }
+    ],
+    "inactive": [
+      "youtube Malong Gaming (17/09)",
+      "youtube Nanannew (01/10)",
+      "youtube PideA4TH (01/10)"
+    ],
+    "needs_user_action": [
+      "Group riêng tư đang chờ duyệt: 356675609124267, 847315523442353; group 3252260471541104 chưa là thành viên — nếu muốn thu thập, người dùng tự tham gia/kiểm tra."
+    ]
+  },
+  "sensor_tower": {
+    "status": "skipped",
+    "note": "Bỏ qua theo runbook; người dùng tự cập nhật tay."
+  },
+  "new_feedback": {
+    "by_source": {
+      "Facebook Group": 49,
+      "YouTube": 1
+    },
+    "by_kind": {
+      "post": 27,
+      "comment": 22,
+      "video": 1
+    },
+    "by_sentiment": {
+      "Positive": 5,
+      "Neutral": 41,
+      "Negative": 4
+    }
+  }
+}

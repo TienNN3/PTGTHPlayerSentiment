@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-08",
+  "updated_at": "2026-11-10",
   "note": "Danh sách nguồn được theo dõi. Tên lấy từ tiêu đề trang Facebook; trạng thái mô tả phạm vi thu thập, không phải số phản hồi.",
   "statuses": {
     "full": "Đủ 30 ngày",
@@ -18,13 +18,13 @@
       "name": "Play Together VNG : THAILAND Community",
       "type": "group",
       "status": "full",
-      "detail": "New posts: 19 bài người chơi ngày 08/11 (gói hàng tháng, câu cá nhiệm vụ balloon 7, chuyển tài khoản VNG, NPC bán hoa biến mất, lai thú cưng, web nạp nhầm hình trang phục…) + 23 bình luận cấp 1 hiển thị dưới các bài đó (nhãn thời gian tương đối). Bỏ bài/bình luận admin, trả lời lồng nhau, bình luận chỉ có GIF/link, và các bài/bình luận nhãn ~6 giờ trở xuống (sát hoặc sau 00:00 09/11). Không quét Recent activity. Dữ liệu 14/09 – 08/11.",
+      "detail": "New posts + mở từng bài: 15 bài người chơi và bình luận cấp 1 ngày 09/11 (chuyển VNG, cần câu rồng, kim cương xanh, rađa câu cá, nhiệm vụ tuk tuk không hiện, ảnh đại diện xám, đáp án sự kiện…). Bỏ bài/bình luận admin, trả lời lồng nhau, bình luận chỉ có link/GIF, bài nhãn 5 giờ (sau 00:00 10/11). Dữ liệu 14/09 – 09/11.",
       "url": "https://www.facebook.com/groups/playtogetherth/",
       "last_check": {
-        "target_date": "2026-11-08",
-        "checked_at": "2026-11-08T23:24:09.947Z",
+        "target_date": "2026-11-09",
+        "checked_at": "2026-11-09T23:23:47.869Z",
         "status": "partial",
-        "added_feedback": 42
+        "added_feedback": 38
       }
     },
     {
@@ -32,11 +32,11 @@
       "name": "Play Together : THAILAND ตลาดนัดซื้อขาย (chợ mua bán)",
       "type": "group",
       "status": "full",
-      "detail": "New posts: ngày 08/11 có 6 bài rao bán/mua (mua tài khoản, thẻ, nhân sâm/trái cây, nhận đào thuê đảo). Không đọc bình luận.",
+      "detail": "New posts: ngày 09/11 có 6 bài rao bán (trái cây/nhân sâm, tài khoản 700฿). Không đọc bình luận.",
       "url": "https://www.facebook.com/groups/815754622673816/",
       "last_check": {
-        "target_date": "2026-11-08",
-        "checked_at": "2026-11-08T23:24:09.947Z",
+        "target_date": "2026-11-09",
+        "checked_at": "2026-11-09T23:23:47.869Z",
         "status": "partial",
         "added_feedback": 6
       }
@@ -46,13 +46,13 @@
       "name": "Play Together VNG Thailand Official (group)",
       "type": "group",
       "status": "full",
-      "detail": "New posts: ngày 08/11 có 2 bài người chơi (bài giá 20 baht, bài tìm trao đổi của người mới); bỏ bài admin/trang (công thức nấu ăn). Không đọc bình luận.",
+      "detail": "New posts: ngày 09/11 có 1 bài người chơi (hỏi đáp án); bỏ bài admin/trang (công thức nấu ăn). Không đọc bình luận.",
       "url": "https://www.facebook.com/groups/1772363333745643/",
       "last_check": {
-        "target_date": "2026-11-08",
-        "checked_at": "2026-11-08T23:24:09.947Z",
+        "target_date": "2026-11-09",
+        "checked_at": "2026-11-09T23:23:47.869Z",
         "status": "partial",
-        "added_feedback": 2
+        "added_feedback": 1
       }
     },
     {
@@ -102,13 +102,13 @@
       "name": "ซื้อ-ขาย Play Together TH (mua bán)",
       "type": "group",
       "status": "partial",
-      "detail": "New posts: ngày 08/11 có 3 bài rao bán (thẻ, nhân sâm/trái cây); cùng nội dung với group chợ 815754622673816.",
+      "detail": "New posts: ngày 09/11 có 1 bài rao bán (trái cây/nhân sâm), cùng nội dung với group chợ 815754622673816.",
       "url": "https://www.facebook.com/groups/473704433937505/",
       "last_check": {
-        "target_date": "2026-11-08",
-        "checked_at": "2026-11-08T23:24:09.947Z",
+        "target_date": "2026-11-09",
+        "checked_at": "2026-11-09T23:23:47.869Z",
         "status": "partial",
-        "added_feedback": 3
+        "added_feedback": 1
       }
     },
     {
@@ -130,13 +130,13 @@
       "name": "PLAYTOGETHER THAILAND [พูดคุย-ซื้อ-ขาย] (thảo luận, mua bán)",
       "type": "group",
       "status": "partial",
-      "detail": "New posts: không có bài ngày 08/11 (bài mới nhất vẫn từ 28/10).",
+      "detail": "Chưa kiểm tra lại lượt này (bài mới nhất lần trước vẫn 28/10).",
       "url": "https://www.facebook.com/groups/253674809721451/",
       "discovered_at": "2026-10-30",
       "last_check": {
-        "target_date": "2026-11-08",
-        "checked_at": "2026-11-08T23:24:09.947Z",
-        "status": "partial",
+        "target_date": "2026-11-09",
+        "checked_at": "2026-11-09T23:23:47.869Z",
+        "status": "not_checked",
         "added_feedback": 0
       }
     },
@@ -145,14 +145,14 @@
       "name": "แลกเปลี่ยนการ์ด/ผัก Play Together Thailand (trao đổi thẻ/rau)",
       "type": "group",
       "status": "partial",
-      "detail": "New posts: ngày 08/11 có 1 bài tìm trao đổi (nhãn 18 giờ trước).",
+      "detail": "New posts: ngày 09/11 có 3 bài tìm trao đổi thẻ (bỏ 1 bài không có chữ).",
       "url": "https://www.facebook.com/groups/493177613552238/",
       "discovered_at": "2026-11-03",
       "last_check": {
-        "target_date": "2026-11-08",
-        "checked_at": "2026-11-08T23:24:09.947Z",
+        "target_date": "2026-11-09",
+        "checked_at": "2026-11-09T23:23:47.869Z",
         "status": "partial",
-        "added_feedback": 1
+        "added_feedback": 3
       }
     },
     {
@@ -160,11 +160,11 @@
       "name": "Fanpage Play Together Thailand Official",
       "type": "fanpage",
       "status": "partial",
-      "detail": "Trang không hiển thị khối bài/bình luận đọc được trong trình duyệt lượt này; không xác nhận được bình luận người dùng ngày 08/11.",
+      "detail": "Trang mở được nhưng chỉ hiển thị mục Featured, không có khối bài/bình luận gần đây đọc được; không xác nhận được bình luận người dùng ngày 09/11.",
       "url": "https://www.facebook.com/playtogetherthailandofficial",
       "last_check": {
-        "target_date": "2026-11-08",
-        "checked_at": "2026-11-08T23:24:09.947Z",
+        "target_date": "2026-11-09",
+        "checked_at": "2026-11-09T23:23:47.869Z",
         "status": "partial",
         "added_feedback": 0
       }
@@ -174,13 +174,13 @@
       "name": "YouTube (video và bình luận tiếng Thái)",
       "type": "youtube",
       "status": "youtube",
-      "detail": "Tìm kiếm 8 từ khoá (lọc hôm nay/tuần) + RSS 8 kênh theo dõi: 2 video creator Thái ngày 08/11 (Teddy Chanelplay: nhiệm vụ câu lạc bộ ngày 4, xe tuk tuk). Không đọc bình luận dưới video. Không có kênh Thái mới.",
+      "detail": "Tìm kiếm 7 từ khoá (lọc hôm nay/tuần) + RSS 7 kênh active: 1 video creator Thái ngày 09/11 (Teddy Chanelplay: nhiệm vụ câu lạc bộ Siam Town ngày 5), không có bình luận. Không đọc kênh chính thức. Không có kênh Thái mới; 3 kênh >30 ngày không hoạt động chuyển inactive.",
       "url": "https://www.youtube.com/results?search_query=play+together+%E0%B9%84%E0%B8%97%E0%B8%A2",
       "last_check": {
-        "target_date": "2026-11-08",
-        "checked_at": "2026-11-08T23:24:09.947Z",
+        "target_date": "2026-11-09",
+        "checked_at": "2026-11-09T23:23:47.869Z",
         "status": "partial",
-        "added_feedback": 2
+        "added_feedback": 1
       },
       "official_channel_url": "https://www.youtube.com/@playtogetherth"
     },
@@ -189,13 +189,13 @@
       "name": "TikTok (video và bình luận tiếng Thái)",
       "type": "tiktok",
       "status": "tiktok",
-      "detail": "Kênh chính thức: không có video mới ngày 08/11; 1 bình luận tiếng Thái ngày 08/11 (video 7705013332008373510); bỏ bình luận tiếng Việt/chào hỏi. Creator lemondoggopt và rukkung2000 không kiểm tra lượt này.",
+      "detail": "Creator rukkung2000 (video mới nhất 08/11) và lemondoggopt (27/10): không có video ngày 09/11. Không quét kênh chính thức/tìm kiếm lượt này.",
       "url": "https://www.tiktok.com/@playtogetherth.official",
       "last_check": {
-        "target_date": "2026-11-08",
-        "checked_at": "2026-11-08T23:24:09.947Z",
+        "target_date": "2026-11-09",
+        "checked_at": "2026-11-09T23:23:47.869Z",
         "status": "partial",
-        "added_feedback": 1
+        "added_feedback": 0
       }
     },
     {

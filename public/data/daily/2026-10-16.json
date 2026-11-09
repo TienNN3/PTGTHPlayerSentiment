@@ -1724,6 +1724,154 @@
       "app_version": "2.32.0",
       "text_en": "Really miss my old account. I deleted the game 2–3 years ago and wanted to come back, but my old account is gone and the Global version isn't available to download to get the link, so I'd have to make a new one. I didn't spend much, but I played for so long and farmed loads of money — this is so disappointing. I'm just deleting the game.",
       "summary_en": "Returning player lost their old account, can't get the Global app to transfer, quits."
+    },
+    {
+      "id": "gplay-vng-e83b902741468647",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.vng.playtogether&hl=th",
+      "author_masked": "พ***",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "text_th": "ยากไห้ทุกคนเล่ทานทุกคนไม่เล่นต้อนสืยไจ",
+      "text_vn": "Muốn mọi người cùng chơi, ai không chơi thì sẽ tiếc đó (?)",
+      "translation_method": "ai_contextual",
+      "sentiment": "Positive",
+      "confidence": 0.75,
+      "topic": "Other",
+      "topic_secondary": [],
+      "theme": "Trải nghiệm game tích cực",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 5,
+      "intent": "praise",
+      "keywords": [
+        "khen game",
+        "bình luận ngắn"
+      ],
+      "summary_vn": "Rủ mọi người cùng chơi game.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Neutral",
+      "store_tags": [],
+      "app_version": null,
+      "text_en": "I want everyone to play; if you don't, you'll regret it (?)",
+      "summary_en": "Encourages everyone to play the game."
+    },
+    {
+      "id": "gplay-vng-d08a0a52289e7873",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.vng.playtogether&hl=th",
+      "author_masked": "T***",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "text_th": "ขึ้นว่ามีข้อผิดพลาดอะไรก็ไม่รู้ เข้าเกมไม่ได้เลย แย่มาก",
+      "text_vn": "Hiện báo lỗi gì đó không biết, không vào game được luôn, tệ quá.",
+      "translation_method": "ai_contextual",
+      "sentiment": "Negative",
+      "confidence": 0.75,
+      "topic": "Login / Account / Data",
+      "topic_secondary": [],
+      "theme": "Đăng nhập tài khoản",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 2,
+      "intent": "bug",
+      "keywords": [
+        "đăng nhập",
+        "lỗi hiển thị"
+      ],
+      "summary_vn": "Báo lỗi không rõ, không vào được game.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Unhappy",
+      "store_tags": [
+        "Performance And Bugs",
+        "Error Handling And Messages"
+      ],
+      "app_version": null,
+      "text_en": "It shows some error I don't understand and I can't get into the game at all. Really bad.",
+      "summary_en": "Unknown error, can't enter the game."
+    },
+    {
+      "id": "gplay-vng-63b9b9fab0e3c779",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.vng.playtogether&hl=th",
+      "author_masked": "ก***",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "text_th": "โฆษณาไม่มีอย่างอื่นหรอ ต้องนั่งดูซ้ำๆ น่าเบื่อ🫩",
+      "text_vn": "Quảng cáo không có cái nào khác à, phải ngồi xem đi xem lại, chán quá 🫩",
+      "translation_method": "ai_contextual",
+      "sentiment": "Negative",
+      "confidence": 0.75,
+      "topic": "Other",
+      "topic_secondary": [],
+      "theme": "Quảng cáo gây gián đoạn",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 1,
+      "intent": "complaint",
+      "keywords": [
+        "quảng cáo"
+      ],
+      "summary_vn": "Chán vì quảng cáo lặp lại mãi.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Unhappy",
+      "store_tags": [
+        "Advertisements"
+      ],
+      "app_version": "2.32.0",
+      "text_en": "Are there no other ads? I have to sit through the same ones over and over, so boring 🫩",
+      "summary_en": "Bored by the same ads repeating."
+    },
+    {
+      "id": "gplay-vng-0c38dcaad615375a",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.vng.playtogether&hl=th",
+      "author_masked": "w***",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "text_th": "ทำไมแบบเวลาเข้าเกมแบบเกมชอบหลุดอ่ะแล้วก็ให้สมัครบัญชีใหม่แล้วก็ตอนที่กำลังจะสมัครเข้าบัญชีใช่ป่ะมันก็เด้งออกแล้วก็ทำใหม่แบบเป็นซ้ำๆ 3-4 รอบแล้วคืองงส่วนตัวคือชอบเกมนี้มากเกมแบบแต่งตัวน่ารักมีอะไรให้เล่นเลี้ยงเด็กอะไรเงี้ยแต่ถ้าติดปัญหาแบบนี้ก็แอบเศร้าอยู่นะ😔 Love this game & cutest characters, but it keeps crashing! It forces re-registration and crashes again in a loop. Plz fix! 😔",
+      "text_vn": "Sao lúc vào game cứ hay bị văng vậy, rồi bắt đăng ký tài khoản mới, đang đăng ký tài khoản thì lại văng ra, làm lại lặp đi lặp lại 3-4 lần rồi, khó hiểu ghê. Thật ra mình rất thích game này, kiểu được thay đồ dễ thương, có nhiều thứ để chơi, nuôi em bé các kiểu, nhưng mà gặp lỗi thế này thì cũng hơi buồn 😔 (Tiếng Anh: Yêu game này và nhân vật siêu dễ thương, nhưng game cứ văng! Nó bắt đăng ký lại rồi lại văng tiếp thành vòng lặp. Sửa giùm nha! 😔)",
+      "translation_method": "ai_contextual",
+      "sentiment": "Mixed",
+      "confidence": 0.75,
+      "topic": "Bug / Crash / Lag / Performance",
+      "topic_secondary": [],
+      "theme": "Game bị văng và treo",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 2,
+      "intent": "performance",
+      "keywords": [
+        "văng game",
+        "đăng nhập",
+        "trang phục"
+      ],
+      "summary_vn": "Thích game nhưng bị văng lặp lại khi đăng ký tài khoản.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Mixed",
+      "store_tags": [
+        "Performance And Bugs",
+        "Login"
+      ],
+      "app_version": "2.32.0",
+      "text_en": "Why does the game keep crashing when I log in? Then it makes me register a new account, and while I'm registering it crashes again. I've repeated this 3-4 times and I'm confused. I really love this game, the cute outfits, lots to do, raising kids and so on, but running into this makes me kind of sad 😔 Love this game & cutest characters, but it keeps crashing! It forces re-registration and crashes again in a loop. Please fix! 😔",
+      "summary_en": "Loves the game but crashes loop during account registration."
     }
   ],
   "report": {
@@ -1759,45 +1907,57 @@
     ]
   },
   "metrics": {
-    "volume": 46,
+    "volume": 50,
     "noise": 0,
     "by_source": {
       "Facebook Group": 42,
       "YouTube": 1,
       "TikTok": 2,
-      "App Store": 1
+      "App Store": 1,
+      "Google Play": 4
     },
     "by_sentiment": {
-      "Positive": 9,
+      "Positive": 10,
       "Neutral": 24,
-      "Negative": 13,
-      "Mixed": 0
+      "Negative": 15,
+      "Mixed": 1
     },
     "by_topic": {
       "Activities (fishing, bugs, pets, housing, jobs, minigames)": 16,
-      "Login / Account / Data": 5,
+      "Login / Account / Data": 6,
       "Event & Update content": 7,
       "Social / Scam / Harassment / Toxic": 3,
-      "Other": 8,
-      "Bug / Crash / Lag / Performance": 3,
+      "Other": 10,
+      "Bug / Crash / Lag / Performance": 4,
       "Localization (Thai text, wrong translation)": 1,
       "Gacha / Shop / Pricing": 3
     },
     "by_segment": {
-      "unknown": 46
+      "unknown": 50
     },
-    "nss": -8.7,
+    "nss": -10,
     "nss_d1": null,
     "nss_7d_avg": null,
     "store": {
-      "gp_avg": null,
+      "gp_avg": 2.5,
       "ios_avg": 1,
-      "star_1": 1,
-      "star_5": 0
+      "star_1": 2,
+      "star_5": 1
     }
   },
   "data_mode": "production",
   "ratings": [
+    {
+      "platform": "Google Play",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "granularity": "day",
+      "incremental_avg_rating": 5,
+      "total_avg_rating": 4.5477,
+      "incremental_rating_count": 0.6403,
+      "total_rating_count": 383.22659999999996,
+      "source": "Sensor Tower"
+    },
     {
       "platform": "App Store",
       "app_name": "Play Together VNG",
@@ -1807,17 +1967,6 @@
       "total_avg_rating": 3.9901,
       "incremental_rating_count": 5,
       "total_rating_count": 404,
-      "source": "Sensor Tower"
-    },
-    {
-      "platform": "Google Play",
-      "app_name": "Play Together VNG",
-      "app_id": "com.vng.playtogether",
-      "granularity": "day",
-      "incremental_avg_rating": 5,
-      "total_avg_rating": 4.5477,
-      "incremental_rating_count": 0.4262,
-      "total_rating_count": 255.0776,
       "source": "Sensor Tower"
     }
   ]

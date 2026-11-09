@@ -79,6 +79,12 @@ Translations must be clear on first read and fit the game context. No word-by-wo
 - English style: plain and easy to read, not academic.
 - When adding new feedback: translate it to English too and apply with `node scripts/apply-english.mjs <file.json>` (format `{ "<id>": { "text": "...", "summary": "..." } }`); add any new keyword to `terms` in `en.json`.
 
+## 4d. Game context and support scope
+
+- The AI labels feedback using `docs/game-context.md`, where the ops team keeps adding facts about the game so the results fit the game better over time.
+- **The game has no APK** (it is only on Google Play and the App Store). Posts about errors when installing an APK or a copy from an unofficial site are kept, but get `out_of_scope: "unofficial_apk"`. The dashboard tags them "Out of scope: unofficial APK" and does **not** count them in "Needs action" / "Feedback to review".
+- Mark or unmark by hand: `node scripts/set-scope.mjs unofficial_apk <id>` / `node scripts/set-scope.mjs clear <id>`. For a new rule, add it to `docs/game-context.md` and to `RULES` in `scripts/set-scope.mjs`.
+
 ## 5. UI
 
 - **Overview** (key numbers on top, trends in the middle, details below): a row of 5 KPIs (Total feedback, Positive %, Negative %, Needs action = bugs + crash/lag + account + complaints, VNG store rating), each card with change and sparkline, click to go to details; 3 highlight lines + full collapsible summary + Copy report button; Daily trend (sentiment or content type, day/week, count/%; click a bar to open that day's list) and sentiment pie chart; What players are doing and Top keywords (ranked bars, color shows sentiment split); What players like / are unhappy about / Needs action (compact, click to read); Keywords by day heatmap (click a cell to filter by that day + keyword). Detailed notes are in the ⓘ icon.

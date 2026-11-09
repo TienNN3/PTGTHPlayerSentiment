@@ -2166,6 +2166,114 @@
       "translation_method": "ai_contextual",
       "label_method": "ai_review",
       "collected_at": "2026-10-30T06:30:04.865Z"
+    },
+    {
+      "id": "gplay-vng-2eb389a888376ce8",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.vng.playtogether&hl=th",
+      "author_masked": "ก***",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "text_th": "這遊戲真好玩，真的超好玩。我還邀請朋友一起玩了",
+      "text_vn": "Game này hay thật, thật sự siêu vui. Mình còn rủ bạn bè vào chơi cùng nữa.",
+      "translation_method": "ai_contextual",
+      "sentiment": "Positive",
+      "confidence": 0.75,
+      "topic": "Other",
+      "topic_secondary": [],
+      "theme": "Trải nghiệm game tích cực",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 5,
+      "intent": "praise",
+      "keywords": [
+        "khen game",
+        "chơi cùng bạn bè"
+      ],
+      "summary_vn": "Khen game vui, đã rủ bạn bè chơi cùng.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Happy",
+      "store_tags": [
+        "Social And Community"
+      ],
+      "app_version": "2.32.0",
+      "text_en": "This game is really fun, seriously super fun. I even invited my friends to play together.",
+      "summary_en": "Praises the game and invited friends to play."
+    },
+    {
+      "id": "gplay-vng-9eaa1f61a008082f",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.vng.playtogether&hl=th",
+      "author_masked": "ภ***",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "text_th": "เกมดีมากมีอะไรให้ทำหลายอย่างสนุกมาก",
+      "text_vn": "Game rất hay, có nhiều thứ để làm, vui lắm.",
+      "translation_method": "ai_contextual",
+      "sentiment": "Positive",
+      "confidence": 0.75,
+      "topic": "Other",
+      "topic_secondary": [],
+      "theme": "Trải nghiệm game tích cực",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 5,
+      "intent": "praise",
+      "keywords": [
+        "khen game"
+      ],
+      "summary_vn": "Khen game hay, nhiều hoạt động.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Happy",
+      "store_tags": [
+        "Service"
+      ],
+      "app_version": "2.32.0",
+      "text_en": "Great game, lots of things to do, very fun.",
+      "summary_en": "Praises the game, lots of activities."
+    },
+    {
+      "id": "gplay-vng-b441f501816fff13",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.vng.playtogether&hl=th",
+      "author_masked": "C***",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "text_th": "ชอบมากๆบอกเลยเริ่ด",
+      "text_vn": "Thích lắm luôn, phải nói là đỉnh.",
+      "translation_method": "ai_contextual",
+      "sentiment": "Positive",
+      "confidence": 0.75,
+      "topic": "Other",
+      "topic_secondary": [],
+      "theme": "Trải nghiệm game tích cực",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 5,
+      "intent": "praise",
+      "keywords": [
+        "khen game",
+        "bình luận ngắn"
+      ],
+      "summary_vn": "Rất thích game.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Happy",
+      "store_tags": [],
+      "app_version": "2.32.0",
+      "text_en": "Love it so much, honestly it's awesome.",
+      "summary_en": "Really loves the game."
     }
   ],
   "report": {
@@ -2201,37 +2309,62 @@
     ]
   },
   "metrics": {
-    "volume": 57,
+    "volume": 60,
     "noise": 0,
     "by_source": {
       "Facebook Group": 55,
-      "YouTube": 2
+      "YouTube": 2,
+      "Google Play": 3
     },
     "by_sentiment": {
-      "Positive": 4,
+      "Positive": 7,
       "Neutral": 31,
       "Negative": 18,
       "Mixed": 4
     },
     "by_topic": {
-      "Other": 20,
+      "Other": 23,
       "Bug / Crash / Lag / Performance": 1,
       "Activities (fishing, bugs, pets, housing, jobs, minigames)": 32,
       "Event & Update content": 2,
       "Login / Account / Data": 2
     },
     "by_segment": {
-      "unknown": 57
+      "unknown": 60
     },
-    "nss": -24.6,
+    "nss": -18.3,
     "nss_d1": null,
     "nss_7d_avg": null,
     "store": {
-      "gp_avg": null,
+      "gp_avg": 5,
       "ios_avg": null,
       "star_1": 0,
-      "star_5": 0
+      "star_5": 3
     }
   },
-  "data_mode": "production"
+  "data_mode": "production",
+  "ratings": [
+    {
+      "platform": "Google Play",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "granularity": "day",
+      "incremental_avg_rating": 4.8005,
+      "total_avg_rating": 4.45,
+      "incremental_rating_count": 1.2990000000000013,
+      "total_rating_count": 384.39119999999997,
+      "source": "Sensor Tower"
+    },
+    {
+      "platform": "App Store",
+      "app_name": "Play Together VNG",
+      "app_id": "1612175933",
+      "granularity": "day",
+      "incremental_avg_rating": 4,
+      "total_avg_rating": 4.0392,
+      "incremental_rating_count": 1,
+      "total_rating_count": 459,
+      "source": "Sensor Tower"
+    }
+  ]
 }

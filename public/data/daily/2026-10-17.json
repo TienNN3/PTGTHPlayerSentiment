@@ -1984,6 +1984,119 @@
       "translation_method": "ai_contextual",
       "label_method": "ai_review",
       "collected_at": "2026-10-17T23:38:04.063Z"
+    },
+    {
+      "id": "gplay-vng-a2f409053c56de9a",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.vng.playtogether&hl=th",
+      "author_masked": "P***",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "text_th": "จะบัคไรเบอร์นั้นแถมกระตุกด้วยบัคจนด่าคนแล้วก็โดนคนด่ากลับเพราะบัค",
+      "text_vn": "Lỗi gì mà nhiều dữ vậy, lại còn giật nữa. Lỗi tới mức tôi chửi người ta rồi bị người ta chửi lại cũng vì lỗi.",
+      "translation_method": "ai_contextual",
+      "sentiment": "Negative",
+      "confidence": 0.75,
+      "topic": "Bug / Crash / Lag / Performance",
+      "topic_secondary": [],
+      "theme": "Game bị văng và treo",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 1,
+      "intent": "performance",
+      "keywords": [
+        "lag",
+        "lỗi hiển thị"
+      ],
+      "summary_vn": "Game nhiều lỗi, giật lag gây cãi nhau với người khác.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Unhappy",
+      "store_tags": [
+        "Performance And Bugs"
+      ],
+      "app_version": "2.32.0",
+      "text_en": "Why is it so buggy, and laggy too? It's so buggy that I ended up cursing at someone and got cursed back, all because of bugs.",
+      "summary_en": "Game is buggy and laggy, causing fights with players."
+    },
+    {
+      "id": "gplay-vng-2745b66c01988785",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.vng.playtogether&hl=th",
+      "author_masked": "p***",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "text_th": "สนุกมากเหมือนได้ใช้ชีวิตจริงๆ",
+      "text_vn": "Vui lắm, như được sống thật vậy.",
+      "translation_method": "ai_contextual",
+      "sentiment": "Positive",
+      "confidence": 0.75,
+      "topic": "Other",
+      "topic_secondary": [],
+      "theme": "Trải nghiệm game tích cực",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 5,
+      "intent": "praise",
+      "keywords": [
+        "khen game",
+        "giải trí"
+      ],
+      "summary_vn": "Khen game vui như đời thật.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Happy",
+      "store_tags": [
+        "Service"
+      ],
+      "app_version": "2.32.0",
+      "text_en": "So fun, it feels like real life.",
+      "summary_en": "Praises the game as fun like real life."
+    },
+    {
+      "id": "gplay-vng-160ca78fe922d727",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.vng.playtogether&hl=th",
+      "author_masked": "ภ***",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "text_th": "เข้าบัญชีเดิมไม่ได้ผูกกับบัญชีอันสีเขียว พออัปเดตใหม่ก็ไม่มีแล้ว",
+      "text_vn": "Không vào được tài khoản cũ, cái liên kết với tài khoản màu xanh lá ấy, cập nhật bản mới xong là mất luôn.",
+      "translation_method": "ai_contextual",
+      "sentiment": "Negative",
+      "confidence": 0.75,
+      "topic": "Login / Account / Data",
+      "topic_secondary": [],
+      "theme": "Đăng nhập tài khoản",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 3,
+      "intent": "account",
+      "keywords": [
+        "đăng nhập",
+        "chuyển tài khoản vng",
+        "mất dữ liệu"
+      ],
+      "summary_vn": "Mất tài khoản cũ liên kết tài khoản xanh lá sau cập nhật.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Unhappy",
+      "store_tags": [
+        "Login",
+        "Updates And Maintenance"
+      ],
+      "app_version": "2.32.0",
+      "text_en": "I can't get into my old account, the one linked to the green account. After the new update it's just gone.",
+      "summary_en": "Old account linked to the green login lost after update."
     }
   ],
   "report": {
@@ -2019,40 +2132,52 @@
     ]
   },
   "metrics": {
-    "volume": 53,
+    "volume": 56,
     "noise": 0,
     "by_source": {
-      "Facebook Group": 53
+      "Facebook Group": 53,
+      "Google Play": 3
     },
     "by_sentiment": {
-      "Positive": 8,
+      "Positive": 9,
       "Neutral": 38,
-      "Negative": 7,
+      "Negative": 9,
       "Mixed": 0
     },
     "by_topic": {
       "Event & Update content": 16,
       "Gacha / Shop / Pricing": 2,
       "Activities (fishing, bugs, pets, housing, jobs, minigames)": 26,
-      "Other": 6,
-      "Login / Account / Data": 2,
-      "Bug / Crash / Lag / Performance": 1
+      "Other": 7,
+      "Login / Account / Data": 3,
+      "Bug / Crash / Lag / Performance": 2
     },
     "by_segment": {
-      "unknown": 53
+      "unknown": 56
     },
-    "nss": 1.9,
+    "nss": 0,
     "nss_d1": null,
     "nss_7d_avg": null,
     "store": {
-      "gp_avg": null,
+      "gp_avg": 3,
       "ios_avg": null,
-      "star_1": 0,
-      "star_5": 0
+      "star_1": 1,
+      "star_5": 1
     }
   },
   "data_mode": "production",
   "ratings": [
+    {
+      "platform": "Google Play",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "granularity": "day",
+      "incremental_avg_rating": 2.2082,
+      "total_avg_rating": 4.4412,
+      "incremental_rating_count": 0.1039999999999992,
+      "total_rating_count": 383.3305,
+      "source": "Sensor Tower"
+    },
     {
       "platform": "App Store",
       "app_name": "Play Together VNG",
@@ -2062,17 +2187,6 @@
       "total_avg_rating": 3.9854,
       "incremental_rating_count": 6,
       "total_rating_count": 410,
-      "source": "Sensor Tower"
-    },
-    {
-      "platform": "Google Play",
-      "app_name": "Play Together VNG",
-      "app_id": "com.vng.playtogether",
-      "granularity": "day",
-      "incremental_avg_rating": 2.2082,
-      "total_avg_rating": 4.4412,
-      "incremental_rating_count": 0.0691000000000006,
-      "total_rating_count": 255.14679999999998,
       "source": "Sensor Tower"
     }
   ]

@@ -615,6 +615,44 @@
       "translation_method": "ai_contextual",
       "label_method": "ai_review",
       "collected_at": "2026-11-04T03:00:00.000Z"
+    },
+    {
+      "id": "gplay-vng-09e6dfdee3209fb5",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.vng.playtogether&hl=th",
+      "author_masked": "ส***",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "text_th": "แอบเสียดาย ไอดีที่สร้างตอนปี 2022 อ่ะ ในไอดีคือมีแต่ของจากกิจกรรมช่วงนั้น และรู้สึกว่ามัน เป็นของ ลิมิเต็ด ที่หาไม่ได้แล้วด้วย :( เอาไอดีฉันคืนมา",
+      "text_vn": "Tiếc ghê, tài khoản mình tạo từ năm 2022 ấy, trong đó toàn đồ từ sự kiện hồi đó, cảm giác đều là đồ limited giờ không kiếm được nữa :( Trả tài khoản lại cho tôi đi.",
+      "translation_method": "ai_contextual",
+      "sentiment": "Negative",
+      "confidence": 0.75,
+      "topic": "Login / Account / Data",
+      "topic_secondary": [],
+      "theme": "Đăng nhập tài khoản",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 1,
+      "intent": "account",
+      "keywords": [
+        "mất dữ liệu",
+        "chuyển tài khoản vng",
+        "người chơi lâu năm"
+      ],
+      "summary_vn": "Tiếc tài khoản cũ từ 2022 có đồ limited, muốn lấy lại.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Unhappy",
+      "store_tags": [
+        "User Data And Privacy"
+      ],
+      "app_version": null,
+      "text_en": "I really miss my account from 2022. It was full of items from events back then, and they feel like limited items you can't get anymore :( Give me my account back.",
+      "summary_en": "Misses old 2022 account with limited items, wants it back."
     }
   ],
   "report": {
@@ -650,35 +688,60 @@
     ]
   },
   "metrics": {
-    "volume": 17,
+    "volume": 18,
     "noise": 0,
     "by_source": {
       "Facebook Group": 16,
-      "TikTok": 1
+      "TikTok": 1,
+      "Google Play": 1
     },
     "by_sentiment": {
       "Positive": 1,
       "Neutral": 14,
-      "Negative": 1,
+      "Negative": 2,
       "Mixed": 1
     },
     "by_topic": {
       "Activities (fishing, bugs, pets, housing, jobs, minigames)": 13,
-      "Login / Account / Data": 2,
+      "Login / Account / Data": 3,
       "Other": 2
     },
     "by_segment": {
-      "unknown": 17
+      "unknown": 18
     },
-    "nss": 0,
+    "nss": -5.6,
     "nss_d1": null,
     "nss_7d_avg": null,
     "store": {
-      "gp_avg": null,
+      "gp_avg": 1,
       "ios_avg": null,
-      "star_1": 0,
+      "star_1": 1,
       "star_5": 0
     }
   },
-  "data_mode": "production"
+  "data_mode": "production",
+  "ratings": [
+    {
+      "platform": "Google Play",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "granularity": "day",
+      "incremental_avg_rating": 4.359,
+      "total_avg_rating": 4.4846,
+      "incremental_rating_count": -0.5019000000000005,
+      "total_rating_count": 384.5946,
+      "source": "Sensor Tower"
+    },
+    {
+      "platform": "App Store",
+      "app_name": "Play Together VNG",
+      "app_id": "1612175933",
+      "granularity": "day",
+      "incremental_avg_rating": 3.5,
+      "total_avg_rating": 4.0519,
+      "incremental_rating_count": 4,
+      "total_rating_count": 482,
+      "source": "Sensor Tower"
+    }
+  ]
 }

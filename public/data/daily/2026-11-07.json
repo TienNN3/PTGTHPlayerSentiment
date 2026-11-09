@@ -1158,6 +1158,84 @@
       "translation_method": "ai_contextual",
       "label_method": "ai_review",
       "collected_at": "2026-11-07T23:28:53.201Z"
+    },
+    {
+      "id": "gplay-vng-3b80be529e99338a",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.vng.playtogether&hl=th",
+      "author_masked": "C***",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "text_th": "เกมส์เป็นไรครับล็อคอินอีกเครื่องเข้าไม่ได้เฉยเลย",
+      "text_vn": "Game bị sao vậy ạ, đăng nhập trên máy khác tự nhiên không vào được luôn.",
+      "translation_method": "ai_contextual",
+      "sentiment": "Negative",
+      "confidence": 0.75,
+      "topic": "Login / Account / Data",
+      "topic_secondary": [],
+      "theme": "Lỗi đăng nhập đa thiết bị",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 2,
+      "intent": "account",
+      "keywords": [
+        "đăng nhập"
+      ],
+      "summary_vn": "Không đăng nhập được khi chuyển sang thiết bị khác.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Unhappy",
+      "store_tags": [
+        "Login",
+        "Cross Platform Consistency"
+      ],
+      "app_version": "2.33.0",
+      "text_en": "What's wrong with the game? I tried logging in on another device and it just won't let me in.",
+      "summary_en": "Can't log in when switching to another device."
+    },
+    {
+      "id": "gplay-vng-376912fbb2845700",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.vng.playtogether&hl=th",
+      "author_masked": "A***",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "text_th": "เกมดีสนุกเลย กิจกรรมเยอะ แต่เกลียดระบบโฆษณามาก บ้างโฆษณาทนดูตั้งนานเผลอกดพาเด้งออกแอพ เข้าใหม่ ไม่ได้ของ หลายรอบละ",
+      "text_vn": "Game hay, vui lắm, nhiều sự kiện, nhưng cực ghét hệ thống quảng cáo. Có lúc cố xem quảng cáo cả buổi rồi lỡ bấm nhầm làm văng ra khỏi app, vào lại thì không nhận được đồ, bị nhiều lần rồi.",
+      "translation_method": "ai_contextual",
+      "sentiment": "Mixed",
+      "confidence": 0.75,
+      "topic": "Other",
+      "topic_secondary": [],
+      "theme": "Quảng cáo gây gián đoạn",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 3,
+      "intent": "complaint",
+      "keywords": [
+        "quảng cáo",
+        "văng game",
+        "sự kiện"
+      ],
+      "summary_vn": "Thích game nhưng quảng cáo làm văng app, không nhận được thưởng.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Mixed",
+      "store_tags": [
+        "Social And Community",
+        "Advertisements",
+        "Performance And Bugs",
+        "Game Progression"
+      ],
+      "app_version": "2.33.0",
+      "text_en": "The game is good and really fun, with lots of events, but I hate the ad system. Sometimes I sit through a long ad, accidentally tap something that kicks me out of the app, and when I come back I don't get the reward. It's happened many times.",
+      "summary_en": "Likes the game, but ads crash the app and rewards are lost."
     }
   ],
   "report": {
@@ -1193,36 +1271,62 @@
     ]
   },
   "metrics": {
-    "volume": 32,
+    "volume": 34,
     "noise": 0,
     "by_source": {
       "Facebook Group": 30,
       "YouTube": 1,
-      "TikTok": 1
+      "TikTok": 1,
+      "Google Play": 2
     },
     "by_sentiment": {
       "Positive": 7,
       "Neutral": 20,
-      "Negative": 5,
-      "Mixed": 0
+      "Negative": 6,
+      "Mixed": 1
     },
     "by_topic": {
       "Activities (fishing, bugs, pets, housing, jobs, minigames)": 21,
-      "Other": 3,
-      "Event & Update content": 8
+      "Other": 4,
+      "Event & Update content": 8,
+      "Login / Account / Data": 1
     },
     "by_segment": {
-      "unknown": 32
+      "unknown": 34
     },
-    "nss": 6.3,
+    "nss": 2.9,
     "nss_d1": null,
     "nss_7d_avg": null,
     "store": {
-      "gp_avg": null,
+      "gp_avg": 2.5,
       "ios_avg": null,
       "star_1": 0,
       "star_5": 0
     }
   },
-  "data_mode": "production"
+  "data_mode": "production",
+  "ratings": [
+    {
+      "platform": "Google Play",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "granularity": "day",
+      "incremental_avg_rating": 2.5842,
+      "total_avg_rating": 4.4,
+      "incremental_rating_count": 1.2121999999999993,
+      "total_rating_count": 386.00520000000006,
+      "source": "Sensor Tower"
+    },
+    {
+      "platform": "App Store",
+      "app_name": "Play Together VNG",
+      "app_id": "1612175933",
+      "granularity": "day",
+      "incremental_avg_rating": 4,
+      "total_avg_rating": 4.073,
+      "incremental_rating_count": 4,
+      "total_rating_count": 493,
+      "source": "Sensor Tower"
+    }
+  ]
 }

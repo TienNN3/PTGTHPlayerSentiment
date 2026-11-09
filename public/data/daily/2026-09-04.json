@@ -341,8 +341,8 @@
       "granularity": "day",
       "incremental_avg_rating": 2.6849,
       "total_avg_rating": 4.5643,
-      "incremental_rating_count": -0.11159999999999937,
-      "total_rating_count": 250.5296,
+      "incremental_rating_count": -0.16770000000000063,
+      "total_rating_count": 376.3935,
       "source": "Sensor Tower"
     },
     {

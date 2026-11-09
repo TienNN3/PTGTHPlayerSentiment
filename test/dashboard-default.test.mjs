@@ -208,3 +208,15 @@ test("keeps the source lists open for new groups, channels and creators found ea
   const runbook = await readFile(new URL("../docs/daily-collection.md", import.meta.url), "utf8");
   assert.match(runbook, /## 2b\. Tìm nguồn mới/);
 });
+
+test("keeps out-of-scope feedback such as unofficial APK errors out of the action counts", async () => {
+  const html = await readFile(new URL("../public/index.html", import.meta.url), "utf8");
+  assert.match(html, /const needsActionFeedback = item => inScope\(item\) && /);
+  assert.match(html, /const issueOf=list=>list\.filter\(needsActionFeedback\)/);
+  const context = await readFile(new URL("../docs/game-context.md", import.meta.url), "utf8");
+  assert.match(context, /unofficial_apk/);
+  const day = JSON.parse(await readFile(new URL("../public/data/daily/2026-10-30.json", import.meta.url), "utf8"));
+  const apk = day.items.find((item) => item.id === "facebook-9d2695fa33bb69c8");
+  assert.equal(apk.out_of_scope, "unofficial_apk");
+  assert.ok(apk.scope_note && apk.text_vn, "scope note added, content kept");
+});

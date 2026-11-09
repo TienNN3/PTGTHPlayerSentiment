@@ -541,10 +541,10 @@
       "app_name": "Play Together VNG",
       "app_id": "com.vng.playtogether",
       "granularity": "day",
-      "incremental_avg_rating": 4.1506,
+      "incremental_avg_rating": 4.1507,
       "total_avg_rating": 4.3846,
-      "incremental_rating_count": 0.7089999999999999,
-      "total_rating_count": 253.1123,
+      "incremental_rating_count": 1.0651000000000002,
+      "total_rating_count": 380.2738,
       "source": "Sensor Tower"
     },
     {

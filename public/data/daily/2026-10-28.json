@@ -827,6 +827,182 @@
       "translation_method": "ai_contextual",
       "label_method": "ai_review",
       "collected_at": "2026-10-29T03:50:00.000Z"
+    },
+    {
+      "id": "gplay-vng-a43f85bfc49de523",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.vng.playtogether&hl=th",
+      "author_masked": "เ***",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "text_th": "เาดสกนดรกนหรกนนกกนกนกนดนตกกตจกนกนกนกกนคกค_ยพคกืปิ,ิ.,.9.",
+      "text_vn": "(Chuỗi ký tự gõ lộn xộn, không có nghĩa)",
+      "translation_method": "ai_contextual",
+      "sentiment": "Neutral",
+      "confidence": 0.75,
+      "topic": "Other",
+      "topic_secondary": [],
+      "theme": "Góp ý trải nghiệm chung",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 5,
+      "intent": "chat",
+      "keywords": [
+        "bình luận ngắn"
+      ],
+      "summary_vn": "Bình luận vô nghĩa, gõ ký tự ngẫu nhiên.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Neutral",
+      "store_tags": [],
+      "app_version": null,
+      "text_en": "(Random keyboard mashing, no meaning)",
+      "summary_en": "Meaningless comment of random characters."
+    },
+    {
+      "id": "gplay-vng-9a4ecbea80b9000e",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.vng.playtogether&hl=th",
+      "author_masked": "ก***",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "text_th": "ะพภะะ",
+      "text_vn": "(Ký tự ngẫu nhiên, không có nghĩa)",
+      "translation_method": "ai_contextual",
+      "sentiment": "Neutral",
+      "confidence": 0.75,
+      "topic": "Other",
+      "topic_secondary": [],
+      "theme": "Góp ý trải nghiệm chung",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 5,
+      "intent": "chat",
+      "keywords": [
+        "bình luận ngắn"
+      ],
+      "summary_vn": "Bình luận vô nghĩa.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Neutral",
+      "store_tags": [],
+      "app_version": null,
+      "text_en": "(Random characters, no meaning)",
+      "summary_en": "Meaningless comment."
+    },
+    {
+      "id": "gplay-vng-7d836fcccc613f8c",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.vng.playtogether&hl=th",
+      "author_masked": "n***",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "text_th": "ซื้อแพ็คเกจ แต่เข้ายากมาก รอเป็นชั่วโมงก็ยังไม่เข้าดำเนินการนานจัง",
+      "text_vn": "Mua gói rồi mà vào khó quá, đợi cả tiếng đồng hồ vẫn chưa vào, xử lý lâu thật.",
+      "translation_method": "ai_contextual",
+      "sentiment": "Negative",
+      "confidence": 0.75,
+      "topic": "Topup & Payment",
+      "topic_secondary": [],
+      "theme": "Không nhận vật phẩm sau thanh toán",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 3,
+      "intent": "bug",
+      "keywords": [
+        "nạp tiền"
+      ],
+      "summary_vn": "Mua gói nhưng chờ cả tiếng vẫn chưa nhận được.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Unhappy",
+      "store_tags": [
+        "Payment",
+        "Performance And Bugs"
+      ],
+      "app_version": "2.32.0",
+      "text_en": "I bought a package but it's so hard to get it through. I waited an hour and it still hadn't gone in, the processing takes forever.",
+      "summary_en": "Bought a package but still not received after an hour."
+    },
+    {
+      "id": "gplay-vng-c4df339e586c469b",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.vng.playtogether&hl=th",
+      "author_masked": "L***",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "text_th": "ผมอาจจะชอบเกมนี้ก็ได้ จะลองเล่นดูนะ",
+      "text_vn": "Chắc tôi sẽ thích game này đấy, để chơi thử xem sao.",
+      "translation_method": "ai_contextual",
+      "sentiment": "Positive",
+      "confidence": 0.75,
+      "topic": "Other",
+      "topic_secondary": [],
+      "theme": "Trải nghiệm game tích cực",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 5,
+      "intent": "chat",
+      "keywords": [
+        "người chơi mới"
+      ],
+      "summary_vn": "Người chơi mới hứng thú, sẽ chơi thử.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Neutral",
+      "store_tags": [],
+      "app_version": "2.32.0",
+      "text_en": "I might like this game, I'll give it a try.",
+      "summary_en": "New player interested, will give it a try."
+    },
+    {
+      "id": "gplay-vng-317e894aef7a9d8a",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.vng.playtogether&hl=th",
+      "author_masked": "C***",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "text_th": "เล่นเพลินๆแถมยังสนุกมีอะไรให้เล่นเยอะมาก",
+      "text_vn": "Chơi cuốn lắm, lại còn vui, có rất nhiều thứ để chơi.",
+      "translation_method": "ai_contextual",
+      "sentiment": "Positive",
+      "confidence": 0.75,
+      "topic": "Other",
+      "topic_secondary": [],
+      "theme": "Trải nghiệm game tích cực",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 5,
+      "intent": "praise",
+      "keywords": [
+        "khen game",
+        "giải trí"
+      ],
+      "summary_vn": "Khen game cuốn, nhiều nội dung để chơi.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Happy",
+      "store_tags": [
+        "Content"
+      ],
+      "app_version": "2.32.0",
+      "text_en": "Really relaxing and addictive, plus it's fun with lots to play.",
+      "summary_en": "Praises the game as engaging with lots of content."
     }
   ],
   "report": {
@@ -862,34 +1038,60 @@
     ]
   },
   "metrics": {
-    "volume": 22,
+    "volume": 27,
     "noise": 0,
     "by_source": {
-      "Facebook Group": 22
+      "Facebook Group": 22,
+      "Google Play": 5
     },
     "by_sentiment": {
-      "Positive": 2,
-      "Neutral": 17,
-      "Negative": 3,
+      "Positive": 4,
+      "Neutral": 19,
+      "Negative": 4,
       "Mixed": 0
     },
     "by_topic": {
       "Activities (fishing, bugs, pets, housing, jobs, minigames)": 20,
       "Login / Account / Data": 1,
-      "Other": 1
+      "Other": 5,
+      "Topup & Payment": 1
     },
     "by_segment": {
-      "unknown": 22
+      "unknown": 27
     },
-    "nss": -4.5,
+    "nss": 0,
     "nss_d1": null,
     "nss_7d_avg": null,
     "store": {
-      "gp_avg": null,
+      "gp_avg": 4.6,
       "ios_avg": null,
       "star_1": 0,
-      "star_5": 0
+      "star_5": 4
     }
   },
-  "data_mode": "production"
+  "data_mode": "production",
+  "ratings": [
+    {
+      "platform": "Google Play",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "granularity": "day",
+      "incremental_avg_rating": 5,
+      "total_avg_rating": 4.3758,
+      "incremental_rating_count": -0.02519999999999989,
+      "total_rating_count": 383.0919,
+      "source": "Sensor Tower"
+    },
+    {
+      "platform": "App Store",
+      "app_name": "Play Together VNG",
+      "app_id": "1612175933",
+      "granularity": "day",
+      "incremental_avg_rating": 3.6667,
+      "total_avg_rating": 4.0328,
+      "incremental_rating_count": 3,
+      "total_rating_count": 458,
+      "source": "Sensor Tower"
+    }
+  ]
 }

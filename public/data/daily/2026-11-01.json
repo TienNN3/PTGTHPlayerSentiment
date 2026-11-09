@@ -904,6 +904,121 @@
       "translation_method": "ai_contextual",
       "label_method": "ai_review",
       "collected_at": "2026-11-02T02:37:39.057Z"
+    },
+    {
+      "id": "gplay-vng-d52f828fa8bb788b",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.vng.playtogether&hl=th",
+      "author_masked": "R***",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "text_th": "มือถือผมมันโหลดไม่ได้แต่ว่ามันยังโหลดได้อยู่แต่ว่ามันเล่นไม่ได้ผมเล่น blockman go โคตรสนุกกว่า",
+      "text_vn": "Điện thoại tôi tải không được, à vẫn tải được nhưng mà không chơi được. Tôi chơi Blockman Go còn vui hơn nhiều.",
+      "translation_method": "ai_contextual",
+      "sentiment": "Negative",
+      "confidence": 0.75,
+      "topic": "Bug / Crash / Lag / Performance",
+      "topic_secondary": [],
+      "theme": "Game bị văng và treo",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 1,
+      "intent": "performance",
+      "keywords": [
+        "tải game",
+        "văng game"
+      ],
+      "summary_vn": "Tải được nhưng không chơi được, so sánh kém hơn Blockman Go.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Mixed",
+      "store_tags": [
+        "Performance And Bugs",
+        "Comparative Feedback"
+      ],
+      "app_version": null,
+      "text_en": "My phone can't load it, well, it still downloads but I can't play it. Blockman Go is way more fun.",
+      "summary_en": "Downloads but can't play; says Blockman Go is better."
+    },
+    {
+      "id": "gplay-vng-f4d00732912b5577",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.vng.playtogether&hl=th",
+      "author_masked": "M***",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "text_th": "เล่นมาหลายปีแล้ว อัปเดตดีมาก",
+      "text_vn": "Chơi mấy năm rồi, cập nhật rất tốt.",
+      "translation_method": "ai_contextual",
+      "sentiment": "Positive",
+      "confidence": 0.75,
+      "topic": "Other",
+      "topic_secondary": [],
+      "theme": "Trải nghiệm game tích cực",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 5,
+      "intent": "praise",
+      "keywords": [
+        "người chơi lâu năm",
+        "cập nhật mới",
+        "khen game"
+      ],
+      "summary_vn": "Người chơi lâu năm khen các bản cập nhật.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Happy",
+      "store_tags": [
+        "Updates And Maintenance"
+      ],
+      "app_version": null,
+      "text_en": "I've been playing for years, and the updates are great.",
+      "summary_en": "Long-time player praises the updates."
+    },
+    {
+      "id": "appstore-vng-e91ebc0fdfcf88c7",
+      "source": "App Store",
+      "link": "https://apps.apple.com/th/app/id1612175933",
+      "author_masked": "p***",
+      "app_name": "Play Together VNG",
+      "app_id": "1612175933",
+      "text_th": "เสียดายบชเก่า. คือเล่นมาตั้งนานเติมไปก้ไม่ใช่น้อยๆจะกลับมาโหลดใหม่ แล้วเข้าไปรับโค้ดยังไง ไม่โอเค ทำไมไม่ให้เชื่อมบัญชีไปเลย เสียความรุ้สึกค่ะ",
+      "text_vn": "Tiếc tài khoản cũ. Chơi lâu lắm rồi, nạp cũng không ít, giờ quay lại tải game mới thì vào nhận code kiểu gì? Không ổn chút nào, sao không cho liên kết tài khoản luôn đi. Mất cảm tình thật sự.",
+      "translation_method": "ai_contextual",
+      "sentiment": "Negative",
+      "confidence": 0.75,
+      "topic": "Login / Account / Data",
+      "topic_secondary": [],
+      "theme": "Đăng nhập tài khoản",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 1,
+      "intent": "account",
+      "keywords": [
+        "chuyển tài khoản vng",
+        "người chơi quay lại",
+        "code quà tặng"
+      ],
+      "summary_vn": "Người chơi quay lại tiếc tài khoản cũ đã nạp, muốn liên kết.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Unhappy",
+      "store_tags": [
+        "Login",
+        "User Data And Privacy"
+      ],
+      "app_version": "2.33.0",
+      "text_en": "I miss my old account. I played for a long time and spent quite a lot. Now I'm back and redownloading, so how do I get in to claim the code? Not okay. Why not just let us link the account? Really disappointed.",
+      "summary_en": "Returning player misses paid old account, wants linking."
     }
   ],
   "report": {
@@ -939,37 +1054,64 @@
     ]
   },
   "metrics": {
-    "volume": 24,
+    "volume": 27,
     "noise": 0,
     "by_source": {
       "Facebook Group": 23,
-      "YouTube": 1
+      "YouTube": 1,
+      "Google Play": 2,
+      "App Store": 1
     },
     "by_sentiment": {
-      "Positive": 4,
+      "Positive": 5,
       "Neutral": 17,
-      "Negative": 3,
+      "Negative": 5,
       "Mixed": 0
     },
     "by_topic": {
       "Activities (fishing, bugs, pets, housing, jobs, minigames)": 16,
-      "Other": 5,
-      "Bug / Crash / Lag / Performance": 1,
+      "Other": 6,
+      "Bug / Crash / Lag / Performance": 2,
       "Gacha / Shop / Pricing": 1,
-      "Event & Update content": 1
+      "Event & Update content": 1,
+      "Login / Account / Data": 1
     },
     "by_segment": {
-      "unknown": 24
+      "unknown": 27
     },
-    "nss": 4.2,
+    "nss": 0,
     "nss_d1": null,
     "nss_7d_avg": null,
     "store": {
-      "gp_avg": null,
-      "ios_avg": null,
-      "star_1": 0,
-      "star_5": 0
+      "gp_avg": 3,
+      "ios_avg": 1,
+      "star_1": 2,
+      "star_5": 1
     }
   },
-  "data_mode": "production"
+  "data_mode": "production",
+  "ratings": [
+    {
+      "platform": "Google Play",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "granularity": "day",
+      "incremental_avg_rating": 4.7141,
+      "total_avg_rating": 4.4852,
+      "incremental_rating_count": -0.38839999999999897,
+      "total_rating_count": 384.43100000000004,
+      "source": "Sensor Tower"
+    },
+    {
+      "platform": "App Store",
+      "app_name": "Play Together VNG",
+      "app_id": "1612175933",
+      "granularity": "day",
+      "incremental_avg_rating": 5,
+      "total_avg_rating": 4.0596,
+      "incremental_rating_count": 4,
+      "total_rating_count": 470,
+      "source": "Sensor Tower"
+    }
+  ]
 }

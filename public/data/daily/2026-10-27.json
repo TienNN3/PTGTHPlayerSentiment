@@ -1423,5 +1423,29 @@
       "star_5": 0
     }
   },
-  "data_mode": "production"
+  "data_mode": "production",
+  "ratings": [
+    {
+      "platform": "Google Play",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "granularity": "day",
+      "incremental_avg_rating": 3.6163,
+      "total_avg_rating": 4.3053,
+      "incremental_rating_count": -0.5118000000000005,
+      "total_rating_count": 383.11719999999997,
+      "source": "Sensor Tower"
+    },
+    {
+      "platform": "App Store",
+      "app_name": "Play Together VNG",
+      "app_id": "1612175933",
+      "granularity": "day",
+      "incremental_avg_rating": 5,
+      "total_avg_rating": 4.0352,
+      "incremental_rating_count": 4,
+      "total_rating_count": 455,
+      "source": "Sensor Tower"
+    }
+  ]
 }

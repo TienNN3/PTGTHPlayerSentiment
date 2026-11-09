@@ -2270,6 +2270,150 @@
       "translation_method": "ai_contextual",
       "label_method": "ai_review",
       "collected_at": "2026-10-19T04:15:36.174Z"
+    },
+    {
+      "id": "gplay-vng-c5c02d23b7b5f473",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.vng.playtogether&hl=th",
+      "author_masked": "Y***",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "text_th": "สนุกมากใช้ชีวิตประจำวันคนจริงๆเริ่ด",
+      "text_vn": "Vui lắm, được sống cuộc sống hằng ngày như người thật, đỉnh.",
+      "translation_method": "ai_contextual",
+      "sentiment": "Positive",
+      "confidence": 0.75,
+      "topic": "Other",
+      "topic_secondary": [],
+      "theme": "Trải nghiệm game tích cực",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 4,
+      "intent": "praise",
+      "keywords": [
+        "khen game",
+        "giải trí"
+      ],
+      "summary_vn": "Khen game mô phỏng cuộc sống thật.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Happy",
+      "store_tags": [],
+      "app_version": "2.32.0",
+      "text_en": "So fun, it's like living a real person's daily life. Awesome.",
+      "summary_en": "Praises the game's real-life simulation."
+    },
+    {
+      "id": "gplay-vng-4cbd6f12b0c2c5f9",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.vng.playtogether&hl=th",
+      "author_masked": "K***",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "text_th": "ลองก่อนน่าสนุก",
+      "text_vn": "Thử trước đã, có vẻ vui.",
+      "translation_method": "ai_contextual",
+      "sentiment": "Positive",
+      "confidence": 0.75,
+      "topic": "Other",
+      "topic_secondary": [],
+      "theme": "Trải nghiệm game tích cực",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 4,
+      "intent": "chat",
+      "keywords": [
+        "người chơi mới",
+        "bình luận ngắn"
+      ],
+      "summary_vn": "Người chơi mới thấy game có vẻ vui.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Neutral",
+      "store_tags": [],
+      "app_version": "2.32.0",
+      "text_en": "Trying it first, looks fun.",
+      "summary_en": "New player thinks the game looks fun."
+    },
+    {
+      "id": "appstore-vng-6bf0f0675fab7313",
+      "source": "App Store",
+      "link": "https://apps.apple.com/th/app/id1612175933",
+      "author_masked": "พ***",
+      "app_name": "Play Together VNG",
+      "app_id": "1612175933",
+      "text_th": "ดีอยุ่. คือหลายๆคนบอกว่ามันมีอะไรต้องแก้ไขหลายอย่างแต่สำหรับเราคือถ้าเราเล่นในวิธี ที่ถูกต้องก็ไม่เป็นไรค่ะ😳",
+      "text_vn": "Vẫn ổn mà. Nhiều người bảo game có nhiều chỗ cần sửa, nhưng với mình thì nếu chơi đúng cách thì cũng không sao ạ 😳",
+      "translation_method": "ai_contextual",
+      "sentiment": "Positive",
+      "confidence": 0.75,
+      "topic": "Other",
+      "topic_secondary": [],
+      "theme": "Trải nghiệm game tích cực",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 5,
+      "intent": "praise",
+      "keywords": [
+        "khen game"
+      ],
+      "summary_vn": "Thấy game ổn nếu chơi đúng cách.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Happy",
+      "store_tags": [],
+      "app_version": "2.32.0",
+      "text_en": "It's fine. A lot of people say there's a lot to fix, but for me, if you play the right way it's no problem 😳",
+      "summary_en": "Finds the game fine if played the right way."
+    },
+    {
+      "id": "appstore-vng-a613d331fc9e42dc",
+      "source": "App Store",
+      "link": "https://apps.apple.com/th/app/id1612175933",
+      "author_masked": "Y***",
+      "app_name": "Play Together VNG",
+      "app_id": "1612175933",
+      "text_th": "จากเกมส์ดีๆเปลี่ยนไปขนาดนี้ เสียใจ. เสียใจมากเล่นมาตั้งนาน เจ็ดแปดปี เข้าอันเดิม ไม่ได้ ทำแล้วมันต้องดีขึ้นสิทำไมมันเป็นแบบนี้",
+      "text_vn": "Từ một game hay mà thay đổi tới mức này, buồn thật. Buồn lắm, chơi lâu lắm rồi, bảy tám năm, giờ không vào được tài khoản cũ. Làm lại thì phải tốt hơn chứ, sao lại thành ra thế này.",
+      "translation_method": "ai_contextual",
+      "sentiment": "Negative",
+      "confidence": 0.75,
+      "topic": "Login / Account / Data",
+      "topic_secondary": [],
+      "theme": "Đăng nhập tài khoản",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 1,
+      "intent": "account",
+      "keywords": [
+        "người chơi lâu năm",
+        "chuyển tài khoản vng",
+        "mất dữ liệu"
+      ],
+      "summary_vn": "Người chơi 7-8 năm buồn vì không vào được tài khoản cũ.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Unhappy",
+      "store_tags": [
+        "Login",
+        "Performance And Bugs",
+        "Updates And Maintenance"
+      ],
+      "app_version": "2.32.0",
+      "text_en": "Such a good game changed this much, I'm sad. Really sad, I've played for so long, seven or eight years, and now I can't get into my old account. A relaunch should make things better, so why did it turn out like this?",
+      "summary_en": "7-8 year player sad about losing old account access."
     }
   ],
   "report": {
@@ -2305,35 +2449,61 @@
     ]
   },
   "metrics": {
-    "volume": 61,
+    "volume": 65,
     "noise": 0,
     "by_source": {
-      "Facebook Group": 61
+      "Facebook Group": 61,
+      "Google Play": 2,
+      "App Store": 2
     },
     "by_sentiment": {
-      "Positive": 21,
+      "Positive": 24,
       "Neutral": 34,
-      "Negative": 5,
+      "Negative": 6,
       "Mixed": 1
     },
     "by_topic": {
       "Event & Update content": 11,
       "Activities (fishing, bugs, pets, housing, jobs, minigames)": 32,
-      "Login / Account / Data": 2,
-      "Other": 16
+      "Login / Account / Data": 3,
+      "Other": 19
     },
     "by_segment": {
-      "unknown": 61
+      "unknown": 65
     },
-    "nss": 26.2,
+    "nss": 27.7,
     "nss_d1": null,
     "nss_7d_avg": null,
     "store": {
-      "gp_avg": null,
-      "ios_avg": null,
-      "star_1": 0,
-      "star_5": 0
+      "gp_avg": 4,
+      "ios_avg": 3,
+      "star_1": 1,
+      "star_5": 1
     }
   },
-  "data_mode": "production"
+  "data_mode": "production",
+  "ratings": [
+    {
+      "platform": "Google Play",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "granularity": "day",
+      "incremental_avg_rating": 2.129,
+      "total_avg_rating": 4.3932,
+      "incremental_rating_count": -0.42799999999999905,
+      "total_rating_count": 382.90250000000003,
+      "source": "Sensor Tower"
+    },
+    {
+      "platform": "App Store",
+      "app_name": "Play Together VNG",
+      "app_id": "1612175933",
+      "granularity": "day",
+      "incremental_avg_rating": 4.5,
+      "total_avg_rating": 3.9879,
+      "incremental_rating_count": 2,
+      "total_rating_count": 412,
+      "source": "Sensor Tower"
+    }
+  ]
 }

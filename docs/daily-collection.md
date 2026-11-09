@@ -4,7 +4,7 @@ Mục tiêu: mỗi sáng thu thập phản hồi của người chơi Play Toget
 
 Repo: `/Users/nhattien/Documents/ChatGPT/PTGTHPlayer` · Production: https://tiennn3.github.io/PTGTHPlayerSentiment/
 
-Đọc trước: `public/how-it-works.md` (quy tắc bắt buộc), `docs/translation-guide.md` (dịch Thái → Việt).
+Đọc trước: `public/how-it-works.md` (quy tắc bắt buộc), `docs/translation-guide.md` (dịch Thái → Việt), `docs/game-context.md` (bối cảnh game và phạm vi hỗ trợ, ví dụ game không có APK).
 
 ## 0. Phạm vi
 
@@ -83,6 +83,7 @@ Ghi staging `.staging/daily-D/items.json` theo dạng:
 - `community`: đúng `key` trong `sources.json`, vd `Facebook Group · playtogetherth`, `Facebook Fanpage · @playtogetherthailandofficial`, `YouTube`, `TikTok` (group mới phải được thêm vào `sources.json` trước khi nhập phản hồi của nó).
 - Nội dung không xác định được ngày đăng: `date_basis: "observed_at"` (được tách riêng, không tính thống kê).
 - `text_vn`: dịch Thái → Việt theo ngữ cảnh game (`docs/translation-guide.md`); **`ค้างคาว` = con dơi**. `text_en` / `summary_en`: tiếng Anh dễ hiểu, không hàn lâm.
+- Phạm vi hỗ trợ: áp dụng `docs/game-context.md`. Ví dụ lỗi cài **APK** hoặc bản tải từ trang không chính thống: vẫn lưu nhưng gắn `out_of_scope: "unofficial_apk"` + `scope_note`, không coi là lỗi game.
 - `intent` (1 loại): question, answer, share, event_entry, bug, performance, account, complaint, suggestion, praise, trade, social, chat. `keywords`: 1–4 từ khoá tiếng Việt chữ thường, dùng lại từ vựng có sẵn (xem `terms` trong `public/i18n/en.json`); từ khoá mới thì thêm bản tiếng Anh vào `terms`. `summary_vn`: 1 câu ngắn. `theme`: đúng một nhãn trong `public/data/themes.json`.
 
 ## 4. Nhập và kiểm tra

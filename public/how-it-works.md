@@ -77,6 +77,12 @@ Bản dịch phải đọc một lần là hiểu, đúng ngữ cảnh game. Kh�
 - Phong cách tiếng Anh: dễ hiểu, không hàn lâm. Hướng dẫn này có bản tiếng Anh ở `public/how-it-works.en.md`.
 - Khi thêm phản hồi mới: dịch thêm sang tiếng Anh và áp bằng `node scripts/apply-english.mjs <file.json>` (định dạng `{ "<id>": { "text": "...", "summary": "..." } }`); từ khoá mới thì bổ sung vào `terms` trong `en.json`.
 
+## 4d. Bối cảnh game và phạm vi hỗ trợ
+
+- AI phân loại theo `docs/game-context.md`. Đây là nơi ghi các sự thật về game do đội vận hành bổ sung dần để kết quả ngày càng sát với game.
+- **Game không phát hành APK** (chỉ có trên Google Play và App Store). Bài báo lỗi khi cài APK hoặc bản tải từ trang không chính thống vẫn được lưu, nhưng có `out_of_scope: "unofficial_apk"`. Dashboard gắn nhãn "Ngoài phạm vi: APK không chính thống" và **không tính** các bài này vào "Cần xử lý" / "Phản hồi cần xem".
+- Đánh dấu hoặc bỏ đánh dấu tay: `node scripts/set-scope.mjs unofficial_apk <id>` / `node scripts/set-scope.mjs clear <id>`. Quy tắc mới thì thêm vào `docs/game-context.md` và `RULES` trong `scripts/set-scope.mjs`.
+
 ## 5. Giao diện
 
 - **Tổng quan** (chỉ số chính trên cùng, xu hướng ở giữa, chi tiết ở dưới): hàng 5 KPI (Tổng phản hồi, Tích cực %, Tiêu cực %, Cần xử lý = báo lỗi + crash/lag + tài khoản + phàn nàn, Điểm store VNG), mỗi thẻ có mức thay đổi và sparkline, bấm để đi tới chi tiết; 3 dòng nổi bật + tóm tắt đầy đủ thu gọn + nút Sao chép báo cáo; Diễn biến theo ngày (cảm xúc hoặc loại nội dung, ngày/tuần, số/%; bấm cột để mở danh sách ngày đó) và biểu đồ tròn tỷ lệ cảm xúc; Người chơi đang làm gì và Từ khoá được nhắc nhiều (thanh xếp hạng, màu là tỷ lệ cảm xúc); Người chơi thích gì / chưa hài lòng / Cần xử lý (dạng gọn, bấm để đọc); heatmap Từ khoá theo ngày (bấm ô để lọc đúng ngày + từ khoá). Chú thích chi tiết nằm trong biểu tượng ⓘ.

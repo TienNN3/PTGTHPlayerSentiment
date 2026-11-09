@@ -561,6 +561,7 @@
     .sentiment-tag.Positive { background:var(--positive-soft); color:var(--positive-ink); } .sentiment-tag.Negative { background:var(--negative-soft); color:var(--negative-ink); }
     .sentiment-tag.Neutral { background:var(--neutral-soft); color:var(--neutral-ink); } .sentiment-tag.Mixed { background:var(--mixed-soft); color:var(--mixed-ink); }
     .intent-tag { background:var(--brand-soft); color:var(--brand-ink); }
+    .scope-tag { display:inline-block; font-size:11px; font-weight:600; padding:2px 8px; border-radius:999px; background:var(--neutral-soft); color:var(--neutral-ink); border:1px dashed var(--neutral); white-space:nowrap; }
     .status-chip { font-weight:600; } .status-full,.status-youtube,.status-tiktok { color:var(--positive-ink); } .status-discovered { background:var(--cyan-soft); color:var(--cyan-ink); } .status-partial { color:var(--mixed-ink); } .status-store { color:var(--brand-ink); }
     .up-chip { color:var(--positive-ink); } .down-chip { color:var(--negative-ink); }
     .chip,.kw-chip { transition:border-color .18s var(--ease),color .18s var(--ease); }
@@ -848,7 +849,10 @@
     // Loại nội dung (người chơi đang làm gì). Mục chưa được phân loại lại sẽ suy ra từ nhãn hoạt động cũ.
     const INTENTS = { question:'Hỏi / cần hỗ trợ', answer:'Trả lời / hướng dẫn', share:'Chia sẻ / khoe thành quả', event_entry:'Tham gia sự kiện', bug:'Báo lỗi / bug', performance:'Crash / lag / hiệu năng', account:'Tài khoản / đăng nhập', complaint:'Phàn nàn', suggestion:'Góp ý / đề xuất', praise:'Khen / thích', trade:'Mua bán / trao đổi', social:'Tìm bạn / giao lưu', chat:'Trò chuyện chung' };
     const ISSUE_INTENTS = ['bug','performance','account'];
-    const needsActionFeedback = item => [...ISSUE_INTENTS,'complaint'].includes(intentOf(item));
+    // Phản hồi ngoài phạm vi hỗ trợ (vd lỗi khi cài APK tải từ trang không chính thống; xem docs/game-context.md) không tính là việc cần xử lý.
+    const inScope = item => !item.out_of_scope;
+    const SCOPE_LABELS = { unofficial_apk:'Ngoài phạm vi: APK không chính thống' };
+    const needsActionFeedback = item => inScope(item) && [...ISSUE_INTENTS,'complaint'].includes(intentOf(item));
     const intentOf = item => item.intent || (item.activity_type==='Rao bán / trao đổi'?'trade':item.activity_type==='Khoe / tham gia hoạt động'?'share':item.activity_type==='Hỏi đáp / báo lỗi'?'question':Number.isFinite(item.rating)?(item.rating>=4?'praise':item.rating<=2?'complaint':'chat'):'chat');
     const intentLabel = item => INTENTS[intentOf(item)] || intentOf(item);
     const keywordsOf = item => Array.isArray(item.keywords) ? item.keywords : [];
@@ -990,7 +994,7 @@
       return {text:change?`Tỷ lệ: ${change>0?'tăng':'giảm'} ${fmt.format(Math.abs(change))} điểm %`:'Tỷ lệ không đổi',tone:change===0?'':((change>0)===goodUp?'good':'bad')};
     }
     function renderSummary(items,previous,alerts,undated){
-      const s=bySentiment(items),opinion=s.Positive+s.Negative+s.Mixed,topPos=countKeywords(items.filter(i=>i.sentiment==='Positive'&&isOpinion(i)))[0],topNeg=countKeywords(items.filter(i=>i.sentiment==='Negative'&&isOpinion(i)))[0],intents=countBy(items,intentLabel),topSource=countBy(items,channelName)[0],tags=countKeywords(items).slice(0,6),issues=items.filter(i=>ISSUE_INTENTS.includes(intentOf(i)));
+      const s=bySentiment(items),opinion=s.Positive+s.Negative+s.Mixed,topPos=countKeywords(items.filter(i=>i.sentiment==='Positive'&&isOpinion(i)))[0],topNeg=countKeywords(items.filter(i=>i.sentiment==='Negative'&&isOpinion(i)))[0],intents=countBy(items,intentLabel),topSource=countBy(items,channelName)[0],tags=countKeywords(items).slice(0,6),issues=items.filter(i=>inScope(i)&&ISSUE_INTENTS.includes(intentOf(i)));
       const lines=[];
       if(!items.length){lines.push(`${periodName()} chưa ghi nhận phản hồi có ngày đăng.`);if(undated)lines.push(`Có ${fmt.format(undated)} nội dung chưa rõ ngày đăng được thu thập trong kỳ; xem ở danh sách phản hồi bên dưới.`)}
       else{
@@ -1024,16 +1028,16 @@
     const icon=name=>`<svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${ICON_PATHS[name]||''}</svg>`;
     function renderKpis(items,previous){
       const s=bySentiment(items),p=bySentiment(previous),n=items.length,gp=latestRating('Google Play'),ios=latestRating('App Store');
-      const issueOf=list=>list.filter(i=>[...ISSUE_INTENTS,'complaint'].includes(intentOf(i)));
+      const issueOf=list=>list.filter(needsActionFeedback);
       const series=test=>state.context.map(d=>timelineItems(d).filter(test).length);
-      const issues=issueOf(items),prevIssues=issueOf(previous).length,byI=k=>items.filter(i=>intentOf(i)===k).length;
+      const issues=issueOf(items),prevIssues=issueOf(previous).length,byI=k=>items.filter(i=>inScope(i)&&intentOf(i)===k).length;
       const tone=(d,goodUp)=>d===0?'':((d>0)===goodUp?'good':'bad');
       const card=({label,value,unit='',sub,delta,cls='',spark:sp,color,action,ico})=>`<article class="kpi-card ${cls}" ${action?`data-kpi-action="${action}" role="button" tabindex="0"`:''}>${ico?`<span class="kpi-icon">${icon(ico)}</span>`:''}<span class="kpi-label">${label}</span><span class="kpi-value">${value}<small>${unit}</small></span>${delta?`<span class="kpi-delta ${delta.tone}">${delta.text}</span>`:''}${sub?`<span class="kpi-sub">${sub}</span>`:''}${sp?spark(sp,color):''}</article>`;
       $('#kpis').innerHTML=[
         card({label:'Tổng phản hồi',value:fmt.format(n),delta:{text:deltaShort(n,previous.length),tone:''},sub:`${new Set(items.map(channelName)).size} nguồn có phản hồi`,spark:series(()=>true),color:cssVar('--brand'),action:'feedback',ico:'messages'}),
         card({label:'Tích cực',value:pct(s.Positive,n).replace('%',''),unit:'%',cls:'pos',delta:sentimentShareDelta(s.Positive,p.Positive,n,previous.length,true),sub:`${fmt.format(s.Positive)} phản hồi`,spark:series(i=>i.sentiment==='Positive'),color:cssVar('--positive'),action:'Positive',ico:'smile'}),
         card({label:'Tiêu cực',value:pct(s.Negative,n).replace('%',''),unit:'%',cls:'neg',delta:sentimentShareDelta(s.Negative,p.Negative,n,previous.length,false),sub:`${fmt.format(s.Negative)} phản hồi`,spark:series(i=>i.sentiment==='Negative'),color:cssVar('--negative'),action:'Negative',ico:'frown'}),
-        card({label:'Phản hồi cần xem',value:fmt.format(issues.length),cls:issues.length?'warn':'',delta:{text:deltaShort(issues.length,prevIssues),tone:tone(issues.length-prevIssues,false)},sub:`${byI('bug')} lỗi · ${byI('performance')} crash/lag · ${byI('account')} tài khoản · ${byI('complaint')} phàn nàn`,spark:series(i=>[...ISSUE_INTENTS,'complaint'].includes(intentOf(i))),color:cssVar('--mixed'),action:'issues',ico:'alert'}),
+        card({label:'Phản hồi cần xem',value:fmt.format(issues.length),cls:issues.length?'warn':'',delta:{text:deltaShort(issues.length,prevIssues),tone:tone(issues.length-prevIssues,false)},sub:`${byI('bug')} lỗi · ${byI('performance')} crash/lag · ${byI('account')} tài khoản · ${byI('complaint')} phàn nàn`,spark:series(needsActionFeedback),color:cssVar('--mixed'),action:'issues',ico:'alert'}),
         card({label:'Điểm store VNG',value:gp?gp.value.toFixed(2):'–',unit:' GP',sub:`App Store ${ios?ios.value.toFixed(2):'–'} · cập nhật ${gp?shortDate(gp.date):'–'}`,cls:'store',action:'store',ico:'star'})
       ].join('');
       document.querySelectorAll('[data-kpi-action]').forEach(el=>el.onclick=()=>{const a=el.dataset.kpiAction; if(a==='store') setTab('store'); else if(a==='issues') focusExplorer({issuesOnly:true}); else if(a==='feedback') focusExplorer({}); else focusExplorer({sentimentFilter:a})});
@@ -1051,7 +1055,7 @@
       // Nhóm vấn đề kỹ thuật/tài khoản trong kỳ, kèm từ khoá chính và so với kỳ trước.
       const SIGNAL_THEME={account:'Đăng nhập tài khoản',bug:'Game bị văng và treo',performance:'Game bị văng và treo',complaint:'Giá trị phần thưởng gacha'};
       for(const intent of [...ISSUE_INTENTS,'complaint']){
-        const rows=items.filter(i=>intentOf(i)===intent),before=previous.filter(i=>intentOf(i)===intent).length;
+        const rows=items.filter(i=>inScope(i)&&intentOf(i)===intent),before=previous.filter(i=>inScope(i)&&intentOf(i)===intent).length;
         if(!rows.length) continue;
         const tags=countKeywords(rows).slice(0,3).map(([k,c])=>`${esc(k)} (${c})`).join(', '),q=bestQuote(rows);
         const sig=state.briefing?.signals?.find(entry=>(entry.themes||[]).includes(SIGNAL_THEME[intent])),tip=[q?`${tr('Ví dụ:')} ${sv(q)||tv(q)}`:'',sig?.suggested_action?`${tr('Gợi ý:')} ${tr(sig.suggested_action)}`:''].filter(Boolean).join('\n');
@@ -1281,7 +1285,7 @@
     function renderFeedback(){
       filterItems();renderActiveFilters();const size=30,total=Math.max(1,Math.ceil(state.filtered.length/size));state.page=Math.min(state.page,total);const rows=state.filtered.slice((state.page-1)*size,state.page*size);
       $('#feedbackRows').innerHTML=rows.map(i=>`<article class="feed-item ${esc(i.sentiment)}">
-        <div class="feed-meta"><span class="sentiment-tag ${esc(i.sentiment)}">${esc(sentimentLabel(i.sentiment))}</span><span class="intent-tag">${esc(intentLabel(i))}</span><span class="muted small">${esc(dateLabel(i.date))}${i.date_basis==='observed_at'?' · chưa rõ ngày đăng (ngày thu thập)':''} · ${esc(sourceLabel(channelName(i)))} · ${esc(kindLabel(i))}${Number.isFinite(i.rating)?` · ${'★'.repeat(i.rating)}`:''}</span><a class="feed-link small" href="${esc(i.link)}" target="_blank" rel="noopener">Mở nguồn ↗</a></div>
+        <div class="feed-meta"><span class="sentiment-tag ${esc(i.sentiment)}">${esc(sentimentLabel(i.sentiment))}</span><span class="intent-tag">${esc(intentLabel(i))}</span>${i.out_of_scope?`<span class="scope-tag" title="${esc(i.scope_note||'')}">${esc(SCOPE_LABELS[i.out_of_scope]||'Ngoài phạm vi hỗ trợ')}</span>`:''}<span class="muted small">${esc(dateLabel(i.date))}${i.date_basis==='observed_at'?' · chưa rõ ngày đăng (ngày thu thập)':''} · ${esc(sourceLabel(channelName(i)))} · ${esc(kindLabel(i))}${Number.isFinite(i.rating)?` · ${'★'.repeat(i.rating)}`:''}</span><a class="feed-link small" href="${esc(i.link)}" target="_blank" rel="noopener">Mở nguồn ↗</a></div>
         ${sv(i)?`<div class="feed-summary" data-raw>${esc(sv(i))}</div>`:''}
         <div class="feed-text" data-raw>${esc(tv(i))}${i.translation_method==='machine_translation'?' <small class="muted">(dịch máy)</small>':isSummaryText(i)?' <small class="muted">(tóm tắt, chưa phải bản dịch)</small>':''}</div>
         <details class="feed-orig"><summary>Nguyên văn</summary><div class="thai">${esc(i.text_th)}</div></details>

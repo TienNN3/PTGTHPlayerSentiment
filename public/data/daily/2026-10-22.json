@@ -2765,6 +2765,119 @@
       "translation_method": "ai_contextual",
       "label_method": "ai_review",
       "collected_at": "2026-10-22T23:42:44.609Z"
+    },
+    {
+      "id": "gplay-vng-1882fd181e03bf23",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.vng.playtogether&hl=th",
+      "author_masked": "N***",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "text_th": "เข้าเล่นได้เเปปนึ่ง เด้งออก",
+      "text_vn": "Vào chơi được một lát là văng ra.",
+      "translation_method": "ai_contextual",
+      "sentiment": "Negative",
+      "confidence": 0.75,
+      "topic": "Bug / Crash / Lag / Performance",
+      "topic_secondary": [],
+      "theme": "Game bị văng và treo",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 1,
+      "intent": "performance",
+      "keywords": [
+        "văng game"
+      ],
+      "summary_vn": "Vào game được một lát thì bị văng.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Unhappy",
+      "store_tags": [
+        "Performance And Bugs"
+      ],
+      "app_version": "2.32.0",
+      "text_en": "I can play for a moment and then it crashes.",
+      "summary_en": "Game crashes shortly after starting."
+    },
+    {
+      "id": "gplay-vng-42bbc33276c6a5b2",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.vng.playtogether&hl=th",
+      "author_masked": "น***",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "text_th": "ฉันโดนนำออกจากระบบ ทั้งๆที่เล่นทุก2-3 วัน และ หลังจากนั้นก็เข้าแอคเคานต์เดิมไม่ได้ ฉันควรทำยังไง",
+      "text_vn": "Tôi bị đăng xuất khỏi hệ thống dù cứ 2-3 ngày lại chơi, sau đó thì không vào lại tài khoản cũ được nữa. Tôi nên làm sao đây?",
+      "translation_method": "ai_contextual",
+      "sentiment": "Negative",
+      "confidence": 0.75,
+      "topic": "Login / Account / Data",
+      "topic_secondary": [],
+      "theme": "Đăng nhập tài khoản",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 3,
+      "intent": "account",
+      "keywords": [
+        "đăng nhập",
+        "mất dữ liệu"
+      ],
+      "summary_vn": "Bị đăng xuất, không vào lại được tài khoản cũ.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Unhappy",
+      "store_tags": [
+        "Login"
+      ],
+      "app_version": null,
+      "text_en": "I got logged out even though I play every 2-3 days, and after that I can't get back into my old account. What should I do?",
+      "summary_en": "Logged out and can't access the old account again."
+    },
+    {
+      "id": "appstore-vng-285281870b01913e",
+      "source": "App Store",
+      "link": "https://apps.apple.com/th/app/id1612175933",
+      "author_masked": "แ***",
+      "app_name": "Play Together VNG",
+      "app_id": "1612175933",
+      "text_th": "บัญชีเกมเก่า. คืออะไรอะ ทำไมเข้าบัญชีเกมเก่าไม่ได้ แล้วงี้เติมไว้ทำยังไง แก้ไขเถอะค่ะ เสียดายอันเดิม",
+      "text_vn": "Tài khoản game cũ. Vậy là sao, tại sao không vào được tài khoản game cũ? Thế tiền đã nạp thì tính sao? Sửa đi ạ, tiếc tài khoản cũ lắm.",
+      "translation_method": "ai_contextual",
+      "sentiment": "Negative",
+      "confidence": 0.75,
+      "topic": "Login / Account / Data",
+      "topic_secondary": [],
+      "theme": "Đăng nhập tài khoản",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 1,
+      "intent": "account",
+      "keywords": [
+        "chuyển tài khoản vng",
+        "mất dữ liệu",
+        "nạp tiền"
+      ],
+      "summary_vn": "Không vào được tài khoản cũ, lo mất tiền đã nạp.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Unhappy",
+      "store_tags": [
+        "Login",
+        "Performance And Bugs",
+        "Payment"
+      ],
+      "app_version": "2.32.0",
+      "text_en": "Old game account. What is this? Why can't I get into my old game account? What about the money I spent? Please fix it, I miss my old account.",
+      "summary_en": "Can't access old account, worried about past purchases."
     }
   ],
   "report": {
@@ -2800,38 +2913,65 @@
     ]
   },
   "metrics": {
-    "volume": 74,
+    "volume": 77,
     "noise": 0,
     "by_source": {
       "Facebook Group": 71,
       "YouTube": 2,
-      "TikTok": 1
+      "TikTok": 1,
+      "Google Play": 2,
+      "App Store": 1
     },
     "by_sentiment": {
       "Positive": 13,
       "Neutral": 51,
-      "Negative": 10,
+      "Negative": 13,
       "Mixed": 0
     },
     "by_topic": {
       "Activities (fishing, bugs, pets, housing, jobs, minigames)": 52,
       "Other": 14,
-      "Login / Account / Data": 4,
+      "Login / Account / Data": 6,
       "Gacha / Shop / Pricing": 1,
-      "Event & Update content": 3
+      "Event & Update content": 3,
+      "Bug / Crash / Lag / Performance": 1
     },
     "by_segment": {
-      "unknown": 74
+      "unknown": 77
     },
-    "nss": 4.1,
+    "nss": 0,
     "nss_d1": null,
     "nss_7d_avg": null,
     "store": {
-      "gp_avg": null,
-      "ios_avg": null,
-      "star_1": 0,
+      "gp_avg": 2,
+      "ios_avg": 1,
+      "star_1": 2,
       "star_5": 0
     }
   },
-  "data_mode": "production"
+  "data_mode": "production",
+  "ratings": [
+    {
+      "platform": "Google Play",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "granularity": "day",
+      "incremental_avg_rating": 1.4331,
+      "total_avg_rating": 4.3564,
+      "incremental_rating_count": 0.6708000000000001,
+      "total_rating_count": 383.2459,
+      "source": "Sensor Tower"
+    },
+    {
+      "platform": "App Store",
+      "app_name": "Play Together VNG",
+      "app_id": "1612175933",
+      "granularity": "day",
+      "incremental_avg_rating": 3.875,
+      "total_avg_rating": 4.0116,
+      "incremental_rating_count": 8,
+      "total_rating_count": 432,
+      "source": "Sensor Tower"
+    }
+  ]
 }

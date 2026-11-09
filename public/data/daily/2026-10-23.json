@@ -2268,6 +2268,116 @@
       "translation_method": "ai_contextual",
       "label_method": "ai_review",
       "collected_at": "2026-10-24T04:14:50.389Z"
+    },
+    {
+      "id": "gplay-vng-b934324351dd15e5",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.vng.playtogether&hl=th",
+      "author_masked": "ล***",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "text_th": "เกมโคตรหิวเงินอะ อะไรก้ต้องซื้อ",
+      "text_vn": "Game hám tiền dữ vậy, cái gì cũng phải mua.",
+      "translation_method": "ai_contextual",
+      "sentiment": "Negative",
+      "confidence": 0.75,
+      "topic": "Gacha / Shop / Pricing",
+      "topic_secondary": [],
+      "theme": "Giá vật phẩm quá cao",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 1,
+      "intent": "complaint",
+      "keywords": [
+        "giá vật phẩm",
+        "nạp tiền"
+      ],
+      "summary_vn": "Chê game hám tiền, cái gì cũng phải mua.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Unhappy",
+      "store_tags": [
+        "Monetization"
+      ],
+      "app_version": "2.32.0",
+      "text_en": "This game is so money-hungry, you have to buy everything.",
+      "summary_en": "Says the game is money-hungry, everything costs money."
+    },
+    {
+      "id": "gplay-vng-f22556263f443244",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.vng.playtogether&hl=th",
+      "author_masked": "ส***",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "text_th": "สนวลสเตร้ก",
+      "text_vn": "(Không rõ nghĩa, có thể gõ nhầm) (?)",
+      "translation_method": "ai_contextual",
+      "sentiment": "Neutral",
+      "confidence": 0.75,
+      "topic": "Other",
+      "topic_secondary": [],
+      "theme": "Góp ý trải nghiệm chung",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 5,
+      "intent": "chat",
+      "keywords": [
+        "bình luận ngắn"
+      ],
+      "summary_vn": "Bình luận không rõ nghĩa.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Neutral",
+      "store_tags": [],
+      "app_version": null,
+      "text_en": "(Unclear, possibly a typo) (?)",
+      "summary_en": "Unclear comment."
+    },
+    {
+      "id": "gplay-vng-6ec18bdf4b6ad5de",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.vng.playtogether&hl=th",
+      "author_masked": "j***",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "text_th": "เกมทํามาดีนะครับแต่ผมอยากให้ลองเพิ่มเติมตรงนี้สักหน่อยให้เกมดูดีขึ้นและสนุกขึ้น ไม่น่าเบื่อ 1.การตกปลา:ถ้าสามารถเพิ่มวังน้ำวนให้ผู้เล่นลงไปจับปลาใต้ทะเลได้ ให้ผู้เล่นซื้ออุปกรณ์ดำน้ำหรือว่าเรือไว้จับปลาอย่างน้อยก็ไม่ต้องจับทีละตัวเพิ่มวิธีจับปลาใหม่ๆก็ได้ครับถ้าเกิดเจอปลาขนาดยักษ์หายากผู้เล่นก็ต้องมีเทคนิคในการจับที่จะต้องดึงตัวนั้นขึ้นมาอยู่บนเรือของเราให้ได้แบบนี้ผมว่าอาจจะสนุกมากยิ่งขึ้นครับ 2.ถ้าเกมเพิ่มการจับแมลงแบบผจญภัยหรือการทำกิจกรรมแบบผจญภัยผมว่าเกมน่าจะสนุกยิ่งขึ้นครับ",
+      "text_vn": "Game làm tốt đấy ạ, nhưng tôi muốn thử thêm vài thứ để game đẹp hơn, vui hơn, không nhàm chán. 1. Câu cá: nếu có thể thêm xoáy nước để người chơi lặn xuống bắt cá dưới biển, cho người chơi mua đồ lặn hoặc thuyền để bắt cá, ít ra không phải bắt từng con một; thêm cách bắt cá mới cũng được. Nếu gặp cá khổng lồ hiếm thì người chơi phải có kỹ thuật kéo nó lên thuyền của mình, như vậy chắc sẽ vui hơn nhiều. 2. Nếu game thêm bắt côn trùng kiểu phiêu lưu hoặc các hoạt động kiểu phiêu lưu thì tôi nghĩ game sẽ vui hơn nữa.",
+      "translation_method": "ai_contextual",
+      "sentiment": "Positive",
+      "confidence": 0.75,
+      "topic": "Activities (fishing, bugs, pets, housing, jobs, minigames)",
+      "topic_secondary": [],
+      "theme": "Hoạt động và tính năng trong game",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 4,
+      "intent": "suggestion",
+      "keywords": [
+        "câu cá",
+        "cá hiếm",
+        "minigame"
+      ],
+      "summary_vn": "Đề xuất câu cá dưới biển, thuyền và hoạt động phiêu lưu.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Mixed",
+      "store_tags": [
+        "Feature Requests",
+        "Game Progression"
+      ],
+      "app_version": "2.32.0",
+      "text_en": "The game is well made, but I'd like you to try adding a few things to make it better and more fun, less boring. 1. Fishing: add whirlpools so players can dive and catch fish under the sea, let players buy diving gear or boats so they don't have to catch one fish at a time, or add new ways to fish. If you meet a rare giant fish, you'd need technique to haul it onto your boat. I think that would be a lot more fun. 2. Adding adventure-style bug catching or adventure activities would make the game even more fun.",
+      "summary_en": "Suggests undersea fishing, boats and adventure activities."
     }
   ],
   "report": {
@@ -2303,37 +2413,62 @@
     ]
   },
   "metrics": {
-    "volume": 61,
+    "volume": 64,
     "noise": 0,
     "by_source": {
-      "Facebook Group": 61
+      "Facebook Group": 61,
+      "Google Play": 3
     },
     "by_sentiment": {
-      "Positive": 19,
-      "Neutral": 36,
-      "Negative": 3,
+      "Positive": 20,
+      "Neutral": 37,
+      "Negative": 4,
       "Mixed": 3
     },
     "by_topic": {
-      "Gacha / Shop / Pricing": 5,
-      "Activities (fishing, bugs, pets, housing, jobs, minigames)": 34,
-      "Other": 13,
+      "Gacha / Shop / Pricing": 6,
+      "Activities (fishing, bugs, pets, housing, jobs, minigames)": 35,
+      "Other": 14,
       "Event & Update content": 2,
       "Login / Account / Data": 5,
       "Localization (Thai text, wrong translation)": 2
     },
     "by_segment": {
-      "unknown": 61
+      "unknown": 64
     },
-    "nss": 26.2,
+    "nss": 25,
     "nss_d1": null,
     "nss_7d_avg": null,
     "store": {
-      "gp_avg": null,
+      "gp_avg": 3.33,
       "ios_avg": null,
-      "star_1": 0,
-      "star_5": 0
+      "star_1": 1,
+      "star_5": 1
     }
   },
-  "data_mode": "production"
+  "data_mode": "production",
+  "ratings": [
+    {
+      "platform": "Google Play",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "granularity": "day",
+      "incremental_avg_rating": 3.3314,
+      "total_avg_rating": 4.3382,
+      "incremental_rating_count": 0.10210000000000008,
+      "total_rating_count": 383.34810000000004,
+      "source": "Sensor Tower"
+    },
+    {
+      "platform": "App Store",
+      "app_name": "Play Together VNG",
+      "app_id": "1612175933",
+      "granularity": "day",
+      "incremental_avg_rating": 3.6667,
+      "total_avg_rating": 4.0068,
+      "incremental_rating_count": 6,
+      "total_rating_count": 438,
+      "source": "Sensor Tower"
+    }
+  ]
 }

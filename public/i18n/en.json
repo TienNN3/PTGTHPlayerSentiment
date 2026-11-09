@@ -569,7 +569,10 @@
     "Mở rộng menu": "Expand menu",
     "(chờ duyệt, mới phát hiện, chưa thu thập hoặc không có bài mới) · bấm để xem": "(pending approval, newly found, not collected or no new posts) · click to see",
     "Mới phát hiện · cần tham gia": "Newly found · needs joining",
-    "Phát hiện ngày {0} qua tìm kiếm hằng ngày.": "Found on {0} by the daily search."
+    "Phát hiện ngày {0} qua tìm kiếm hằng ngày.": "Found on {0} by the daily search.",
+    "Ngoài phạm vi: APK không chính thống": "Out of scope: unofficial APK",
+    "Ngoài phạm vi hỗ trợ": "Out of support scope",
+    "Game không phát hành APK; lỗi do tải bản từ nguồn không chính thống, không phải lỗi game.": "The game has no APK; the error comes from a copy downloaded from an unofficial site, not a game bug."
   },
   "terms": {
     "biểu tượng cảm xúc": "emoji",
@@ -871,6 +874,7 @@
     "tiktok": "TikTok",
     "trứng": "eggs",
     "cây baobab": "baobab trees",
-    "khoe ảnh": "sharing screenshots"
+    "khoe ảnh": "sharing screenshots",
+    "apk không chính thống": "unofficial apk"
   }
 }

@@ -982,6 +982,79 @@
       "translation_method": "ai_contextual",
       "label_method": "ai_review",
       "collected_at": "2026-10-27T00:45:00.000Z"
+    },
+    {
+      "id": "gplay-vng-4f37c9eee1ac3444",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.vng.playtogether&hl=th",
+      "author_masked": "B***",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "text_th": "คนอื่นเล่นเยอะ",
+      "text_vn": "Người khác chơi nhiều.",
+      "translation_method": "ai_contextual",
+      "sentiment": "Neutral",
+      "confidence": 0.75,
+      "topic": "Other",
+      "topic_secondary": [],
+      "theme": "Góp ý trải nghiệm chung",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 3,
+      "intent": "chat",
+      "keywords": [
+        "bình luận ngắn"
+      ],
+      "summary_vn": "Nhận xét ngắn: nhiều người chơi game.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Neutral",
+      "store_tags": [
+        "Social And Community"
+      ],
+      "app_version": null,
+      "text_en": "Lots of other people play it.",
+      "summary_en": "Short remark: many people play the game."
+    },
+    {
+      "id": "gplay-vng-ec825eb7c90efea4",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.vng.playtogether&hl=th",
+      "author_masked": "ม***",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "text_th": "สนุกมากเวลาไม่มีเงินก็เอาปลาไปขายนุกๆ",
+      "text_vn": "Vui lắm, lúc hết tiền thì đem cá đi bán, vui ghê.",
+      "translation_method": "ai_contextual",
+      "sentiment": "Positive",
+      "confidence": 0.75,
+      "topic": "Other",
+      "topic_secondary": [],
+      "theme": "Trải nghiệm game tích cực",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 5,
+      "intent": "praise",
+      "keywords": [
+        "khen game",
+        "câu cá"
+      ],
+      "summary_vn": "Khen game vui, bán cá kiếm tiền.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Happy",
+      "store_tags": [
+        "Service"
+      ],
+      "app_version": null,
+      "text_en": "So fun! When I'm out of money I just sell fish, it's great.",
+      "summary_en": "Enjoys the game, sells fish for money."
     }
   ],
   "report": {
@@ -1017,34 +1090,60 @@
     ]
   },
   "metrics": {
-    "volume": 26,
+    "volume": 28,
     "noise": 0,
     "by_source": {
-      "Facebook Group": 26
+      "Facebook Group": 26,
+      "Google Play": 2
     },
     "by_sentiment": {
-      "Positive": 0,
-      "Neutral": 26,
+      "Positive": 1,
+      "Neutral": 27,
       "Negative": 0,
       "Mixed": 0
     },
     "by_topic": {
       "Login / Account / Data": 2,
       "Activities (fishing, bugs, pets, housing, jobs, minigames)": 21,
-      "Gacha / Shop / Pricing": 3
+      "Gacha / Shop / Pricing": 3,
+      "Other": 2
     },
     "by_segment": {
-      "unknown": 26
+      "unknown": 28
     },
-    "nss": 0,
+    "nss": 3.6,
     "nss_d1": null,
     "nss_7d_avg": null,
     "store": {
-      "gp_avg": null,
+      "gp_avg": 4,
       "ios_avg": null,
       "star_1": 0,
-      "star_5": 0
+      "star_5": 1
     }
   },
-  "data_mode": "production"
+  "data_mode": "production",
+  "ratings": [
+    {
+      "platform": "Google Play",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "granularity": "day",
+      "incremental_avg_rating": 2.1379,
+      "total_avg_rating": 4.3102,
+      "incremental_rating_count": 0.0873999999999997,
+      "total_rating_count": 383.6291,
+      "source": "Sensor Tower"
+    },
+    {
+      "platform": "App Store",
+      "app_name": "Play Together VNG",
+      "app_id": "1612175933",
+      "granularity": "day",
+      "incremental_avg_rating": 5,
+      "total_avg_rating": 4.0266,
+      "incremental_rating_count": 4,
+      "total_rating_count": 451,
+      "source": "Sensor Tower"
+    }
+  ]
 }

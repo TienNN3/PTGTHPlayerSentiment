@@ -126,7 +126,9 @@ for (const path of reviewPaths) {
       segment: "unknown", severity: null, needs_review: true, rating: raw.rating,
       intent: raw.intent, keywords: raw.keywords, summary_vn: raw.summary_vn, label_method: "ai_review",
       content_kind: "review", activity_type: "Đánh giá store", date_basis: "published_at",
-      store_sentiment: raw.st_sentiment || null, store_tags: raw.st_tags ? raw.st_tags.split(",").filter(Boolean) : [], app_version: raw.version || null
+      store_sentiment: raw.st_sentiment || null, store_tags: raw.st_tags ? raw.st_tags.split(",").filter(Boolean) : [], app_version: raw.version || null,
+      ...(raw.text_en ? { text_en: raw.text_en } : {}), ...(raw.summary_en ? { summary_en: raw.summary_en } : {}),
+      ...(raw.out_of_scope ? { out_of_scope: raw.out_of_scope, scope_note: raw.scope_note } : {})
     });
     touched.add(raw.date); itemsTouched.add(raw.date);
     reviewCount += 1;

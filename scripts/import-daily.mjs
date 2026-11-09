@@ -58,6 +58,9 @@ for (const raw of staging.items) {
   if (!rosterKeys.has(community)) problems.push(`community "${community}" is not a key in public/data/sources.json (add new groups with scripts/add-source.mjs first)`);
   if (raw.source === "Facebook Fanpage" && raw.content_kind !== "comment") problems.push("fanpage data must be user comments only");
   if (pii.test(`${raw.text_th}\n${raw.text_vn}\n${raw.text_en}`)) problems.push("possible PII in text");
+  // Mã ngoài phạm vi hỗ trợ hợp lệ: xem docs/game-context.md.
+  if (raw.out_of_scope && !["unofficial_apk"].includes(raw.out_of_scope)) problems.push(`unknown out_of_scope ${raw.out_of_scope} (add the rule to docs/game-context.md first)`);
+  if (raw.out_of_scope && !raw.scope_note) problems.push("out_of_scope needs scope_note");
   if (problems.length) { errors.push(`${where}: ${problems.join("; ")}`); continue; }
   const id = raw.id || `${PREFIX[raw.source]}-${createHash("sha256").update(`${raw.link}|${normalize(raw.text_th)}|${raw.author_masked}|${raw.content_kind}`).digest("hex").slice(0, 16)}`;
   if (existingIds.has(id) || existingKeys.has(`${raw.link}|${normalize(raw.text_th)}`)) { skipped.push(id); continue; }

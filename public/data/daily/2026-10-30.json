@@ -100,7 +100,8 @@
       "intent": "bug",
       "keywords": [
         "tải game",
-        "lỗi game"
+        "lỗi game",
+        "apk không chính thống"
       ],
       "theme": "Game bị văng và treo",
       "id": "facebook-9d2695fa33bb69c8",
@@ -112,7 +113,9 @@
       "needs_review": true,
       "translation_method": "ai_contextual",
       "label_method": "ai_review",
-      "collected_at": "2026-10-31T07:36:16.412Z"
+      "collected_at": "2026-10-31T07:36:16.412Z",
+      "out_of_scope": "unofficial_apk",
+      "scope_note": "Game không phát hành APK; lỗi do tải bản từ nguồn không chính thống, không phải lỗi game."
     },
     {
       "date_basis": "published_at",
@@ -639,6 +642,121 @@
       "translation_method": "ai_contextual",
       "label_method": "ai_review",
       "collected_at": "2026-10-31T07:36:16.412Z"
+    },
+    {
+      "id": "gplay-vng-8222a023648af34e",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.vng.playtogether&hl=th",
+      "author_masked": "S***",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "text_th": "ดูโฆษณา พอถึงโฆษณา shopee ที่มีคุณกันจอมพลังรีวิวยาหม่อง ยาหอม ไม่มีที่ปิดโฆษณาจ้า ต้องได้ล้างหน้าจอแล้วเข้าเกมใหม่ ปรับปรุงด้วยค่ะ แย่อยู่นะคะ",
+      "text_vn": "Xem quảng cáo, tới cái quảng cáo Shopee có anh Kan Jomphalang review dầu cù là, thuốc hít thì không có nút tắt quảng cáo luôn. Phải tắt app rồi vào game lại. Cải thiện giùm nha, tệ lắm đó.",
+      "translation_method": "ai_contextual",
+      "sentiment": "Negative",
+      "confidence": 0.75,
+      "topic": "Other",
+      "topic_secondary": [],
+      "theme": "Quảng cáo gây gián đoạn",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 1,
+      "intent": "bug",
+      "keywords": [
+        "quảng cáo",
+        "lỗi hiển thị"
+      ],
+      "summary_vn": "Quảng cáo Shopee không có nút tắt, phải thoát game.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Unhappy",
+      "store_tags": [
+        "Advertisements",
+        "Performance And Bugs",
+        "Feature Requests"
+      ],
+      "app_version": "2.33.0",
+      "text_en": "When watching ads, the Shopee ad with Kan Jomphalang reviewing balm and smelling salts has no close button. I have to clear the app and reopen the game. Please fix this, it's really bad.",
+      "summary_en": "Shopee ad has no close button, forcing a game restart."
+    },
+    {
+      "id": "gplay-vng-d0cb78f86dd05cb9",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.vng.playtogether&hl=th",
+      "author_masked": "ด***",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "text_th": "สนุกมากเลยหาเพื่อนเล่นก็ได้ด้วยตกปลาได้ตัวใหญ่ด้วยแบบนี้แหละที่ฉันต้องการเกมนี้น่ารักน่ารักมากเอาไปเลยดาว 5 เต็ม",
+      "text_vn": "Vui lắm luôn, tìm được bạn chơi cùng, câu được cá to nữa, đúng kiểu game mình muốn. Game dễ thương, dễ thương cực, cho luôn 5 sao.",
+      "translation_method": "ai_contextual",
+      "sentiment": "Positive",
+      "confidence": 0.75,
+      "topic": "Other",
+      "topic_secondary": [],
+      "theme": "Trải nghiệm game tích cực",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 5,
+      "intent": "praise",
+      "keywords": [
+        "khen game",
+        "tìm bạn",
+        "câu cá"
+      ],
+      "summary_vn": "Khen game dễ thương, tìm được bạn, câu cá vui.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Happy",
+      "store_tags": [
+        "Social And Community",
+        "Service"
+      ],
+      "app_version": "2.32.0",
+      "text_en": "So much fun! I can find friends to play with and catch big fish too. This is exactly the game I wanted. It's super cute, take the full 5 stars.",
+      "summary_en": "Praises cute game, making friends and fun fishing."
+    },
+    {
+      "id": "gplay-vng-7d64a6d77a4f1ced",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.vng.playtogether&hl=th",
+      "author_masked": "C***",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "text_th": "ทำไมในโฆษณาไม่บอกผมว่าตอนดาวโหลดมันจะมีทศนิยมตั้ง 5 หลัก",
+      "text_vn": "Sao quảng cáo không nói với tôi là lúc tải game nó hiện số thập phân tới 5 chữ số vậy.",
+      "translation_method": "ai_contextual",
+      "sentiment": "Neutral",
+      "confidence": 0.75,
+      "topic": "Other",
+      "topic_secondary": [],
+      "theme": "Góp ý trải nghiệm chung",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 5,
+      "intent": "chat",
+      "keywords": [
+        "tải game",
+        "bình luận ngắn"
+      ],
+      "summary_vn": "Đùa về tiến trình tải game hiện số thập phân dài.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Unhappy",
+      "store_tags": [
+        "Advertisements"
+      ],
+      "app_version": "2.33.0",
+      "text_en": "Why didn't the ad tell me the download would show numbers with 5 decimal places?",
+      "summary_en": "Jokes that download progress shows long decimal numbers."
     }
   ],
   "report": {
@@ -674,15 +792,16 @@
     ]
   },
   "metrics": {
-    "volume": 17,
+    "volume": 20,
     "noise": 0,
     "by_source": {
-      "Facebook Group": 17
+      "Facebook Group": 17,
+      "Google Play": 3
     },
     "by_sentiment": {
-      "Positive": 1,
-      "Neutral": 8,
-      "Negative": 8,
+      "Positive": 2,
+      "Neutral": 9,
+      "Negative": 9,
       "Mixed": 0
     },
     "by_topic": {
@@ -690,21 +809,45 @@
       "Login / Account / Data": 4,
       "Bug / Crash / Lag / Performance": 1,
       "Event & Update content": 1,
-      "Other": 3,
+      "Other": 6,
       "Gacha / Shop / Pricing": 1
     },
     "by_segment": {
-      "unknown": 17
+      "unknown": 20
     },
-    "nss": -41.2,
+    "nss": -35,
     "nss_d1": null,
     "nss_7d_avg": null,
     "store": {
-      "gp_avg": null,
+      "gp_avg": 3.67,
       "ios_avg": null,
-      "star_1": 0,
-      "star_5": 0
+      "star_1": 1,
+      "star_5": 2
     }
   },
-  "data_mode": "production"
+  "data_mode": "production",
+  "ratings": [
+    {
+      "platform": "Google Play",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "granularity": "day",
+      "incremental_avg_rating": 1.1917,
+      "total_avg_rating": 4.4174,
+      "incremental_rating_count": -0.2664000000000004,
+      "total_rating_count": 384.1246,
+      "source": "Sensor Tower"
+    },
+    {
+      "platform": "App Store",
+      "app_name": "Play Together VNG",
+      "app_id": "1612175933",
+      "granularity": "day",
+      "incremental_avg_rating": 4.8,
+      "total_avg_rating": 4.0474,
+      "incremental_rating_count": 5,
+      "total_rating_count": 464,
+      "source": "Sensor Tower"
+    }
+  ]
 }

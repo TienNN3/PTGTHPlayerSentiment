@@ -1717,10 +1717,10 @@
       "app_name": "Play Together VNG",
       "app_id": "com.vng.playtogether",
       "granularity": "day",
-      "incremental_avg_rating": 2.7893,
+      "incremental_avg_rating": 2.7892,
       "total_avg_rating": 4.4101,
-      "incremental_rating_count": 0.0766,
-      "total_rating_count": 252.0647,
+      "incremental_rating_count": 0.11499999999999999,
+      "total_rating_count": 378.6999,
       "source": "Sensor Tower"
     },
     {

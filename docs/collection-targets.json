@@ -1,6 +1,6 @@
 {
   "note": "Danh sách kênh/creator và từ khoá tìm kiếm cho lượt thu thập hằng ngày. Lượt chạy được phép bổ sung bằng scripts/add-source.mjs; không xoá mục cũ (đổi status thay vì xoá). Group/fanpage Facebook nằm trong public/data/sources.json.",
-  "updated_at": "2026-11-10",
+  "updated_at": "2026-11-11",
   "discovery_queries": {
     "facebook_groups": [
       "Play Together Thailand",
@@ -24,7 +24,8 @@
       "เพลย์ทูเก็ตเตอร์",
       "#playtogethervng",
       "#playtogetherth",
-      "play together ไทย"
+      "play together ไทย",
+      "#ptgcreatorth"
     ]
   },
   "youtube_channels": [
@@ -37,14 +38,14 @@
     },
     {
       "id": "UCiLpWSUJsQGizA1nglqJGog",
-      "name": "",
+      "name": "Teddy Chanelplay",
       "status": "active",
       "added": "2026-10-13",
       "source": "seed"
     },
     {
       "id": "UCGoL2q1h7J30hnmoWK3AdjQ",
-      "name": "",
+      "name": "Wine Channel",
       "status": "active",
       "added": "2026-10-13",
       "source": "seed"
@@ -59,14 +60,15 @@
     },
     {
       "id": "UCr15fC3CNa4yrk18385tNDg",
-      "name": "",
-      "status": "active",
+      "name": "Flerilyn Ch.",
+      "status": "inactive",
       "added": "2026-10-13",
-      "source": "seed"
+      "source": "seed",
+      "note": "Video PTG mới nhất 26/09/2026 (>30 ngày, video mới nhất 12/10 không phải PTG); chuyển inactive 11/11"
     },
     {
       "id": "UCJ6kqLPI4aALUa0p3kJJUKQ",
-      "name": "",
+      "name": "Mellowlop「Paralist」",
       "status": "active",
       "added": "2026-10-13",
       "source": "seed"
@@ -106,6 +108,34 @@
       "status": "active",
       "added": "2026-10-14",
       "source": "seed"
+    },
+    {
+      "handle": "whitekey19",
+      "status": "active",
+      "added": "2026-11-11",
+      "source": "discovery",
+      "note": "Video 7706406953941093684 (10/11/2026) tiếng Thái câu cá Play Together, #PTGCREATORTH; phát hiện qua tìm kiếm 'play together ไทย'"
+    },
+    {
+      "handle": "baitoeihom_taiyang",
+      "status": "active",
+      "added": "2026-11-11",
+      "source": "discovery",
+      "note": "Video 7706470585521523976 (10/11/2026) tiếng Thái Play Together, #PTGCREATORTH (chiến dịch Siam Play Squad)"
+    },
+    {
+      "handle": "baitoeihom_46",
+      "status": "active",
+      "added": "2026-11-11",
+      "source": "discovery",
+      "note": "Video 7706480182005091591 (10/11/2026) Play Together, #PTGCREATORTH; tài khoản Thái liên quan baitoeihom_taiyang"
+    },
+    {
+      "handle": "lungtop_taiyang",
+      "status": "active",
+      "added": "2026-11-11",
+      "source": "discovery",
+      "note": "Video 7706493744840789266 (10/11/2026) tiếng Thái 'เกมสนุก' Play Together, #PTGCREATORTH; creator gaming lớn (~2.2M), cần xem có tiếp tục làm PTG"
     }
   ],
   "tiktok_official": [

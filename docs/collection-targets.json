@@ -1,6 +1,6 @@
 {
   "note": "Danh sách kênh/creator và từ khoá tìm kiếm cho lượt thu thập hằng ngày. Lượt chạy được phép bổ sung bằng scripts/add-source.mjs; không xoá mục cũ (đổi status thay vì xoá). Group/fanpage Facebook nằm trong public/data/sources.json.",
-  "updated_at": "2026-11-11",
+  "updated_at": "2026-11-12",
   "discovery_queries": {
     "facebook_groups": [
       "Play Together Thailand",
@@ -136,6 +136,20 @@
       "added": "2026-11-11",
       "source": "discovery",
       "note": "Video 7706493744840789266 (10/11/2026) tiếng Thái 'เกมสนุก' Play Together, #PTGCREATORTH; creator gaming lớn (~2.2M), cần xem có tiếp tục làm PTG"
+    },
+    {
+      "handle": "nai9studio",
+      "status": "active",
+      "added": "2026-11-12",
+      "source": "discovery",
+      "note": "Video 7706890957093883144 (11/11/2026) tiếng Thái: câu cá cầu vồng không được nên làm nhân viên khách sạn 1 ngày, #PTGCREATORTH; creator game Thái ~19.9K follower"
+    },
+    {
+      "handle": "nikky2288n8",
+      "status": "active",
+      "added": "2026-11-12",
+      "source": "discovery",
+      "note": "Video 7706871382554021140 (11/11/2026) tiếng Thái 'สนุกมากกกก' Play Together, #PTGCREATORTH; creator Thái ~506K follower"
     }
   ],
   "tiktok_official": [
@@ -270,6 +284,42 @@
       "id": "UCBasmsv5cjlL4cvpt_vMkSQ",
       "reason": "video tiếng Anh, không phải Thái",
       "checked": "2026-11-10"
+    },
+    {
+      "type": "tiktok",
+      "id": "pakeezagamer0",
+      "reason": "Pakeeza Gamer: tài khoản đăng video hàng loạt nhiều game/nhiều ngôn ngữ (Gangstar, LifeAfter…) chỉ để ăn hashtag chiến dịch #PTGCREATORTH, không phải creator Thái; kiểm tra 12/11",
+      "checked": "2026-11-12"
+    },
+    {
+      "type": "tiktok",
+      "id": "tik9am",
+      "reason": "tik9am: kênh review game di động tiếng Anh, video PTG chỉ có hashtag, không phải creator Thái; kiểm tra 12/11",
+      "checked": "2026-11-12"
+    },
+    {
+      "type": "group",
+      "id": "hieuplaytogether",
+      "reason": "Group Việt Nam (tên tiếng Việt/🇻🇳) xuất hiện khi tìm 'play together ไทย', không phải cộng đồng Thái; kiểm tra 12/11",
+      "checked": "2026-11-12"
+    },
+    {
+      "type": "group",
+      "id": "440876155165491",
+      "reason": "Group Việt Nam (tên tiếng Việt/🇻🇳) xuất hiện khi tìm 'play together ไทย', không phải cộng đồng Thái; kiểm tra 12/11",
+      "checked": "2026-11-12"
+    },
+    {
+      "type": "group",
+      "id": "288780562559568",
+      "reason": "Group Việt Nam (tên tiếng Việt/🇻🇳) xuất hiện khi tìm 'play together ไทย', không phải cộng đồng Thái; kiểm tra 12/11",
+      "checked": "2026-11-12"
+    },
+    {
+      "type": "group",
+      "id": "1109275185195856",
+      "reason": "Group Việt Nam (tên tiếng Việt/🇻🇳) xuất hiện khi tìm 'play together ไทย', không phải cộng đồng Thái; kiểm tra 12/11",
+      "checked": "2026-11-12"
     }
   ]
 }

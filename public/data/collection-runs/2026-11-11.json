@@ -1,0 +1,144 @@
+{
+  "target_date": "2026-11-11",
+  "time_zone": "Asia/Bangkok",
+  "checked_at": "2026-11-12T02:30:57.292Z",
+  "status": "partial",
+  "added_feedback": 40,
+  "added_ratings": 0,
+  "collection_complete": false,
+  "summary_vn": "Ngày 11/11/2026: thêm 40 phản hồi — group Community 22 (11 bài + 11 bình luận: sự kiện không hiện, liên kết Facebook, nâng cấp súng, đưa tài khoản sang bản VNG, gói thẻ web shop, mở nhạc YouTube trong nhà), group Official 4 bài (1 nạp TrueMoney bị trừ tiền không nhận vật phẩm, 2 lỗi đăng nhập/tài khoản), group chợ 815754622673816 3 bài, group trao đổi thẻ 493177613552238 3 bài, group mua bán 473704433937505 2 bài, YouTube 2 video creator, TikTok 2 video creator mới + 2 bình luận. Fanpage không có bình luận người dùng ngày 11/11. Thêm 2 creator TikTok mới (nai9studio, nikky2288n8), loại 2 tài khoản TikTok và 4 group Việt Nam; không có group Thái mới. Sensor Tower bỏ qua theo runbook.",
+  "sources": [
+    {
+      "key": "Facebook Group · playtogetherth",
+      "status": "partial",
+      "added_feedback": 22,
+      "detail": "New posts + Recent activity, mở từng bài: 11 bài người chơi ngày 11/11 (sự kiện không hiện, liên kết Facebook không hiện ảnh đại diện, nâng cấp súng, máy quét bóng cá, đưa tài khoản sang máy khác bản VNG, gói thẻ web shop, mồi cá thu, mở nhạc YouTube trong nhà, nguyên liệu Halloween, khoe trang phục) + 11 bình luận cấp 1 ngày 11/11 dưới bài mới và bài 10/11 còn hoạt động. Bỏ bài/bình luận admin, trả lời lồng nhau, bình luận cảm ơn/sticker, bài nhãn ≤ 9 giờ (sau 00:00 12/11). Dữ liệu 14/09 – 11/11."
+    },
+    {
+      "key": "Facebook Group · 815754622673816",
+      "status": "partial",
+      "added_feedback": 3,
+      "detail": "New posts: ngày 11/11 có 3 bài (tìm mua tài khoản, rao bán trái cây/nhân sâm, nhận cày thuê Merge Hotel Halloween ngày cuối). Không đọc bình luận."
+    },
+    {
+      "key": "Facebook Group · 1772363333745643",
+      "status": "partial",
+      "added_feedback": 4,
+      "detail": "New posts: ngày 11/11 có 4 bài người chơi (không đăng nhập/tạo được tài khoản; người chơi quay lại không vào được tài khoản cũ; nạp TrueMoney 3 gói bị trừ tiền nhưng không nhận vật phẩm; hỏi đáp án câu đố). Bỏ bài admin/trang. Chỉ đọc bình luận ở bài người chơi (toàn admin trả lời)."
+    },
+    {
+      "key": "Facebook Group · 562362538882428",
+      "status": "not_collected",
+      "added_feedback": 0,
+      "detail": "Kiểm tra 12/11: group công khai, đã là thành viên; không thu thập (không có bài mới từ lâu)."
+    },
+    {
+      "key": "Facebook Group · 3252260471541104",
+      "status": "not_collected",
+      "added_feedback": 0,
+      "detail": "Group riêng tư 16.8K thành viên; kiểm tra 12/11 vẫn thấy nút Join group (chưa là thành viên). Không gửi yêu cầu, không đọc được bài."
+    },
+    {
+      "key": "Facebook Group · 356675609124267",
+      "status": "not_collected",
+      "added_feedback": 0,
+      "detail": "Group riêng tư 7.4K thành viên, yêu cầu thành viên vẫn chờ duyệt (kiểm tra 12/11: nút Cancel request); không đọc được bài/bình luận."
+    },
+    {
+      "key": "Facebook Group · 473704433937505",
+      "status": "partial",
+      "added_feedback": 2,
+      "detail": "New posts: ngày 11/11 có 2 bài (rao bán trái cây/nhân sâm, nhận cày thuê Merge Hotel), cùng nội dung với group chợ 815754622673816."
+    },
+    {
+      "key": "Facebook Group · 847315523442353",
+      "status": "not_collected",
+      "added_feedback": 0,
+      "detail": "Group riêng tư 3.8K thành viên, yêu cầu thành viên vẫn chờ duyệt (kiểm tra 12/11: nút Cancel request); không đọc được bài/bình luận."
+    },
+    {
+      "key": "Facebook Group · 253674809721451",
+      "status": "partial",
+      "added_feedback": 0,
+      "detail": "New posts: không có bài ngày 11/11 (bài mới nhất vẫn 28/10)."
+    },
+    {
+      "key": "Facebook Group · 493177613552238",
+      "status": "partial",
+      "added_feedback": 3,
+      "detail": "New posts: ngày 11/11 có 3 bài tìm trao đổi thẻ."
+    },
+    {
+      "key": "Facebook Fanpage · @playtogetherthailandofficial",
+      "status": "partial",
+      "added_feedback": 0,
+      "detail": "4 bài gần đây (creator challenge, hộp quay Trái tim anh hùng, gói trang phục, gợi ý sự kiện Hướng dẫn viên): chỉ có 1 bình luận ngày 12/11 và 1 bình luận 10/11 (chỉ '???'). 0 bình luận ngày 11/11."
+    },
+    {
+      "key": "YouTube",
+      "status": "partial",
+      "added_feedback": 2,
+      "detail": "Tìm kiếm 7 từ khoá (lọc tuần) + RSS 3 kênh active + kênh chính thức: 2 video creator Thái ngày 11/11 (Teddy Chanelplay: câu lạc bộ Siam Town ngày 7; Wine Channel: sự kiện mới), 0 bình luận. Kênh chính thức có 3 video 11/11, đều 0 bình luận. Không có kênh Thái mới."
+    },
+    {
+      "key": "TikTok",
+      "status": "partial",
+      "added_feedback": 4,
+      "detail": "Kênh chính thức: 3 video 11/11, bình luận ngày 11/11 gần hết tiếng Việt (bỏ), 2 bình luận Thái chỉ là 'đầu tiên' (bỏ). 6 creator đang theo dõi: không có video PTG ngày 11/11 (whitekey19/baitoeihom/lungtop đăng Free Fire/RoV); lấy 1 bình luận Thái dưới video PTG 10/11 của baitoeihom_taiyang. Tìm kiếm 'play together ไทย', '#ptgcreatorth': 2 video creator Thái ngày 11/11 (nai9studio, nikky2288n8) + 1 bình luận hỏi tên game; bỏ video creator Việt Nam và tài khoản spam hashtag."
+    }
+  ],
+  "discovery": {
+    "queries": [
+      "facebook group: play together ไทย, เพลย์ทูเก็ตเตอร์",
+      "youtube: play together, playtogether vng, เพลย์ทูเก็ตเตอร์, play together ไทย, #playtogethervng, #playtogetherth, #ptgcreatorth",
+      "tiktok: play together ไทย, #ptgcreatorth"
+    ],
+    "added": [
+      {
+        "type": "tiktok",
+        "id": "nai9studio",
+        "name": "นายก้าว สตูดิโอ",
+        "status": "active",
+        "evidence": "Video 7706890957093883144 (11/11) tiếng Thái câu cá cầu vồng/làm nhân viên khách sạn Play Together, #PTGCREATORTH"
+      },
+      {
+        "type": "tiktok",
+        "id": "nikky2288n8",
+        "name": "Nikkykub🎭",
+        "status": "active",
+        "evidence": "Video 7706871382554021140 (11/11) 'สนุกมากกกก' Play Together, #PTGCREATORTH; creator Thái ~506K follower"
+      }
+    ],
+    "rejected": [
+      "tiktok pakeezagamer0 (tài khoản đăng hàng loạt nhiều game/ngôn ngữ để ăn hashtag)",
+      "tiktok tik9am (kênh review game tiếng Anh, chỉ có hashtag)",
+      "group hieuplaytogether, 440876155165491, 288780562559568, 1109275185195856 (group Việt Nam)"
+    ],
+    "inactive": [],
+    "notes": "Tìm group Facebook chỉ ra group Việt Nam (đã biết + 4 group mới ghi vào rejected) và group không liên quan. YouTube không có kênh Thái mới. Creator 10/11 (whitekey19, baitoeihom_taiyang, baitoeihom_46, lungtop_taiyang) là creator được tài trợ đa game, 11/11 không đăng video PTG; giữ active, xem lại sau chiến dịch (10–30/11). lemondoggopt video PTG mới nhất 27/10, rukkung2000 08/11 — vẫn trong 30 ngày.",
+    "needs_user_action": [
+      "Group riêng tư đang chờ duyệt: 356675609124267, 847315523442353; group 3252260471541104 chưa là thành viên — nếu muốn thu thập, người dùng tự tham gia/kiểm tra."
+    ]
+  },
+  "sensor_tower": {
+    "status": "skipped",
+    "note": "Bỏ qua theo runbook; người dùng tự cập nhật tay."
+  },
+  "new_feedback": {
+    "by_source": {
+      "Facebook Group": 34,
+      "YouTube": 2,
+      "TikTok": 4
+    },
+    "by_kind": {
+      "post": 23,
+      "comment": 13,
+      "video": 4
+    },
+    "by_sentiment": {
+      "Negative": 4,
+      "Neutral": 29,
+      "Positive": 7
+    }
+  }
+}

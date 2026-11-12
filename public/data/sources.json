@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10",
+  "updated_at": "2026-11-12T23:40:31.470Z",
   "note": "Danh sách nguồn được theo dõi. Tên lấy từ tiêu đề trang Facebook; trạng thái mô tả phạm vi thu thập, không phải số phản hồi.",
   "statuses": {
     "full": "Đủ 30 ngày",
@@ -18,13 +18,13 @@
       "name": "Play Together VNG : THAILAND Community",
       "type": "group",
       "status": "full",
-      "detail": "New posts + Recent activity, mở từng bài: 11 bài người chơi ngày 11/11 (sự kiện không hiện, liên kết Facebook không hiện ảnh đại diện, nâng cấp súng, máy quét bóng cá, đưa tài khoản sang máy khác bản VNG, gói thẻ web shop, mồi cá thu, mở nhạc YouTube trong nhà, nguyên liệu Halloween, khoe trang phục) + 11 bình luận cấp 1 ngày 11/11 dưới bài mới và bài 10/11 còn hoạt động. Bỏ bài/bình luận admin, trả lời lồng nhau, bình luận cảm ơn/sticker, bài nhãn ≤ 9 giờ (sau 00:00 12/11). Dữ liệu 14/09 – 11/11.",
+      "detail": "New posts + Recent activity, mở từng bài: 27 bài người chơi ngày 12/11 (sự kiện người ngoài hành tinh: hỏi/nâng cấp súng, hộp tiếp tế, thú cưng siêu anh hùng khó làm, nút bắn/chạy/nhảy không ăn, lag khi đông người; gacha phương tiện bay nhỏ; cài lại game vào tài khoản cũ thành nhân vật mới; code PTSAVETHECITY) + 52 bình luận cấp 1 ngày 12/11 (gồm bình luận dưới bài admin về streamer Jai Raw). Bỏ bài/bình luận admin và nhân viên (Walaipan, Thititat, Natthakorn), trả lời lồng nhau, bình luận cảm ơn/trống, bình luận sau 00:00 13/11. Dữ liệu 14/09 – 12/11.",
       "url": "https://www.facebook.com/groups/playtogetherth/",
       "last_check": {
-        "target_date": "2026-11-11",
-        "checked_at": "2026-11-12T02:30:57.292Z",
+        "target_date": "2026-11-12",
+        "checked_at": "2026-11-12T23:40:31.470Z",
         "status": "partial",
-        "added_feedback": 22
+        "added_feedback": 79
       }
     },
     {
@@ -32,13 +32,13 @@
       "name": "Play Together : THAILAND ตลาดนัดซื้อขาย (chợ mua bán)",
       "type": "group",
       "status": "full",
-      "detail": "New posts: ngày 11/11 có 3 bài (tìm mua tài khoản, rao bán trái cây/nhân sâm, nhận cày thuê Merge Hotel Halloween ngày cuối). Không đọc bình luận.",
+      "detail": "New posts: ngày 12/11 có 2 bài rao bán (nhân sâm/rau; thẻ, tiền nông trại, nhân sâm, trái cây). Không đọc bình luận.",
       "url": "https://www.facebook.com/groups/815754622673816/",
       "last_check": {
-        "target_date": "2026-11-11",
-        "checked_at": "2026-11-12T02:30:57.292Z",
+        "target_date": "2026-11-12",
+        "checked_at": "2026-11-12T23:40:31.470Z",
         "status": "partial",
-        "added_feedback": 3
+        "added_feedback": 2
       }
     },
     {
@@ -46,13 +46,13 @@
       "name": "Play Together VNG Thailand Official (group)",
       "type": "group",
       "status": "full",
-      "detail": "New posts: ngày 11/11 có 4 bài người chơi (không đăng nhập/tạo được tài khoản; người chơi quay lại không vào được tài khoản cũ; nạp TrueMoney 3 gói bị trừ tiền nhưng không nhận vật phẩm; hỏi đáp án câu đố). Bỏ bài admin/trang. Chỉ đọc bình luận ở bài người chơi (toàn admin trả lời).",
+      "detail": "New posts: ngày 12/11 có 5 bài người chơi (hỏi thú cưng, hỏi đáp án, nấu ăn ở đâu, ảnh meme, bài đăng lại về người chơi cầm cây che) + 2 bình luận trả lời. Bỏ bài admin/trang và bài có vẻ là bản dịch tự động của người chơi Việt.",
       "url": "https://www.facebook.com/groups/1772363333745643/",
       "last_check": {
-        "target_date": "2026-11-11",
-        "checked_at": "2026-11-12T02:30:57.292Z",
+        "target_date": "2026-11-12",
+        "checked_at": "2026-11-12T23:40:31.470Z",
         "status": "partial",
-        "added_feedback": 4
+        "added_feedback": 7
       }
     },
     {
@@ -60,11 +60,11 @@
       "name": "GOI : Let's Play Together 🇹🇭 (tìm phòng, tìm bạn chơi)",
       "type": "group",
       "status": "inactive",
-      "detail": "Kiểm tra 12/11: group công khai, đã là thành viên; không thu thập (không có bài mới từ lâu).",
+      "detail": "Kiểm tra 13/11: group công khai, đã là thành viên; không thu thập (không có bài mới từ lâu).",
       "url": "https://www.facebook.com/groups/562362538882428/",
       "last_check": {
-        "target_date": "2026-11-11",
-        "checked_at": "2026-11-12T02:30:57.292Z",
+        "target_date": "2026-11-12",
+        "checked_at": "2026-11-12T23:40:31.470Z",
         "status": "not_collected",
         "added_feedback": 0
       }
@@ -74,11 +74,11 @@
       "name": "Play Together TH พูดคุย/ซื้อขาย-แลกเปลี่ยน (thảo luận, mua bán)",
       "type": "group",
       "status": "not_collected",
-      "detail": "Group riêng tư 16.8K thành viên; kiểm tra 12/11 vẫn thấy nút Join group (chưa là thành viên). Không gửi yêu cầu, không đọc được bài.",
+      "detail": "Group riêng tư 16.8K thành viên; kiểm tra 13/11 vẫn thấy nút Join group (chưa là thành viên). Không gửi yêu cầu, không đọc được bài.",
       "url": "https://www.facebook.com/groups/3252260471541104/",
       "last_check": {
-        "target_date": "2026-11-11",
-        "checked_at": "2026-11-12T02:30:57.292Z",
+        "target_date": "2026-11-12",
+        "checked_at": "2026-11-12T23:40:31.470Z",
         "status": "not_collected",
         "added_feedback": 0
       }
@@ -88,11 +88,11 @@
       "name": "PLAY TOGETHER THAILAND : แลกเปลี่ยน ซื้อขาย (trao đổi, mua bán)",
       "type": "group",
       "status": "pending",
-      "detail": "Group riêng tư 7.4K thành viên, yêu cầu thành viên vẫn chờ duyệt (kiểm tra 12/11: nút Cancel request); không đọc được bài/bình luận.",
+      "detail": "Group riêng tư 7.4K thành viên, yêu cầu thành viên vẫn chờ duyệt (kiểm tra 13/11: nút Cancel request); không đọc được bài/bình luận.",
       "url": "https://www.facebook.com/groups/356675609124267/",
       "last_check": {
-        "target_date": "2026-11-11",
-        "checked_at": "2026-11-12T02:30:57.292Z",
+        "target_date": "2026-11-12",
+        "checked_at": "2026-11-12T23:40:31.470Z",
         "status": "not_collected",
         "added_feedback": 0
       }
@@ -102,11 +102,11 @@
       "name": "ซื้อ-ขาย Play Together TH (mua bán)",
       "type": "group",
       "status": "partial",
-      "detail": "New posts: ngày 11/11 có 2 bài (rao bán trái cây/nhân sâm, nhận cày thuê Merge Hotel), cùng nội dung với group chợ 815754622673816.",
+      "detail": "New posts: ngày 12/11 có 2 bài (nhận cày thuê sự kiện Alien Invasion, rao bán thẻ/nhân sâm/trái cây — cùng bài ở group chợ).",
       "url": "https://www.facebook.com/groups/473704433937505/",
       "last_check": {
-        "target_date": "2026-11-11",
-        "checked_at": "2026-11-12T02:30:57.292Z",
+        "target_date": "2026-11-12",
+        "checked_at": "2026-11-12T23:40:31.470Z",
         "status": "partial",
         "added_feedback": 2
       }
@@ -116,11 +116,11 @@
       "name": "Play Together แลกเปลี่ยนข้อมูล - ซื้อขายต่างๆ (trao đổi, mua bán)",
       "type": "group",
       "status": "pending",
-      "detail": "Group riêng tư 3.8K thành viên, yêu cầu thành viên vẫn chờ duyệt (kiểm tra 12/11: nút Cancel request); không đọc được bài/bình luận.",
+      "detail": "Group riêng tư 3.8K thành viên, yêu cầu thành viên vẫn chờ duyệt (kiểm tra 13/11: nút Cancel request); không đọc được bài/bình luận.",
       "url": "https://www.facebook.com/groups/847315523442353/",
       "last_check": {
-        "target_date": "2026-11-11",
-        "checked_at": "2026-11-12T02:30:57.292Z",
+        "target_date": "2026-11-12",
+        "checked_at": "2026-11-12T23:40:31.470Z",
         "status": "not_collected",
         "added_feedback": 0
       }
@@ -130,12 +130,12 @@
       "name": "PLAYTOGETHER THAILAND [พูดคุย-ซื้อ-ขาย] (thảo luận, mua bán)",
       "type": "group",
       "status": "partial",
-      "detail": "New posts: không có bài ngày 11/11 (bài mới nhất vẫn 28/10).",
+      "detail": "New posts: không có bài ngày 12/11 (bài mới nhất vẫn 28/10; nếu tới 27/11 vẫn không có bài sẽ chuyển inactive).",
       "url": "https://www.facebook.com/groups/253674809721451/",
       "discovered_at": "2026-10-30",
       "last_check": {
-        "target_date": "2026-11-11",
-        "checked_at": "2026-11-12T02:30:57.292Z",
+        "target_date": "2026-11-12",
+        "checked_at": "2026-11-12T23:40:31.470Z",
         "status": "partial",
         "added_feedback": 0
       }
@@ -145,14 +145,14 @@
       "name": "แลกเปลี่ยนการ์ด/ผัก Play Together Thailand (trao đổi thẻ/rau)",
       "type": "group",
       "status": "partial",
-      "detail": "New posts: ngày 11/11 có 3 bài tìm trao đổi thẻ.",
+      "detail": "New posts: ngày 12/11 có 1 bài tìm trao đổi thẻ.",
       "url": "https://www.facebook.com/groups/493177613552238/",
       "discovered_at": "2026-11-03",
       "last_check": {
-        "target_date": "2026-11-11",
-        "checked_at": "2026-11-12T02:30:57.292Z",
+        "target_date": "2026-11-12",
+        "checked_at": "2026-11-12T23:40:31.470Z",
         "status": "partial",
-        "added_feedback": 3
+        "added_feedback": 1
       }
     },
     {
@@ -160,13 +160,13 @@
       "name": "Fanpage Play Together Thailand Official",
       "type": "fanpage",
       "status": "partial",
-      "detail": "4 bài gần đây (creator challenge, hộp quay Trái tim anh hùng, gói trang phục, gợi ý sự kiện Hướng dẫn viên): chỉ có 1 bình luận ngày 12/11 và 1 bình luận 10/11 (chỉ '???'). 0 bình luận ngày 11/11.",
+      "detail": "Các bài gần đây (livestream Jai Raw, thông báo tuk tuk, gói trang phục, sự kiện người ngoài hành tinh, creator challenge): 1 bình luận người dùng ngày 12/11 dưới bài livestream Jai Raw; bỏ 2 bình luận gõ phím vô nghĩa dưới bài tuk tuk.",
       "url": "https://www.facebook.com/playtogetherthailandofficial",
       "last_check": {
-        "target_date": "2026-11-11",
-        "checked_at": "2026-11-12T02:30:57.292Z",
+        "target_date": "2026-11-12",
+        "checked_at": "2026-11-12T23:40:31.470Z",
         "status": "partial",
-        "added_feedback": 0
+        "added_feedback": 1
       }
     },
     {
@@ -174,13 +174,13 @@
       "name": "YouTube (video và bình luận tiếng Thái)",
       "type": "youtube",
       "status": "youtube",
-      "detail": "Tìm kiếm 7 từ khoá (lọc tuần) + RSS 3 kênh active + kênh chính thức: 2 video creator Thái ngày 11/11 (Teddy Chanelplay: câu lạc bộ Siam Town ngày 7; Wine Channel: sự kiện mới), 0 bình luận. Kênh chính thức có 3 video 11/11, đều 0 bình luận. Không có kênh Thái mới.",
+      "detail": "RSS 3 kênh active + kênh chính thức + tìm kiếm 7 từ khoá (lọc tuần): 4 video Thái ngày 12/11 (Teddy Chanelplay 2: sự kiện siêu anh hùng, cập nhật 2.33.1; Wine Channel 1: quái vật ngoài hành tinh; JAI RAW ใจร้าว 1 livestream được VNG mời) + 1 bình luận Thái. Kênh chính thức 1 video 12/11, 0 bình luận. Thêm kênh JAI RAW ใจร้าว, Rattanan CH.; Mellowlop chuyển inactive (video PTG mới nhất 27/09).",
       "url": "https://www.youtube.com/results?search_query=play+together+%E0%B9%84%E0%B8%97%E0%B8%A2",
       "last_check": {
-        "target_date": "2026-11-11",
-        "checked_at": "2026-11-12T02:30:57.292Z",
+        "target_date": "2026-11-12",
+        "checked_at": "2026-11-12T23:40:31.470Z",
         "status": "partial",
-        "added_feedback": 2
+        "added_feedback": 5
       },
       "official_channel_url": "https://www.youtube.com/@playtogetherth"
     },
@@ -189,13 +189,13 @@
       "name": "TikTok (video và bình luận tiếng Thái)",
       "type": "tiktok",
       "status": "tiktok",
-      "detail": "Kênh chính thức: 3 video 11/11, bình luận ngày 11/11 gần hết tiếng Việt (bỏ), 2 bình luận Thái chỉ là 'đầu tiên' (bỏ). 6 creator đang theo dõi: không có video PTG ngày 11/11 (whitekey19/baitoeihom/lungtop đăng Free Fire/RoV); lấy 1 bình luận Thái dưới video PTG 10/11 của baitoeihom_taiyang. Tìm kiếm 'play together ไทย', '#ptgcreatorth': 2 video creator Thái ngày 11/11 (nai9studio, nikky2288n8) + 1 bình luận hỏi tên game; bỏ video creator Việt Nam và tài khoản spam hashtag.",
+      "detail": "Kênh chính thức: 1 video 12/11, 2 bình luận đều tiếng Việt (bỏ). Trang creator không tải được lưới video (hiện biểu tượng trống, không có CAPTCHA) → dùng tìm kiếm 'play together ไทย', '#ptgcreatorth': 1 video creator Thái ngày 12/11 (tiktokpoomjaii) + 1 bình luận Thái. Kết quả #ptgcreatorth ngày 12/11 còn lại là creator Việt Nam/tài khoản spam hashtag (đã loại).",
       "url": "https://www.tiktok.com/@playtogetherth.official",
       "last_check": {
-        "target_date": "2026-11-11",
-        "checked_at": "2026-11-12T02:30:57.292Z",
+        "target_date": "2026-11-12",
+        "checked_at": "2026-11-12T23:40:31.470Z",
         "status": "partial",
-        "added_feedback": 4
+        "added_feedback": 2
       }
     },
     {

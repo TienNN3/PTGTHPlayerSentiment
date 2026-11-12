@@ -1,6 +1,6 @@
 {
   "note": "Danh sách kênh/creator và từ khoá tìm kiếm cho lượt thu thập hằng ngày. Lượt chạy được phép bổ sung bằng scripts/add-source.mjs; không xoá mục cũ (đổi status thay vì xoá). Group/fanpage Facebook nằm trong public/data/sources.json.",
-  "updated_at": "2026-11-12",
+  "updated_at": "2026-11-13",
   "discovery_queries": {
     "facebook_groups": [
       "Play Together Thailand",
@@ -69,9 +69,10 @@
     {
       "id": "UCJ6kqLPI4aALUa0p3kJJUKQ",
       "name": "Mellowlop「Paralist」",
-      "status": "active",
+      "status": "inactive",
       "added": "2026-10-13",
-      "source": "seed"
+      "source": "seed",
+      "note": "Video PTG mới nhất 27/09/2026 (>30 ngày; video gần đây là Coral Island/Undertale/Genshin); chuyển inactive 13/11"
     },
     {
       "id": "UCS3hyl-eq4vLKYNXEWTivyg",
@@ -88,6 +89,22 @@
       "added": "2026-11-02",
       "source": "discovery",
       "note": "Video eftUj5zUYN4 (30/10/2026) tiếng Thái về minigame khách sạn Play Together; phát hiện 01/11; 03/11: tiêu đề video tiếng Việt (kênh Việt Nam) → ngừng theo dõi"
+    },
+    {
+      "id": "UCVKIH1Sv_wdp3MBRfemJwWA",
+      "name": "JAI RAW ใจร้าว",
+      "status": "active",
+      "added": "2026-11-13",
+      "source": "discovery",
+      "note": "Live sHlc02Bl4lo (12/11/2026, ~10.8K lượt xem) tiếng Thái chơi Play Together VNG; streamer được PTVNG mời (chiến dịch 5 streamer/5 ngày), xem lại sau chiến dịch"
+    },
+    {
+      "id": "UCF9PKbJFqvN6pNrOu2lLVjA",
+      "name": "Rattanan CH.",
+      "status": "active",
+      "added": "2026-11-13",
+      "source": "discovery",
+      "note": "Video FZ7zs8KyTy8 (08/11/2026) 'บัคสไลด์เสื่อ Play Together' tiếng Thái; kênh nhỏ"
     }
   ],
   "youtube_official": [
@@ -150,6 +167,27 @@
       "added": "2026-11-12",
       "source": "discovery",
       "note": "Video 7706871382554021140 (11/11/2026) tiếng Thái 'สนุกมากกกก' Play Together, #PTGCREATORTH; creator Thái ~506K follower"
+    },
+    {
+      "handle": "tiktokpoomjaii",
+      "status": "active",
+      "added": "2026-11-13",
+      "source": "discovery",
+      "note": "Video 7706967034525011201 (12/11/2026 00:28) tiếng Thái 'มาร่วมสนุกและมองหาเพื่อนใหม่ๆที่ Play Together VNG', #PTGCREATORTH; creator Thái ~192K follower"
+    },
+    {
+      "handle": "jasminniiiz.jsmz",
+      "status": "active",
+      "added": "2026-11-13",
+      "source": "discovery",
+      "note": "Video 7706553890652622098 (10/11/2026) #ตกปลากับPlayTogether #PTGCREATORTH; creator Thái"
+    },
+    {
+      "handle": "teddychanel",
+      "status": "active",
+      "added": "2026-11-13",
+      "source": "discovery",
+      "note": "Video 7705668470498659604 (08/11/2026) Play Together #playtogethetTH; TikTok của Teddy Chanelplay (kênh YouTube đang theo dõi)"
     }
   ],
   "tiktok_official": [
@@ -320,6 +358,96 @@
       "id": "1109275185195856",
       "reason": "Group Việt Nam (tên tiếng Việt/🇻🇳) xuất hiện khi tìm 'play together ไทย', không phải cộng đồng Thái; kiểm tra 12/11",
       "checked": "2026-11-12"
+    },
+    {
+      "type": "tiktok",
+      "id": "sana_editz055",
+      "reason": "Tài khoản đăng hàng loạt gắn hashtag #PTGCREATORTH (caption tiếng Anh/chung chung, nhiều game), không phải creator Thái thật; kiểm tra 13/11",
+      "checked": "2026-11-13"
+    },
+    {
+      "type": "tiktok",
+      "id": "gtaheroverse",
+      "reason": "Tài khoản đăng hàng loạt gắn hashtag #PTGCREATORTH (caption tiếng Anh/chung chung, nhiều game), không phải creator Thái thật; kiểm tra 13/11",
+      "checked": "2026-11-13"
+    },
+    {
+      "type": "tiktok",
+      "id": "missqueen6208",
+      "reason": "Tài khoản đăng hàng loạt gắn hashtag #PTGCREATORTH (caption tiếng Anh/chung chung, nhiều game), không phải creator Thái thật; kiểm tra 13/11",
+      "checked": "2026-11-13"
+    },
+    {
+      "type": "tiktok",
+      "id": "adnangaming9797",
+      "reason": "Tài khoản đăng hàng loạt gắn hashtag #PTGCREATORTH (caption tiếng Anh/chung chung, nhiều game), không phải creator Thái thật; kiểm tra 13/11",
+      "checked": "2026-11-13"
+    },
+    {
+      "type": "tiktok",
+      "id": "worldoly0s5",
+      "reason": "Tài khoản đăng hàng loạt gắn hashtag #PTGCREATORTH (caption tiếng Anh/chung chung, nhiều game), không phải creator Thái thật; kiểm tra 13/11",
+      "checked": "2026-11-13"
+    },
+    {
+      "type": "tiktok",
+      "id": "funnycatviral",
+      "reason": "Tài khoản đăng hàng loạt gắn hashtag #PTGCREATORTH (caption tiếng Anh/chung chung, nhiều game), không phải creator Thái thật; kiểm tra 13/11",
+      "checked": "2026-11-13"
+    },
+    {
+      "type": "tiktok",
+      "id": "ofcl_asmr",
+      "reason": "Tài khoản đăng hàng loạt gắn hashtag #PTGCREATORTH (caption tiếng Anh/chung chung, nhiều game), không phải creator Thái thật; kiểm tra 13/11",
+      "checked": "2026-11-13"
+    },
+    {
+      "type": "tiktok",
+      "id": "misspretty6133",
+      "reason": "Tài khoản đăng hàng loạt gắn hashtag #PTGCREATORTH (caption tiếng Anh/chung chung, nhiều game), không phải creator Thái thật; kiểm tra 13/11",
+      "checked": "2026-11-13"
+    },
+    {
+      "type": "tiktok",
+      "id": "kw_2717",
+      "reason": "Creator Việt Nam (caption tiếng Việt, #ptgcreator); kiểm tra 13/11",
+      "checked": "2026-11-13"
+    },
+    {
+      "type": "tiktok",
+      "id": "mas1193",
+      "reason": "Creator Việt Nam (caption tiếng Việt, #ptgcreator); kiểm tra 13/11",
+      "checked": "2026-11-13"
+    },
+    {
+      "type": "tiktok",
+      "id": "otter.play",
+      "reason": "Creator Việt Nam (caption tiếng Việt, #ptgcreator); kiểm tra 13/11",
+      "checked": "2026-11-13"
+    },
+    {
+      "type": "tiktok",
+      "id": "doloveu_pt",
+      "reason": "Creator Việt Nam (caption tiếng Việt, #ptgcreator); kiểm tra 13/11",
+      "checked": "2026-11-13"
+    },
+    {
+      "type": "group",
+      "id": "1008259846929991",
+      "reason": "Mua Bán Trao Đổi Play Together 🇻🇳 — group Việt Nam (82K), xuất hiện khi tìm 'play together ไทย'; kiểm tra 13/11",
+      "checked": "2026-11-13"
+    },
+    {
+      "type": "group",
+      "id": "1210130356809985",
+      "reason": "Mua Bán Trao Đổi Play Together 🇻🇳 — group Việt Nam (45K), xuất hiện khi tìm 'play together ไทย'; kiểm tra 13/11",
+      "checked": "2026-11-13"
+    },
+    {
+      "type": "group",
+      "id": "1300862651730487",
+      "reason": "ครีเอเตอร์ธาตุพนมทูเก็ตเตอร์ — group 63 thành viên về creator địa phương, không liên quan Play Together; kiểm tra 13/11",
+      "checked": "2026-11-13"
     }
   ]
 }

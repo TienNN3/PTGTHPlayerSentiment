@@ -1,0 +1,169 @@
+{
+  "target_date": "2026-11-12",
+  "time_zone": "Asia/Bangkok",
+  "checked_at": "2026-11-12T23:40:31.470Z",
+  "status": "partial",
+  "added_feedback": 99,
+  "added_ratings": 0,
+  "collection_complete": false,
+  "summary_vn": "Ngày 12/11/2026 (ngày đầu sự kiện người ngoài hành tinh/siêu anh hùng và livestream streamer Jai Raw): thêm 99 phản hồi — group Community 79 (27 bài + 52 bình luận: hỏi/nâng cấp súng, tìm hộp tiếp tế, thú cưng siêu anh hùng khó làm và chỉ số không đáng, nút bắn/chạy/nhảy không ăn, lag khi đông người, gacha phương tiện bay quá nhỏ, hào hứng với streamer), group Official 7, group chợ/mua bán/trao đổi 5, fanpage 1 bình luận, YouTube 4 video + 1 bình luận, TikTok 1 video + 1 bình luận. Thêm 2 kênh YouTube (JAI RAW ใจร้าว, Rattanan CH.) và 3 creator TikTok (tiktokpoomjaii, jasminniiiz.jsmz, teddychanel); Mellowlop chuyển inactive. Trang creator TikTok không tải được video. Sensor Tower bỏ qua theo runbook.",
+  "sources": [
+    {
+      "key": "Facebook Group · playtogetherth",
+      "status": "partial",
+      "added_feedback": 79,
+      "detail": "New posts + Recent activity, mở từng bài: 27 bài người chơi ngày 12/11 (sự kiện người ngoài hành tinh: hỏi/nâng cấp súng, hộp tiếp tế, thú cưng siêu anh hùng khó làm, nút bắn/chạy/nhảy không ăn, lag khi đông người; gacha phương tiện bay nhỏ; cài lại game vào tài khoản cũ thành nhân vật mới; code PTSAVETHECITY) + 52 bình luận cấp 1 ngày 12/11 (gồm bình luận dưới bài admin về streamer Jai Raw). Bỏ bài/bình luận admin và nhân viên (Walaipan, Thititat, Natthakorn), trả lời lồng nhau, bình luận cảm ơn/trống, bình luận sau 00:00 13/11. Dữ liệu 14/09 – 12/11."
+    },
+    {
+      "key": "Facebook Group · 815754622673816",
+      "status": "partial",
+      "added_feedback": 2,
+      "detail": "New posts: ngày 12/11 có 2 bài rao bán (nhân sâm/rau; thẻ, tiền nông trại, nhân sâm, trái cây). Không đọc bình luận."
+    },
+    {
+      "key": "Facebook Group · 1772363333745643",
+      "status": "partial",
+      "added_feedback": 7,
+      "detail": "New posts: ngày 12/11 có 5 bài người chơi (hỏi thú cưng, hỏi đáp án, nấu ăn ở đâu, ảnh meme, bài đăng lại về người chơi cầm cây che) + 2 bình luận trả lời. Bỏ bài admin/trang và bài có vẻ là bản dịch tự động của người chơi Việt."
+    },
+    {
+      "key": "Facebook Group · 562362538882428",
+      "status": "not_collected",
+      "added_feedback": 0,
+      "detail": "Kiểm tra 13/11: group công khai, đã là thành viên; không thu thập (không có bài mới từ lâu)."
+    },
+    {
+      "key": "Facebook Group · 3252260471541104",
+      "status": "not_collected",
+      "added_feedback": 0,
+      "detail": "Group riêng tư 16.8K thành viên; kiểm tra 13/11 vẫn thấy nút Join group (chưa là thành viên). Không gửi yêu cầu, không đọc được bài."
+    },
+    {
+      "key": "Facebook Group · 356675609124267",
+      "status": "not_collected",
+      "added_feedback": 0,
+      "detail": "Group riêng tư 7.4K thành viên, yêu cầu thành viên vẫn chờ duyệt (kiểm tra 13/11: nút Cancel request); không đọc được bài/bình luận."
+    },
+    {
+      "key": "Facebook Group · 473704433937505",
+      "status": "partial",
+      "added_feedback": 2,
+      "detail": "New posts: ngày 12/11 có 2 bài (nhận cày thuê sự kiện Alien Invasion, rao bán thẻ/nhân sâm/trái cây — cùng bài ở group chợ)."
+    },
+    {
+      "key": "Facebook Group · 847315523442353",
+      "status": "not_collected",
+      "added_feedback": 0,
+      "detail": "Group riêng tư 3.8K thành viên, yêu cầu thành viên vẫn chờ duyệt (kiểm tra 13/11: nút Cancel request); không đọc được bài/bình luận."
+    },
+    {
+      "key": "Facebook Group · 253674809721451",
+      "status": "partial",
+      "added_feedback": 0,
+      "detail": "New posts: không có bài ngày 12/11 (bài mới nhất vẫn 28/10; nếu tới 27/11 vẫn không có bài sẽ chuyển inactive)."
+    },
+    {
+      "key": "Facebook Group · 493177613552238",
+      "status": "partial",
+      "added_feedback": 1,
+      "detail": "New posts: ngày 12/11 có 1 bài tìm trao đổi thẻ."
+    },
+    {
+      "key": "Facebook Fanpage · @playtogetherthailandofficial",
+      "status": "partial",
+      "added_feedback": 1,
+      "detail": "Các bài gần đây (livestream Jai Raw, thông báo tuk tuk, gói trang phục, sự kiện người ngoài hành tinh, creator challenge): 1 bình luận người dùng ngày 12/11 dưới bài livestream Jai Raw; bỏ 2 bình luận gõ phím vô nghĩa dưới bài tuk tuk."
+    },
+    {
+      "key": "YouTube",
+      "status": "partial",
+      "added_feedback": 5,
+      "detail": "RSS 3 kênh active + kênh chính thức + tìm kiếm 7 từ khoá (lọc tuần): 4 video Thái ngày 12/11 (Teddy Chanelplay 2: sự kiện siêu anh hùng, cập nhật 2.33.1; Wine Channel 1: quái vật ngoài hành tinh; JAI RAW ใจร้าว 1 livestream được VNG mời) + 1 bình luận Thái. Kênh chính thức 1 video 12/11, 0 bình luận. Thêm kênh JAI RAW ใจร้าว, Rattanan CH.; Mellowlop chuyển inactive (video PTG mới nhất 27/09)."
+    },
+    {
+      "key": "TikTok",
+      "status": "partial",
+      "added_feedback": 2,
+      "detail": "Kênh chính thức: 1 video 12/11, 2 bình luận đều tiếng Việt (bỏ). Trang creator không tải được lưới video (hiện biểu tượng trống, không có CAPTCHA) → dùng tìm kiếm 'play together ไทย', '#ptgcreatorth': 1 video creator Thái ngày 12/11 (tiktokpoomjaii) + 1 bình luận Thái. Kết quả #ptgcreatorth ngày 12/11 còn lại là creator Việt Nam/tài khoản spam hashtag (đã loại)."
+    }
+  ],
+  "discovery": {
+    "queries": [
+      "facebook group: play together ไทย, เพลย์ทูเก็ตเตอร์",
+      "youtube: play together, playtogether vng, เพลย์ทูเก็ตเตอร์, play together ไทย, #playtogethervng, #playtogetherth, #ptgcreatorth (lọc tuần, gl=TH)",
+      "tiktok: play together ไทย, #ptgcreatorth"
+    ],
+    "added": [
+      {
+        "type": "youtube",
+        "id": "UCVKIH1Sv_wdp3MBRfemJwWA",
+        "name": "JAI RAW ใจร้าว",
+        "status": "active",
+        "evidence": "Live sHlc02Bl4lo (12/11, ~10.8K lượt xem) chơi Play Together VNG; streamer được VNG mời, xem lại sau chiến dịch"
+      },
+      {
+        "type": "youtube",
+        "id": "UCF9PKbJFqvN6pNrOu2lLVjA",
+        "name": "Rattanan CH.",
+        "status": "active",
+        "evidence": "Video FZ7zs8KyTy8 (08/11) 'บัคสไลด์เสื่อ Play Together' tiếng Thái"
+      },
+      {
+        "type": "tiktok",
+        "id": "tiktokpoomjaii",
+        "name": "POOMJAii",
+        "status": "active",
+        "evidence": "Video 7706967034525011201 (12/11) tiếng Thái về Play Together VNG, #PTGCREATORTH; ~192K follower"
+      },
+      {
+        "type": "tiktok",
+        "id": "jasminniiiz.jsmz",
+        "name": "JASMINNIIIZ",
+        "status": "active",
+        "evidence": "Video 7706553890652622098 (10/11) #ตกปลากับPlayTogether #PTGCREATORTH"
+      },
+      {
+        "type": "tiktok",
+        "id": "teddychanel",
+        "name": "Teddy Chanelplay",
+        "status": "active",
+        "evidence": "Video 7705668470498659604 (08/11) Play Together #playtogethetTH; TikTok của kênh YouTube Teddy Chanelplay"
+      }
+    ],
+    "rejected": [
+      "tiktok sana_editz055, gtaheroverse, missqueen6208, adnangaming9797, worldoly0s5, funnycatviral, ofcl_asmr, misspretty6133 (tài khoản đăng hàng loạt gắn #PTGCREATORTH, không phải creator Thái thật)",
+      "tiktok kw_2717, mas1193, otter.play, doloveu_pt (creator Việt Nam)",
+      "group 1008259846929991, 1210130356809985 (group Việt Nam); group 1300862651730487 (không liên quan Play Together)"
+    ],
+    "inactive": [
+      "youtube UCJ6kqLPI4aALUa0p3kJJUKQ Mellowlop (video PTG mới nhất 27/09/2026)"
+    ],
+    "notes": "Không có group Facebook Thái mới. Trang hồ sơ creator TikTok (8 creator đang theo dõi) không tải được lưới video trong lượt này nên chỉ dựa vào tìm kiếm; không thấy video PTG ngày 12/11 của các creator đó trong kết quả tìm kiếm.",
+    "needs_user_action": [
+      "Group riêng tư đang chờ duyệt: 356675609124267, 847315523442353; group 3252260471541104 chưa là thành viên — nếu muốn thu thập, người dùng tự tham gia/kiểm tra."
+    ]
+  },
+  "sensor_tower": {
+    "status": "skipped",
+    "note": "Bỏ qua theo runbook; người dùng tự cập nhật tay."
+  },
+  "new_feedback": {
+    "by_source": {
+      "Facebook Group": 91,
+      "Facebook Fanpage": 1,
+      "YouTube": 5,
+      "TikTok": 2
+    },
+    "by_kind": {
+      "post": 37,
+      "comment": 57,
+      "video": 5
+    },
+    "by_sentiment": {
+      "Neutral": 51,
+      "Mixed": 10,
+      "Negative": 15,
+      "Positive": 23
+    }
+  }
+}

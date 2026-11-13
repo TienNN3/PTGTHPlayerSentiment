@@ -38,7 +38,8 @@ Repo: `/Users/nhattien/Documents/ChatGPT/PTGTHPlayer` · Production: https://tie
 - Chỉ giữ video có tiêu đề/mô tả chữ Thái, đăng ngày `D`. Mỗi video creator = 1 phản hồi (`content_kind: "video"`); bình luận tiếng Thái ngày `D` dưới video (bình luận cũ chỉ có ngày gần đúng → `date_precision: "approximate"`). Kênh chính thức Play Together VNG TH: chỉ lấy bình luận. Bỏ bình luận của chủ kênh, lời chào, link.
 
 ### TikTok
-- Quét kênh chính thức trong `tiktok_official` (chỉ bình luận), mọi creator `status: "active"` trong `tiktok_creators`, và tìm kiếm theo `discovery_queries.tiktok` (đều ở `docs/collection-targets.json`).
+- Quét kênh chính thức trong `tiktok_official` (chỉ bình luận), creator `status: "active"` trong `tiktok_creators`, và tìm kiếm theo `discovery_queries.tiktok` (đều ở `docs/collection-targets.json`).
+- Danh sách creator dài (có nhóm `list: "creator_list_2026"` từ danh sách creator của đội marketing, phần lớn chơi Free Fire/Roblox/RoV và chỉ thỉnh thoảng làm video Play Together). Mỗi lượt quét **luân phiên**: luôn quét creator đã có video Play Together trong 30 ngày (`last_pt_video` ≤ 30 ngày) và creator `source` khác `creator_list_2026`, cộng thêm khoảng 20 creator còn lại có `last_checked` cũ nhất. Ghi `last_checked: "D"` cho creator đã quét, `last_pt_video: "<ngày>"` khi thấy video Play Together tiếng Thái. Chỉ lấy video **về Play Together** (video game khác bỏ qua). Áp dụng tương tự cho kênh YouTube có `list: "creator_list_2026"`.
 - Ngày video lấy từ ID (giây = `BigInt(id) >> 32n`). Chỉ giữ video tiếng Thái ngày `D`; bình luận tiếng Thái (bỏ bình luận tiếng Việt, chủ kênh, chỉ emoji). Gặp CAPTCHA: ghi `blocked`, không giải.
 
 ## 2b. Tìm nguồn mới (mỗi lượt, tối đa ~15 phút)
@@ -48,7 +49,8 @@ Mục tiêu: danh sách nguồn không bị cố định. Khi có group cộng �
 1. **Facebook group**: tìm `https://www.facebook.com/search/groups/?q=<từ khoá>` với từng từ khoá trong `discovery_queries.facebook_groups`; xem thêm link group được nhắc trong bài của các group đang theo dõi.
 2. **YouTube**: trong kết quả tìm kiếm của mục 2, ghi lại các kênh có video tiếng Thái về Play Together mà chưa có trong `youtube_channels`.
 3. **TikTok**: tương tự với các creator trong kết quả tìm kiếm/hashtag chưa có trong `tiktok_creators`.
-4. Bỏ qua nguồn đã có trong `sources.json`, `collection-targets.json` hoặc trong `rejected`.
+4. **Look-alike nhóm creator mẫu** (xem `lookalike` trong `docs/collection-targets.json`): mỗi lượt mở 2–3 creator mẫu thuộc `seed_lists` (luân phiên), xem "tài khoản tương tự / gợi ý" trên TikTok, "kênh đề xuất" trên YouTube, người được tag/duet/collab; tìm thêm theo hashtag game chính (Free Fire, Roblox, RoV) kết hợp Play Together. Creator tương tự đạt tiêu chí bên dưới thì thêm bằng `add-source.mjs` với `--note "look-alike của <handle mẫu>; <video bằng chứng>"`. `youtube_pending_handles`: mở trang kênh lấy channel id `UC…` rồi thêm vào `youtube_channels`.
+5. Bỏ qua nguồn đã có trong `sources.json`, `collection-targets.json` hoặc trong `rejected`.
 
 Tiêu chí nhận một nguồn mới (phải đủ cả 3):
 - Nội dung chính là **Play Together** (không phải game khác), bằng **tiếng Thái** hoặc cộng đồng người chơi Thái (kênh/creator Việt Nam thì loại).

@@ -43,14 +43,18 @@
       "added": "2026-10-13",
       "source": "seed",
       "handle": "@ThePigpanter",
-      "list": "user_added"
+      "list": "user_added",
+      "last_checked": "2026-11-12",
+      "last_pt_video": "2026-11-12"
     },
     {
       "id": "UCGoL2q1h7J30hnmoWK3AdjQ",
       "name": "Wine Channel",
       "status": "active",
       "added": "2026-10-13",
-      "source": "seed"
+      "source": "seed",
+      "last_checked": "2026-11-12",
+      "last_pt_video": "2026-11-12"
     },
     {
       "id": "UC6PsLX8cJ5s81ZcqjcBhhZQ",
@@ -98,7 +102,9 @@
       "status": "active",
       "added": "2026-11-13",
       "source": "discovery",
-      "note": "Live sHlc02Bl4lo (12/11/2026, ~10.8K lượt xem) tiếng Thái chơi Play Together VNG; streamer được PTVNG mời (chiến dịch 5 streamer/5 ngày), xem lại sau chiến dịch"
+      "note": "Live sHlc02Bl4lo (12/11/2026, ~10.8K lượt xem) tiếng Thái chơi Play Together VNG; streamer được PTVNG mời (chiến dịch 5 streamer/5 ngày), xem lại sau chiến dịch",
+      "last_checked": "2026-11-12",
+      "last_pt_video": "2026-11-12"
     },
     {
       "id": "UCF9PKbJFqvN6pNrOu2lLVjA",
@@ -106,7 +112,9 @@
       "status": "active",
       "added": "2026-11-13",
       "source": "discovery",
-      "note": "Video FZ7zs8KyTy8 (08/11/2026) 'บัคสไลด์เสื่อ Play Together' tiếng Thái; kênh nhỏ"
+      "note": "Video FZ7zs8KyTy8 (08/11/2026) 'บัคสไลด์เสื่อ Play Together' tiếng Thái; kênh nhỏ",
+      "last_checked": "2026-11-12",
+      "last_pt_video": "2026-11-07"
     },
     {
       "id": "UC8Jbi584f1f3GMRbE1SEdtg",
@@ -116,7 +124,8 @@
       "added": "2026-11-13",
       "source": "creator_list_2026",
       "list": "creator_list_2026",
-      "note": "Kênh YouTube của creator trong danh sách Play Together Creators 2026-2027"
+      "note": "Kênh YouTube của creator trong danh sách Play Together Creators 2026-2027",
+      "last_checked": "2026-11-12"
     },
     {
       "id": "UCyBXh03YgZyAKppUgVlrlFw",
@@ -126,7 +135,8 @@
       "added": "2026-11-13",
       "source": "creator_list_2026",
       "list": "creator_list_2026",
-      "note": "Kênh YouTube của creator trong danh sách Play Together Creators 2026-2027"
+      "note": "Kênh YouTube của creator trong danh sách Play Together Creators 2026-2027",
+      "last_checked": "2026-11-12"
     },
     {
       "id": "UCCu-YpP8A5yyoRpl4cp44fQ",
@@ -136,7 +146,8 @@
       "added": "2026-11-13",
       "source": "creator_list_2026",
       "list": "creator_list_2026",
-      "note": "Kênh YouTube của creator trong danh sách Play Together Creators 2026-2027"
+      "note": "Kênh YouTube của creator trong danh sách Play Together Creators 2026-2027",
+      "last_checked": "2026-11-12"
     },
     {
       "id": "UCf3meHApqiyR83d7bCQtcOQ",
@@ -146,7 +157,8 @@
       "added": "2026-11-13",
       "source": "creator_list_2026",
       "list": "creator_list_2026",
-      "note": "Kênh YouTube của creator trong danh sách Play Together Creators 2026-2027"
+      "note": "Kênh YouTube của creator trong danh sách Play Together Creators 2026-2027",
+      "last_checked": "2026-11-12"
     },
     {
       "id": "UCcS_Jvi-IvmtWR97Mv5VOIA",
@@ -156,7 +168,8 @@
       "added": "2026-11-13",
       "source": "creator_list_2026",
       "list": "creator_list_2026",
-      "note": "Kênh YouTube của creator trong danh sách Play Together Creators 2026-2027"
+      "note": "Kênh YouTube của creator trong danh sách Play Together Creators 2026-2027",
+      "last_checked": "2026-11-12"
     },
     {
       "id": "UCGuRqCzH3WhGclCkyw5Qkkw",
@@ -166,7 +179,8 @@
       "added": "2026-11-13",
       "source": "creator_list_2026",
       "list": "creator_list_2026",
-      "note": "Kênh YouTube của creator trong danh sách Play Together Creators 2026-2027"
+      "note": "Kênh YouTube của creator trong danh sách Play Together Creators 2026-2027",
+      "last_checked": "2026-11-12"
     },
     {
       "id": "UCXlXEBmye29QiMBDj8lW2GA",
@@ -176,7 +190,8 @@
       "added": "2026-11-13",
       "source": "creator_list_2026",
       "list": "creator_list_2026",
-      "note": "Kênh YouTube của creator trong danh sách Play Together Creators 2026-2027"
+      "note": "Kênh YouTube của creator trong danh sách Play Together Creators 2026-2027",
+      "last_checked": "2026-11-12"
     },
     {
       "id": "UCTfiJL2IEprECVkfWzCoNDA",
@@ -186,7 +201,8 @@
       "added": "2026-11-13",
       "source": "creator_list_2026",
       "list": "creator_list_2026",
-      "note": "Kênh YouTube của creator trong danh sách Play Together Creators 2026-2027"
+      "note": "Kênh YouTube của creator trong danh sách Play Together Creators 2026-2027",
+      "last_checked": "2026-11-12"
     },
     {
       "id": "UCWaaM6npywYPb774lETSC5g",
@@ -196,7 +212,8 @@
       "added": "2026-11-13",
       "source": "creator_list_2026",
       "list": "creator_list_2026",
-      "note": "Kênh YouTube của creator trong danh sách Play Together Creators 2026-2027"
+      "note": "Kênh YouTube của creator trong danh sách Play Together Creators 2026-2027",
+      "last_checked": "2026-11-12"
     },
     {
       "id": "UCB5GdRZPGh2laHHIaiDfDow",
@@ -206,7 +223,8 @@
       "added": "2026-11-13",
       "source": "creator_list_2026",
       "list": "creator_list_2026",
-      "note": "Kênh YouTube của creator trong danh sách Play Together Creators 2026-2027"
+      "note": "Kênh YouTube của creator trong danh sách Play Together Creators 2026-2027",
+      "last_checked": "2026-11-12"
     },
     {
       "id": "UCNajrD17Xfggq_EUDr8LXww",
@@ -216,7 +234,8 @@
       "added": "2026-11-13",
       "source": "creator_list_2026",
       "list": "creator_list_2026",
-      "note": "Kênh YouTube của creator trong danh sách Play Together Creators 2026-2027"
+      "note": "Kênh YouTube của creator trong danh sách Play Together Creators 2026-2027",
+      "last_checked": "2026-11-12"
     },
     {
       "id": "UCQNwnYjN1BThx3ApquF6ShA",
@@ -226,7 +245,8 @@
       "added": "2026-11-13",
       "source": "creator_list_2026",
       "list": "creator_list_2026",
-      "note": "Kênh YouTube của creator trong danh sách Play Together Creators 2026-2027"
+      "note": "Kênh YouTube của creator trong danh sách Play Together Creators 2026-2027",
+      "last_checked": "2026-11-12"
     },
     {
       "id": "UCOlrxEtT3HYVfTLOyt567fQ",
@@ -236,7 +256,8 @@
       "added": "2026-11-13",
       "source": "creator_list_2026",
       "list": "creator_list_2026",
-      "note": "Kênh YouTube của creator trong danh sách Play Together Creators 2026-2027"
+      "note": "Kênh YouTube của creator trong danh sách Play Together Creators 2026-2027",
+      "last_checked": "2026-11-12"
     },
     {
       "id": "UCNRYJ1cvKwheL6AxCC5Nm3w",
@@ -246,7 +267,8 @@
       "added": "2026-11-13",
       "source": "creator_list_2026",
       "list": "creator_list_2026",
-      "note": "Kênh YouTube của creator trong danh sách Play Together Creators 2026-2027"
+      "note": "Kênh YouTube của creator trong danh sách Play Together Creators 2026-2027",
+      "last_checked": "2026-11-12"
     },
     {
       "id": "UCBS4YwTYBMdSWoxTdUYehqg",
@@ -256,7 +278,8 @@
       "added": "2026-11-13",
       "source": "creator_list_2026",
       "list": "creator_list_2026",
-      "note": "Kênh YouTube của creator trong danh sách Play Together Creators 2026-2027"
+      "note": "Kênh YouTube của creator trong danh sách Play Together Creators 2026-2027",
+      "last_checked": "2026-11-12"
     },
     {
       "id": "UCqhiFVrkY0kK9oT4raYan3A",
@@ -266,7 +289,8 @@
       "added": "2026-11-13",
       "source": "creator_list_2026",
       "list": "creator_list_2026",
-      "note": "Kênh YouTube của creator trong danh sách Play Together Creators 2026-2027"
+      "note": "Kênh YouTube của creator trong danh sách Play Together Creators 2026-2027",
+      "last_checked": "2026-11-12"
     }
   ],
   "youtube_official": [
@@ -280,20 +304,25 @@
       "handle": "lemondoggopt",
       "status": "active",
       "added": "2026-10-14",
-      "source": "seed"
+      "source": "seed",
+      "last_checked": "2026-11-12",
+      "last_pt_video": "2026-10-27"
     },
     {
       "handle": "rukkung2000",
       "status": "active",
       "added": "2026-10-14",
-      "source": "seed"
+      "source": "seed",
+      "last_checked": "2026-11-12",
+      "last_pt_video": "2026-11-06"
     },
     {
       "handle": "whitekey19",
       "status": "active",
       "added": "2026-11-11",
       "source": "discovery",
-      "note": "Video 7706406953941093684 (10/11/2026) tiếng Thái câu cá Play Together, #PTGCREATORTH; phát hiện qua tìm kiếm 'play together ไทย'"
+      "note": "Video 7706406953941093684 (10/11/2026) tiếng Thái câu cá Play Together, #PTGCREATORTH; phát hiện qua tìm kiếm 'play together ไทย'",
+      "last_checked": "2026-11-12"
     },
     {
       "handle": "baitoeihom_taiyang",
@@ -303,7 +332,9 @@
       "note": "Video 7706470585521523976 (10/11/2026) tiếng Thái Play Together, #PTGCREATORTH (chiến dịch Siam Play Squad)",
       "list": "creator_list_2026",
       "main_game": "RoV",
-      "pt_video": "https://www.tiktok.com/@baitoeihom_taiyang/video/7671517428123241746"
+      "pt_video": "https://www.tiktok.com/@baitoeihom_taiyang/video/7671517428123241746",
+      "last_checked": "2026-11-12",
+      "last_pt_video": "2026-11-10"
     },
     {
       "handle": "baitoeihom_46",
@@ -313,21 +344,26 @@
       "note": "Video 7706480182005091591 (10/11/2026) Play Together, #PTGCREATORTH; tài khoản Thái liên quan baitoeihom_taiyang",
       "list": "creator_list_2026",
       "main_game": "RoV",
-      "pt_video": "https://www.tiktok.com/@baitoeihom_46/video/7672330549964360968"
+      "pt_video": "https://www.tiktok.com/@baitoeihom_46/video/7672330549964360968",
+      "last_checked": "2026-11-12",
+      "last_pt_video": "2026-11-10"
     },
     {
       "handle": "lungtop_taiyang",
       "status": "active",
       "added": "2026-11-11",
       "source": "discovery",
-      "note": "Video 7706493744840789266 (10/11/2026) tiếng Thái 'เกมสนุก' Play Together, #PTGCREATORTH; creator gaming lớn (~2.2M), cần xem có tiếp tục làm PTG"
+      "note": "Video 7706493744840789266 (10/11/2026) tiếng Thái 'เกมสนุก' Play Together, #PTGCREATORTH; creator gaming lớn (~2.2M), cần xem có tiếp tục làm PTG",
+      "last_checked": "2026-11-12",
+      "last_pt_video": "2026-11-10"
     },
     {
       "handle": "nai9studio",
       "status": "active",
       "added": "2026-11-12",
       "source": "discovery",
-      "note": "Video 7706890957093883144 (11/11/2026) tiếng Thái: câu cá cầu vồng không được nên làm nhân viên khách sạn 1 ngày, #PTGCREATORTH; creator game Thái ~19.9K follower"
+      "note": "Video 7706890957093883144 (11/11/2026) tiếng Thái: câu cá cầu vồng không được nên làm nhân viên khách sạn 1 ngày, #PTGCREATORTH; creator game Thái ~19.9K follower",
+      "last_checked": "2026-11-12"
     },
     {
       "handle": "nikky2288n8",
@@ -337,7 +373,9 @@
       "note": "Video 7706871382554021140 (11/11/2026) tiếng Thái 'สนุกมากกกก' Play Together, #PTGCREATORTH; creator Thái ~506K follower",
       "list": "creator_list_2026",
       "main_game": "Free Fire",
-      "pt_video": "https://www.tiktok.com/@nikky2288n8/video/7671649770942909717"
+      "pt_video": "https://www.tiktok.com/@nikky2288n8/video/7671649770942909717",
+      "last_checked": "2026-11-12",
+      "last_pt_video": "2026-11-11"
     },
     {
       "handle": "tiktokpoomjaii",
@@ -347,7 +385,9 @@
       "note": "Video 7706967034525011201 (12/11/2026 00:28) tiếng Thái 'มาร่วมสนุกและมองหาเพื่อนใหม่ๆที่ Play Together VNG', #PTGCREATORTH; creator Thái ~192K follower",
       "list": "creator_list_2026",
       "main_game": "Roblox",
-      "pt_video": "https://www.tiktok.com/@tiktokpoomjaii/video/7675416447056760082"
+      "pt_video": "https://www.tiktok.com/@tiktokpoomjaii/video/7675416447056760082",
+      "last_checked": "2026-11-12",
+      "last_pt_video": "2026-11-12"
     },
     {
       "handle": "jasminniiiz.jsmz",
@@ -357,14 +397,17 @@
       "note": "Video 7706553890652622098 (10/11/2026) #ตกปลากับPlayTogether #PTGCREATORTH; creator Thái",
       "list": "creator_list_2026",
       "main_game": "Free Fire",
-      "pt_video": "https://www.tiktok.com/@jasminniiiz.jsmz/video/7671584012296539410"
+      "pt_video": "https://www.tiktok.com/@jasminniiiz.jsmz/video/7671584012296539410",
+      "last_checked": "2026-11-12",
+      "last_pt_video": "2026-11-10"
     },
     {
       "handle": "teddychanel",
       "status": "active",
       "added": "2026-11-13",
       "source": "discovery",
-      "note": "Video 7705668470498659604 (08/11/2026) Play Together #playtogethetTH; TikTok của Teddy Chanelplay (kênh YouTube đang theo dõi)"
+      "note": "Video 7705668470498659604 (08/11/2026) Play Together #playtogethetTH; TikTok của Teddy Chanelplay (kênh YouTube đang theo dõi)",
+      "last_checked": "2026-11-12"
     },
     {
       "handle": "7878dada",
@@ -372,7 +415,8 @@
       "added": "2026-11-13",
       "source": "creator_list_2026",
       "list": "creator_list_2026",
-      "note": "Creator trong danh sách Play Together Creators 2026-2027 (đội marketing)"
+      "note": "Creator trong danh sách Play Together Creators 2026-2027 (đội marketing)",
+      "last_checked": "2026-11-12"
     },
     {
       "handle": "_natza",
@@ -382,7 +426,8 @@
       "list": "creator_list_2026",
       "main_game": "Free Fire",
       "pt_video": "https://www.tiktok.com/@_natza/video/7671840862065773845",
-      "note": "Creator trong danh sách Play Together Creators 2026-2027 (đội marketing); làm video Play Together trong GIP"
+      "note": "Creator trong danh sách Play Together Creators 2026-2027 (đội marketing); làm video Play Together trong GIP",
+      "last_checked": "2026-11-12"
     },
     {
       "handle": "al7start",
@@ -392,7 +437,8 @@
       "list": "creator_list_2026",
       "main_game": "khác",
       "pt_video": "https://www.tiktok.com/@al7start/video/7673841014381088021",
-      "note": "Creator trong danh sách Play Together Creators 2026-2027 (đội marketing); làm video Play Together trong GIP"
+      "note": "Creator trong danh sách Play Together Creators 2026-2027 (đội marketing); làm video Play Together trong GIP",
+      "last_checked": "2026-11-12"
     },
     {
       "handle": "algamestar",
@@ -402,7 +448,8 @@
       "list": "creator_list_2026",
       "main_game": "Roblox",
       "pt_video": "https://www.tiktok.com/@algamestar/video/7675683371850140949",
-      "note": "Creator trong danh sách Play Together Creators 2026-2027 (đội marketing); làm video Play Together trong GIP"
+      "note": "Creator trong danh sách Play Together Creators 2026-2027 (đội marketing); làm video Play Together trong GIP",
+      "last_checked": "2026-11-12"
     },
     {
       "handle": "ameer.hamza99970",
@@ -411,7 +458,8 @@
       "source": "creator_list_2026",
       "list": "creator_list_2026",
       "pt_video": "https://www.tiktok.com/@ameer.hamza99970/video/7671521517238340886",
-      "note": "Creator trong danh sách Play Together Creators 2026-2027 (đội marketing); làm video Play Together trong GIP"
+      "note": "Creator trong danh sách Play Together Creators 2026-2027 (đội marketing); làm video Play Together trong GIP",
+      "last_checked": "2026-11-12"
     },
     {
       "handle": "anbam7",
@@ -421,7 +469,8 @@
       "list": "creator_list_2026",
       "main_game": "RoV",
       "pt_video": "https://www.tiktok.com/@anbam7/video/7671639957991181588",
-      "note": "Creator trong danh sách Play Together Creators 2026-2027 (đội marketing); làm video Play Together trong GIP"
+      "note": "Creator trong danh sách Play Together Creators 2026-2027 (đội marketing); làm video Play Together trong GIP",
+      "last_checked": "2026-11-12"
     },
     {
       "handle": "anwaasmr",
@@ -431,7 +480,8 @@
       "list": "creator_list_2026",
       "main_game": "Free Fire",
       "pt_video": "https://www.tiktok.com/@anwaasmr/video/7671850921416035591",
-      "note": "Creator trong danh sách Play Together Creators 2026-2027 (đội marketing); làm video Play Together trong GIP"
+      "note": "Creator trong danh sách Play Together Creators 2026-2027 (đội marketing); làm video Play Together trong GIP",
+      "last_checked": "2026-11-12"
     },
     {
       "handle": "anwasedrep",
@@ -439,7 +489,9 @@
       "added": "2026-11-13",
       "source": "creator_list_2026",
       "list": "creator_list_2026",
-      "note": "Creator trong danh sách Play Together Creators 2026-2027 (đội marketing)"
+      "note": "Creator trong danh sách Play Together Creators 2026-2027 (đội marketing)",
+      "last_checked": "2026-11-12",
+      "last_pt_video": "2026-08-09"
     },
     {
       "handle": "astronad_2003",
@@ -449,7 +501,8 @@
       "list": "creator_list_2026",
       "main_game": "RoV",
       "pt_video": "https://www.tiktok.com/@astronad_2003/video/7673184781173067016",
-      "note": "Creator trong danh sách Play Together Creators 2026-2027 (đội marketing); làm video Play Together trong GIP"
+      "note": "Creator trong danh sách Play Together Creators 2026-2027 (đội marketing); làm video Play Together trong GIP",
+      "last_checked": "2026-11-12"
     },
     {
       "handle": "auuauutok",
@@ -458,7 +511,8 @@
       "source": "creator_list_2026",
       "list": "creator_list_2026",
       "main_game": "game cạnh tranh",
-      "note": "Creator trong danh sách Play Together Creators 2026-2027 (đội marketing)"
+      "note": "Creator trong danh sách Play Together Creators 2026-2027 (đội marketing)",
+      "last_checked": "2026-11-12"
     },
     {
       "handle": "ayeshaaslam5303",
@@ -467,7 +521,8 @@
       "source": "creator_list_2026",
       "list": "creator_list_2026",
       "pt_video": "https://www.tiktok.com/@ayeshaaslam5303/video/7672586378995158293",
-      "note": "Creator trong danh sách Play Together Creators 2026-2027 (đội marketing); làm video Play Together trong GIP"
+      "note": "Creator trong danh sách Play Together Creators 2026-2027 (đội marketing); làm video Play Together trong GIP",
+      "last_checked": "2026-11-12"
     },
     {
       "handle": "bankner.72",
@@ -477,7 +532,8 @@
       "list": "creator_list_2026",
       "main_game": "Free Fire",
       "pt_video": "https://www.tiktok.com/@bankner.72/video/7673846519514025224",
-      "note": "Creator trong danh sách Play Together Creators 2026-2027 (đội marketing); làm video Play Together trong GIP"
+      "note": "Creator trong danh sách Play Together Creators 2026-2027 (đội marketing); làm video Play Together trong GIP",
+      "last_checked": "2026-11-12"
     },
     {
       "handle": "barfibnhqhu",
@@ -487,7 +543,8 @@
       "list": "creator_list_2026",
       "main_game": "khác",
       "pt_video": "https://www.tiktok.com/@barfibnhqhu/video/7671889409561611527",
-      "note": "Creator trong danh sách Play Together Creators 2026-2027 (đội marketing); làm video Play Together trong GIP"
+      "note": "Creator trong danh sách Play Together Creators 2026-2027 (đội marketing); làm video Play Together trong GIP",
+      "last_checked": "2026-11-12"
     },
     {
       "handle": "bennyychannel",
@@ -495,7 +552,8 @@
       "added": "2026-11-13",
       "source": "creator_list_2026",
       "list": "creator_list_2026",
-      "note": "Creator trong danh sách Play Together Creators 2026-2027 (đội marketing)"
+      "note": "Creator trong danh sách Play Together Creators 2026-2027 (đội marketing)",
+      "last_checked": "2026-11-12"
     },
     {
       "handle": "bestsu_tt",
@@ -505,7 +563,8 @@
       "list": "creator_list_2026",
       "main_game": "Roblox",
       "pt_video": "https://www.tiktok.com/@bestsu_tt/video/7679503270859083029",
-      "note": "Creator trong danh sách Play Together Creators 2026-2027 (đội marketing); làm video Play Together trong GIP"
+      "note": "Creator trong danh sách Play Together Creators 2026-2027 (đội marketing); làm video Play Together trong GIP",
+      "last_checked": "2026-11-12"
     },
     {
       "handle": "black_bunzo",
@@ -515,7 +574,8 @@
       "list": "creator_list_2026",
       "main_game": "khác",
       "pt_video": "https://www.tiktok.com/@black_bunzo/video/7672019589223419144",
-      "note": "Creator trong danh sách Play Together Creators 2026-2027 (đội marketing); làm video Play Together trong GIP"
+      "note": "Creator trong danh sách Play Together Creators 2026-2027 (đội marketing); làm video Play Together trong GIP",
+      "last_checked": "2026-11-12"
     },
     {
       "handle": "cake_328",
@@ -525,7 +585,9 @@
       "list": "creator_list_2026",
       "main_game": "Free Fire",
       "pt_video": "https://www.tiktok.com/@cake_328/video/7679337152748129557",
-      "note": "Creator trong danh sách Play Together Creators 2026-2027 (đội marketing); làm video Play Together trong GIP"
+      "note": "Creator trong danh sách Play Together Creators 2026-2027 (đội marketing); làm video Play Together trong GIP",
+      "last_checked": "2026-11-12",
+      "last_pt_video": "2026-11-10"
     },
     {
       "handle": "chuka_taiyang",
@@ -535,7 +597,9 @@
       "list": "creator_list_2026",
       "main_game": "Free Fire",
       "pt_video": "https://www.tiktok.com/@chuka_taiyang/video/7671914813370535189",
-      "note": "Creator trong danh sách Play Together Creators 2026-2027 (đội marketing); làm video Play Together trong GIP"
+      "note": "Creator trong danh sách Play Together Creators 2026-2027 (đội marketing); làm video Play Together trong GIP",
+      "last_checked": "2026-11-12",
+      "last_pt_video": "2026-11-12"
     },
     {
       "handle": "conan_cnnj",
@@ -545,7 +609,8 @@
       "list": "creator_list_2026",
       "main_game": "Free Fire",
       "pt_video": "https://www.tiktok.com/@conan_cnnj/video/7672279878372314376",
-      "note": "Creator trong danh sách Play Together Creators 2026-2027 (đội marketing); làm video Play Together trong GIP"
+      "note": "Creator trong danh sách Play Together Creators 2026-2027 (đội marketing); làm video Play Together trong GIP",
+      "last_checked": "2026-11-12"
     },
     {
       "handle": "cooo1..ff333",
@@ -717,7 +782,8 @@
       "list": "creator_list_2026",
       "main_game": "Free Fire",
       "pt_video": "https://www.tiktok.com/@k2j999zx/video/7678626549150567698",
-      "note": "Creator trong danh sách Play Together Creators 2026-2027 (đội marketing); làm video Play Together trong GIP"
+      "note": "Creator trong danh sách Play Together Creators 2026-2027 (đội marketing); làm video Play Together trong GIP",
+      "last_pt_video": "2026-11-12"
     },
     {
       "handle": "kapomdace_taiyang",
@@ -901,7 +967,8 @@
       "list": "creator_list_2026",
       "main_game": "khác",
       "pt_video": "https://www.tiktok.com/@ndpp_124/video/7671667839798938898",
-      "note": "Creator trong danh sách Play Together Creators 2026-2027 (đội marketing); làm video Play Together trong GIP"
+      "note": "Creator trong danh sách Play Together Creators 2026-2027 (đội marketing); làm video Play Together trong GIP",
+      "last_pt_video": "2026-11-11"
     },
     {
       "handle": "nightkubnong",
@@ -1056,7 +1123,8 @@
       "list": "creator_list_2026",
       "main_game": "Free Fire",
       "pt_video": "https://www.tiktok.com/@ropad_888/video/7679467938956545288",
-      "note": "Creator trong danh sách Play Together Creators 2026-2027 (đội marketing); làm video Play Together trong GIP"
+      "note": "Creator trong danh sách Play Together Creators 2026-2027 (đội marketing); làm video Play Together trong GIP",
+      "last_pt_video": "2026-11-12"
     },
     {
       "handle": "saima.baloch1993",
@@ -1188,6 +1256,22 @@
       "list": "creator_list_2026",
       "pt_video": "https://www.tiktok.com/@zarnab541/video/7672041151997840642",
       "note": "Creator trong danh sách Play Together Creators 2026-2027 (đội marketing); làm video Play Together trong GIP"
+    },
+    {
+      "handle": "hoysang9",
+      "status": "active",
+      "added": "2026-11-13",
+      "source": "discovery",
+      "note": "look-alike của nhóm creator_list_2026 (cùng chiến dịch #PTGCREATORTH, ví dụ cake_328/ndpp_124); video 7706780115379866898 (11/11/2026) tiếng Thái 'มาสนุกกันกับเกมน่ารักๆแบบนี้' về Play Together VNG; ~748K follower; phát hiện 13/11 qua tìm kiếm 'PTGCREATORTH เกมสนุก'",
+      "last_pt_video": "2026-11-11"
+    },
+    {
+      "handle": "du_dul1_taiyang",
+      "status": "active",
+      "added": "2026-11-13",
+      "source": "discovery",
+      "note": "look-alike của chuka_taiyang/lilith_taiyang (cùng Taiyang Media); video 7706526424781327622 (10/11/2026) tiếng Thái giới thiệu Play Together VNG; ~877K follower; phát hiện 13/11 qua tìm kiếm 'เพลย์ทูเก็ตเตอร์'",
+      "last_pt_video": "2026-11-10"
     }
   ],
   "tiktok_official": [
@@ -1448,6 +1532,36 @@
       "id": "1300862651730487",
       "reason": "ครีเอเตอร์ธาตุพนมทูเก็ตเตอร์ — group 63 thành viên về creator địa phương, không liên quan Play Together; kiểm tra 13/11",
       "checked": "2026-11-13"
+    },
+    {
+      "type": "tiktok",
+      "id": "queen_gaming10",
+      "reason": "Tài khoản đăng hàng loạt gắn #PTGCREATORTH (Gaming Incentive Program/kênh clip chung), không phải creator Thái thật; kiểm tra 13/11",
+      "checked": "2026-11-13"
+    },
+    {
+      "type": "tiktok",
+      "id": "beast_gaming61",
+      "reason": "Tài khoản đăng hàng loạt gắn #PTGCREATORTH (Gaming Incentive Program/kênh clip chung), không phải creator Thái thật; kiểm tra 13/11",
+      "checked": "2026-11-13"
+    },
+    {
+      "type": "tiktok",
+      "id": "gameplayvideosty009",
+      "reason": "Tài khoản đăng hàng loạt gắn #PTGCREATORTH (Gaming Incentive Program/kênh clip chung), không phải creator Thái thật; kiểm tra 13/11",
+      "checked": "2026-11-13"
+    },
+    {
+      "type": "tiktok",
+      "id": "zoey_rose38",
+      "reason": "Tài khoản đăng hàng loạt gắn #PTGCREATORTH (Gaming Incentive Program/kênh clip chung), không phải creator Thái thật; kiểm tra 13/11",
+      "checked": "2026-11-13"
+    },
+    {
+      "type": "tiktok",
+      "id": "penny.kingg",
+      "reason": "Tài khoản đăng hàng loạt gắn #PTGCREATORTH (Gaming Incentive Program/kênh clip chung), không phải creator Thái thật; kiểm tra 13/11",
+      "checked": "2026-11-13"
     }
   ],
   "youtube_pending_handles": [
@@ -1455,7 +1569,7 @@
       "handle": "@nnewsrns",
       "name": "Newnew",
       "list": "creator_list_2026",
-      "note": "Chưa lấy được channel id (UC…); lượt chạy mở trang kênh để lấy rồi chuyển sang youtube_channels"
+      "note": "Chưa lấy được channel id (UC…); lượt chạy mở trang kênh để lấy rồi chuyển sang youtube_channels; 13/11: youtube.com/@nnewsrns trả 404 (handle có thể đã đổi), cần người dùng kiểm tra lại link trong danh sách"
     }
   ],
   "lookalike": {

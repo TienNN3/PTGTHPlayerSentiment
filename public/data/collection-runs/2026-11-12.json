@@ -1,12 +1,12 @@
 {
   "target_date": "2026-11-12",
   "time_zone": "Asia/Bangkok",
-  "checked_at": "2026-11-12T23:40:31.470Z",
+  "checked_at": "2026-11-13T04:44:49.861Z",
   "status": "partial",
-  "added_feedback": 99,
+  "added_feedback": 105,
   "added_ratings": 0,
   "collection_complete": false,
-  "summary_vn": "Ngày 12/11/2026 (ngày đầu sự kiện người ngoài hành tinh/siêu anh hùng và livestream streamer Jai Raw): thêm 99 phản hồi — group Community 79 (27 bài + 52 bình luận: hỏi/nâng cấp súng, tìm hộp tiếp tế, thú cưng siêu anh hùng khó làm và chỉ số không đáng, nút bắn/chạy/nhảy không ăn, lag khi đông người, gacha phương tiện bay quá nhỏ, hào hứng với streamer), group Official 7, group chợ/mua bán/trao đổi 5, fanpage 1 bình luận, YouTube 4 video + 1 bình luận, TikTok 1 video + 1 bình luận. Thêm 2 kênh YouTube (JAI RAW ใจร้าว, Rattanan CH.) và 3 creator TikTok (tiktokpoomjaii, jasminniiiz.jsmz, teddychanel); Mellowlop chuyển inactive. Trang creator TikTok không tải được video. Sensor Tower bỏ qua theo runbook.",
+  "summary_vn": "Ngày 12/11/2026 (ngày đầu sự kiện người ngoài hành tinh/siêu anh hùng và livestream streamer Jai Raw): thêm 99 phản hồi — group Community 79 (27 bài + 52 bình luận: hỏi/nâng cấp súng, tìm hộp tiếp tế, thú cưng siêu anh hùng khó làm và chỉ số không đáng, nút bắn/chạy/nhảy không ăn, lag khi đông người, gacha phương tiện bay quá nhỏ, hào hứng với streamer), group Official 7, group chợ/mua bán/trao đổi 5, fanpage 1 bình luận, YouTube 4 video + 1 bình luận, TikTok 1 video + 1 bình luận. Thêm 2 kênh YouTube (JAI RAW ใจร้าว, Rattanan CH.) và 3 creator TikTok (tiktokpoomjaii, jasminniiiz.jsmz, teddychanel); Mellowlop chuyển inactive. Trang creator TikTok không tải được video. Sensor Tower bỏ qua theo runbook. Lượt bổ sung 13/11 (danh sách creator đội marketing + look-alike): thêm 6 phản hồi TikTok (3 video creator Thái chuka_taiyang, k2j999zx, ropad_888 + 3 bình luận), thêm 2 creator look-alike (hoysang9, du_dul1_taiyang), loại 5 tài khoản đăng hàng loạt; YouTube không có video mới ngày 12/11.",
   "sources": [
     {
       "key": "Facebook Group · playtogetherth",
@@ -78,20 +78,21 @@
       "key": "YouTube",
       "status": "partial",
       "added_feedback": 5,
-      "detail": "RSS 3 kênh active + kênh chính thức + tìm kiếm 7 từ khoá (lọc tuần): 4 video Thái ngày 12/11 (Teddy Chanelplay 2: sự kiện siêu anh hùng, cập nhật 2.33.1; Wine Channel 1: quái vật ngoài hành tinh; JAI RAW ใจร้าว 1 livestream được VNG mời) + 1 bình luận Thái. Kênh chính thức 1 video 12/11, 0 bình luận. Thêm kênh JAI RAW ใจร้าว, Rattanan CH.; Mellowlop chuyển inactive (video PTG mới nhất 27/09)."
+      "detail": "RSS 3 kênh active + kênh chính thức + tìm kiếm 7 từ khoá (lọc tuần): 4 video Thái ngày 12/11 (Teddy Chanelplay 2: sự kiện siêu anh hùng, cập nhật 2.33.1; Wine Channel 1: quái vật ngoài hành tinh; JAI RAW ใจร้าว 1 livestream được VNG mời) + 1 bình luận Thái. Kênh chính thức 1 video 12/11, 0 bình luận. Thêm kênh JAI RAW ใจร้าว, Rattanan CH.; Mellowlop chuyển inactive (video PTG mới nhất 27/09). Lượt bổ sung 13/11: RSS YouTube trả 404 → đọc trang kênh (videos/streams/shorts) của 20 kênh active (gồm 16 kênh danh sách creator đội marketing): không có video Play Together mới ngày 12/11 ngoài 4 video đã lấy (video Wine Channel EscgB7HBuPM đăng 11:04 13/11, không thuộc D); handle @nnewsrns trả 404."
     },
     {
       "key": "TikTok",
       "status": "partial",
-      "added_feedback": 2,
-      "detail": "Kênh chính thức: 1 video 12/11, 2 bình luận đều tiếng Việt (bỏ). Trang creator không tải được lưới video (hiện biểu tượng trống, không có CAPTCHA) → dùng tìm kiếm 'play together ไทย', '#ptgcreatorth': 1 video creator Thái ngày 12/11 (tiktokpoomjaii) + 1 bình luận Thái. Kết quả #ptgcreatorth ngày 12/11 còn lại là creator Việt Nam/tài khoản spam hashtag (đã loại)."
+      "added_feedback": 8,
+      "detail": "Kênh chính thức: 1 video 12/11, 2 bình luận đều tiếng Việt (bỏ). Trang creator không tải được lưới video (hiện biểu tượng trống, không có CAPTCHA) → dùng tìm kiếm 'play together ไทย', '#ptgcreatorth': 1 video creator Thái ngày 12/11 (tiktokpoomjaii) + 1 bình luận Thái. Kết quả #ptgcreatorth ngày 12/11 còn lại là creator Việt Nam/tài khoản spam hashtag (đã loại). Lượt bổ sung 13/11 (danh sách creator đội marketing): quét luân phiên 30 creator (24 creator_list_2026 + 6 creator khác) qua tìm kiếm \"<handle> play together\" (trang hồ sơ vẫn không tải lưới video) + 5 truy vấn look-alike: thêm 3 video Thái ngày 12/11 (chuka_taiyang, k2j999zx, ropad_888) + 3 bình luận Thái; bỏ bình luận chỉ emoji/\"แรก\"/số ID và bình luận sau 00:00 13/11. Thêm creator look-alike hoysang9, du_dul1_taiyang."
     }
   ],
   "discovery": {
     "queries": [
       "facebook group: play together ไทย, เพลย์ทูเก็ตเตอร์",
       "youtube: play together, playtogether vng, เพลย์ทูเก็ตเตอร์, play together ไทย, #playtogethervng, #playtogetherth, #ptgcreatorth (lọc tuần, gl=TH)",
-      "tiktok: play together ไทย, #ptgcreatorth"
+      "tiktok: play together ไทย, #ptgcreatorth",
+      "lượt bổ sung 13/11 — tiktok: \"<handle> play together\" cho 30 creator luân phiên; look-alike: \"taiyang play together\", \"freefire playtogethervng ไทย\", \"roblox play together vng ไทย\", \"PTGCREATORTH เกมสนุก\", \"เพลย์ทูเก็ตเตอร์\", \"play together vng สนุกมาก\"; youtube: trang kênh 20 kênh active (RSS 404)"
     ],
     "added": [
       {
@@ -128,20 +129,61 @@
         "name": "Teddy Chanelplay",
         "status": "active",
         "evidence": "Video 7705668470498659604 (08/11) Play Together #playtogethetTH; TikTok của kênh YouTube Teddy Chanelplay"
+      },
+      {
+        "type": "tiktok",
+        "id": "hoysang9",
+        "name": "HOYSANG",
+        "status": "active",
+        "evidence": "Look-alike nhóm creator_list_2026 (chiến dịch #PTGCREATORTH); video 7706780115379866898 (11/11) tiếng Thái về Play Together VNG; ~748K follower"
+      },
+      {
+        "type": "tiktok",
+        "id": "du_dul1_taiyang",
+        "name": "ไอต้าวดุลงับ",
+        "status": "active",
+        "evidence": "Look-alike của chuka_taiyang (cùng Taiyang Media); video 7706526424781327622 (10/11) tiếng Thái giới thiệu Play Together VNG; ~877K follower"
       }
     ],
     "rejected": [
       "tiktok sana_editz055, gtaheroverse, missqueen6208, adnangaming9797, worldoly0s5, funnycatviral, ofcl_asmr, misspretty6133 (tài khoản đăng hàng loạt gắn #PTGCREATORTH, không phải creator Thái thật)",
       "tiktok kw_2717, mas1193, otter.play, doloveu_pt (creator Việt Nam)",
-      "group 1008259846929991, 1210130356809985 (group Việt Nam); group 1300862651730487 (không liên quan Play Together)"
+      "group 1008259846929991, 1210130356809985 (group Việt Nam); group 1300862651730487 (không liên quan Play Together)",
+      "tiktok queen_gaming10, beast_gaming61, gameplayvideosty009, zoey_rose38, penny.kingg (tài khoản đăng hàng loạt gắn #PTGCREATORTH, không phải creator Thái thật) — lượt bổ sung 13/11"
     ],
     "inactive": [
       "youtube UCJ6kqLPI4aALUa0p3kJJUKQ Mellowlop (video PTG mới nhất 27/09/2026)"
     ],
     "notes": "Không có group Facebook Thái mới. Trang hồ sơ creator TikTok (8 creator đang theo dõi) không tải được lưới video trong lượt này nên chỉ dựa vào tìm kiếm; không thấy video PTG ngày 12/11 của các creator đó trong kết quả tìm kiếm.",
     "needs_user_action": [
-      "Group riêng tư đang chờ duyệt: 356675609124267, 847315523442353; group 3252260471541104 chưa là thành viên — nếu muốn thu thập, người dùng tự tham gia/kiểm tra."
-    ]
+      "Group riêng tư đang chờ duyệt: 356675609124267, 847315523442353; group 3252260471541104 chưa là thành viên — nếu muốn thu thập, người dùng tự tham gia/kiểm tra.",
+      "Kênh YouTube @nnewsrns (Newnew) trong danh sách creator trả 404 — kiểm tra lại link kênh."
+    ],
+    "lookalike": {
+      "seeds_checked": [
+        "chuka_taiyang",
+        "cake_328",
+        "nikky2288n8"
+      ],
+      "note": "Mục \"tài khoản được đề xuất\" của TikTok trống khi chưa đăng nhập TikTok → tìm look-alike bằng tìm kiếm theo hashtag game chính + Play Together và mạng lưới Taiyang Media.",
+      "added": [
+        "hoysang9",
+        "du_dul1_taiyang"
+      ]
+    },
+    "creator_rotation": {
+      "date": "2026-11-12",
+      "tiktok_scanned": 30,
+      "youtube_scanned": 20,
+      "method": "TikTok: tìm kiếm \"<handle> play together\" (trang hồ sơ không tải lưới video); YouTube: trang kênh (RSS 404)",
+      "pt_videos_on_D": [
+        "chuka_taiyang",
+        "k2j999zx",
+        "ropad_888",
+        "tiktokpoomjaii (đã có)"
+      ],
+      "note": "ayeshaaslam5303 (trong danh sách) đăng video gắn #PTGCREATORTH nhưng chú thích tiếng Hàn, không lấy."
+    }
   },
   "sensor_tower": {
     "status": "skipped",
@@ -152,18 +194,25 @@
       "Facebook Group": 91,
       "Facebook Fanpage": 1,
       "YouTube": 5,
-      "TikTok": 2
+      "TikTok": 8
     },
     "by_kind": {
       "post": 37,
-      "comment": 57,
-      "video": 5
+      "comment": 60,
+      "video": 8
     },
     "by_sentiment": {
-      "Neutral": 51,
+      "Neutral": 52,
       "Mixed": 10,
       "Negative": 15,
-      "Positive": 23
+      "Positive": 28
     }
-  }
+  },
+  "supplementary_runs": [
+    {
+      "checked_at": "2026-11-13T04:44:49.861Z",
+      "added_feedback": 6,
+      "note": "Lượt bổ sung sau khi thêm danh sách creator đội marketing; Facebook không quét lại (đã thu thập đủ lượt sáng). Sensor Tower bỏ qua."
+    }
+  ]
 }

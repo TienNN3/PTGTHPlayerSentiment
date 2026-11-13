@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12T23:40:31.470Z",
+  "updated_at": "2026-11-13T04:44:49.861Z",
   "note": "Danh sách nguồn được theo dõi. Tên lấy từ tiêu đề trang Facebook; trạng thái mô tả phạm vi thu thập, không phải số phản hồi.",
   "statuses": {
     "full": "Đủ 30 ngày",
@@ -174,11 +174,11 @@
       "name": "YouTube (video và bình luận tiếng Thái)",
       "type": "youtube",
       "status": "youtube",
-      "detail": "RSS 3 kênh active + kênh chính thức + tìm kiếm 7 từ khoá (lọc tuần): 4 video Thái ngày 12/11 (Teddy Chanelplay 2: sự kiện siêu anh hùng, cập nhật 2.33.1; Wine Channel 1: quái vật ngoài hành tinh; JAI RAW ใจร้าว 1 livestream được VNG mời) + 1 bình luận Thái. Kênh chính thức 1 video 12/11, 0 bình luận. Thêm kênh JAI RAW ใจร้าว, Rattanan CH.; Mellowlop chuyển inactive (video PTG mới nhất 27/09).",
+      "detail": "RSS 3 kênh active + kênh chính thức + tìm kiếm 7 từ khoá (lọc tuần): 4 video Thái ngày 12/11 (Teddy Chanelplay 2: sự kiện siêu anh hùng, cập nhật 2.33.1; Wine Channel 1: quái vật ngoài hành tinh; JAI RAW ใจร้าว 1 livestream được VNG mời) + 1 bình luận Thái. Kênh chính thức 1 video 12/11, 0 bình luận. Thêm kênh JAI RAW ใจร้าว, Rattanan CH.; Mellowlop chuyển inactive (video PTG mới nhất 27/09). Lượt bổ sung 13/11: RSS YouTube trả 404 → đọc trang kênh (videos/streams/shorts) của 20 kênh active (gồm 16 kênh danh sách creator đội marketing): không có video Play Together mới ngày 12/11 ngoài 4 video đã lấy (video Wine Channel EscgB7HBuPM đăng 11:04 13/11, không thuộc D); handle @nnewsrns trả 404.",
       "url": "https://www.youtube.com/results?search_query=play+together+%E0%B9%84%E0%B8%97%E0%B8%A2",
       "last_check": {
         "target_date": "2026-11-12",
-        "checked_at": "2026-11-12T23:40:31.470Z",
+        "checked_at": "2026-11-13T04:44:49.861Z",
         "status": "partial",
         "added_feedback": 5
       },
@@ -189,13 +189,13 @@
       "name": "TikTok (video và bình luận tiếng Thái)",
       "type": "tiktok",
       "status": "tiktok",
-      "detail": "Kênh chính thức: 1 video 12/11, 2 bình luận đều tiếng Việt (bỏ). Trang creator không tải được lưới video (hiện biểu tượng trống, không có CAPTCHA) → dùng tìm kiếm 'play together ไทย', '#ptgcreatorth': 1 video creator Thái ngày 12/11 (tiktokpoomjaii) + 1 bình luận Thái. Kết quả #ptgcreatorth ngày 12/11 còn lại là creator Việt Nam/tài khoản spam hashtag (đã loại).",
+      "detail": "Kênh chính thức: 1 video 12/11, 2 bình luận đều tiếng Việt (bỏ). Trang creator không tải được lưới video (hiện biểu tượng trống, không có CAPTCHA) → dùng tìm kiếm 'play together ไทย', '#ptgcreatorth': 1 video creator Thái ngày 12/11 (tiktokpoomjaii) + 1 bình luận Thái. Kết quả #ptgcreatorth ngày 12/11 còn lại là creator Việt Nam/tài khoản spam hashtag (đã loại). Lượt bổ sung 13/11 (danh sách creator đội marketing): quét luân phiên 30 creator (24 creator_list_2026 + 6 creator khác) qua tìm kiếm \"<handle> play together\" (trang hồ sơ vẫn không tải lưới video) + 5 truy vấn look-alike: thêm 3 video Thái ngày 12/11 (chuka_taiyang, k2j999zx, ropad_888) + 3 bình luận Thái; bỏ bình luận chỉ emoji/\"แรก\"/số ID và bình luận sau 00:00 13/11. Thêm creator look-alike hoysang9, du_dul1_taiyang.",
       "url": "https://www.tiktok.com/@playtogetherth.official",
       "last_check": {
         "target_date": "2026-11-12",
-        "checked_at": "2026-11-12T23:40:31.470Z",
+        "checked_at": "2026-11-13T04:44:49.861Z",
         "status": "partial",
-        "added_feedback": 2
+        "added_feedback": 8
       }
     },
     {

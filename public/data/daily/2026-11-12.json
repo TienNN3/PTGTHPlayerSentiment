@@ -3564,6 +3564,234 @@
       "translation_method": "ai_contextual",
       "label_method": "ai_review",
       "collected_at": "2026-11-12T23:39:33.775Z"
+    },
+    {
+      "source": "TikTok",
+      "community": "TikTok",
+      "link": "https://www.tiktok.com/@chuka_taiyang/video/7707221230838910228",
+      "author_masked": "C***",
+      "text_th": "ตัวละครน่ารัก😍#PTGCREATORTH #PLAYTOGETHER #PLAYTOGETHERVNG",
+      "text_vn": "Nhân vật dễ thương quá 😍 #PTGCREATORTH #PLAYTOGETHER #PLAYTOGETHERVNG",
+      "text_en": "The characters are so cute 😍 #PTGCREATORTH #PLAYTOGETHER #PLAYTOGETHERVNG",
+      "summary_vn": "Creator Thái khen nhân vật trong Play Together dễ thương (chiến dịch #PTGCREATORTH).",
+      "summary_en": "A Thai creator says the Play Together characters are cute (#PTGCREATORTH).",
+      "content_kind": "video",
+      "activity_type": "Video của người chơi",
+      "date_basis": "published_at",
+      "published_label": "16:54 12/11",
+      "sentiment": "Positive",
+      "intent": "praise",
+      "keywords": [
+        "video ngắn",
+        "content creator",
+        "dễ thương"
+      ],
+      "theme": "Trải nghiệm game tích cực",
+      "engagement": {
+        "reactions": [
+          "Views: 584",
+          "Likes: 30"
+        ],
+        "comment_count": 6
+      },
+      "id": "tiktok-6aec2e04c5d89a75",
+      "topic": "Other",
+      "topic_secondary": [],
+      "segment": "unknown",
+      "severity": null,
+      "confidence": 0.7,
+      "needs_review": true,
+      "translation_method": "ai_contextual",
+      "label_method": "ai_review",
+      "collected_at": "2026-11-13T05:20:00.000Z"
+    },
+    {
+      "source": "TikTok",
+      "community": "TikTok",
+      "link": "https://www.tiktok.com/@chuka_taiyang/video/7707221230838910228?comment_id=7707229001164636948",
+      "author_masked": "s***",
+      "text_th": "เล่นเหมือนกัน",
+      "text_vn": "Mình cũng chơi game này nè.",
+      "text_en": "I play this game too.",
+      "summary_vn": "Người xem cho biết mình cũng đang chơi Play Together.",
+      "summary_en": "A viewer says they play Play Together too.",
+      "content_kind": "comment",
+      "activity_type": "Bình luận",
+      "date_basis": "published_at",
+      "published_label": "17:25 12/11",
+      "sentiment": "Positive",
+      "intent": "chat",
+      "keywords": [
+        "content creator"
+      ],
+      "theme": "Trải nghiệm game tích cực",
+      "engagement": {
+        "reactions": [],
+        "comment_count": null
+      },
+      "id": "tiktok-40714d747d911b4d",
+      "topic": "Other",
+      "topic_secondary": [],
+      "segment": "unknown",
+      "severity": null,
+      "confidence": 0.7,
+      "needs_review": true,
+      "translation_method": "ai_contextual",
+      "label_method": "ai_review",
+      "collected_at": "2026-11-13T05:20:00.000Z"
+    },
+    {
+      "source": "TikTok",
+      "community": "TikTok",
+      "link": "https://www.tiktok.com/@chuka_taiyang/video/7707221230838910228?comment_id=7707259705006359316",
+      "author_masked": "n***",
+      "text_th": "หน้าเล่นเวอร์",
+      "text_vn": "Trông vui ghê, muốn chơi quá.",
+      "text_en": "Looks really fun to play.",
+      "summary_vn": "Người xem thấy game trông rất hấp dẫn, muốn chơi thử.",
+      "summary_en": "A viewer says the game looks really fun to play.",
+      "content_kind": "comment",
+      "activity_type": "Bình luận",
+      "date_basis": "published_at",
+      "published_label": "19:24 12/11",
+      "sentiment": "Positive",
+      "intent": "praise",
+      "keywords": [
+        "người chơi mới"
+      ],
+      "theme": "Trải nghiệm game tích cực",
+      "engagement": {
+        "reactions": [],
+        "comment_count": null
+      },
+      "id": "tiktok-d5fba69b6f72951c",
+      "topic": "Other",
+      "topic_secondary": [],
+      "segment": "unknown",
+      "severity": null,
+      "confidence": 0.7,
+      "needs_review": true,
+      "translation_method": "ai_contextual",
+      "label_method": "ai_review",
+      "collected_at": "2026-11-13T05:20:00.000Z"
+    },
+    {
+      "source": "TikTok",
+      "community": "TikTok",
+      "link": "https://www.tiktok.com/@k2j999zx/video/7707302279983992071",
+      "author_masked": "K***",
+      "text_th": "เกมน่ารักๆเล่นกับเพื่อนได้ มินิเกมหลากหลาย🤩 #PTGCREATORTH #PLAYTOGETHER #PLAYTOGETHERVNG #ตกปลากับplaytogether",
+      "text_vn": "Game dễ thương chơi cùng bạn bè được, minigame đủ kiểu 🤩 #PTGCREATORTH #PLAYTOGETHER #PLAYTOGETHERVNG #câucávớiplaytogether",
+      "text_en": "A cute game you can play with friends, with lots of different minigames 🤩 #PTGCREATORTH #PLAYTOGETHER #PLAYTOGETHERVNG #fishingwithplaytogether",
+      "summary_vn": "Creator Thái (K2J, ~1,6 triệu follower) giới thiệu Play Together là game dễ thương, chơi cùng bạn bè, nhiều minigame.",
+      "summary_en": "Thai creator K2J (~1.6M followers) presents Play Together as a cute game to play with friends, with many minigames.",
+      "content_kind": "video",
+      "activity_type": "Video của người chơi",
+      "date_basis": "published_at",
+      "published_label": "22:09 12/11",
+      "sentiment": "Positive",
+      "intent": "share",
+      "keywords": [
+        "video ngắn",
+        "content creator",
+        "minigame",
+        "chơi cùng bạn bè"
+      ],
+      "theme": "Trải nghiệm game tích cực",
+      "engagement": {
+        "reactions": [
+          "Views: 5620",
+          "Likes: 213",
+          "Shares: 4"
+        ],
+        "comment_count": 6
+      },
+      "id": "tiktok-f736d3a0bf280e6a",
+      "topic": "Other",
+      "topic_secondary": [],
+      "segment": "unknown",
+      "severity": null,
+      "confidence": 0.7,
+      "needs_review": true,
+      "translation_method": "ai_contextual",
+      "label_method": "ai_review",
+      "collected_at": "2026-11-13T05:20:00.000Z"
+    },
+    {
+      "source": "TikTok",
+      "community": "TikTok",
+      "link": "https://www.tiktok.com/@ropad_888/video/7707016439315778823",
+      "author_masked": "L***",
+      "text_th": "แล้วมาสนุกด้วยกันนะ❤️ #PTGCREATORTH #PLAYTOGETHER #PLAYTOGETHERVNG",
+      "text_vn": "Rồi vào chơi vui cùng nhau nha ❤️ #PTGCREATORTH #PLAYTOGETHER #PLAYTOGETHERVNG",
+      "text_en": "Come and have fun together ❤️ #PTGCREATORTH #PLAYTOGETHER #PLAYTOGETHERVNG",
+      "summary_vn": "Creator Thái (LOPAD) rủ người xem vào Play Together chơi cùng (chiến dịch #PTGCREATORTH).",
+      "summary_en": "Thai creator LOPAD invites viewers to come play Play Together together (#PTGCREATORTH).",
+      "content_kind": "video",
+      "activity_type": "Video của người chơi",
+      "date_basis": "published_at",
+      "published_label": "03:40 12/11",
+      "sentiment": "Positive",
+      "intent": "share",
+      "keywords": [
+        "video ngắn",
+        "content creator",
+        "chơi cùng bạn bè"
+      ],
+      "theme": "Trải nghiệm game tích cực",
+      "engagement": {
+        "reactions": [
+          "Views: 263",
+          "Likes: 25"
+        ],
+        "comment_count": 3
+      },
+      "id": "tiktok-1bd4a48bf9775cd3",
+      "topic": "Other",
+      "topic_secondary": [],
+      "segment": "unknown",
+      "severity": null,
+      "confidence": 0.7,
+      "needs_review": true,
+      "translation_method": "ai_contextual",
+      "label_method": "ai_review",
+      "collected_at": "2026-11-13T05:20:00.000Z"
+    },
+    {
+      "source": "TikTok",
+      "community": "TikTok",
+      "link": "https://www.tiktok.com/@ropad_888/video/7707016439315778823?comment_id=7707211071228363541",
+      "author_masked": "m***",
+      "text_th": "พี่โล 8 ครับ แอดชื่อผมหน่อยครับ เดี๋ยวพิมพ์ดู ID ให้ครับ ผมกดติดตามแล้ว",
+      "text_vn": "Anh Lo 8 ơi, kết bạn với em trong game với ạ, em sẽ gõ ID cho anh xem, em follow anh rồi.",
+      "text_en": "Hey Lo 8, please add me as a friend in the game. I'll type my ID for you, I already followed you.",
+      "summary_vn": "Người xem xin creator kết bạn trong game và hứa gửi ID.",
+      "summary_en": "A viewer asks the creator to add them as an in-game friend and offers their ID.",
+      "content_kind": "comment",
+      "activity_type": "Bình luận",
+      "date_basis": "published_at",
+      "published_label": "16:18 12/11",
+      "sentiment": "Neutral",
+      "intent": "social",
+      "keywords": [
+        "tìm bạn",
+        "content creator"
+      ],
+      "theme": "Trải nghiệm game tích cực",
+      "engagement": {
+        "reactions": [],
+        "comment_count": null
+      },
+      "id": "tiktok-122c6daf16d662e5",
+      "topic": "Other",
+      "topic_secondary": [],
+      "segment": "unknown",
+      "severity": null,
+      "confidence": 0.7,
+      "needs_review": true,
+      "translation_method": "ai_contextual",
+      "label_method": "ai_review",
+      "collected_at": "2026-11-13T05:20:00.000Z"
     }
   ],
   "report": {
@@ -3599,17 +3827,17 @@
     ]
   },
   "metrics": {
-    "volume": 99,
+    "volume": 105,
     "noise": 0,
     "by_source": {
       "Facebook Group": 91,
       "Facebook Fanpage": 1,
       "YouTube": 5,
-      "TikTok": 2
+      "TikTok": 8
     },
     "by_sentiment": {
-      "Positive": 23,
-      "Neutral": 51,
+      "Positive": 28,
+      "Neutral": 52,
       "Negative": 15,
       "Mixed": 10
     },
@@ -3617,14 +3845,14 @@
       "Activities (fishing, bugs, pets, housing, jobs, minigames)": 57,
       "Social / Scam / Harassment / Toxic": 7,
       "Login / Account / Data": 3,
-      "Other": 24,
+      "Other": 30,
       "Gacha / Shop / Pricing": 7,
       "Bug / Crash / Lag / Performance": 1
     },
     "by_segment": {
-      "unknown": 99
+      "unknown": 105
     },
-    "nss": 8.1,
+    "nss": 12.4,
     "nss_d1": null,
     "nss_7d_avg": null,
     "store": {

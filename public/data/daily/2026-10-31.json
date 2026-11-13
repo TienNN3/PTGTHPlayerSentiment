@@ -1014,6 +1014,41 @@
       "app_version": "2.32.0",
       "text_en": "There's so much to do in this game.",
       "summary_en": "Praises the game for having lots to do."
+    },
+    {
+      "id": "gplay-vng-d33781fa9ce8199a",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.vng.playtogether&hl=th",
+      "author_masked": "S***",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "text_th": "สนุก",
+      "text_vn": "Vui.",
+      "translation_method": "ai_contextual",
+      "sentiment": "Positive",
+      "confidence": 0.75,
+      "topic": "Other",
+      "topic_secondary": [],
+      "theme": "Trải nghiệm game tích cực",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 5,
+      "intent": "praise",
+      "keywords": [
+        "khen game",
+        "bình luận ngắn"
+      ],
+      "summary_vn": "Khen game vui.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Happy",
+      "store_tags": [],
+      "app_version": "2.33.0",
+      "text_en": "Fun.",
+      "summary_en": "Says the game is fun."
     }
   ],
   "report": {
@@ -1049,35 +1084,35 @@
     ]
   },
   "metrics": {
-    "volume": 27,
+    "volume": 28,
     "noise": 0,
     "by_source": {
       "Facebook Group": 26,
-      "Google Play": 1
+      "Google Play": 2
     },
     "by_sentiment": {
-      "Positive": 6,
+      "Positive": 7,
       "Neutral": 15,
       "Negative": 6,
       "Mixed": 0
     },
     "by_topic": {
       "Login / Account / Data": 6,
-      "Other": 6,
+      "Other": 7,
       "Activities (fishing, bugs, pets, housing, jobs, minigames)": 13,
       "Event & Update content": 2
     },
     "by_segment": {
-      "unknown": 27
+      "unknown": 28
     },
-    "nss": 0,
+    "nss": 3.6,
     "nss_d1": null,
     "nss_7d_avg": null,
     "store": {
-      "gp_avg": 4,
+      "gp_avg": 4.5,
       "ios_avg": null,
       "star_1": 0,
-      "star_5": 0
+      "star_5": 1
     }
   },
   "data_mode": "production",

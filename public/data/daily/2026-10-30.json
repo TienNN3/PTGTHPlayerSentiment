@@ -757,6 +757,41 @@
       "app_version": "2.33.0",
       "text_en": "Why didn't the ad tell me the download would show numbers with 5 decimal places?",
       "summary_en": "Jokes that download progress shows long decimal numbers."
+    },
+    {
+      "id": "gplay-vng-b926d2886fe8df06",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.vng.playtogether&hl=th",
+      "author_masked": "ฮ***",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "text_th": "สนุกมาก",
+      "text_vn": "Vui lắm.",
+      "translation_method": "ai_contextual",
+      "sentiment": "Positive",
+      "confidence": 0.75,
+      "topic": "Other",
+      "topic_secondary": [],
+      "theme": "Trải nghiệm game tích cực",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 5,
+      "intent": "praise",
+      "keywords": [
+        "khen game",
+        "bình luận ngắn"
+      ],
+      "summary_vn": "Khen game rất vui.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Happy",
+      "store_tags": [],
+      "app_version": "2.33.0",
+      "text_en": "So fun.",
+      "summary_en": "Says the game is really fun."
     }
   ],
   "report": {
@@ -792,14 +827,14 @@
     ]
   },
   "metrics": {
-    "volume": 20,
+    "volume": 21,
     "noise": 0,
     "by_source": {
       "Facebook Group": 17,
-      "Google Play": 3
+      "Google Play": 4
     },
     "by_sentiment": {
-      "Positive": 2,
+      "Positive": 3,
       "Neutral": 9,
       "Negative": 9,
       "Mixed": 0
@@ -809,20 +844,20 @@
       "Login / Account / Data": 4,
       "Bug / Crash / Lag / Performance": 1,
       "Event & Update content": 1,
-      "Other": 6,
+      "Other": 7,
       "Gacha / Shop / Pricing": 1
     },
     "by_segment": {
-      "unknown": 20
+      "unknown": 21
     },
-    "nss": -35,
+    "nss": -28.6,
     "nss_d1": null,
     "nss_7d_avg": null,
     "store": {
-      "gp_avg": 3.67,
+      "gp_avg": 4,
       "ios_avg": null,
       "star_1": 1,
-      "star_5": 2
+      "star_5": 3
     }
   },
   "data_mode": "production",

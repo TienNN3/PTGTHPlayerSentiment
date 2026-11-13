@@ -1236,6 +1236,41 @@
       "app_version": "2.33.0",
       "text_en": "The game is good and really fun, with lots of events, but I hate the ad system. Sometimes I sit through a long ad, accidentally tap something that kicks me out of the app, and when I come back I don't get the reward. It's happened many times.",
       "summary_en": "Likes the game, but ads crash the app and rewards are lost."
+    },
+    {
+      "id": "gplay-vng-2519079f0a32056f",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.vng.playtogether&hl=th",
+      "author_masked": "Y***",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "text_th": "ดี",
+      "text_vn": "Hay.",
+      "translation_method": "ai_contextual",
+      "sentiment": "Positive",
+      "confidence": 0.75,
+      "topic": "Other",
+      "topic_secondary": [],
+      "theme": "Trải nghiệm game tích cực",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 4,
+      "intent": "praise",
+      "keywords": [
+        "khen game",
+        "bình luận ngắn"
+      ],
+      "summary_vn": "Khen game hay.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Happy",
+      "store_tags": [],
+      "app_version": "2.32.0",
+      "text_en": "Good.",
+      "summary_en": "Says the game is good."
     }
   ],
   "report": {
@@ -1271,34 +1306,34 @@
     ]
   },
   "metrics": {
-    "volume": 34,
+    "volume": 35,
     "noise": 0,
     "by_source": {
       "Facebook Group": 30,
       "YouTube": 1,
       "TikTok": 1,
-      "Google Play": 2
+      "Google Play": 3
     },
     "by_sentiment": {
-      "Positive": 7,
+      "Positive": 8,
       "Neutral": 20,
       "Negative": 6,
       "Mixed": 1
     },
     "by_topic": {
       "Activities (fishing, bugs, pets, housing, jobs, minigames)": 21,
-      "Other": 4,
+      "Other": 5,
       "Event & Update content": 8,
       "Login / Account / Data": 1
     },
     "by_segment": {
-      "unknown": 34
+      "unknown": 35
     },
-    "nss": 2.9,
+    "nss": 5.7,
     "nss_d1": null,
     "nss_7d_avg": null,
     "store": {
-      "gp_avg": 2.5,
+      "gp_avg": 3,
       "ios_avg": null,
       "star_1": 0,
       "star_5": 0

@@ -144,6 +144,41 @@
       "app_version": "2.32.0",
       "text_en": "Give my old account back! I can't log into my old account, and I spent a lot on it. This isn't funny 🤬🤬🙄🙄",
       "summary_en": "Can't access old account with significant spending."
+    },
+    {
+      "id": "gplay-vng-fdcfaed305ceb214",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.vng.playtogether&hl=th",
+      "author_masked": "ก***",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "text_th": "ดีมาก",
+      "text_vn": "Hay lắm.",
+      "translation_method": "ai_contextual",
+      "sentiment": "Positive",
+      "confidence": 0.75,
+      "topic": "Other",
+      "topic_secondary": [],
+      "theme": "Trải nghiệm game tích cực",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 5,
+      "intent": "praise",
+      "keywords": [
+        "khen game",
+        "bình luận ngắn"
+      ],
+      "summary_vn": "Khen game rất hay.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Happy",
+      "store_tags": [],
+      "app_version": "2.32.0",
+      "text_en": "Very good.",
+      "summary_en": "Says the game is very good."
     }
   ],
   "report": {
@@ -203,33 +238,33 @@
     }
   ],
   "metrics": {
-    "volume": 4,
+    "volume": 5,
     "noise": 0,
     "by_source": {
-      "Google Play": 2,
+      "Google Play": 3,
       "App Store": 2
     },
     "by_sentiment": {
-      "Positive": 2,
+      "Positive": 3,
       "Neutral": 0,
       "Negative": 1,
       "Mixed": 1
     },
     "by_topic": {
-      "Other": 3,
+      "Other": 4,
       "Login / Account / Data": 1
     },
     "by_segment": {
-      "unknown": 4
+      "unknown": 5
     },
-    "nss": 25,
+    "nss": 40,
     "nss_d1": null,
     "nss_7d_avg": null,
     "store": {
-      "gp_avg": 4.5,
+      "gp_avg": 4.67,
       "ios_avg": 3,
       "star_1": 1,
-      "star_5": 2
+      "star_5": 3
     }
   },
   "data_mode": "production"

@@ -2900,6 +2900,41 @@
       "app_version": "2.32.0",
       "text_en": "So relaxing and addictive, hehe.",
       "summary_en": "Says the game is engaging."
+    },
+    {
+      "id": "gplay-vng-d3bd86a4ceefd6df",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.vng.playtogether&hl=th",
+      "author_masked": "ว***",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "text_th": "สนุกมากๆ",
+      "text_vn": "Vui lắm lắm.",
+      "translation_method": "ai_contextual",
+      "sentiment": "Positive",
+      "confidence": 0.75,
+      "topic": "Other",
+      "topic_secondary": [],
+      "theme": "Trải nghiệm game tích cực",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 5,
+      "intent": "praise",
+      "keywords": [
+        "khen game",
+        "bình luận ngắn"
+      ],
+      "summary_vn": "Khen game rất vui.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Happy",
+      "store_tags": [],
+      "app_version": "2.32.0",
+      "text_en": "Really, really fun.",
+      "summary_en": "Says the game is really fun."
     }
   ],
   "report": {
@@ -2935,14 +2970,14 @@
     ]
   },
   "metrics": {
-    "volume": 78,
+    "volume": 79,
     "noise": 0,
     "by_source": {
       "Facebook Group": 77,
-      "Google Play": 1
+      "Google Play": 2
     },
     "by_sentiment": {
-      "Positive": 24,
+      "Positive": 25,
       "Neutral": 46,
       "Negative": 3,
       "Mixed": 5
@@ -2951,19 +2986,19 @@
       "Login / Account / Data": 9,
       "Activities (fishing, bugs, pets, housing, jobs, minigames)": 39,
       "Event & Update content": 12,
-      "Other": 18
+      "Other": 19
     },
     "by_segment": {
-      "unknown": 78
+      "unknown": 79
     },
-    "nss": 26.9,
+    "nss": 27.8,
     "nss_d1": null,
     "nss_7d_avg": null,
     "store": {
       "gp_avg": 5,
       "ios_avg": null,
       "star_1": 0,
-      "star_5": 1
+      "star_5": 2
     }
   },
   "data_mode": "production",

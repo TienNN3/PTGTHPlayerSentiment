@@ -2378,6 +2378,41 @@
       "app_version": "2.32.0",
       "text_en": "The game is well made, but I'd like you to try adding a few things to make it better and more fun, less boring. 1. Fishing: add whirlpools so players can dive and catch fish under the sea, let players buy diving gear or boats so they don't have to catch one fish at a time, or add new ways to fish. If you meet a rare giant fish, you'd need technique to haul it onto your boat. I think that would be a lot more fun. 2. Adding adventure-style bug catching or adventure activities would make the game even more fun.",
       "summary_en": "Suggests undersea fishing, boats and adventure activities."
+    },
+    {
+      "id": "gplay-vng-f77ebf94aaaf2152",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.vng.playtogether&hl=th",
+      "author_masked": "จ***",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "text_th": "สนุกมากกก",
+      "text_vn": "Vui lắmmm.",
+      "translation_method": "ai_contextual",
+      "sentiment": "Positive",
+      "confidence": 0.75,
+      "topic": "Other",
+      "topic_secondary": [],
+      "theme": "Trải nghiệm game tích cực",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 5,
+      "intent": "praise",
+      "keywords": [
+        "khen game",
+        "bình luận ngắn"
+      ],
+      "summary_vn": "Khen game rất vui.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Happy",
+      "store_tags": [],
+      "app_version": "2.32.0",
+      "text_en": "Sooo fun.",
+      "summary_en": "Says the game is really fun."
     }
   ],
   "report": {
@@ -2413,14 +2448,14 @@
     ]
   },
   "metrics": {
-    "volume": 64,
+    "volume": 65,
     "noise": 0,
     "by_source": {
       "Facebook Group": 61,
-      "Google Play": 3
+      "Google Play": 4
     },
     "by_sentiment": {
-      "Positive": 20,
+      "Positive": 21,
       "Neutral": 37,
       "Negative": 4,
       "Mixed": 3
@@ -2428,22 +2463,22 @@
     "by_topic": {
       "Gacha / Shop / Pricing": 6,
       "Activities (fishing, bugs, pets, housing, jobs, minigames)": 35,
-      "Other": 14,
+      "Other": 15,
       "Event & Update content": 2,
       "Login / Account / Data": 5,
       "Localization (Thai text, wrong translation)": 2
     },
     "by_segment": {
-      "unknown": 64
+      "unknown": 65
     },
-    "nss": 25,
+    "nss": 26.2,
     "nss_d1": null,
     "nss_7d_avg": null,
     "store": {
-      "gp_avg": 3.33,
+      "gp_avg": 3.75,
       "ios_avg": null,
       "star_1": 1,
-      "star_5": 1
+      "star_5": 2
     }
   },
   "data_mode": "production",

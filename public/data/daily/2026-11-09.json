@@ -1829,6 +1829,42 @@
       "translation_method": "ai_contextual",
       "label_method": "ai_review",
       "collected_at": "2026-11-09T23:23:10.855Z"
+    },
+    {
+      "id": "appstore-vng-11ca47dc14321319",
+      "source": "App Store",
+      "link": "https://apps.apple.com/th/app/id1612175933",
+      "author_masked": "ช***",
+      "app_name": "Play Together VNG",
+      "app_id": "1612175933",
+      "text_th": "โหลดนานมาก. เป็นแอปที่โหลดเเล้วแปลกที่สุดในสามโลก",
+      "text_vn": "Tải lâu quá. Đúng là cái app tải vào kỳ cục nhất quả đất.",
+      "translation_method": "ai_contextual",
+      "sentiment": "Negative",
+      "confidence": 0.75,
+      "topic": "Bug / Crash / Lag / Performance",
+      "topic_secondary": [],
+      "theme": "Game bị văng và treo",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 1,
+      "intent": "performance",
+      "keywords": [
+        "tải game"
+      ],
+      "summary_vn": "Than game tải rất lâu, khó vào.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Unhappy",
+      "store_tags": [
+        "Performance And Bugs"
+      ],
+      "app_version": "2.33.0",
+      "text_en": "Takes forever to load. Honestly the weirdest app to load in the whole universe.",
+      "summary_en": "Complains the game takes very long to load."
     }
   ],
   "report": {
@@ -1864,36 +1900,62 @@
     ]
   },
   "metrics": {
-    "volume": 50,
+    "volume": 51,
     "noise": 0,
     "by_source": {
       "Facebook Group": 49,
-      "YouTube": 1
+      "YouTube": 1,
+      "App Store": 1
     },
     "by_sentiment": {
       "Positive": 5,
       "Neutral": 41,
-      "Negative": 4,
+      "Negative": 5,
       "Mixed": 0
     },
     "by_topic": {
       "Other": 3,
       "Activities (fishing, bugs, pets, housing, jobs, minigames)": 43,
       "Event & Update content": 1,
-      "Login / Account / Data": 3
+      "Login / Account / Data": 3,
+      "Bug / Crash / Lag / Performance": 1
     },
     "by_segment": {
-      "unknown": 50
+      "unknown": 51
     },
-    "nss": 2,
+    "nss": 0,
     "nss_d1": null,
     "nss_7d_avg": null,
     "store": {
       "gp_avg": null,
-      "ios_avg": null,
-      "star_1": 0,
+      "ios_avg": 1,
+      "star_1": 1,
       "star_5": 0
     }
   },
-  "data_mode": "production"
+  "data_mode": "production",
+  "ratings": [
+    {
+      "platform": "Google Play",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "granularity": "day",
+      "incremental_avg_rating": 3.122,
+      "total_avg_rating": 4.4099,
+      "incremental_rating_count": 0.059599999999999875,
+      "total_rating_count": 385.6081,
+      "source": "Sensor Tower"
+    },
+    {
+      "platform": "App Store",
+      "app_name": "Play Together VNG",
+      "app_id": "1612175933",
+      "granularity": "day",
+      "incremental_avg_rating": 3.6667,
+      "total_avg_rating": 4.0743,
+      "incremental_rating_count": 3,
+      "total_rating_count": 498,
+      "source": "Sensor Tower"
+    }
+  ]
 }

@@ -2086,6 +2086,81 @@
       "translation_method": "ai_contextual",
       "label_method": "ai_review",
       "collected_at": "2026-11-08T23:23:42.946Z"
+    },
+    {
+      "id": "gplay-vng-642c31f7a09ca1d0",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.vng.playtogether&hl=th",
+      "author_masked": "น***",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "text_th": "โฆษณายาวมากกดข้ามไม่ได้กดออกก็ไม่ได้พอดูจบเกมเด้งต้องเข้าใหม่ กดรายงานไปร้อยรอบก็ยังขึ้นมาให้ดูเหมือนเดิม แล้วน่าเบื่อมากต้องมาคอยล็อกอินซ้ำๆ",
+      "text_vn": "Quảng cáo dài quá, không bấm bỏ qua được, bấm thoát cũng không được. Xem hết thì game văng, phải vào lại. Báo cáo cả trăm lần mà vẫn hiện y như cũ. Còn chán nữa là cứ phải đăng nhập lại hoài.",
+      "translation_method": "ai_contextual",
+      "sentiment": "Negative",
+      "confidence": 0.75,
+      "topic": "Other",
+      "topic_secondary": [],
+      "theme": "Quảng cáo gây gián đoạn",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 2,
+      "intent": "complaint",
+      "keywords": [
+        "quảng cáo",
+        "văng game",
+        "đăng nhập"
+      ],
+      "summary_vn": "Quảng cáo dài không tắt được, xem xong văng game, phải đăng nhập lại.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Unhappy",
+      "store_tags": [
+        "Advertisements",
+        "Performance And Bugs",
+        "Login"
+      ],
+      "app_version": "2.33.0",
+      "text_en": "The ads are way too long, you can't skip them or close them. When the ad ends the game crashes and I have to log in again. I've reported it a hundred times and it still shows the same ad. It's also really annoying having to log in over and over.",
+      "summary_en": "Long unskippable ads, game crashes after them and forces re-login."
+    },
+    {
+      "id": "gplay-vng-388069a18ba2cfa5",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.vng.playtogether&hl=th",
+      "author_masked": "ณ***",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "text_th": "ดีดีมากๆเลยค่ะ",
+      "text_vn": "Hay lắm luôn ạ.",
+      "translation_method": "ai_contextual",
+      "sentiment": "Positive",
+      "confidence": 0.75,
+      "topic": "Other",
+      "topic_secondary": [],
+      "theme": "Trải nghiệm game tích cực",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 5,
+      "intent": "praise",
+      "keywords": [
+        "khen game",
+        "bình luận ngắn"
+      ],
+      "summary_vn": "Khen game rất hay.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Happy",
+      "store_tags": [],
+      "app_version": "2.33.0",
+      "text_en": "Really, really good.",
+      "summary_en": "Says the game is really good."
     }
   ],
   "report": {
@@ -2121,38 +2196,63 @@
     ]
   },
   "metrics": {
-    "volume": 57,
+    "volume": 59,
     "noise": 0,
     "by_source": {
       "Facebook Group": 54,
       "YouTube": 2,
-      "TikTok": 1
+      "TikTok": 1,
+      "Google Play": 2
     },
     "by_sentiment": {
-      "Positive": 11,
+      "Positive": 12,
       "Neutral": 35,
-      "Negative": 11,
+      "Negative": 12,
       "Mixed": 0
     },
     "by_topic": {
       "Activities (fishing, bugs, pets, housing, jobs, minigames)": 29,
       "Event & Update content": 19,
-      "Other": 6,
+      "Other": 8,
       "Login / Account / Data": 1,
       "Topup & Payment": 2
     },
     "by_segment": {
-      "unknown": 57
+      "unknown": 59
     },
     "nss": 0,
     "nss_d1": null,
     "nss_7d_avg": null,
     "store": {
-      "gp_avg": null,
+      "gp_avg": 3.5,
       "ios_avg": null,
       "star_1": 0,
-      "star_5": 0
+      "star_5": 1
     }
   },
-  "data_mode": "production"
+  "data_mode": "production",
+  "ratings": [
+    {
+      "platform": "Google Play",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "granularity": "day",
+      "incremental_avg_rating": 2.9787,
+      "total_avg_rating": 4.4034,
+      "incremental_rating_count": -0.4567000000000001,
+      "total_rating_count": 385.5485,
+      "source": "Sensor Tower"
+    },
+    {
+      "platform": "App Store",
+      "app_name": "Play Together VNG",
+      "app_id": "1612175933",
+      "granularity": "day",
+      "incremental_avg_rating": 5,
+      "total_avg_rating": 4.0768,
+      "incremental_rating_count": 2,
+      "total_rating_count": 495,
+      "source": "Sensor Tower"
+    }
+  ]
 }

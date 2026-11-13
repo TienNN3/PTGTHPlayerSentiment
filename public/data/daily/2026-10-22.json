@@ -2878,6 +2878,41 @@
       "app_version": "2.32.0",
       "text_en": "Old game account. What is this? Why can't I get into my old game account? What about the money I spent? Please fix it, I miss my old account.",
       "summary_en": "Can't access old account, worried about past purchases."
+    },
+    {
+      "id": "gplay-vng-596b0cf10dedbe30",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.vng.playtogether&hl=th",
+      "author_masked": "A***",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "text_th": "เกมดีมาก",
+      "text_vn": "Game hay lắm.",
+      "translation_method": "ai_contextual",
+      "sentiment": "Positive",
+      "confidence": 0.75,
+      "topic": "Other",
+      "topic_secondary": [],
+      "theme": "Trải nghiệm game tích cực",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 5,
+      "intent": "praise",
+      "keywords": [
+        "khen game",
+        "bình luận ngắn"
+      ],
+      "summary_vn": "Khen game rất hay.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Happy",
+      "store_tags": [],
+      "app_version": "2.32.0",
+      "text_en": "Very good game.",
+      "summary_en": "Says it is a very good game."
     }
   ],
   "report": {
@@ -2913,40 +2948,40 @@
     ]
   },
   "metrics": {
-    "volume": 77,
+    "volume": 78,
     "noise": 0,
     "by_source": {
       "Facebook Group": 71,
       "YouTube": 2,
       "TikTok": 1,
-      "Google Play": 2,
+      "Google Play": 3,
       "App Store": 1
     },
     "by_sentiment": {
-      "Positive": 13,
+      "Positive": 14,
       "Neutral": 51,
       "Negative": 13,
       "Mixed": 0
     },
     "by_topic": {
       "Activities (fishing, bugs, pets, housing, jobs, minigames)": 52,
-      "Other": 14,
+      "Other": 15,
       "Login / Account / Data": 6,
       "Gacha / Shop / Pricing": 1,
       "Event & Update content": 3,
       "Bug / Crash / Lag / Performance": 1
     },
     "by_segment": {
-      "unknown": 77
+      "unknown": 78
     },
-    "nss": 0,
+    "nss": 1.3,
     "nss_d1": null,
     "nss_7d_avg": null,
     "store": {
-      "gp_avg": 2,
+      "gp_avg": 3,
       "ios_avg": 1,
       "star_1": 2,
-      "star_5": 0
+      "star_5": 1
     }
   },
   "data_mode": "production",

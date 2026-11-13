@@ -2382,6 +2382,41 @@
       "app_version": "2.33.0",
       "text_en": "Terrible service. I submitted a request and it never got resolved, they just pass it around. Anyone thinking of playing, think carefully.",
       "summary_en": "Customer support passes the buck, never resolves issues."
+    },
+    {
+      "id": "gplay-vng-8c3e1310d470d21e",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.vng.playtogether&hl=th",
+      "author_masked": "ค***",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "text_th": "ดี",
+      "text_vn": "Hay.",
+      "translation_method": "ai_contextual",
+      "sentiment": "Positive",
+      "confidence": 0.75,
+      "topic": "Other",
+      "topic_secondary": [],
+      "theme": "Trải nghiệm game tích cực",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 5,
+      "intent": "praise",
+      "keywords": [
+        "khen game",
+        "bình luận ngắn"
+      ],
+      "summary_vn": "Khen game hay.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Happy",
+      "store_tags": [],
+      "app_version": "2.33.0",
+      "text_en": "Good.",
+      "summary_en": "Says the game is good."
     }
   ],
   "report": {
@@ -2417,39 +2452,39 @@
     ]
   },
   "metrics": {
-    "volume": 66,
+    "volume": 67,
     "noise": 0,
     "by_source": {
       "Facebook Group": 60,
       "YouTube": 2,
       "TikTok": 2,
-      "Google Play": 1,
+      "Google Play": 2,
       "App Store": 1
     },
     "by_sentiment": {
-      "Positive": 9,
+      "Positive": 10,
       "Neutral": 43,
       "Negative": 14,
       "Mixed": 0
     },
     "by_topic": {
       "Login / Account / Data": 14,
-      "Other": 8,
+      "Other": 9,
       "Event & Update content": 25,
       "Topup & Payment": 5,
       "Activities (fishing, bugs, pets, housing, jobs, minigames)": 14
     },
     "by_segment": {
-      "unknown": 66
+      "unknown": 67
     },
-    "nss": -7.6,
+    "nss": -6,
     "nss_d1": null,
     "nss_7d_avg": null,
     "store": {
       "gp_avg": 5,
       "ios_avg": 1,
       "star_1": 1,
-      "star_5": 1
+      "star_5": 2
     }
   },
   "data_mode": "production",

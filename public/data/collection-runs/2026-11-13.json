@@ -1,0 +1,175 @@
+{
+  "target_date": "2026-11-13",
+  "time_zone": "Asia/Bangkok",
+  "checked_at": "2026-11-14T15:50:26.209Z",
+  "status": "partial",
+  "added_feedback": 72,
+  "added_ratings": 0,
+  "collection_complete": false,
+  "summary_vn": "Ngày 13/11/2026: thêm 72 phản hồi — group Community 51 (20 bài + 31 bình luận: than thiếu thẻ đợt 2 dù đã nạp 2000–6000 baht, nhiệm vụ/câu đố xe tuk tuk, hộp tiếp tế, nâng cấp vũ khí, lai thú cưng, văng game khi bắn boss, không mở được game trên PC/Steam, không nhận 300 kim cương khi chuyển sang VNG), group Official 4, group chợ/mua bán/trao đổi 9, YouTube 1 video, TikTok 1 video + 6 bình luận. Thêm 3 creator TikTok (psalmonsm, an_kanlaya1, an_kanlaya2). Giữa lượt, trình duyệt bị từ chối quyền mở facebook.com nên fanpage, group 253674809721451 và các group riêng tư/chờ duyệt không kiểm tra được (ghi blocked), không tìm được group Facebook mới. Sensor Tower bỏ qua theo runbook.",
+  "sources": [
+    {
+      "key": "Facebook Group · playtogetherth",
+      "status": "partial",
+      "added_feedback": 51,
+      "detail": "New posts (cuộn tới bài 3 ngày trước) + Recent activity, mở từng bài: 20 bài người chơi ngày 13/11 (thiếu thẻ đợt 2 dù đã nạp 2000–6000 baht, nhiệm vụ/câu đố xe tuk tuk, hộp tiếp tế, nâng cấp vũ khí, lai thú cưng, game văng khi bắn boss, không mở được game trên PC/Steam, không nhận 300 kim cương khi chuyển sang VNG, gói giá hời trên web shop) + 31 bình luận cấp 1 ngày 13/11. Bỏ bài/bình luận nhân viên (Walaipan, Thititat, Natthakorn), trả lời lồng nhau, bình luận cảm ơn/chỉ link, bình luận sau 00:00 14/11 (mốc comment-ID ≈ 29039.65e12). Lượt chạy lúc 22:30 14/11 nên nhãn là 'a day ago'/'22–23 hours ago'; bài sát nửa đêm xác định bằng tooltip. Dữ liệu 14/09 – 13/11."
+    },
+    {
+      "key": "Facebook Group · 815754622673816",
+      "status": "partial",
+      "added_feedback": 5,
+      "detail": "New posts: ngày 13/11 có 5 bài (rao bán trái cây/nhân sâm/dịch vụ; bán tiền nông trại; nhận cày thuê Alien Invasion; tìm cây baobab cực quang; tìm người có xe tuk tuk quay TikTok). Không đọc bình luận."
+    },
+    {
+      "key": "Facebook Group · 1772363333745643",
+      "status": "partial",
+      "added_feedback": 4,
+      "detail": "New posts: ngày 13/11 có 3 bài người chơi (hỏi nâng cấp, tìm người có xe tuk tuk quay TikTok, người chơi quay lại hỏi server người Thái) + 1 bình luận. Bỏ bài admin."
+    },
+    {
+      "key": "Facebook Group · 562362538882428",
+      "status": "blocked",
+      "added_feedback": 0,
+      "detail": "Trình duyệt tích hợp bị từ chối quyền mở facebook.com giữa lượt chạy tự động 14/11 (không có người duyệt), nên không kiểm tra được nguồn này; dữ liệu và trạng thái cũ giữ nguyên."
+    },
+    {
+      "key": "Facebook Group · 3252260471541104",
+      "status": "blocked",
+      "added_feedback": 0,
+      "detail": "Trình duyệt tích hợp bị từ chối quyền mở facebook.com giữa lượt chạy tự động 14/11 (không có người duyệt), nên không kiểm tra được nguồn này; dữ liệu và trạng thái cũ giữ nguyên."
+    },
+    {
+      "key": "Facebook Group · 356675609124267",
+      "status": "blocked",
+      "added_feedback": 0,
+      "detail": "Trình duyệt tích hợp bị từ chối quyền mở facebook.com giữa lượt chạy tự động 14/11 (không có người duyệt), nên không kiểm tra được nguồn này; dữ liệu và trạng thái cũ giữ nguyên."
+    },
+    {
+      "key": "Facebook Group · 473704433937505",
+      "status": "partial",
+      "added_feedback": 2,
+      "detail": "New posts: ngày 13/11 có 2 bài rao bán (cùng bài ở group chợ)."
+    },
+    {
+      "key": "Facebook Group · 847315523442353",
+      "status": "blocked",
+      "added_feedback": 0,
+      "detail": "Trình duyệt tích hợp bị từ chối quyền mở facebook.com giữa lượt chạy tự động 14/11 (không có người duyệt), nên không kiểm tra được nguồn này; dữ liệu và trạng thái cũ giữ nguyên."
+    },
+    {
+      "key": "Facebook Group · 253674809721451",
+      "status": "blocked",
+      "added_feedback": 0,
+      "detail": "Trình duyệt tích hợp bị từ chối quyền mở facebook.com giữa lượt chạy tự động 14/11 (không có người duyệt), nên không kiểm tra được nguồn này; dữ liệu và trạng thái cũ giữ nguyên."
+    },
+    {
+      "key": "Facebook Group · 493177613552238",
+      "status": "partial",
+      "added_feedback": 2,
+      "detail": "New posts: ngày 13/11 có 2 bài tìm đổi thẻ (một bài xác định ngày theo ID vì trình duyệt bị chặn trước khi mở được permalink)."
+    },
+    {
+      "key": "Facebook Fanpage · @playtogetherthailandofficial",
+      "status": "blocked",
+      "added_feedback": 0,
+      "detail": "Trình duyệt tích hợp bị từ chối quyền mở facebook.com giữa lượt chạy tự động 14/11 (không có người duyệt), nên không kiểm tra được nguồn này; dữ liệu và trạng thái cũ giữ nguyên."
+    },
+    {
+      "key": "YouTube",
+      "status": "partial",
+      "added_feedback": 1,
+      "detail": "RSS 20 kênh active (gồm 16 kênh danh sách creator đội marketing) + trang kênh chính thức (channel id UCAsiVp34v7SDOT_AVt7ZuDg) + tìm kiếm 6 từ khoá (lọc tuần, gl=TH): 1 video Thái ngày 13/11 (Wine Channel, clip live với Jai Raw, 0 bình luận). Kênh chính thức không có video 13/11; video 12/11 không có bình luận. Kết quả tìm kiếm còn lại là kênh Việt Nam/không phải Play Together."
+    },
+    {
+      "key": "TikTok",
+      "status": "partial",
+      "added_feedback": 7,
+      "detail": "Kênh chính thức: không có video 13/11; bình luận ngày 13/11 dưới video cũ đều tiếng Việt (bỏ). Trang hồ sơ creator không tải lưới video → quét luân phiên 38 creator (18 có video PT trong 30 ngày/ngoài danh sách + 20 creator_list_2026 có last_checked cũ nhất) qua tìm kiếm \"<handle> play together\": không có video PT ngày 13/11. Tìm kiếm từ khoá/hashtag: 1 video creator Thái ngày 13/11 (psalmonsm, sự kiện xe tuk tuk, ~63.7K lượt xem) + 6 bình luận Thái; bỏ bình luận chỉ emoji/'ว้าววว' và bình luận trùng ý. Kết quả #ptgcreatorth ngày 13/11 còn lại là creator Việt Nam."
+    }
+  ],
+  "discovery": {
+    "queries": [
+      "youtube: play together, playtogether vng, เพลย์ทูเก็ตเตอร์, play together ไทย, #playtogethervng, #playtogetherth (lọc tuần, gl=TH)",
+      "tiktok: play together ไทย, #ptgcreatorth (tag + tìm kiếm), เพลย์ทูเก็ตเตอร์, #playtogetherth; look-alike: \"roblox play together vng\", \"freefire play together vng\", \"play together vng ตุ๊กตุ๊ก\", \"play together เอเลี่ยน\"",
+      "facebook group: không chạy được (trình duyệt bị từ chối quyền mở facebook.com)"
+    ],
+    "added": [
+      {
+        "type": "tiktok",
+        "id": "psalmonsm",
+        "name": "แซลมอนขยี้ใจ",
+        "status": "active",
+        "evidence": "Video 7707588268036017409 (18:00 13/11) tiếng Thái về sự kiện xe tuk tuk Play Together VNG, ~63.7K lượt xem; ~150K follower"
+      },
+      {
+        "type": "tiktok",
+        "id": "an_kanlaya1",
+        "name": "AnTiger",
+        "status": "active",
+        "evidence": "Video 7706425269795507457 (10/11) 'ตุ๊กตุ๊กไทยมาแล้ว' #PTGCREATORTH; creator Thái lồng tiếng/stream game ~241K follower; look-alike nhóm creator_list_2026"
+      },
+      {
+        "type": "tiktok",
+        "id": "an_kanlaya2",
+        "name": "แอนไทเกอร์",
+        "status": "active",
+        "evidence": "Video 7706426674019044626 (10/11) 'ความเป็นไทยในเกมมาแล้ว' #PTGCREATORTH; tài khoản phụ của AnTiger ~11.3K follower"
+      }
+    ],
+    "rejected": [
+      "Không thêm: kênh YouTube trong kết quả tìm kiếm đều là kênh Việt Nam/Anh (JunB Play, Thịnh Zuka, NgọcThanh2k3, BEDY TOGETHER…) hoặc không phải Play Together (Don't Starve Together); TikTok chanhchuacay01, thyuln.2 (creator Việt Nam gắn #ptgcreatorth)"
+    ],
+    "inactive": [],
+    "notes": "TikTok soomnyyy_ (คุณปราง) livestream Play Together ngày 13/11 theo lời mời của VNG (admin group Community đăng link), nhưng chưa thấy video Play Together trên trang/tìm kiếm nên chưa thêm. Facebook: không tìm group mới được vì bị chặn.",
+    "needs_user_action": [
+      "Cho phép trình duyệt tích hợp mở facebook.com (lượt tự động 14/11 bị từ chối quyền giữa chừng) để các lượt sau quét đủ fanpage và các group.",
+      "Group riêng tư đang chờ duyệt: 356675609124267, 847315523442353; group 3252260471541104 chưa là thành viên — nếu muốn thu thập, người dùng tự tham gia/kiểm tra.",
+      "Kênh YouTube @nnewsrns (Newnew) trong danh sách creator trả 404 — kiểm tra lại link kênh."
+    ],
+    "lookalike": {
+      "seeds_checked": [
+        "cake_328",
+        "chuka_taiyang",
+        "ndpp_124"
+      ],
+      "note": "Trang hồ sơ/gợi ý TikTok không tải khi chưa đăng nhập TikTok → tìm theo hashtag game chính + Play Together và từ khoá sự kiện; tìm thấy an_kanlaya1/2 (chiến dịch #PTGCREATORTH) và psalmonsm.",
+      "added": [
+        "psalmonsm",
+        "an_kanlaya1",
+        "an_kanlaya2"
+      ]
+    },
+    "creator_rotation": {
+      "date": "2026-11-13",
+      "tiktok_scanned": 41,
+      "youtube_scanned": 20,
+      "method": "TikTok: tìm kiếm \"<handle> play together\" (trang hồ sơ không tải lưới video); YouTube: RSS",
+      "pt_videos_on_D": [
+        "psalmonsm (mới)"
+      ],
+      "note": "rukkung2000 có video PT ngày 14/11 (ngoài D); du_dul1_taiyang có video PT 12/11 (7707231748723133748) chưa có trong dữ liệu 12/11; film.444444.56 video PT 10/11."
+    }
+  },
+  "sensor_tower": {
+    "status": "skipped",
+    "note": "Bỏ qua theo runbook; người dùng tự cập nhật tay."
+  },
+  "new_feedback": {
+    "by_source": {
+      "Facebook Group": 64,
+      "YouTube": 1,
+      "TikTok": 7
+    },
+    "by_kind": {
+      "post": 32,
+      "comment": 38,
+      "video": 2
+    },
+    "by_sentiment": {
+      "Negative": 15,
+      "Neutral": 40,
+      "Positive": 15,
+      "Mixed": 2
+    }
+  }
+}

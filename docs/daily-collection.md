@@ -8,10 +8,20 @@ Repo: `/Users/nhattien/Documents/ChatGPT/PTGTHPlayer` · Production: https://tie
 
 ## 0. Phạm vi
 
-- **Ngày mục tiêu** `D` = hôm qua theo giờ Bangkok (chạy lúc 06:00 ngày 15/10 thì `D` = 14/10).
+- **Ngày mục tiêu** `D` = hôm qua theo giờ Bangkok (chạy lúc 06:00 ngày 15/10 thì `D` = 14/10). Ngoài `D`, lượt chạy còn thu thập bù mọi ngày bị thiếu trong 14 ngày gần nhất (mục 0b).
 - **Có thu thập**: Facebook group (bài đăng + bình luận), fanpage Thái (chỉ bình luận người dùng), YouTube (video tiếng Thái của creator + bình luận tiếng Thái), TikTok (video tiếng Thái của creator + bình luận tiếng Thái).
 - **Bỏ qua**: Sensor Tower (rating và review store). Người dùng tự nhập tay bằng `scripts/import-sensortower-vng.mjs`. Không mở Sensor Tower, không sửa `ratings`.
 - Danh sách nguồn và URL: group/fanpage Facebook ở `public/data/sources.json`; kênh YouTube, creator TikTok và từ khoá tìm kiếm ở `docs/collection-targets.json`. Hai danh sách này **không cố định**: mỗi lượt chạy tìm thêm nguồn mới (mục 2b) và bổ sung bằng `scripts/add-source.mjs`. Nguồn `pending` / `not_collected` / `inactive`: chỉ mở kiểm tra nhanh trạng thái (đã được duyệt chưa, có bài mới không) rồi ghi vào `last_check`.
+
+## 0b. Kiểm tra dashboard và chạy bù ngày thiếu (bắt buộc, đầu mỗi lượt)
+
+Lượt chạy có thể bị lỡ (app đóng lúc 6h, máy tắt, lượt trước dừng giữa chừng), làm dashboard trống một ngày. Vì vậy mỗi lượt phải kiểm tra trước khi thu thập:
+
+1. `node scripts/check-gaps.mjs` (mặc định nhìn lại 14 ngày). Một ngày bị coi là **thiếu** khi chưa có `public/data/collection-runs/<ngày>.json` hoặc không có phản hồi cộng đồng (Facebook/YouTube/TikTok) nào có ngày đăng. Script in danh sách ngày cần thu thập, từ cũ đến mới, luôn kết thúc bằng `D`.
+2. Mở dashboard (`node scripts/serve.mjs` → http://127.0.0.1:4173/, chọn "30 ngày gần nhất") và xem biểu đồ "Diễn biến theo ngày" để đối chiếu: cột trống hoặc thấp bất thường cũng phải kiểm tra lại.
+3. Thu thập **từng ngày thiếu** như một ngày mục tiêu riêng, làm lần lượt từ cũ đến mới rồi mới đến `D`. Mỗi ngày dùng một staging riêng `.staging/daily-<ngày>/items.json` (`target_date` = ngày đó) và một file `collection-runs/<ngày>.json` riêng. Facebook: cuộn New posts/Recent activity về đến ngày đó và đọc đúng nhãn ngày giờ. YouTube/TikTok: lấy video và bình luận có ngày đăng là ngày đó.
+4. Ngày thiếu đã quá 30 ngày thì không chạy bù (nguồn không còn hiển thị đủ). Ghi vào báo cáo.
+5. Báo cáo cuối lượt ghi rõ các ngày đã chạy bù và số phản hồi của từng ngày. Commit có thể gộp nhiều ngày: `Update PTG TH feedback for <ngày1>, <ngày2>`.
 
 ## 1. Trình duyệt
 

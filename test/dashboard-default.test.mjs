@@ -220,3 +220,13 @@ test("keeps out-of-scope feedback such as unofficial APK errors out of the actio
   assert.equal(apk.out_of_scope, "unofficial_apk");
   assert.ok(apk.scope_note && apk.text_vn, "scope note added, content kept");
 });
+
+test("checks for missing collection days before each daily run", async () => {
+  const { execFileSync } = await import("node:child_process");
+  const out = JSON.parse(execFileSync(process.execPath, [new URL("../scripts/check-gaps.mjs", import.meta.url).pathname, "14", "--json"], { encoding: "utf8" }));
+  assert.equal(out.rows.length, 14);
+  assert.equal(out.todo.at(-1), out.target, "the target day is always collected last");
+  for (const row of out.rows) if (!row.has_run || !row.community_feedback) assert.ok(out.todo.includes(row.date), `${row.date} must be re-collected`);
+  const runbook = await readFile(new URL("../docs/daily-collection.md", import.meta.url), "utf8");
+  assert.match(runbook, /## 0b\. Kiểm tra dashboard và chạy bù ngày thiếu/);
+});

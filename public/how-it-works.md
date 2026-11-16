@@ -127,6 +127,7 @@ Bản dịch phải đọc một lần là hiểu, đúng ngữ cảnh game. Kh�
 ### Lượt chạy tự động hằng ngày
 
 - Mỗi ngày **6:00 sáng** (giờ máy, có thể trễ vài phút), task `ptg-th-daily-feedback` trong Claude desktop thu thập phản hồi của **ngày hôm trước** (Facebook group, fanpage Thái, YouTube, TikTok) từ trình duyệt Chrome người dùng để sẵn và đã đăng nhập, rồi cập nhật dữ liệu, chạy kiểm tra, commit và push.
+- **Chạy bù ngày thiếu**: đầu mỗi lượt chạy `node scripts/check-gaps.mjs` và xem biểu đồ 30 ngày; ngày nào trong 14 ngày gần nhất chưa có lượt thu thập hoặc không có phản hồi cộng đồng thì được thu thập bù đủ cả ngày trước khi làm ngày hôm qua.
 - **Không** đụng Sensor Tower: rating/review store do người dùng nhập tay bằng `import-sensortower-vng.mjs`.
 - **Danh sách creator của đội marketing** (Play Together Creators 2026-2027, nhóm `creator_list_2026`) nằm trong `docs/collection-targets.json`, chỉ gồm handle/link/game chính, không lưu email hay giá. Lượt chạy quét luân phiên nhóm này và mỗi ngày tìm thêm creator **look-alike** (tài khoản tương tự, kênh đề xuất, collab, hashtag game chính + Play Together).
 - **Tự tìm nguồn mới** mỗi lượt: group Facebook, kênh YouTube, creator TikTok mới nói về Play Together bằng tiếng Thái và có hoạt động trong 30 ngày được thêm bằng `scripts/add-source.mjs` (group vào `public/data/sources.json`, kênh/creator vào `docs/collection-targets.json`). Group riêng tư được ghi trạng thái **Mới phát hiện · cần tham gia** để người dùng tự bấm tham gia; nguồn không phù hợp được ghi vào `rejected` để không kiểm tra lại.

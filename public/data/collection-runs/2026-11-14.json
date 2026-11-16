@@ -1,0 +1,145 @@
+{
+  "target_date": "2026-11-14",
+  "time_zone": "Asia/Bangkok",
+  "checked_at": "2026-11-16T04:08:35.708Z",
+  "status": "partial",
+  "backfill": true,
+  "added_feedback": 99,
+  "added_ratings": 0,
+  "collection_complete": false,
+  "summary_vn": "Chạy bù ngày 14/11/2026 (lượt 16/11; ngày này bị lỡ vì lượt 14/11 chạy cho 13/11 và lượt 15/11 không chạy): thêm 99 phản hồi — group Community 75 (25 bài + 50 bình luận: web nạp VNG sập giờ khuyến mãi, lỗi chuyển/liên kết tài khoản VNG, không tải được bản cập nhật trên iPad, điện thoại Aurora Heart gây thất vọng, tỉ lệ nhân sâm/súng gacha thấp), group chợ/mua bán/đổi thẻ 12, group Official 2, fanpage 3 bình luận, YouTube 2 video, TikTok 5 video creator. Group riêng tư 3 cái không đọc được. Sensor Tower bỏ qua theo runbook.",
+  "sources": [
+    {
+      "key": "Facebook Group · playtogetherth",
+      "status": "partial",
+      "added_feedback": 75,
+      "detail": "Chạy bù 14/11 (ngày 16/11): New posts + Recent activity, mở từng bài lấy giờ tuyệt đối trên permalink (\"November 14 at …\"): 25 bài người chơi ngày 14/11 (web nạp VNG sập giờ khuyến mãi gói phút vàng, chuyển/liên kết tài khoản VNG lỗi, không tải được bản cập nhật trên iPad, điện thoại Aurora Heart không như mong đợi, vật phẩm đổi đòi 3 cây baobab/cực quang, câu cá biển sâu/Mousse Belly, chỉ số súng/thú cưng, người chơi mới/quay lại) + 50 bình luận cấp 1 ngày 14/11 (theo comment-ID 29039.65e12–29053.2e12), gồm bình luận dưới 9 bài 13/11 và 2 bài nhân viên. Bỏ bài/bình luận nhân viên (Walaipan, Thititat, Natthakorn), trả lời lồng nhau, bình luận đùa/quá ngắn/trống."
+    },
+    {
+      "key": "Facebook Group · 815754622673816",
+      "status": "partial",
+      "added_feedback": 6,
+      "detail": "Chạy bù 14/11: 6 bài (2 bài rao bán Med Noon 09:39 và 19:39, bài bán thẻ/nhân sâm Va Vi, 2 bài tìm mua/đổi, 1 người chơi quay lại mất tài khoản hỏi chuyển máy chủ); giờ lấy từ permalink."
+    },
+    {
+      "key": "Facebook Group · 1772363333745643",
+      "status": "partial",
+      "added_feedback": 2,
+      "detail": "Chạy bù 14/11: 1 bài người chơi (02:32 14/11, hỏi review xe jeepney/xe ba bánh) + 1 bình luận người chơi; các bài khác ngày 14/11 là bài admin (gia hạn sự kiện, LINE OpenChat, đăng lại bài Instagram), không có bình luận người chơi."
+    },
+    {
+      "key": "Facebook Group · 473704433937505",
+      "status": "partial",
+      "added_feedback": 3,
+      "detail": "Chạy bù 14/11: 3 bài rao bán đăng cùng group chợ (Med Noon 09:39, 19:39; Va Vi 07:46), giờ lấy từ permalink."
+    },
+    {
+      "key": "Facebook Group · 493177613552238",
+      "status": "partial",
+      "added_feedback": 3,
+      "detail": "Chạy bù 14/11: 3 bài tìm đổi thẻ (14:17, 16:00, 19:25; đọc giờ từ ảnh chụp permalink vì group hiện nút Join)."
+    },
+    {
+      "key": "Facebook Group · 253674809721451",
+      "status": "partial",
+      "added_feedback": 0,
+      "detail": "Chạy bù 14/11: không có bài (bài mới nhất vẫn 28/10)."
+    },
+    {
+      "key": "Facebook Fanpage · @playtogetherthailandofficial",
+      "status": "partial",
+      "added_feedback": 3,
+      "detail": "Chạy bù 14/11: 3 bình luận người dùng xác định giờ bằng tooltip (16:40 và 17:54 dưới bài \"ไม่เติมแปลว่า = ?\", 22:00 dưới bài gia hạn Black Friday: nạp Plus qua QR PromptPay trên giả lập bị trừ tiền không nhận gói). 1 bình luận \"1d\" khác không hiện tooltip nên bỏ."
+    },
+    {
+      "key": "YouTube",
+      "status": "partial",
+      "added_feedback": 2,
+      "detail": "Chạy bù 14/11: RSS 404 → quét trang kênh Teddy Chanelplay (kênh duy nhất có last_pt_video 14/11 theo lượt 15/11), lấy publishDate: 2 video ngày 14/11 (minigame robot, phần thưởng robot Mega Guardian); bình luận chỉ có 2 bình luận tiếng Anh ngắn, bỏ."
+    },
+    {
+      "key": "TikTok",
+      "status": "partial",
+      "added_feedback": 5,
+      "detail": "Chạy bù 14/11: quét lưới video (bấm \"Mới nhất\"/\"Làm mới\") của 4 creator có video PT ngày 14/11 theo lượt 15/11 (nightkubnong, teddychanel, rukkung2000, lemondoggopt): 5 video Play Together ngày 14/11; bình luận qua API comment: chỉ có bình luận của chủ kênh/tiếng Anh/trống, bỏ. Tìm \"play together vng ไทย\": video 14/11 khác là creator Việt Nam."
+    },
+    {
+      "key": "Facebook Group · 562362538882428",
+      "status": "checked",
+      "added_feedback": 0,
+      "detail": "Inactive, không có bài mới (kiểm tra 16/11)."
+    },
+    {
+      "key": "Facebook Group · 3252260471541104",
+      "status": "blocked",
+      "added_feedback": 0,
+      "detail": "Group riêng tư, chưa là thành viên/chờ duyệt (kiểm tra 16/11) — không đọc được, không chạy bù."
+    },
+    {
+      "key": "Facebook Group · 356675609124267",
+      "status": "blocked",
+      "added_feedback": 0,
+      "detail": "Group riêng tư, chưa là thành viên/chờ duyệt (kiểm tra 16/11) — không đọc được, không chạy bù."
+    },
+    {
+      "key": "Facebook Group · 847315523442353",
+      "status": "blocked",
+      "added_feedback": 0,
+      "detail": "Group riêng tư, chưa là thành viên/chờ duyệt (kiểm tra 16/11) — không đọc được, không chạy bù."
+    }
+  ],
+  "discovery": {
+    "queries": [
+      "tiktok: \"play together vng ไทย\" (16/11)",
+      "Tìm nguồn mới đầy đủ (Facebook group, YouTube, TikTok, look-alike) đã chạy trong lượt D=15/11 sáng 16/11 — xem collection-runs/2026-11-15.json"
+    ],
+    "added": [],
+    "rejected": [
+      {
+        "type": "tiktok",
+        "id": "bigbi1808",
+        "reason": "Creator Việt Nam (caption tiếng Việt)"
+      },
+      {
+        "type": "tiktok",
+        "id": "trongwis",
+        "reason": "Creator Việt Nam (caption tiếng Việt)"
+      }
+    ],
+    "needs_user_action": [
+      "Group riêng tư: 3252260471541104 (chưa là thành viên, https://www.facebook.com/groups/3252260471541104/), 356675609124267 và 847315523442353 (vẫn chờ duyệt) — người dùng tự tham gia/kiểm tra nếu muốn thu thập."
+    ]
+  },
+  "sensor_tower": {
+    "status": "skipped",
+    "note": "Bỏ qua theo runbook; người dùng tự cập nhật tay."
+  },
+  "new_feedback": {
+    "by_source": {
+      "Facebook Group": 89,
+      "Facebook Fanpage": 3,
+      "YouTube": 2,
+      "TikTok": 5
+    },
+    "by_community": {
+      "Facebook Group · playtogetherth": 75,
+      "Facebook Group · 1772363333745643": 2,
+      "Facebook Group · 815754622673816": 6,
+      "Facebook Group · 473704433937505": 3,
+      "Facebook Group · 493177613552238": 3,
+      "Facebook Fanpage · @playtogetherthailandofficial": 3,
+      "YouTube": 2,
+      "TikTok": 5
+    },
+    "by_kind": {
+      "post": 38,
+      "comment": 54,
+      "video": 7
+    },
+    "by_sentiment": {
+      "Neutral": 56,
+      "Negative": 24,
+      "Positive": 19
+    }
+  }
+}

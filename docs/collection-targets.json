@@ -1669,6 +1669,18 @@
       "id": "899894796458912",
       "reason": "Play Together VNG Philippines Official (~633 thành viên), cộng đồng Philippines, không phải Thái; kiểm tra 16/11",
       "checked": "2026-11-16"
+    },
+    {
+      "type": "tiktok",
+      "id": "bigbi1808",
+      "reason": "Creator Việt Nam (caption tiếng Việt, #ptgcreator VN), xuất hiện trong tìm kiếm 'play together vng ไทย' 16/11",
+      "checked": "2026-11-16"
+    },
+    {
+      "type": "tiktok",
+      "id": "trongwis",
+      "reason": "Creator Việt Nam (caption tiếng Việt), xuất hiện trong tìm kiếm 'play together vng ไทย' 16/11",
+      "checked": "2026-11-16"
     }
   ],
   "youtube_pending_handles": [

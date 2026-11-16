@@ -70,13 +70,15 @@ Bản dịch phải đọc một lần là hiểu, đúng ngữ cảnh game. Kh�
 - Thuật ngữ hay gặp: โสม = nhân sâm (น้ำค้าง sương, แสงจันทร์ ánh trăng, ออโรร่า cực quang); ติดสถานะ = có hiệu ứng đặc biệt; รับฟาร์ม / รับขุด = nhận cày thuê; คิวว่าง = còn nhận đơn; ทัก = nhắn tin; บริการกดสภาพอากาศ = dịch vụ đổi thời tiết; เงินฟาร์ม = tiền nông trại; ทอง = vàng; เพชร = kim cương; กาชา / สุ่ม = gacha / quay; ย้ายข้อมูล / ย้ายไอดี = chuyển dữ liệu / tài khoản sang VNG; บัค = lỗi; หลุด / เด้ง = văng game; แลค = lag; ค้าง = đơ (chỉ khi nói về game) — **ค้างคาว = con dơi**; เวล = level; ไอดี = tài khoản.
 - Bản dịch theo ngữ cảnh có `translation_method=ai_contextual`; bản dịch máy cũ được giữ ở `text_vn_machine` để đối chiếu. Áp bản dịch mới bằng `node scripts/apply-translations.mjs <file.json>`.
 
-## 4c. Song ngữ VI / EN
+## 4c. Đa ngôn ngữ VI / EN / TH
 
-- Nút **EN / VI** ở góc trên (cạnh nút ?) đổi toàn bộ dashboard sang tiếng Anh và ngược lại; lựa chọn được nhớ trong trình duyệt, có thể mở thẳng bằng `?lang=en`.
+- Nút **VI | EN | TH** ở góc trên (cạnh nút ?) đổi toàn bộ dashboard giữa tiếng Việt, tiếng Anh và tiếng Thái; lựa chọn được nhớ trong trình duyệt, có thể mở thẳng bằng `?lang=en`.
 - Tiếng Việt luôn là bản gốc, không bị ghi đè. Bản tiếng Anh của phản hồi nằm ở trường riêng `text_en` / `summary_en`; thiếu thì giao diện EN hiển thị tiếng Việt. Nguyên văn tiếng Thái giữ nguyên ở cả hai chế độ.
 - Chữ giao diện tiếng Anh nằm trong `public/i18n/en.json`: `ui` là chuỗi giao diện (số được thay bằng `{0}`, `{1}`…; thuật ngữ dữ liệu bằng `{t0}`…), `terms` là từ khoá, chủ đề, tên nguồn. Chuỗi chưa có bản dịch sẽ hiện tiếng Việt; khi đang ở chế độ EN có thể xem danh sách thiếu bằng `window.__i18n.miss` trong console.
 - Phong cách tiếng Anh: dễ hiểu, không hàn lâm. Hướng dẫn này có bản tiếng Anh ở `public/how-it-works.en.md`.
 - Khi thêm phản hồi mới: dịch thêm sang tiếng Anh và áp bằng `node scripts/apply-english.mjs <file.json>` (định dạng `{ "<id>": { "text": "...", "summary": "..." } }`); từ khoá mới thì bổ sung vào `terms` trong `en.json`.
+
+- **Chế độ TH**: giao diện lấy từ `public/i18n/th.json` (thiếu chuỗi nào thì dùng bản tiếng Anh). Nội dung phản hồi hiện **nguyên văn tiếng Thái lấy từ nguồn thu thập** (`text_th`, không dịch ngược), có dòng ghi chú "ข้อความต้นฉบับจาก <nguồn> · ไม่ได้แปล"; không hiện câu tóm tắt tiếng Việt. Hướng dẫn này có bản tiếng Thái `public/how-it-works.th.md`. Khi thêm chuỗi giao diện mới, thêm bản dịch vào cả `en.json` và `th.json`.
 
 ## 4d. Bối cảnh game và phạm vi hỗ trợ
 

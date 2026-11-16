@@ -72,13 +72,15 @@ Translations must be clear on first read and fit the game context. No word-by-wo
 - Common terms: โสม = ginseng (น้ำค้าง dew, แสงจันทร์ moonlight, ออโรร่า aurora); ติดสถานะ = has a special effect; รับฟาร์ม / รับขุด = boosting service; คิวว่าง = taking orders; ทัก = message me; บริการกดสภาพอากาศ = weather change service; เงินฟาร์ม = farm money; ทอง = gold; เพชร = diamonds; กาชา / สุ่ม = gacha / roll; ย้ายข้อมูล / ย้ายไอดี = move data / account to VNG; บัค = bug; หลุด / เด้ง = game crashes; แลค = lag; ค้าง = freeze (only when about the game) — **ค้างคาว = bat**; เวล = level; ไอดี = account.
 - Context-based translations have `translation_method=ai_contextual`; old machine translations are kept in `text_vn_machine` for comparison. Apply new translations with `node scripts/apply-translations.mjs <file.json>`.
 
-## 4c. VI / EN switch
+## 4c. VI / EN / TH switch
 
-- The **EN / VI** button at the top (next to ?) switches the whole dashboard to English and back. The choice is remembered in the browser; `?lang=en` opens English directly.
+- The **VI | EN | TH** switch at the top (next to ?) changes the whole dashboard between Vietnamese, English and Thai. The choice is remembered in the browser; `?lang=en` opens English directly.
 - Vietnamese is always the source text and is never overwritten. The English version of each feedback item lives in separate fields `text_en` / `summary_en`; if missing, the EN view shows the Vietnamese. The original Thai stays the same in both modes.
 - English UI text lives in `public/i18n/en.json`: `ui` holds UI strings (numbers replaced by `{0}`, `{1}`…, data terms by `{t0}`…), `terms` holds keywords, themes and source names. A string with no translation shows in Vietnamese; in EN mode, `window.__i18n.miss` in the console lists what is missing.
 - English style: plain and easy to read, not academic.
 - When adding new feedback: translate it to English too and apply with `node scripts/apply-english.mjs <file.json>` (format `{ "<id>": { "text": "...", "summary": "..." } }`); add any new keyword to `terms` in `en.json`.
+
+- **TH mode**: UI text comes from `public/i18n/th.json` (missing strings fall back to English). Feedback shows the **original Thai text from the collected source** (`text_th`, not back-translated) with a note "ข้อความต้นฉบับจาก <source> · ไม่ได้แปล"; Vietnamese summaries are hidden. This guide has a Thai version, `public/how-it-works.th.md`. When adding a new UI string, add it to both `en.json` and `th.json`.
 
 ## 4d. Game context and support scope
 

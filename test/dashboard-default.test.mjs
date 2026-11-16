@@ -169,10 +169,10 @@ test("uses calendar days and validates manual ranges", async () => {
 
 test("offers a VI / EN switch that keeps Vietnamese as the source text", async () => {
   const html = await readFile(new URL("../public/index.html", import.meta.url), "utf8");
-  assert.match(html, /<button id="langToggle"[^>]*data-raw/);
-  assert.match(html, /const tv = i => isEn\(\)&&i\.text_en \? i\.text_en : i\.text_vn;/);
-  assert.match(html, /const sv = i => isEn\(\)&&i\.summary_en \? i\.summary_en : i\.summary_vn;/);
-  assert.match(html, /fetch\(isEn\(\)\?'how-it-works\.en\.md':'how-it-works\.md'/);
+  assert.match(html, /<div id="langSwitch"[^>]*data-raw><button type="button" data-lang="vi"[^>]*>VI<\/button><button type="button" data-lang="en"[^>]*>EN<\/button><button type="button" data-lang="th"[^>]*>TH<\/button>/);
+  assert.match(html, /const tv = i => isTh\(\) \? \(i\.text_th\|\|i\.text_vn\) : isEn\(\)&&i\.text_en \? i\.text_en : i\.text_vn;/);
+  assert.match(html, /const sv = i => isTh\(\) \? /);
+  assert.match(html, /fetch\(\{vi:'how-it-works\.md',en:'how-it-works\.en\.md',th:'how-it-works\.th\.md'\}\[I18N\.lang\]/);
   const dict = JSON.parse(await readFile(new URL("../public/i18n/en.json", import.meta.url), "utf8"));
   assert.ok(Object.keys(dict.ui).length > 300 && Object.keys(dict.terms).length > 200);
   // Mỗi bản dịch giữ đúng các chỗ trống số liệu {0} và thuật ngữ {t0} của khoá tiếng Việt.
@@ -256,4 +256,17 @@ test("shows the top keywords of each source type and filters the list by source 
   assert.match(html, /const PLATFORMS=\['Facebook Group','Facebook Fanpage','YouTube','TikTok','LINE OpenChat','Store'\]/);
   assert.match(html, /focusExplorer\(\{sourceFilter:`platform:\$\{b\.dataset\.platform\}`,themeFilter:b\.dataset\.kw\}\)/);
   assert.match(html, /\$\('#sourceFilter'\)\.value\.startsWith\('platform:'\)\?platformOf\(item\)===/);
+});
+
+test("offers Thai with the original Thai text from the collected source", async () => {
+  const html = await readFile(new URL("../public/index.html", import.meta.url), "utf8");
+  assert.match(html, /const LANGS = \['vi','en','th'\];/);
+  assert.match(html, /ข้อความต้นฉบับจาก \$\{esc\(ORIGIN_TH\[platformOf\(i\)\]\|\|i\.source\)\} · ไม่ได้แปล/);
+  const th = JSON.parse(await readFile(new URL("../public/i18n/th.json", import.meta.url), "utf8"));
+  const en = JSON.parse(await readFile(new URL("../public/i18n/en.json", import.meta.url), "utf8"));
+  const holes = (text) => (text.match(/\{t?\d+\}/g) || []).sort().join(",");
+  for (const [key, value] of Object.entries(th.ui)) assert.equal(holes(value), holes(key), `placeholder mismatch: ${key}`);
+  const missing = Object.keys(en.ui).filter((key) => !(key in th.ui));
+  assert.ok(missing.length < 10, `Thai UI strings missing: ${missing.slice(0, 5).join(" | ")}`);
+  await readFile(new URL("../public/how-it-works.th.md", import.meta.url), "utf8");
 });

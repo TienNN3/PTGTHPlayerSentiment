@@ -618,6 +618,12 @@
       .period-icon { display:none; }
       .kpi-delta { border-radius:8px; line-height:1.4; }
     }
+    .source-kw-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(210px,1fr)); gap:16px; }
+    .source-kw-col { min-width:0; padding:14px; border:1px solid var(--line); border-radius:var(--radius-md); background:var(--surface-2); }
+    .source-kw-head { display:flex; justify-content:space-between; align-items:baseline; gap:8px; margin-bottom:8px; }
+    .source-kw-head strong { font-family:var(--font-head); font-size:14px; }
+    .source-kw-head span { font-size:12px; color:var(--muted); white-space:nowrap; }
+    .source-kw-col .bar-row { grid-template-columns:minmax(0,1.5fr) minmax(0,1fr) 34px; padding:5px 4px; font-size:13px; }
     @media (prefers-reduced-motion:reduce) { *,*::before,*::after { transition:none !important; animation:none !important; } }
   </style>
 </head>
@@ -688,6 +694,7 @@
         <article class="card span-6 voice-card dislike"><div class="card-head"><h2>Người chơi chưa hài lòng <button type="button" class="info" aria-label="Giải thích" title="Từ khoá xuất hiện nhiều nhất trong phản hồi tiêu cực (không tính mua bán). Bấm để đọc toàn bộ.">ⓘ</button></h2></div><div id="dislikeList"></div></article>
       </section>
       <section class="grid">
+        <article class="card span-12"><div class="card-head"><h2>Từ khoá theo nguồn <button type="button" class="info" aria-label="Giải thích" title="Mỗi cột là một loại nguồn (group Facebook, fanpage, YouTube, TikTok, LINE OpenChat, store) với các từ khoá được nhắc nhiều nhất trong kỳ. Màu thanh là tỷ lệ cảm xúc. Bấm từ khoá để xem phản hồi của đúng nguồn đó.">ⓘ</button></h2><p class="caption">Người chơi ở mỗi kênh đang nói về gì</p></div><div id="sourceKeywords" class="source-kw-grid"></div></article>
         <details class="card span-12 heatmap-details"><summary>Từ khoá theo ngày</summary><p class="muted small">Bấm một ô để xem phản hồi theo ngày và từ khoá. Bảng có thể cuộn ngang.</p><div id="dailyKeywords" class="heatmap-wrap"></div></details>
       </section>
     </div>
@@ -699,6 +706,7 @@
         <article class="card span-5"><div class="card-head"><h2>Thị phần thảo luận <button type="button" class="info" aria-label="Giải thích" title="Mỗi nguồn chiếm bao nhiêu % phản hồi có ngày đăng trong kỳ. Bấm để lọc danh sách.">ⓘ</button></h2></div><div class="donut-wrap"><canvas id="shareDonut" aria-label="Thị phần thảo luận theo nguồn"></canvas><div id="shareCenter" class="donut-center"></div></div><div id="shareLegend" class="donut-legend"></div></article>
         <article class="card span-7"><div class="card-head"><h2>Tỷ lệ cảm xúc theo nguồn <button type="button" class="info" aria-label="Giải thích" title="So sánh nhanh nguồn nào tích cực hơn, nguồn nào có nhiều phản hồi tiêu cực">ⓘ</button></h2></div><div id="sourceMix" class="mix-list"></div><div class="legend" style="margin-top:10px"><span><i class="dot positive-bg"></i>Tích cực</span><span><i class="dot negative-bg"></i>Tiêu cực</span><span><i class="dot mixed-bg"></i>Đan xen</span><span><i class="dot neutral-bg"></i>Trung tính</span></div></article>
       </section>
+      <section class="grid"><article class="card span-12"><div class="card-head"><h2>Từ khoá theo nguồn <button type="button" class="info" aria-label="Giải thích" title="Các từ khoá được nhắc nhiều nhất ở từng loại nguồn trong kỳ. Bấm từ khoá để xem phản hồi của đúng nguồn đó.">ⓘ</button></h2></div><div id="sourceKeywords2" class="source-kw-grid"></div></article></section>
       <p id="sourceCoverage" class="coverage-note"></p>
       <section id="sourceCards" class="source-cards"></section>
       <details id="sourcePending" class="card pending-list" hidden></details>
@@ -977,7 +985,7 @@
       $('#summaryTitle').textContent='Nhận định cho kỳ';
       $('#undatedCount').textContent=fmt.format(undated);
       $('#includeUndated').disabled=!undated;
-      renderPriority(items,alerts);renderSummary(items,previous,alerts,undated);renderKpis(items,previous);renderVoice(items,previous,alerts);renderCharts();renderDonut(items);renderIntents(items);renderKeywords(items,previous);renderSourceKpis(items,previous);renderSourceCards(items,previous);renderSourceSummary(items);renderSources();renderStore(items,previous);renderNotes(items,undated);setupFilters(items);renderFeedback();
+      renderPriority(items,alerts);renderSummary(items,previous,alerts,undated);renderKpis(items,previous);renderVoice(items,previous,alerts);renderCharts();renderDonut(items);renderIntents(items);renderKeywords(items,previous);renderSourceKeywords(items);renderSourceKpis(items,previous);renderSourceCards(items,previous);renderSourceSummary(items);renderSources();renderStore(items,previous);renderNotes(items,undated);setupFilters(items);renderFeedback();
       $('#alertBadge').hidden=!alerts.length;$('#alertBadge').textContent=`${alerts.length} cảnh báo cần xem`;
     }
     function renderPriority(items,alerts){
@@ -1119,6 +1127,15 @@
       document.querySelectorAll('#intentList [data-filter-intent]').forEach(button=>button.onclick=()=>focusExplorer({activityFilter:button.dataset.filterIntent}));
     }
     const keywordChip = (kw,count,group,extra='',date='') => `<button class="chip ${leadSentiment(group)}" data-filter-kw="${esc(kw)}"${date?` data-date="${date}"`:''} title="${SENTIMENTS.map(k=>`${sentimentLabel(k)} ${bySentiment(group)[k]}`).join(' · ')}">${esc(kw)} <span>${count}${extra}</span></button>`;
+    // Nhóm nguồn theo loại kênh để so sánh từ khoá giữa các kênh (group Facebook gộp chung, store gộp Google Play + App Store).
+    const PLATFORMS=['Facebook Group','Facebook Fanpage','YouTube','TikTok','LINE OpenChat','Store'];
+    const PLATFORM_LABELS={'Facebook Group':'Group Facebook','Facebook Fanpage':'Fanpage','YouTube':'YouTube','TikTok':'TikTok','LINE OpenChat':'LINE OpenChat','Store':'Store (Google Play, App Store)'};
+    const platformOf=i=>isStore(i)?'Store':PLATFORMS.includes(i.source)?i.source:i.source;
+    function renderSourceKeywords(items){
+      const html=PLATFORMS.map(p=>{const group=items.filter(i=>platformOf(i)===p);if(!group.length)return'';const ranked=countKeywords(group).slice(0,6),max=ranked[0]?.[1]||1;
+        return`<div class="source-kw-col"><div class="source-kw-head"><strong>${esc(PLATFORM_LABELS[p])}</strong><span>${fmt.format(group.length)} phản hồi</span></div><div class="bar-list">${ranked.map(([kw,count])=>{const sub=group.filter(i=>keywordsOf(i).includes(kw)),s=bySentiment(sub);return`<button class="bar-row" data-platform="${esc(p)}" data-kw="${esc(kw)}" title="${esc(PLATFORM_LABELS[p])} · ${esc(kw)}: ${count} phản hồi"><span class="name">${esc(kw)}</span><span class="bar-track" style="width:${Math.max(10,count/max*100)}%">${SENTIMENTS.map(k=>`<span class="${k.toLowerCase()}-bg" style="width:${s[k]/count*100}%"></span>`).join('')}</span><span class="num">${count}</span></button>`}).join('')||'<p class="empty-note">Chưa có từ khoá.</p>'}</div></div>`}).join('')||'<p class="empty-note">Chưa có phản hồi trong kỳ.</p>';
+      for(const id of ['sourceKeywords','sourceKeywords2']){$(`#${id}`).innerHTML=html;$(`#${id}`).querySelectorAll('[data-platform]').forEach(b=>b.onclick=()=>focusExplorer({sourceFilter:`platform:${b.dataset.platform}`,themeFilter:b.dataset.kw}))}
+    }
     function renderKeywords(items,previous){
       const prev=new Map(countKeywords(previous)),ranked=countKeywords(items).slice(0,12),max=ranked[0]?.[1]||1;
       $('#keywordChips').innerHTML=ranked.map(([kw,count])=>{const group=items.filter(i=>keywordsOf(i).includes(kw)),s=bySentiment(group),d=count-(prev.get(kw)||0);return`<button class="bar-row" data-filter-kw="${esc(kw)}" title="Lọc danh sách: ${esc(kw)}"><span class="name">${esc(kw)}</span><span class="bar-track" style="width:${Math.max(8,count/max*100)}%">${SENTIMENTS.map(k=>`<span class="${k.toLowerCase()}-bg" style="width:${s[k]/count*100}%"></span>`).join('')}</span><span class="num">${count} <small class="${d>0?'delta-up':d<0?'delta-down':''}">${d?`${d>0?'▲':'▼'}${Math.abs(d)}`:''}</small></span></button>`}).join('')||'<p class="empty-note">Chưa có từ khoá trong kỳ.</p>';
@@ -1264,14 +1281,14 @@
       const keep=Object.fromEntries(['dateFilter','sourceFilter','sentimentFilter','activityFilter','themeFilter'].map(id=>[id,$(`#${id}`).value]));
       const opts=(values,label=v=>v)=>'<option value="">Tất cả</option>'+[...new Set(values.filter(Boolean))].sort().map(v=>`<option value="${esc(v)}">${esc(label(v))}</option>`).join('');
       $('#dateFilter').innerHTML='<option value="">Cả kỳ</option>'+countBy(items,i=>i.date).sort((a,b)=>b[0].localeCompare(a[0])).map(([d,c])=>`<option value="${d}">${dateLabel(d)} (${c})</option>`).join('');
-      $('#sourceFilter').innerHTML=opts(items.map(channelName),sourceLabel);
+      $('#sourceFilter').innerHTML=opts(items.map(channelName),sourceLabel).replace('</option>',`</option><optgroup label="Theo loại nguồn">${PLATFORMS.filter(p=>items.some(i=>platformOf(i)===p)).map(p=>`<option value="platform:${esc(p)}">${esc(PLATFORM_LABELS[p])} (tất cả)</option>`).join('')}</optgroup><optgroup label="Từng nguồn">`)+'</optgroup>';
       $('#sentimentFilter').innerHTML='<option value="">Tất cả</option>'+SENTIMENTS.filter(s=>items.some(i=>i.sentiment===s)).map(v=>`<option value="${v}">${sentimentLabel(v)}</option>`).join('');
       $('#activityFilter').innerHTML='<option value="">Tất cả</option>'+countBy(items,intentOf).map(([k,c])=>`<option value="${esc(k)}">${esc(INTENTS[k]||k)} (${c})</option>`).join('');
       $('#themeFilter').innerHTML='<option value="">Tất cả</option>'+countKeywords(items).map(([k,c])=>`<option value="${esc(k)}">${esc(k)} (${c})</option>`).join('');
       for(const[id,value]of Object.entries(keep))if([...$(`#${id}`).options].some(o=>o.value===value))$(`#${id}`).value=value;
     }
     function focusExplorer(filters){resetExplorer();setupFilters(explorerItems());for(const[id,value]of Object.entries(filters)){const el=$(`#${id}`);if(el.type==='checkbox')el.checked=Boolean(value);else el.value=value;}renderFeedback();setTab('feedback');scrollTo({top:$('.period-bar').getBoundingClientRect().bottom+scrollY,behavior:'smooth'})}
-    function filterItems(){const query=$('#keywordFilter').value.trim().toLocaleLowerCase();state.filtered=explorerItems().filter(item=>(!$('#issuesOnly').checked||needsActionFeedback(item))&&(!$('#dateFilter').value||item.date===$('#dateFilter').value)&&(!$('#sourceFilter').value||channelName(item)===$('#sourceFilter').value)&&(!$('#activityFilter').value||intentOf(item)===$('#activityFilter').value)&&(!$('#sentimentFilter').value||item.sentiment===$('#sentimentFilter').value)&&(!$('#themeFilter').value||keywordsOf(item).includes($('#themeFilter').value))&&(!query||`${item.text_th||''} ${item.text_vn||''} ${item.summary_vn||''} ${item.text_en||''} ${item.summary_en||''} ${keywordsOf(item).join(' ')}`.toLocaleLowerCase().includes(query))).sort((a,b)=>itemTime(b)-itemTime(a))}
+    function filterItems(){const query=$('#keywordFilter').value.trim().toLocaleLowerCase();state.filtered=explorerItems().filter(item=>(!$('#issuesOnly').checked||needsActionFeedback(item))&&(!$('#dateFilter').value||item.date===$('#dateFilter').value)&&(!$('#sourceFilter').value||($('#sourceFilter').value.startsWith('platform:')?platformOf(item)===$('#sourceFilter').value.slice(9):channelName(item)===$('#sourceFilter').value))&&(!$('#activityFilter').value||intentOf(item)===$('#activityFilter').value)&&(!$('#sentimentFilter').value||item.sentiment===$('#sentimentFilter').value)&&(!$('#themeFilter').value||keywordsOf(item).includes($('#themeFilter').value))&&(!query||`${item.text_th||''} ${item.text_vn||''} ${item.summary_vn||''} ${item.text_en||''} ${item.summary_en||''} ${keywordsOf(item).join(' ')}`.toLocaleLowerCase().includes(query))).sort((a,b)=>itemTime(b)-itemTime(a))}
     function engagementText(item){if(!item.engagement)return item.rating?`${item.rating}★`:'';const parts=(item.engagement.reactions||[]).map(value=>isEn()?String(value):String(value).replace(/people|person/gi,'người'));if(item.engagement.comment_count)parts.push(isEn()?`${item.engagement.comment_count} comments`:`${item.engagement.comment_count} bình luận`);return parts.join('; ')}
     function renderActiveFilters(){
       const labels={dateFilter:'Ngày',sourceFilter:'Nguồn',sentimentFilter:'Cảm xúc',activityFilter:'Loại nội dung',themeFilter:'Từ khoá'},active=Object.keys(labels).filter(id=>$(`#${id}`).value);

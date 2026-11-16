@@ -248,3 +248,12 @@ test("parses a LINE OpenChat export into masked, deduplicated chat items", async
   assert.equal(items[1].text_th, "เว็บเติมล่ม\nค้างเข้าไม่ได้เลย", "continuation lines stay with their message");
   assert.match(items[1].link, /^line-openchat:play-together-thailand#2026-11-14T12:30$/);
 });
+
+test("shows the top keywords of each source type and filters the list by source type", async () => {
+  const html = await readFile(new URL("../public/index.html", import.meta.url), "utf8");
+  assert.match(html, /id="sourceKeywords"/);
+  assert.match(html, /id="sourceKeywords2"/);
+  assert.match(html, /const PLATFORMS=\['Facebook Group','Facebook Fanpage','YouTube','TikTok','LINE OpenChat','Store'\]/);
+  assert.match(html, /focusExplorer\(\{sourceFilter:`platform:\$\{b\.dataset\.platform\}`,themeFilter:b\.dataset\.kw\}\)/);
+  assert.match(html, /\$\('#sourceFilter'\)\.value\.startsWith\('platform:'\)\?platformOf\(item\)===/);
+});

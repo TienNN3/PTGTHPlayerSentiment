@@ -105,7 +105,7 @@ Ghi staging `.staging/daily-D/items.json` theo dạng:
 - Nội dung không xác định được ngày đăng: `date_basis: "observed_at"` (được tách riêng, không tính thống kê).
 - `text_vn`: dịch Thái → Việt theo ngữ cảnh game (`docs/translation-guide.md`); **`ค้างคาว` = con dơi**. `text_en` / `summary_en`: tiếng Anh dễ hiểu, không hàn lâm.
 - Phạm vi hỗ trợ: áp dụng `docs/game-context.md`. Ví dụ lỗi cài **APK** hoặc bản tải từ trang không chính thống: vẫn lưu nhưng gắn `out_of_scope: "unofficial_apk"` + `scope_note`, không coi là lỗi game.
-- `intent` (1 loại): question, answer, share, event_entry, bug, performance, account, complaint, suggestion, praise, trade, social, chat. `keywords`: 1–4 từ khoá tiếng Việt chữ thường, dùng lại từ vựng có sẵn (xem `terms` trong `public/i18n/en.json`); từ khoá mới thì thêm bản tiếng Anh vào `terms`. `summary_vn`: 1 câu ngắn. `theme`: đúng một nhãn trong `public/data/themes.json`.
+- `intent` (1 loại): question, answer, share, event_entry, bug, performance, account, complaint, suggestion, praise, trade, social, chat. `keywords`: 1–4 từ khoá tiếng Việt chữ thường, dùng lại từ vựng có sẵn (xem `terms` trong `public/i18n/en.json`); từ khoá mới thì thêm bản tiếng Anh vào `terms` của `public/i18n/en.json` **và** bản tiếng Thái vào `terms` của `public/i18n/th.json` (giao diện có chế độ TH). `summary_vn`: 1 câu ngắn. `theme`: đúng một nhãn trong `public/data/themes.json`.
 
 ## 4. Nhập và kiểm tra
 
@@ -120,7 +120,7 @@ Ghi staging `.staging/daily-D/items.json` theo dạng:
 ## 5. Commit và push
 
 - `git pull --rebase origin main` trước (người dùng có thể đã push từ máy khác).
-- Chỉ add file dữ liệu/tài liệu liên quan (`public/data`, `docs/collection-targets.json` nếu có nguồn mới, `public/i18n/en.json` nếu có từ khoá mới). Không add `.staging/`, `public/reports/`, file ảnh lạ.
+- Chỉ add file dữ liệu/tài liệu liên quan (`public/data`, `docs/collection-targets.json` nếu có nguồn mới, `public/i18n/en.json`, `public/i18n/th.json` nếu có từ khoá mới). Không add `.staging/`, `public/reports/`, file ảnh lạ.
 - Commit: `Update PTG TH feedback for D` (thân commit: số phản hồi thêm theo nguồn, nguồn bị chặn).
 - `git push origin main` (nếu sandbox chặn mạng thì chạy lại lệnh push ngoài sandbox), rồi `gh run watch` để chờ GitHub Pages deploy.
 - Không có phản hồi mới: vẫn cập nhật `collection-runs/D.json` + `sources.json` (trạng thái kiểm tra) rồi commit.

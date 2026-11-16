@@ -1,0 +1,616 @@
+{
+  "date": "2026-11-16",
+  "alerts": [],
+  "items": [
+    {
+      "id": "line-0e413dcf96e35847",
+      "source": "LINE OpenChat",
+      "community": "LINE OpenChat · Play Together Thailand",
+      "time": "08:39",
+      "author_masked": "ค***",
+      "link": "line-openchat:play-together-thailand#2026-11-16T08:39",
+      "content_kind": "message",
+      "activity_type": "Tin nhắn LINE",
+      "date_basis": "published_at",
+      "text_th": "มีใครแนะนำจุดฟาร์มการ์ด เริ่ดๆได้ไหมคะ\nยกเว้นสวนไดโน เบื่อแล้วค่ะ🥲",
+      "text_vn": "Có ai chỉ chỗ farm thẻ ngon không ạ? Trừ Công viên Khủng long ra nha, chán lắm rồi 🥲",
+      "text_en": "Can anyone recommend a good card-farming spot? Except Dino Park, I'm sick of it 🥲",
+      "summary_vn": "Hỏi chỗ farm thẻ tốt ngoài Công viên Khủng long",
+      "summary_en": "Asks for card-farming spots other than Dino Park",
+      "sentiment": "Neutral",
+      "intent": "question",
+      "keywords": [
+        "bộ sưu tập thẻ"
+      ],
+      "theme": "Hoạt động và tính năng trong game",
+      "topic": "Activities (fishing, bugs, pets, housing, jobs, minigames)",
+      "engagement": {
+        "reactions": [],
+        "comment_count": null
+      },
+      "published_label": "08:39",
+      "topic_secondary": [],
+      "segment": "unknown",
+      "severity": null,
+      "confidence": 0.7,
+      "needs_review": true,
+      "translation_method": "ai_contextual",
+      "label_method": "ai_review",
+      "collected_at": "2026-11-16T14:00:00+07:00"
+    },
+    {
+      "id": "line-91e04c788d85381a",
+      "source": "LINE OpenChat",
+      "community": "LINE OpenChat · Play Together Thailand",
+      "time": "08:39",
+      "author_masked": "J***",
+      "link": "line-openchat:play-together-thailand#2026-11-16T08:39",
+      "content_kind": "message",
+      "activity_type": "Tin nhắn LINE",
+      "date_basis": "published_at",
+      "text_th": "รีสอร์ทค่ะ",
+      "text_vn": "Khu Resort nha.",
+      "text_en": "The Resort.",
+      "summary_vn": "Gợi ý farm thẻ ở khu Resort",
+      "summary_en": "Recommends the Resort for card farming",
+      "sentiment": "Neutral",
+      "intent": "answer",
+      "keywords": [
+        "bộ sưu tập thẻ"
+      ],
+      "theme": "Hoạt động và tính năng trong game",
+      "topic": "Activities (fishing, bugs, pets, housing, jobs, minigames)",
+      "engagement": {
+        "reactions": [],
+        "comment_count": null
+      },
+      "published_label": "08:39",
+      "topic_secondary": [],
+      "segment": "unknown",
+      "severity": null,
+      "confidence": 0.7,
+      "needs_review": true,
+      "translation_method": "ai_contextual",
+      "label_method": "ai_review",
+      "collected_at": "2026-11-16T14:00:00+07:00"
+    },
+    {
+      "id": "line-29ca58a58863e5cf",
+      "source": "LINE OpenChat",
+      "community": "LINE OpenChat · Play Together Thailand",
+      "time": "08:40",
+      "author_masked": "ค***",
+      "link": "line-openchat:play-together-thailand#2026-11-16T08:40",
+      "content_kind": "message",
+      "activity_type": "Tin nhắn LINE",
+      "date_basis": "published_at",
+      "text_th": "วิ่งวนหรอคะ",
+      "text_vn": "Chạy vòng vòng hả?",
+      "text_en": "Just run around in circles?",
+      "summary_vn": "Hỏi lại cách farm thẻ ở Resort là chạy vòng",
+      "summary_en": "Asks if farming at the Resort means running laps",
+      "sentiment": "Neutral",
+      "intent": "question",
+      "keywords": [
+        "bộ sưu tập thẻ"
+      ],
+      "theme": "Hoạt động và tính năng trong game",
+      "topic": "Activities (fishing, bugs, pets, housing, jobs, minigames)",
+      "engagement": {
+        "reactions": [],
+        "comment_count": null
+      },
+      "published_label": "08:40",
+      "topic_secondary": [],
+      "segment": "unknown",
+      "severity": null,
+      "confidence": 0.7,
+      "needs_review": true,
+      "translation_method": "ai_contextual",
+      "label_method": "ai_review",
+      "collected_at": "2026-11-16T14:00:00+07:00"
+    },
+    {
+      "id": "line-2b57259cb19ad300",
+      "source": "LINE OpenChat",
+      "community": "LINE OpenChat · Play Together Thailand",
+      "time": "08:40",
+      "author_masked": "J***",
+      "link": "line-openchat:play-together-thailand#2026-11-16T08:40",
+      "content_kind": "message",
+      "activity_type": "Tin nhắn LINE",
+      "date_basis": "published_at",
+      "text_th": "รู้กันแค่นี้นะคะ ห้ามบอกใครๆๆ\nใช่ค่ะ",
+      "text_vn": "Biết vậy thôi nha, cấm nói với ai đó. Đúng rồi.",
+      "text_en": "This stays between us, don't tell anyone! Yes.",
+      "summary_vn": "Xác nhận chạy vòng ở Resort để farm thẻ, đùa giữ bí mật",
+      "summary_en": "Confirms running laps at the Resort, jokingly secret",
+      "sentiment": "Positive",
+      "intent": "answer",
+      "keywords": [
+        "bộ sưu tập thẻ"
+      ],
+      "theme": "Hoạt động và tính năng trong game",
+      "topic": "Activities (fishing, bugs, pets, housing, jobs, minigames)",
+      "engagement": {
+        "reactions": [],
+        "comment_count": null
+      },
+      "published_label": "08:40",
+      "topic_secondary": [],
+      "segment": "unknown",
+      "severity": null,
+      "confidence": 0.7,
+      "needs_review": true,
+      "translation_method": "ai_contextual",
+      "label_method": "ai_review",
+      "collected_at": "2026-11-16T14:00:00+07:00"
+    },
+    {
+      "id": "line-9045e2a5e784c426",
+      "source": "LINE OpenChat",
+      "community": "LINE OpenChat · Play Together Thailand",
+      "time": "08:40",
+      "author_masked": "ค***",
+      "link": "line-openchat:play-together-thailand#2026-11-16T08:40",
+      "content_kind": "message",
+      "activity_type": "Tin nhắn LINE",
+      "date_basis": "published_at",
+      "text_th": "สู้",
+      "text_vn": "Cố lên!",
+      "text_en": "Fighting!",
+      "summary_vn": "Tự cổ vũ khi sắp đủ thẻ",
+      "summary_en": "Cheers themselves on, almost done with the cards",
+      "sentiment": "Positive",
+      "intent": "chat",
+      "keywords": [
+        "bộ sưu tập thẻ"
+      ],
+      "theme": "Hoạt động và tính năng trong game",
+      "topic": "Activities (fishing, bugs, pets, housing, jobs, minigames)",
+      "engagement": {
+        "reactions": [],
+        "comment_count": null
+      },
+      "published_label": "08:40",
+      "topic_secondary": [],
+      "segment": "unknown",
+      "severity": null,
+      "confidence": 0.7,
+      "needs_review": true,
+      "translation_method": "ai_contextual",
+      "label_method": "ai_review",
+      "collected_at": "2026-11-16T14:00:00+07:00"
+    },
+    {
+      "id": "line-d61b6f319f09204c",
+      "source": "LINE OpenChat",
+      "community": "LINE OpenChat · Play Together Thailand",
+      "time": "08:41",
+      "author_masked": "J***",
+      "link": "line-openchat:play-together-thailand#2026-11-16T08:41",
+      "content_kind": "message",
+      "activity_type": "Tin nhắn LINE",
+      "date_basis": "published_at",
+      "text_th": "สุ้ๆ ค่า",
+      "text_vn": "Cố lên nha.",
+      "text_en": "You got this!",
+      "summary_vn": "Cổ vũ bạn gom thẻ",
+      "summary_en": "Cheers on a friend collecting cards",
+      "sentiment": "Positive",
+      "intent": "chat",
+      "keywords": [
+        "trò chuyện"
+      ],
+      "theme": "Trải nghiệm game tích cực",
+      "topic": "Other",
+      "engagement": {
+        "reactions": [],
+        "comment_count": null
+      },
+      "published_label": "08:41",
+      "topic_secondary": [],
+      "segment": "unknown",
+      "severity": null,
+      "confidence": 0.7,
+      "needs_review": true,
+      "translation_method": "ai_contextual",
+      "label_method": "ai_review",
+      "collected_at": "2026-11-16T14:00:00+07:00"
+    },
+    {
+      "id": "line-1de8196d0033e640",
+      "source": "LINE OpenChat",
+      "community": "LINE OpenChat · Play Together Thailand",
+      "time": "11:08",
+      "author_masked": "D***",
+      "link": "line-openchat:play-together-thailand#2026-11-16T11:08",
+      "content_kind": "message",
+      "activity_type": "Tin nhắn LINE",
+      "date_basis": "published_at",
+      "text_th": "ส่วนใหญ่เขาเติมของพาเว็ปไหนกันหรอครับ",
+      "text_vn": "Mọi người thường nạp qua web nào vậy ạ?",
+      "text_en": "Which website do people usually use to top up?",
+      "summary_vn": "Hỏi mọi người thường nạp tiền qua web nào",
+      "summary_en": "Asks which website people use to top up",
+      "sentiment": "Neutral",
+      "intent": "question",
+      "keywords": [
+        "web nạp tiền",
+        "nạp tiền"
+      ],
+      "theme": "Hoạt động và tính năng trong game",
+      "topic": "Activities (fishing, bugs, pets, housing, jobs, minigames)",
+      "engagement": {
+        "reactions": [],
+        "comment_count": null
+      },
+      "published_label": "11:08",
+      "topic_secondary": [],
+      "segment": "unknown",
+      "severity": null,
+      "confidence": 0.7,
+      "needs_review": true,
+      "translation_method": "ai_contextual",
+      "label_method": "ai_review",
+      "collected_at": "2026-11-16T14:00:00+07:00"
+    },
+    {
+      "id": "line-55f3b11d368ef506",
+      "source": "LINE OpenChat",
+      "community": "LINE OpenChat · Play Together Thailand",
+      "time": "11:10",
+      "author_masked": "ป***",
+      "link": "line-openchat:play-together-thailand#2026-11-16T11:10",
+      "content_kind": "message",
+      "activity_type": "Tin nhắn LINE",
+      "date_basis": "published_at",
+      "text_th": "หมายถึงเติมเกมปกติหรอคะ\nhttps://shop.vnggames.com/th/game/ptgth",
+      "text_vn": "Ý bạn là nạp game bình thường hả?\nhttps://shop.vnggames.com/th/game/ptgth",
+      "text_en": "You mean regular game top-up?\nhttps://shop.vnggames.com/th/game/ptgth",
+      "summary_vn": "Gửi link web nạp chính thức shop.vnggames.com",
+      "summary_en": "Shares the official shop.vnggames.com top-up link",
+      "sentiment": "Neutral",
+      "intent": "answer",
+      "keywords": [
+        "web nạp tiền",
+        "nạp tiền"
+      ],
+      "theme": "Hoạt động và tính năng trong game",
+      "topic": "Activities (fishing, bugs, pets, housing, jobs, minigames)",
+      "engagement": {
+        "reactions": [],
+        "comment_count": null
+      },
+      "published_label": "11:10",
+      "topic_secondary": [],
+      "segment": "unknown",
+      "severity": null,
+      "confidence": 0.7,
+      "needs_review": true,
+      "translation_method": "ai_contextual",
+      "label_method": "ai_review",
+      "collected_at": "2026-11-16T14:00:00+07:00"
+    },
+    {
+      "id": "line-c98151730d89ea8f",
+      "source": "LINE OpenChat",
+      "community": "LINE OpenChat · Play Together Thailand",
+      "time": "11:35",
+      "author_masked": "(***",
+      "link": "line-openchat:play-together-thailand#2026-11-16T11:35",
+      "content_kind": "message",
+      "activity_type": "Tin nhắn LINE",
+      "date_basis": "published_at",
+      "text_th": "หาหูฟังข้างซ้ายไม่เจอค่ะ😭😭",
+      "text_vn": "Tìm hoài không thấy tai nghe bên trái 😭😭",
+      "text_en": "I can't find the left earphone 😭😭",
+      "summary_vn": "Không tìm thấy tai nghe trái trong nhiệm vụ",
+      "summary_en": "Can't find the left earphone for the quest",
+      "sentiment": "Negative",
+      "intent": "question",
+      "keywords": [
+        "nhiệm vụ",
+        "đào kho báu"
+      ],
+      "theme": "Hoạt động và tính năng trong game",
+      "topic": "Activities (fishing, bugs, pets, housing, jobs, minigames)",
+      "engagement": {
+        "reactions": [],
+        "comment_count": null
+      },
+      "published_label": "11:35",
+      "topic_secondary": [],
+      "segment": "unknown",
+      "severity": null,
+      "confidence": 0.7,
+      "needs_review": true,
+      "translation_method": "ai_contextual",
+      "label_method": "ai_review",
+      "collected_at": "2026-11-16T14:00:00+07:00"
+    },
+    {
+      "id": "line-fad2bc19ec6336fb",
+      "source": "LINE OpenChat",
+      "community": "LINE OpenChat · Play Together Thailand",
+      "time": "11:35",
+      "author_masked": "ผ***",
+      "link": "line-openchat:play-together-thailand#2026-11-16T11:35",
+      "content_kind": "message",
+      "activity_type": "Tin nhắn LINE",
+      "date_basis": "published_at",
+      "text_th": "ผมมีขายข้างขวาครับ",
+      "text_vn": "Mình có bán bên phải nè.",
+      "text_en": "I've got a right one for sale.",
+      "summary_vn": "Đùa có tai nghe phải để bán",
+      "summary_en": "Jokes about selling the right earphone",
+      "sentiment": "Neutral",
+      "intent": "chat",
+      "keywords": [
+        "nhiệm vụ",
+        "trò chuyện"
+      ],
+      "theme": "Hoạt động và tính năng trong game",
+      "topic": "Activities (fishing, bugs, pets, housing, jobs, minigames)",
+      "engagement": {
+        "reactions": [],
+        "comment_count": null
+      },
+      "published_label": "11:35",
+      "topic_secondary": [],
+      "segment": "unknown",
+      "severity": null,
+      "confidence": 0.7,
+      "needs_review": true,
+      "translation_method": "ai_contextual",
+      "label_method": "ai_review",
+      "collected_at": "2026-11-16T14:00:00+07:00"
+    },
+    {
+      "id": "line-505a7873f9f1bbc9",
+      "source": "LINE OpenChat",
+      "community": "LINE OpenChat · Play Together Thailand",
+      "time": "11:35",
+      "author_masked": "L***",
+      "link": "line-openchat:play-together-thailand#2026-11-16T11:35",
+      "content_kind": "message",
+      "activity_type": "Tin nhắn LINE",
+      "date_basis": "published_at",
+      "text_th": "ขุดตรงชายหาดครับ\nขุดไปเรื่อยๆ",
+      "text_vn": "Đào ở bãi biển đó, cứ đào hoài là ra.",
+      "text_en": "Dig on the beach, just keep digging.",
+      "summary_vn": "Hướng dẫn đào ở bãi biển để tìm tai nghe",
+      "summary_en": "Advises digging on the beach to find the earphone",
+      "sentiment": "Neutral",
+      "intent": "answer",
+      "keywords": [
+        "nhiệm vụ",
+        "đào kho báu"
+      ],
+      "theme": "Hoạt động và tính năng trong game",
+      "topic": "Activities (fishing, bugs, pets, housing, jobs, minigames)",
+      "engagement": {
+        "reactions": [],
+        "comment_count": null
+      },
+      "published_label": "11:35",
+      "topic_secondary": [],
+      "segment": "unknown",
+      "severity": null,
+      "confidence": 0.7,
+      "needs_review": true,
+      "translation_method": "ai_contextual",
+      "label_method": "ai_review",
+      "collected_at": "2026-11-16T14:00:00+07:00"
+    },
+    {
+      "id": "line-e1b45dc2279edf94",
+      "source": "LINE OpenChat",
+      "community": "LINE OpenChat · Play Together Thailand",
+      "time": "11:36",
+      "author_masked": "(***",
+      "link": "line-openchat:play-together-thailand#2026-11-16T11:36",
+      "content_kind": "message",
+      "activity_type": "Tin nhắn LINE",
+      "date_basis": "published_at",
+      "text_th": "ขอบคุณมากกกเลยนะคะ (ขอร้อง)(ขอร้อง)",
+      "text_vn": "Cảm ơn nhiều lắm luôn ạ (cảm ơn)(cảm ơn)",
+      "text_en": "Thank you so much (pleading)(pleading)",
+      "summary_vn": "Cảm ơn đã chỉ cách tìm tai nghe",
+      "summary_en": "Thanks for the earphone tip",
+      "sentiment": "Positive",
+      "intent": "chat",
+      "keywords": [
+        "trò chuyện"
+      ],
+      "theme": "Trải nghiệm game tích cực",
+      "topic": "Other",
+      "engagement": {
+        "reactions": [],
+        "comment_count": null
+      },
+      "published_label": "11:36",
+      "topic_secondary": [],
+      "segment": "unknown",
+      "severity": null,
+      "confidence": 0.7,
+      "needs_review": true,
+      "translation_method": "ai_contextual",
+      "label_method": "ai_review",
+      "collected_at": "2026-11-16T14:00:00+07:00"
+    },
+    {
+      "id": "line-11dcbb0ea80d336c",
+      "source": "LINE OpenChat",
+      "community": "LINE OpenChat · Play Together Thailand",
+      "time": "13:00",
+      "author_masked": "แ***",
+      "link": "line-openchat:play-together-thailand#2026-11-16T13:00",
+      "content_kind": "message",
+      "activity_type": "Tin nhắn LINE",
+      "date_basis": "published_at",
+      "text_th": "อยากถือปืนได้ 2 ข้างจัง",
+      "text_vn": "Ước gì cầm được súng hai tay ghê.",
+      "text_en": "I wish I could dual-wield guns.",
+      "summary_vn": "Mong muốn có tính năng cầm súng hai tay",
+      "summary_en": "Wishes for dual-wielding guns",
+      "sentiment": "Neutral",
+      "intent": "suggestion",
+      "keywords": [
+        "bắn súng"
+      ],
+      "theme": "Góp ý trải nghiệm chung",
+      "topic": "Other",
+      "engagement": {
+        "reactions": [],
+        "comment_count": null
+      },
+      "published_label": "13:00",
+      "topic_secondary": [],
+      "segment": "unknown",
+      "severity": null,
+      "confidence": 0.7,
+      "needs_review": true,
+      "translation_method": "ai_contextual",
+      "label_method": "ai_review",
+      "collected_at": "2026-11-16T14:00:00+07:00"
+    },
+    {
+      "id": "line-8b53546dae72be9a",
+      "source": "LINE OpenChat",
+      "community": "LINE OpenChat · Play Together Thailand",
+      "time": "13:12",
+      "author_masked": "L***",
+      "link": "line-openchat:play-together-thailand#2026-11-16T13:12",
+      "content_kind": "message",
+      "activity_type": "Tin nhắn LINE",
+      "date_basis": "published_at",
+      "text_th": "ใครยิงอยู่บ้าง ขอไปอาศัยด้วยคนครับ",
+      "text_vn": "Ai đang bắn súng không, cho mình vào chơi ké với.",
+      "text_en": "Anyone playing the shooting mode? Let me tag along.",
+      "summary_vn": "Tìm người chơi bắn súng cùng",
+      "summary_en": "Looking for others to join in shooting",
+      "sentiment": "Neutral",
+      "intent": "social",
+      "keywords": [
+        "bắn súng",
+        "chơi cùng bạn bè",
+        "tìm bạn"
+      ],
+      "theme": "Hoạt động và tính năng trong game",
+      "topic": "Activities (fishing, bugs, pets, housing, jobs, minigames)",
+      "engagement": {
+        "reactions": [],
+        "comment_count": null
+      },
+      "published_label": "13:12",
+      "topic_secondary": [],
+      "segment": "unknown",
+      "severity": null,
+      "confidence": 0.7,
+      "needs_review": true,
+      "translation_method": "ai_contextual",
+      "label_method": "ai_review",
+      "collected_at": "2026-11-16T14:00:00+07:00"
+    },
+    {
+      "id": "line-801c19fa70c9639f",
+      "source": "LINE OpenChat",
+      "community": "LINE OpenChat · Play Together Thailand",
+      "time": "13:12",
+      "author_masked": "b***",
+      "link": "line-openchat:play-together-thailand#2026-11-16T13:12",
+      "content_kind": "message",
+      "activity_type": "Tin nhắn LINE",
+      "date_basis": "published_at",
+      "text_th": "เมื่อคืนเขารวมตัวยิงกันในคลับ ฃุงหายไปไหนนนน\nลุง*",
+      "text_vn": "Tối qua mọi người tụ lại bắn súng trong club đó, chú đi đâu mất tiêu vậy?\n*chú",
+      "text_en": "Last night everyone gathered to shoot in the club, where did you go, uncle?\n*uncle",
+      "summary_vn": "Kể tối qua tụ tập bắn súng ở club, hỏi bạn vắng",
+      "summary_en": "Mentions last night's club shooting meetup, asks where friend was",
+      "sentiment": "Neutral",
+      "intent": "social",
+      "keywords": [
+        "bắn súng",
+        "chơi cùng bạn bè"
+      ],
+      "theme": "Hoạt động và tính năng trong game",
+      "topic": "Activities (fishing, bugs, pets, housing, jobs, minigames)",
+      "engagement": {
+        "reactions": [],
+        "comment_count": null
+      },
+      "published_label": "13:12",
+      "topic_secondary": [],
+      "segment": "unknown",
+      "severity": null,
+      "confidence": 0.7,
+      "needs_review": true,
+      "translation_method": "ai_contextual",
+      "label_method": "ai_review",
+      "collected_at": "2026-11-16T14:00:00+07:00"
+    }
+  ],
+  "report": {
+    "overview": "Phản hồi ngày 2026-11-16.",
+    "bright_spots": [],
+    "pain_points": [],
+    "segments": {
+      "new": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      },
+      "midgame": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      },
+      "veteran": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      },
+      "payer": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      }
+    },
+    "next_actions": {
+      "new": [],
+      "midgame": [],
+      "veteran": [],
+      "payer": []
+    },
+    "data_health": [
+      "Thu thập hằng ngày: Facebook, YouTube, TikTok (đã che tên tác giả)."
+    ]
+  },
+  "metrics": {
+    "volume": 15,
+    "noise": 0,
+    "by_source": {
+      "LINE OpenChat": 15
+    },
+    "by_sentiment": {
+      "Positive": 4,
+      "Neutral": 10,
+      "Negative": 1,
+      "Mixed": 0
+    },
+    "by_topic": {
+      "Activities (fishing, bugs, pets, housing, jobs, minigames)": 12,
+      "Other": 3
+    },
+    "by_segment": {
+      "unknown": 15
+    },
+    "nss": 20,
+    "nss_d1": null,
+    "nss_7d_avg": null,
+    "store": {
+      "gp_avg": null,
+      "ios_avg": null,
+      "star_1": 0,
+      "star_5": 0
+    }
+  },
+  "data_mode": "production"
+}

@@ -28,9 +28,11 @@ const LINKS = {
   "Facebook Group": /^https:\/\/(?:www\.)?facebook\.com\/groups\/[^/]+\/posts\/\d+\/?(?:\?comment_id=\d+)?$/,
   "Facebook Fanpage": /^https:\/\/(?:www\.)?facebook\.com\/playtogetherthailandofficial\/.+[?&]comment_id=\d+$/i,
   YouTube: /^https:\/\/www\.youtube\.com\/(?:watch\?v=[\w-]{11}(?:&lc=[\w.-]+)?|shorts\/[\w-]{11})$/,
-  TikTok: /^https:\/\/www\.tiktok\.com\/@[\w.]+\/video\/\d+(\?comment_id=\d+)?$/
+  TikTok: /^https:\/\/www\.tiktok\.com\/@[\w.]+\/video\/\d+(\?comment_id=\d+)?$/,
+  // LINE OpenChat không có link công khai tới từng tin: tham chiếu nội bộ "line-openchat:<nhóm>#<ngày>T<giờ>".
+  "LINE OpenChat": /^line-openchat:[a-z0-9-]+#\d{4}-\d{2}-\d{2}T\d{2}:\d{2}$/
 };
-const PREFIX = { "Facebook Group": "facebook", "Facebook Fanpage": "facebook", YouTube: "youtube", TikTok: "tiktok" };
+const PREFIX = { "Facebook Group": "facebook", "Facebook Fanpage": "facebook", YouTube: "youtube", TikTok: "tiktok", "LINE OpenChat": "line" };
 
 const payloads = new Map();
 for (const file of (await readdir(dailyDir)).filter((name) => /^\d{4}-\d{2}-\d{2}\.json$/.test(name))) {
@@ -63,8 +65,10 @@ for (const raw of staging.items) {
   if (raw.out_of_scope && !raw.scope_note) problems.push("out_of_scope needs scope_note");
   if (problems.length) { errors.push(`${where}: ${problems.join("; ")}`); continue; }
   const id = raw.id || `${PREFIX[raw.source]}-${createHash("sha256").update(`${raw.link}|${normalize(raw.text_th)}|${raw.author_masked}|${raw.content_kind}`).digest("hex").slice(0, 16)}`;
-  if (existingIds.has(id) || existingKeys.has(`${raw.link}|${normalize(raw.text_th)}`)) { skipped.push(id); continue; }
-  existingIds.add(id); existingKeys.add(`${raw.link}|${normalize(raw.text_th)}`);
+  // LINE chỉ có tham chiếu theo phút: hai người cùng gửi một câu trong cùng phút vẫn là hai tin, nên chỉ so theo id.
+  const contentKey = raw.source === "LINE OpenChat" ? null : `${raw.link}|${normalize(raw.text_th)}`;
+  if (existingIds.has(id) || (contentKey && existingKeys.has(contentKey))) { skipped.push(id); continue; }
+  existingIds.add(id); if (contentKey) existingKeys.add(contentKey);
   const { date, ...rest } = raw;
   added.push({ date, item: {
     ...rest, id, topic: raw.topic || topicOf[raw.theme], topic_secondary: raw.topic_secondary || [], segment: raw.segment || "unknown",

@@ -572,7 +572,11 @@
     "Phát hiện ngày {0} qua tìm kiếm hằng ngày.": "Found on {0} by the daily search.",
     "Ngoài phạm vi: APK không chính thống": "Out of scope: unofficial APK",
     "Ngoài phạm vi hỗ trợ": "Out of support scope",
-    "Game không phát hành APK; lỗi do tải bản từ nguồn không chính thống, không phải lỗi game.": "The game has no APK; the error comes from a copy downloaded from an unofficial site, not a game bug."
+    "Game không phát hành APK; lỗi do tải bản từ nguồn không chính thống, không phải lỗi game.": "The game has no APK; the error comes from a copy downloaded from an unofficial site, not a game bug.",
+    "Tin nhắn LINE": "LINE message",
+    "Xuất file thủ công": "Manual file export",
+    "LINE OpenChat · {0} tin nhắn (file xuất thủ công)": "LINE OpenChat · {0} messages (manual export)",
+    "LINE · {0}": "LINE · {0}"
   },
   "terms": {
     "biểu tượng cảm xúc": "emoji",
@@ -887,6 +891,15 @@
     "vũ khí": "weapons",
     "hộp tiếp tế": "supply boxes",
     "siêu anh hùng": "superheroes",
-    "người ngoài hành tinh": "alien invasion"
+    "người ngoài hành tinh": "alien invasion",
+    "LINE OpenChat · Play Together Thailand": "LINE OpenChat · Play Together Thailand",
+    "bắn súng": "shooting",
+    "creator": "creator",
+    "gói vật phẩm": "item pack",
+    "nhóm chat": "group chat",
+    "thẻ vàng": "gold card",
+    "tivi trong game": "in-game TV",
+    "web nạp tiền": "top-up website",
+    "đồ ăn": "food"
   }
 }

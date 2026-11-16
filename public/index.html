@@ -562,7 +562,7 @@
     .sentiment-tag.Neutral { background:var(--neutral-soft); color:var(--neutral-ink); } .sentiment-tag.Mixed { background:var(--mixed-soft); color:var(--mixed-ink); }
     .intent-tag { background:var(--brand-soft); color:var(--brand-ink); }
     .scope-tag { display:inline-block; font-size:11px; font-weight:600; padding:2px 8px; border-radius:999px; background:var(--neutral-soft); color:var(--neutral-ink); border:1px dashed var(--neutral); white-space:nowrap; }
-    .status-chip { font-weight:600; } .status-full,.status-youtube,.status-tiktok { color:var(--positive-ink); } .status-discovered { background:var(--cyan-soft); color:var(--cyan-ink); } .status-partial { color:var(--mixed-ink); } .status-store { color:var(--brand-ink); }
+    .status-chip { font-weight:600; } .status-full,.status-youtube,.status-tiktok { color:var(--positive-ink); } .status-discovered { background:var(--cyan-soft); color:var(--cyan-ink); } .status-line { background:var(--positive-soft); color:var(--positive-ink); } .status-partial { color:var(--mixed-ink); } .status-store { color:var(--brand-ink); }
     .up-chip { color:var(--positive-ink); } .down-chip { color:var(--negative-ink); }
     .chip,.kw-chip { transition:border-color .18s var(--ease),color .18s var(--ease); }
     .quick-sent button { min-height:36px; transition:background .18s var(--ease),color .18s var(--ease); }
@@ -837,7 +837,9 @@
     const isStore = item => STORES.includes(item.source);
     // Review store thuộc app Play Together VNG hay app Global (HAEGIN); review cũ chỉ phân biệt được qua link store.
     const storeApp = item => /VNG/i.test(item.app_name||'')||/com\.vng\.playtogether|id1612175933/.test(item.link||'')?'VNG':'Global';
-    const contentKindLabel = value => ({post:'Bài đăng',comment:'Bình luận',review:'Đánh giá store',video:'Video YouTube'}[value]||value||'Phản hồi');
+    const contentKindLabel = value => ({post:'Bài đăng',comment:'Bình luận',review:'Đánh giá store',video:'Video YouTube',message:'Tin nhắn LINE'}[value]||value||'Phản hồi');
+    // Nguồn không có link công khai tới từng tin (vd LINE OpenChat dùng tham chiếu line-openchat:…) thì không hiện nút mở nguồn.
+    const openLink = i => /^https?:\/\//.test(i.link||'');
     const kindLabel = item => isStore(item) ? 'Đánh giá store' : contentKindLabel(item.content_kind);
     const activityLabel = item => item.activity_type || kindLabel(item);
     const channelName = item => item.community||item.source||'Chưa xác định';
@@ -1067,7 +1069,7 @@
     }
     function showKeyword(name,sentiment){
       const rows=selectedItems().filter(i=>keywordsOf(i).includes(name)&&(!sentiment||(i.sentiment===sentiment&&isOpinion(i)))).sort((a,b)=>itemTime(b)-itemTime(a));
-      $('#themeDetail').innerHTML=`<h2>${esc(name)}</h2><p class="muted">${rows.length} phản hồi ${sentiment?sentimentLabel(sentiment).toLocaleLowerCase('vi-VN'):''} · ${esc(periodLabel())}</p>`+rows.map(i=>`<div class="quote"><span class="sentiment-tag ${esc(i.sentiment)}">${esc(sentimentLabel(i.sentiment))}</span> <span class="intent-tag">${esc(intentLabel(i))}</span> <span class="muted small">${esc(dateLabel(i.date))} · ${esc(sourceLabel(channelName(i)))}</span>${sv(i)?`<div class="small" style="margin-top:4px">${esc(sv(i))}</div>`:''}<div style="margin-top:4px"><strong>${esc(tv(i))}</strong></div><span class="thai">Nguyên văn: ${esc(i.text_th)}</span><a href="${esc(i.link)}" target="_blank" rel="noopener">Mở nguồn ↗</a></div>`).join('');
+      $('#themeDetail').innerHTML=`<h2>${esc(name)}</h2><p class="muted">${rows.length} phản hồi ${sentiment?sentimentLabel(sentiment).toLocaleLowerCase('vi-VN'):''} · ${esc(periodLabel())}</p>`+rows.map(i=>`<div class="quote"><span class="sentiment-tag ${esc(i.sentiment)}">${esc(sentimentLabel(i.sentiment))}</span> <span class="intent-tag">${esc(intentLabel(i))}</span> <span class="muted small">${esc(dateLabel(i.date))} · ${esc(sourceLabel(channelName(i)))}</span>${sv(i)?`<div class="small" style="margin-top:4px">${esc(sv(i))}</div>`:''}<div style="margin-top:4px"><strong>${esc(tv(i))}</strong></div><span class="thai">Nguyên văn: ${esc(i.text_th)}</span>${openLink(i)?`<a href="${esc(i.link)}" target="_blank" rel="noopener">Mở nguồn ↗</a>`:''}</div>`).join('');
       $('#themeDialog').showModal();
     }
     function chart(id,type,data,opts={}){
@@ -1137,7 +1139,7 @@
       document.querySelectorAll('[data-filter-sent]').forEach(b=>b.onclick=()=>focusExplorer({sentimentFilter:b.dataset.filterSent}));
       chart('sentimentDonut','doughnut',{labels:SENTIMENTS.map(sentimentLabel),datasets:[{data:SENTIMENTS.map(k=>s[k]),backgroundColor:SENTIMENTS.map(k=>cssVar(`--${k.toLowerCase()}`)),borderWidth:0}]},{cutout:'70%',plugins:{legend:{display:false},tooltip:{callbacks:{label:ctx=>` ${ctx.label}: ${ctx.parsed} (${pct(ctx.parsed,n)})`}}},scales:{x:{display:false},y:{display:false}},onClick:(e,els)=>{ if(els.length) focusExplorer({sentimentFilter:SENTIMENTS[els[0].index]}) }});
     }
-    function sourceKind(name,items){if(STORES.includes(name))return'Store · đánh giá';if(name==='YouTube'||name==='TikTok'){const v=items.filter(i=>i.content_kind==='video').length;return`${name} · ${v} video, ${items.length-v} bình luận`}if(/^Facebook Fanpage/.test(name))return'Fanpage · bình luận người dùng';const posts=items.filter(i=>i.content_kind==='post').length;return`Group · ${posts} bài đăng, ${items.length-posts} bình luận`}
+    function sourceKind(name,items){if(STORES.includes(name))return'Store · đánh giá';if(name==='YouTube'||name==='TikTok'){const v=items.filter(i=>i.content_kind==='video').length;return`${name} · ${v} video, ${items.length-v} bình luận`}if(/^Facebook Fanpage/.test(name))return'Fanpage · bình luận người dùng';if(/^LINE OpenChat/.test(name))return`LINE OpenChat · ${items.length} tin nhắn (file xuất thủ công)`;const posts=items.filter(i=>i.content_kind==='post').length;return`Group · ${posts} bài đăng, ${items.length-posts} bình luận`}
     function spark(values,color){const max=Math.max(1,...values),step=values.length>1?100/(values.length-1):0,points=values.map((v,i)=>`${(i*step).toFixed(1)},${(30-v/max*26-2).toFixed(1)}`).join(' ');return`<svg class="spark" viewBox="0 0 100 30" preserveAspectRatio="none" aria-hidden="true"><polyline points="${points}" fill="none" stroke="${color}" stroke-width="2" vector-effect="non-scaling-stroke" stroke-linejoin="round"/></svg>`}
     function renderSourceKpis(items,previous){
       const groups=countBy(items,channelName),n=items.length,typeOf=name=>name==='YouTube'||name==='TikTok'?'Video':STORES.includes(name)?'Store':'Facebook';
@@ -1159,7 +1161,7 @@
     }
     function renderSourceCards(items,previous){
       const undated=rawSelectedItems().filter(i=>i.date_basis==='observed_at');
-      const order={full:0,partial:1,youtube:1.5,tiktok:1.6,store:2,inactive:3,not_collected:4,pending:5,discovered:6};
+      const order={full:0,partial:1,youtube:1.5,tiktok:1.6,line:1.7,store:2,inactive:3,not_collected:4,pending:5,discovered:6};
       const idleStatus=st=>st==='pending'||st==='not_collected'||st==='inactive'||st==='discovered';
       const extra=[...new Set([...items,...previous].map(channelName))].filter(n=>!rosterEntry(n)).map(key=>({key,status:'partial'}));
       const entries=[...roster(),...extra].map(r=>({...r,count:items.filter(i=>channelName(i)===r.key).length})).sort((a,b)=>(order[a.status]??9)-(order[b.status]??9)||b.count-a.count);
@@ -1285,7 +1287,7 @@
     function renderFeedback(){
       filterItems();renderActiveFilters();const size=30,total=Math.max(1,Math.ceil(state.filtered.length/size));state.page=Math.min(state.page,total);const rows=state.filtered.slice((state.page-1)*size,state.page*size);
       $('#feedbackRows').innerHTML=rows.map(i=>`<article class="feed-item ${esc(i.sentiment)}">
-        <div class="feed-meta"><span class="sentiment-tag ${esc(i.sentiment)}">${esc(sentimentLabel(i.sentiment))}</span><span class="intent-tag">${esc(intentLabel(i))}</span>${i.out_of_scope?`<span class="scope-tag" title="${esc(i.scope_note||'')}">${esc(SCOPE_LABELS[i.out_of_scope]||'Ngoài phạm vi hỗ trợ')}</span>`:''}<span class="muted small">${esc(dateLabel(i.date))}${i.date_basis==='observed_at'?' · chưa rõ ngày đăng (ngày thu thập)':''} · ${esc(sourceLabel(channelName(i)))} · ${esc(kindLabel(i))}${Number.isFinite(i.rating)?` · ${'★'.repeat(i.rating)}`:''}</span><a class="feed-link small" href="${esc(i.link)}" target="_blank" rel="noopener">Mở nguồn ↗</a></div>
+        <div class="feed-meta"><span class="sentiment-tag ${esc(i.sentiment)}">${esc(sentimentLabel(i.sentiment))}</span><span class="intent-tag">${esc(intentLabel(i))}</span>${i.out_of_scope?`<span class="scope-tag" title="${esc(i.scope_note||'')}">${esc(SCOPE_LABELS[i.out_of_scope]||'Ngoài phạm vi hỗ trợ')}</span>`:''}<span class="muted small">${esc(dateLabel(i.date))}${i.date_basis==='observed_at'?' · chưa rõ ngày đăng (ngày thu thập)':''} · ${esc(sourceLabel(channelName(i)))} · ${esc(kindLabel(i))}${Number.isFinite(i.rating)?` · ${'★'.repeat(i.rating)}`:''}</span>${openLink(i)?`<a class="feed-link small" href="${esc(i.link)}" target="_blank" rel="noopener">Mở nguồn ↗</a>`:'<span class="feed-link small muted">LINE · '+esc(String(i.link||'').split('T').pop())+'</span>'}</div>
         ${sv(i)?`<div class="feed-summary" data-raw>${esc(sv(i))}</div>`:''}
         <div class="feed-text" data-raw>${esc(tv(i))}${i.translation_method==='machine_translation'?' <small class="muted">(dịch máy)</small>':isSummaryText(i)?' <small class="muted">(tóm tắt, chưa phải bản dịch)</small>':''}</div>
         <details class="feed-orig"><summary>Nguyên văn</summary><div class="thai">${esc(i.text_th)}</div></details>

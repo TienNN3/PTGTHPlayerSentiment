@@ -52,6 +52,15 @@ Lượt chạy có thể bị lỡ (app đóng lúc 6h, máy tắt, lượt trư
 - Danh sách creator dài (có nhóm `list: "creator_list_2026"` từ danh sách creator của đội marketing, phần lớn chơi Free Fire/Roblox/RoV và chỉ thỉnh thoảng làm video Play Together). Mỗi lượt quét **luân phiên**: luôn quét creator đã có video Play Together trong 30 ngày (`last_pt_video` ≤ 30 ngày) và creator `source` khác `creator_list_2026`, cộng thêm khoảng 20 creator còn lại có `last_checked` cũ nhất. Ghi `last_checked: "D"` cho creator đã quét, `last_pt_video: "<ngày>"` khi thấy video Play Together tiếng Thái. Chỉ lấy video **về Play Together** (video game khác bỏ qua). Áp dụng tương tự cho kênh YouTube có `list: "creator_list_2026"`.
 - Ngày video lấy từ ID (giây = `BigInt(id) >> 32n`). Chỉ giữ video tiếng Thái ngày `D`; bình luận tiếng Thái (bỏ bình luận tiếng Việt, chủ kênh, chỉ emoji). Gặp CAPTCHA: ghi `blocked`, không giải.
 
+## 2a. LINE OpenChat (nhập tay, không thu thập tự động)
+
+- Nhóm `LINE OpenChat · Play Together Thailand` không đọc được tự động. Người dùng xuất file `.txt` từ LINE (Chat → Settings → Export chat history) và gửi vài ngày một lần. Lượt chạy 6h **không** mở LINE; `check-gaps.mjs` không đòi chạy bù cho LINE.
+- Khi có file mới:
+  1. Chạy `node scripts/parse-line.mjs "<file.txt>" .staging/line-<ngày>`. Script bỏ tin hệ thống, sticker, ảnh, lời chào/cảm ơn, link trơn; gộp tin liền nhau của cùng người trong 3 phút; che tên dạng X***; id ổn định nên file chồng ngày không tạo trùng.
+  2. Dịch + gắn nhãn `line-candidates.json` theo đúng thứ tự hội thoại (tin ngắn phải hiểu theo tin xung quanh), cùng các trường như mục 3; `content_kind: "message"`.
+  3. Tách theo ngày và nhập từng ngày bằng `node scripts/import-daily.mjs` (`target_date` = ngày đó). Ngày cuối trong file thường chỉ có một phần ngày (đến giờ xuất file): vẫn nhập, lần sau phần còn lại tự bổ sung.
+  4. Cập nhật `detail` của nguồn LINE trong `sources.json` (khoảng ngày đã có).
+
 ## 2b. Tìm nguồn mới (mỗi lượt, tối đa ~15 phút)
 
 Mục tiêu: danh sách nguồn không bị cố định. Khi có group cộng đồng, kênh YouTube hay creator TikTok mới nói về Play Together bằng tiếng Thái thì đưa vào theo dõi.

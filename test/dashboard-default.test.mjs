@@ -230,3 +230,21 @@ test("checks for missing collection days before each daily run", async () => {
   const runbook = await readFile(new URL("../docs/daily-collection.md", import.meta.url), "utf8");
   assert.match(runbook, /## 0b\. Kiểm tra dashboard và chạy bù ngày thiếu/);
 });
+
+test("parses a LINE OpenChat export into masked, deduplicated chat items", async () => {
+  const { mkdtemp, writeFile: write } = await import("node:fs/promises");
+  const { tmpdir } = await import("node:os");
+  const { execFileSync } = await import("node:child_process");
+  const dir = await mkdtemp(`${tmpdir()}/line-`);
+  await write(`${dir}/chat.txt`, [
+    "2026.11.14 Saturday", "12:01 bunny ply 🐰. joined the chat.", "12:02 bunny ply 🐰. Stickers", "12:03 bunny ply 🐰. สวัสดีค่ะ",
+    "12:04 bunny ply 🐰. ขาดทอง1ใบ", "12:05 bunny ply 🐰. ชุดแรก", "12:30 Unknown เว็บเติมล่ม", "ค้างเข้าไม่ได้เลย", "12:31 Unknown unsent a message."
+  ].join("\n"));
+  execFileSync(process.execPath, [new URL("../scripts/parse-line.mjs", import.meta.url).pathname, `${dir}/chat.txt`, dir]);
+  const items = JSON.parse(await readFile(`${dir}/line-candidates.json`, "utf8"));
+  assert.equal(items.length, 2);
+  assert.equal(items[0].author_masked, "b***");
+  assert.equal(items[0].text_th, "ขาดทอง1ใบ\nชุดแรก", "same author within 3 minutes is merged, sticker and greeting dropped");
+  assert.equal(items[1].text_th, "เว็บเติมล่ม\nค้างเข้าไม่ได้เลย", "continuation lines stay with their message");
+  assert.match(items[1].link, /^line-openchat:play-together-thailand#2026-11-14T12:30$/);
+});

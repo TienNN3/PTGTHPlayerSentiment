@@ -1,0 +1,170 @@
+{
+  "target_date": "2026-11-15",
+  "time_zone": "Asia/Bangkok",
+  "checked_at": "2026-11-16T03:16:35.075Z",
+  "status": "partial",
+  "added_feedback": 52,
+  "added_ratings": 0,
+  "collection_complete": false,
+  "summary_vn": "Ngày 15/11/2026: thêm 52 phản hồi — group Community 41 (18 bài + 23 bình luận: câu cá quái vật/cá khổng lồ, lai thú cưng khủng long, boss người ngoài hành tinh, mở 125 gói hạt giống không ra cây phong, khó kiếm baobab/thẻ vàng, sự kiện xe tuk tuk không hiện/không đăng ký được, chuyển tài khoản sang VNG bị tạo nhân vật mới), group chợ/mua bán/trao đổi 11. YouTube, TikTok, fanpage và group Official không có phản hồi tiếng Thái ngày 15/11. Thêm 1 creator TikTok look-alike (tra_862). Group riêng tư 3 cái vẫn chưa vào được. Sensor Tower bỏ qua theo runbook.",
+  "sources": [
+    {
+      "key": "Facebook Group · playtogetherth",
+      "status": "partial",
+      "added_feedback": 41,
+      "detail": "New posts (cuộn tới bài 2 ngày trước), mở từng bài: 18 bài người chơi ngày 15/11 (câu cá quái vật/cá khổng lồ, lai thú cưng khủng long, boss người ngoài hành tinh rớt thú cưng, mở 125 gói hạt giống không ra cây phong, khó kiếm cây baobab/thẻ vàng, sự kiện xe tuk tuk không hiện/không đăng ký được, chuyển tài khoản sang VNG bị tạo nhân vật mới, người chơi quay lại hỏi máy chủ Thái) + 23 bình luận cấp 1 ngày 15/11. Bỏ bài/bình luận nhân viên (Walaipan, Thititat, Natthakorn), trả lời lồng nhau, bình luận cảm ơn/quá ngắn, bình luận sau 00:00 16/11 (bài 29067253 = 23:56 15/11 theo tooltip; mốc 00:00 15/11 ≈ comment-ID 29053.2e12, bài 29052989 = 22:29 14/11, 29053431 = 01:28 15/11). Đã kiểm tra bình luận ngày 15/11 dưới 6 bài 14/11 gần mốc + 3 bài nhân viên ngày 15/11: không có. Dữ liệu 14/09 – 15/11 (thiếu ngày 14/11: chưa có lượt chạy cho ngày này)."
+    },
+    {
+      "key": "Facebook Group · 815754622673816",
+      "status": "partial",
+      "added_feedback": 5,
+      "detail": "New posts: ngày 15/11 có 5 bài (nhận cày thuê nhiệm vụ/xu, nhờ định giá tài khoản còn 1600 kim cương, rao bán nhân sâm/baobab/cây phong, bán thẻ/tiền nông trại). Bài \"a day ago\" xác định ngày qua permalink. Không đọc bình luận (trừ bình luận bổ sung của chủ bài)."
+    },
+    {
+      "key": "Facebook Group · 1772363333745643",
+      "status": "partial",
+      "added_feedback": 0,
+      "detail": "New posts: không có bài người chơi ngày 15/11 (các bài \"a day ago\" là bài admin 14/11: gia hạn sự kiện, LINE OpenChat; không có bình luận người chơi ngày 15/11). Bài người chơi mới nhất 14/11."
+    },
+    {
+      "key": "Facebook Group · 562362538882428",
+      "status": "checked",
+      "added_feedback": 0,
+      "detail": "Kiểm tra nhanh 16/11: trang group không hiện feed/bài mới; giữ inactive."
+    },
+    {
+      "key": "Facebook Group · 3252260471541104",
+      "status": "blocked",
+      "added_feedback": 0,
+      "detail": "Group riêng tư 16.8K thành viên; kiểm tra 16/11 vẫn thấy nút Join group (chưa là thành viên). Không gửi yêu cầu, không đọc được bài."
+    },
+    {
+      "key": "Facebook Group · 356675609124267",
+      "status": "blocked",
+      "added_feedback": 0,
+      "detail": "Group riêng tư 7.4K thành viên, yêu cầu thành viên vẫn chờ duyệt (kiểm tra 16/11); không đọc được bài/bình luận."
+    },
+    {
+      "key": "Facebook Group · 473704433937505",
+      "status": "partial",
+      "added_feedback": 3,
+      "detail": "New posts: ngày 15/11 có 3 bài (2 bài rao bán đăng cùng group chợ, 1 bài nhận cày thuê Alien Invasion). Bài Med Noon \"a day ago\" xếp ngày 15/11 vì đăng cùng lúc bài ở group chợ (09:25 15/11)."
+    },
+    {
+      "key": "Facebook Group · 847315523442353",
+      "status": "blocked",
+      "added_feedback": 0,
+      "detail": "Group riêng tư 3.8K thành viên; kiểm tra 16/11 không hiện feed (vẫn chờ duyệt), không đọc được bài/bình luận."
+    },
+    {
+      "key": "Facebook Group · 253674809721451",
+      "status": "partial",
+      "added_feedback": 0,
+      "detail": "New posts: không có bài ngày 15/11 (bài mới nhất vẫn 28/10; nếu tới 27/11 vẫn không có bài sẽ chuyển inactive)."
+    },
+    {
+      "key": "Facebook Group · 493177613552238",
+      "status": "partial",
+      "added_feedback": 3,
+      "detail": "New posts: ngày 15/11 có 3 bài tìm đổi thẻ (bài không nhãn/\"a day ago\" xác định ngày qua permalink: 09:39 15/11; 2 bài 14/11 bỏ)."
+    },
+    {
+      "key": "Facebook Fanpage · @playtogetherthailandofficial",
+      "status": "partial",
+      "added_feedback": 0,
+      "detail": "Các bài gần đây (reel creator challenge 15/11, livestream Its Tomaz Time 15/11, bài \"ไม่เติมแปลว่า\" và livestream Zbing 14/11, gói Sion): bài 15/11 không có bình luận người dùng; 3 bình luận dưới bài 14/11 có nhãn 1d (1 bình luận xác định 16:40 14/11), không xác định được ngày 15/11 nên không lấy."
+    },
+    {
+      "key": "YouTube",
+      "status": "partial",
+      "added_feedback": 0,
+      "detail": "RSS trả 404/500 cho hầu hết kênh → quét trang kênh (videos/shorts/streams) của 20 kênh active + kênh chính thức, lấy publishDate từng video: không có video Play Together tiếng Thái ngày 15/11 (Teddy Chanelplay mới nhất 14/11, Wine Channel 13/11, kênh chính thức 11/11). Tìm kiếm 7 từ khoá (lọc tuần, gl=TH): video ngày 15/11 đều là kênh Việt Nam hoặc không phải Play Together. Bình luận ngày 15/11 dưới 9 video gần đây của kênh chính thức/creator: chỉ có bình luận tiếng Việt/Anh ngắn, bỏ."
+    },
+    {
+      "key": "TikTok",
+      "status": "partial",
+      "added_feedback": 0,
+      "detail": "Hồ sơ creator: bấm \"Mới nhất\" để tải lưới video (đọc dữ liệu API của trang). Quét 42 creator (22 có video PT trong 30 ngày/ngoài danh sách + 20 creator_list_2026 có last_checked cũ nhất) + kênh chính thức: video ngày 15/11 đều là Free Fire (FFWS 2026), RoV, MLBB, PUBG…, không có video Play Together. Kênh chính thức không có video 15/11; bình luận ngày 15/11 dưới 8 video gần nhất đều tiếng Việt/Ba Lan/chỉ 1 chữ, bỏ. Tìm kiếm \"play together ไทย\", \"play together vng ตุ๊กตุ๊ก\", #ptgcreatorth: không có video Thái ngày 15/11."
+    }
+  ],
+  "discovery": {
+    "queries": [
+      "facebook group: \"play together vng\", \"เพลย์ทูเก็ตเตอร์\"",
+      "youtube: play together, playtogether vng, เพลย์ทูเก็ตเตอร์, play together ไทย, #playtogethervng, #playtogetherth, play together ตุ๊กตุ๊ก (lọc tuần, gl=TH)",
+      "tiktok: play together ไทย, #ptgcreatorth, play together vng ตุ๊กตุ๊ก, #playtogetherth #freefire (look-alike)"
+    ],
+    "added": [
+      {
+        "type": "tiktok",
+        "id": "tra_862",
+        "name": "เล่นไปเรื่อยยย(621)",
+        "status": "active",
+        "evidence": "Video 7707310920044645638 (12/11) \"รับตุ๊กตุ๊กฟรี\" #PTGCREATORTH #PLAYTOGETHERVNG; creator game Thái (Gangstar Mirage City/Free Fire), ~626 follower; look-alike nhóm creator_list_2026"
+      }
+    ],
+    "rejected": [
+      {
+        "type": "group",
+        "id": "1327522681528239",
+        "reason": "\"Play Together VNG\" ~102.8K thành viên, cộng đồng Việt Nam"
+      },
+      {
+        "type": "group",
+        "id": "899894796458912",
+        "reason": "Play Together VNG Philippines Official, không phải Thái"
+      },
+      "Không thêm: kết quả tìm group còn lại là group Việt Nam/Global đã bị loại trước đó hoặc không liên quan (cosplay, Character AI…); kênh YouTube trong kết quả đều là kênh Việt Nam/không phải Play Together; TikTok sunplay55, nocnocpt, enbbie, avan1812, anhtran2301 là creator Việt Nam (chưa ghi reject)."
+    ],
+    "inactive": [],
+    "lookalike": {
+      "seeds_checked": [
+        "lungtop_taiyang",
+        "nai9studio",
+        "jasminniiiz.jsmz"
+      ],
+      "note": "Trang gợi ý tài khoản tương tự của TikTok không hiện khi chưa đăng nhập TikTok → tìm theo hashtag game chính + Play Together và từ khoá sự kiện tuk tuk; tìm thấy tra_862.",
+      "added": [
+        "tra_862"
+      ]
+    },
+    "creator_rotation": {
+      "date": "2026-11-15",
+      "tiktok_scanned": 42,
+      "youtube_scanned": 20,
+      "method": "TikTok: trang hồ sơ + bấm \"Mới nhất\" (lưới video tải qua API của trang); YouTube: trang kênh + publishDate (RSS lỗi 404/500)",
+      "pt_videos_on_D": [],
+      "note": "Creator có video PT gần nhất: rukkung2000, lemondoggopt, teddychanel, nightkubnong (14/11). Ngày 15/11 phần lớn creator đăng video Free Fire (FFWS 2026)."
+    },
+    "notes": "Ngày 14/11 chưa có lượt thu thập (lượt 14/11 chạy cho D=13/11, lượt 15/11 không chạy) nên dữ liệu 14/11 đang trống.",
+    "needs_user_action": [
+      "Group riêng tư: 3252260471541104 (chưa là thành viên, https://www.facebook.com/groups/3252260471541104/), 356675609124267 và 847315523442353 (vẫn chờ duyệt) — nếu muốn thu thập, người dùng tự tham gia/kiểm tra.",
+      "Kênh YouTube @nnewsrns (Newnew) trong danh sách creator vẫn chưa có channel id (trả 404 trước đó) — kiểm tra lại link kênh.",
+      "Ngày 14/11/2026 chưa được thu thập; nếu cần, chạy lại task cho D=14/11."
+    ]
+  },
+  "sensor_tower": {
+    "status": "skipped",
+    "note": "Bỏ qua theo runbook; người dùng tự cập nhật tay."
+  },
+  "new_feedback": {
+    "by_source": {
+      "Facebook Group": 52
+    },
+    "by_community": {
+      "Facebook Group · playtogetherth": 41,
+      "Facebook Group · 815754622673816": 5,
+      "Facebook Group · 473704433937505": 3,
+      "Facebook Group · 493177613552238": 3
+    },
+    "by_kind": {
+      "post": 29,
+      "comment": 23
+    },
+    "by_sentiment": {
+      "Neutral": 32,
+      "Negative": 13,
+      "Positive": 6,
+      "Mixed": 1
+    }
+  }
+}

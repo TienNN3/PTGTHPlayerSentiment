@@ -1,0 +1,165 @@
+{
+  "target_date": "2026-11-18",
+  "time_zone": "Asia/Bangkok",
+  "checked_at": "2026-11-18T23:49:26.274Z",
+  "status": "partial",
+  "added_feedback": 68,
+  "added_ratings": 0,
+  "collection_complete": false,
+  "summary_vn": "Ngày 18/11/2026: thêm 68 phản hồi — group Community 47 (11 bài + 36 bình luận: nhiều người than cây phong chỉ đạt 800–1.000 dù cắm nhiều vòi tưới, nghi bị nerf; câu cá cả buổi chỉ gặp 1 bóng còn đứt dây; hỏi chơi Steam / bản Global sau ngày 26; người Thái ở nước ngoài tải bản VNG; sự kiện cũ/Mandrake), group thẻ 8, group chợ/mua bán 4, group Official 3 (lỗi Google Play \"không khả dụng ở quốc gia của bạn\" khi nạp), fanpage 1, YouTube 2, TikTok 3. 3 group riêng tư vẫn chưa vào được. Không có nguồn mới phù hợp (loại 1 group Việt Nam và 4 tài khoản TikTok). Sensor Tower bỏ qua theo runbook.",
+  "sources": [
+    {
+      "key": "Facebook Group · playtogetherth",
+      "status": "partial",
+      "added_feedback": 47,
+      "detail": "New posts + Recent activity, mở từng bài: 11 bài người chơi ngày 18/11 (cây phong chỉ đạt 800–1.000 dù cắm nhiều vòi tưới — nhiều người than bị nerf, hỏi chơi Steam sau khi chuyển VNG / bản Global sau ngày 26, câu cá cả sáng chỉ gặp 1 bóng còn đứt dây, sự kiện cũ có quay lại không (Mandrake), cần câu cá phát sáng, cần bao nhiêu vòi tưới cho rau khổng lồ, tìm bạn câu cá, cá bánh ngọt ở đâu, xin ảnh hộp quay) + 36 bình luận/trả lời ngày 18/11 (kể cả bài nhân viên hỏi người Thái ở nước ngoài tải bản VNG và 9 bài cũ trong Recent activity). Bỏ bài/bình luận nhân viên (Walaipan), bình luận quá ngắn/chỉ tag tên, bình luận sau 00:00 19/11. Mốc: bài 29097057 = 01:40 18/11, 29097645 = 02:37 18/11 (permalink); 00:00 19/11 ≈ ID 29109.2e12. Dữ liệu 14/09 – 18/11."
+    },
+    {
+      "key": "Facebook Group · 815754622673816",
+      "status": "partial",
+      "added_feedback": 3,
+      "detail": "New posts: ngày 18/11 có 3 bài (hỏi nhập code trên VNG iOS 22:29 theo tooltip, 2 bài rao bán View Ch / Med Noon); bài \"...ยกเมล\" của Pakorn là 23:00 17/11. Không đọc bình luận (bình luận \"4 hours ago\" thuộc 19/11)."
+    },
+    {
+      "key": "Facebook Group · 1772363333745643",
+      "status": "partial",
+      "added_feedback": 3,
+      "detail": "New posts: ngày 18/11 có 2 bài người chơi (không mua được trong game do Google Play báo \"không khả dụng ở quốc gia của bạn\" + 1 bình luận khuyên mua qua web; hỏi cách dùng máy dò đàn cá 00:37 18/11). Bài \"4 hours ago\" hỏi lợi ích chuyển sang VNG thuộc 19/11. Bài phát code 16/11 không có bình luận mới."
+    },
+    {
+      "key": "Facebook Group · 562362538882428",
+      "status": "checked",
+      "added_feedback": 0,
+      "detail": "Kiểm tra nhanh 19/11: 53 thành viên, bài mới nhất 14/03/2023; giữ inactive."
+    },
+    {
+      "key": "Facebook Group · 3252260471541104",
+      "status": "blocked",
+      "added_feedback": 0,
+      "detail": "Group riêng tư 16.8K thành viên; kiểm tra 19/11 vẫn thấy nút Join group (chưa là thành viên). Không gửi yêu cầu, không đọc được bài."
+    },
+    {
+      "key": "Facebook Group · 356675609124267",
+      "status": "blocked",
+      "added_feedback": 0,
+      "detail": "Group riêng tư 7.4K thành viên, yêu cầu thành viên vẫn chờ duyệt (kiểm tra 19/11); không đọc được bài/bình luận."
+    },
+    {
+      "key": "Facebook Group · 473704433937505",
+      "status": "partial",
+      "added_feedback": 1,
+      "detail": "New posts: ngày 18/11 có 1 bài rao bán (Med Noon, đăng chéo từ group chợ)."
+    },
+    {
+      "key": "Facebook Group · 847315523442353",
+      "status": "blocked",
+      "added_feedback": 0,
+      "detail": "Group riêng tư 3.8K thành viên, vẫn chờ duyệt (kiểm tra 19/11); không đọc được bài/bình luận."
+    },
+    {
+      "key": "Facebook Group · 253674809721451",
+      "status": "partial",
+      "added_feedback": 0,
+      "detail": "New posts: không có bài ngày 18/11 (bài mới nhất vẫn 28/10; nếu tới 27/11 vẫn không có bài sẽ chuyển inactive)."
+    },
+    {
+      "key": "Facebook Group · 493177613552238",
+      "status": "partial",
+      "added_feedback": 8,
+      "detail": "New posts: ngày 18/11 có 7 bài tìm đổi thẻ (00:37 – 17h trước) + 1 bình luận cập nhật đã đổi được thẻ. Bình luận trao đổi tên trong game bỏ qua."
+    },
+    {
+      "key": "Facebook Fanpage · @playtogetherthailandofficial",
+      "status": "partial",
+      "added_feedback": 1,
+      "detail": "Các bài gần đây (gói \"chế độ lười\", vị trí 15 hộp tiếp tế, thông báo bản Global ngừng truy cập): 1 bình luận người dùng ngày 18/11 (00:02 theo tooltip, lo người chơi cũ bỏ game) dưới thông báo Global."
+    },
+    {
+      "key": "YouTube",
+      "status": "partial",
+      "added_feedback": 2,
+      "detail": "RSS 20 kênh active + kênh chính thức: ngày 18/11 có 1 video Play Together (Teddy Chanelplay gợi ý thú cưng cho sự kiện Siêu anh hùng) + 1 bình luận hỏi mua ở đâu; video 18/11 của các kênh khác không phải Play Together (JAI RAW GTA6, FANG8FANG/Sleepy/Bennyy PUBG, STAG FLATION, AL_STAR, AuAu Roblox, PP Dog Roblox). Kênh chính thức không có video mới 18/11. Tìm kiếm \"play together ไทย\", \"#playtogetherth\", \"play together vng เพลย์ทูเก็ตเตอร์\" (tuần): chỉ kênh Việt Nam/Global."
+    },
+    {
+      "key": "TikTok",
+      "status": "partial",
+      "added_feedback": 3,
+      "detail": "Hồ sơ creator (bấm \"Mới nhất\" ghim cố định để lưới tải): quét 53 creator (33 có video PT trong 30 ngày/ngoài danh sách + 20 creator_list_2026 có last_checked cũ nhất) + kênh chính thức. Ngày 18/11 có 2 video Play Together tiếng Thái (lemondoggopt hậu trường làm clip #PTGCREATOR, teddychanel gợi ý thú cưng sự kiện Anh hùng) + 1 bình luận tiếng Thái; các video 18/11 khác là Free Fire (FFWS), PUBG, Roblox. Kênh chính thức: không có video mới, bình luận 18/11 không phải tiếng Thái. @ameer.hamza99970, @anwaasmr, @gnox1_taiyang báo không tìm thấy tài khoản; @everyfdzilj không có video."
+    }
+  ],
+  "discovery": {
+    "queries": [
+      "facebook group: \"play together vng thailand\"",
+      "youtube: play together ไทย, #playtogetherth, play together vng เพลย์ทูเก็ตเตอร์ (lọc tuần)",
+      "tiktok: play together vng ไทย (tìm kiếm video)"
+    ],
+    "added": [],
+    "rejected": [
+      "group 670158255657727 (Trao Đổi Thẻ Sự Kiện PlayTogether VNG — group Việt Nam); các group khác trong kết quả (1327522681528239, 1008259846929991, 223606940317809, ptvng, 1210130356809985, 440876155165491) là group Việt Nam đã có trong rejected",
+      "tiktok hotqueen876, m0ssjuabf88888, meow.6678: tài khoản đu hashtag PUBG/HoK/Once Human, không có video Play Together tiếng Thái",
+      "tiktok shadow_1l: video Play Together mới nhất 09/08/2026 (>30 ngày)",
+      "YouTube: kết quả tìm kiếm tuần chỉ có kênh Việt Nam/Global (Play Together VNG VN, Thịnh Zuka, BEDY TOGETHER, Otil, JunB Play…)"
+    ],
+    "inactive": [],
+    "lookalike": {
+      "seeds_checked": [
+        "lemondoggopt",
+        "teddychanel",
+        "hoysang9"
+      ],
+      "note": "Kiểm tra lại 3 tài khoản lượt trước để ngỏ (hotqueen876, m0ssjuabf88888, meow.6678): đều là tài khoản đu hashtag nhiều game → loại. Tìm kiếm TikTok \"play together vng ไทย\" chỉ ra kênh chính thức và creator đã theo dõi (anwasedrep, ppdog01, teddychanel). Mục gợi ý tài khoản trên TikTok vẫn chỉ hiện tài khoản Việt Nam.",
+      "added": []
+    },
+    "creator_rotation": {
+      "date": "2026-11-18",
+      "tiktok_scanned": 53,
+      "youtube_scanned": 20,
+      "method": "TikTok: trang hồ sơ, ghim nút \"Mới nhất\" rồi bấm thật để lưới tải; YouTube: RSS từ Bash",
+      "pt_videos_on_D": [
+        "lemondoggopt/7709431454572285204",
+        "teddychanel/7709422781368192276",
+        "YouTube Teddy Chanelplay/Ep6LEcp-Lf0"
+      ],
+      "note": "Ngày 18/11 phần lớn creator đăng Free Fire (FFWS 2026), PUBG, Roblox. Lượt sau tiếp tục creator_list_2026 có last_checked cũ nhất (từ 13/11)."
+    },
+    "needs_user_action": [
+      "Group riêng tư: 3252260471541104 (chưa là thành viên, https://www.facebook.com/groups/3252260471541104/), 356675609124267 và 847315523442353 (vẫn chờ duyệt) — nếu muốn thu thập, người dùng tự tham gia/kiểm tra.",
+      "Creator TikTok @ameer.hamza99970, @anwaasmr, @gnox1_taiyang báo không tìm thấy tài khoản (và @anbam7 từ lượt trước) — kiểm tra lại handle trong danh sách creator.",
+      "Kênh YouTube @nnewsrns (Newnew) vẫn chưa có channel id.",
+      "Trang TikTok (@tiktokpoomjaii, @elsa_zaaaa) đã ghi vào clipboard khi bấm tự động — kiểm tra clipboard trước khi dán."
+    ]
+  },
+  "sensor_tower": {
+    "status": "skipped",
+    "note": "Bỏ qua theo runbook; người dùng tự cập nhật tay."
+  },
+  "new_feedback": {
+    "by_source": {
+      "Facebook Group": 62,
+      "Facebook Fanpage": 1,
+      "YouTube": 2,
+      "TikTok": 3
+    },
+    "by_community": {
+      "Facebook Group · playtogetherth": 47,
+      "Facebook Group · 815754622673816": 3,
+      "Facebook Group · 1772363333745643": 3,
+      "Facebook Group · 473704433937505": 1,
+      "Facebook Group · 493177613552238": 8,
+      "Facebook Fanpage · @playtogetherthailandofficial": 1,
+      "YouTube": 2,
+      "TikTok": 3
+    },
+    "by_kind": {
+      "post": 24,
+      "comment": 41,
+      "video": 3
+    },
+    "by_sentiment": {
+      "Neutral": 43,
+      "Negative": 14,
+      "Positive": 10,
+      "Mixed": 1
+    }
+  }
+}

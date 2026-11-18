@@ -1,0 +1,158 @@
+{
+  "target_date": "2026-11-17",
+  "time_zone": "Asia/Bangkok",
+  "checked_at": "2026-11-18T04:21:25.519Z",
+  "status": "partial",
+  "added_feedback": 44,
+  "added_ratings": 0,
+  "collection_complete": false,
+  "summary_vn": "Ngày 17/11/2026: thêm 44 phản hồi — group Community 26 (9 bài + 17 bình luận: thú cưng không theo khi cày quái map toà nhà, nhiệm vụ nhận phương tiện không hiện, code tuần trên web nạp, thẻ vàng rơi từ gói nào, đơn hàng nông trại đòi quá nhiều trái cây hiệu ứng hiếm, bể cá thuỷ cung, khoe gacha/xe tuk tuk), group chợ/mua bán/trao đổi 12 (gồm 1 bài hướng dẫn chuyển tài khoản Global → VNG), group Official 2 (nhập code báo phải chuyển khu vực, code hết), TikTok 4 video creator (#PTGCREATORTH). YouTube và fanpage không có phản hồi tiếng Thái ngày 17/11. 3 group riêng tư vẫn chưa vào được. Không có nguồn mới phù hợp. Sensor Tower bỏ qua theo runbook.",
+  "sources": [
+    {
+      "key": "Facebook Group · playtogetherth",
+      "status": "partial",
+      "added_feedback": 26,
+      "detail": "New posts + Recent activity, mở từng bài: 9 bài người chơi ngày 17/11 (thú cưng không chạy theo khi cày quái ở map toà nhà, nhiệm vụ nhận phương tiện không hiện, mở gacha lần đầu ra đồ hiếm, khoe xe tuk tuk, hỏi code tuần trên web nạp, thẻ vàng rơi từ gói màu nào, đơn hàng nông trại đòi 5–7 trái cây hiệu ứng hiếm, bỏ cá vào bể thuỷ cung, phần thưởng lời nhất) + 17 bình luận/trả lời ngày 17/11 (kể cả dưới 5 bài cũ trong Recent activity). Bỏ bài/bình luận nhân viên (Walaipan), bình luận chỉ có link/cảm ơn/quá ngắn, bình luận sau 00:00 18/11. Mốc: bài 29095193 = 22:54 17/11 (tooltip), 00:00 18/11 ≈ ID 29095.9e12; 00:00 17/11 ≈ 29080.6e12. Bài Q&A ghim (28647215) được đẩy lên Recent activity nhưng không thấy bình luận mới hiển thị. Dữ liệu 14/09 – 17/11."
+    },
+    {
+      "key": "Facebook Group · 815754622673816",
+      "status": "partial",
+      "added_feedback": 6,
+      "detail": "New posts: ngày 17/11 có 6 bài (rao bán tiền nông trại 400 baht, danh sách bán đồ Med Noon, bán thẻ/nhân sâm Va Vi, hướng dẫn 6 bước chuyển tài khoản Global → VNG, tìm người tìm thẻ thuê, tìm mua vật phẩm \"Yesterday at 6:54 AM\"). Không đọc bình luận."
+    },
+    {
+      "key": "Facebook Group · 1772363333745643",
+      "status": "partial",
+      "added_feedback": 2,
+      "detail": "New posts: không có bài người chơi ngày 17/11 (bài hỏi máy dò đàn cá \"10 hours ago\" là sau 00:00 18/11). Bài phát code của nhân viên (16/11) có thêm 2 bình luận ngày 17/11 (nhập code báo phải chuyển khu vực, code hết không kịp nhập); bình luận \"ไม่ทัน\" quá ngắn bỏ."
+    },
+    {
+      "key": "Facebook Group · 562362538882428",
+      "status": "checked",
+      "added_feedback": 0,
+      "detail": "Kiểm tra nhanh 18/11: 53 thành viên, không có bài mới; giữ inactive."
+    },
+    {
+      "key": "Facebook Group · 3252260471541104",
+      "status": "blocked",
+      "added_feedback": 0,
+      "detail": "Group riêng tư 16.8K thành viên; kiểm tra 18/11 vẫn thấy nút Join group (chưa là thành viên). Không gửi yêu cầu, không đọc được bài."
+    },
+    {
+      "key": "Facebook Group · 356675609124267",
+      "status": "blocked",
+      "added_feedback": 0,
+      "detail": "Group riêng tư 7.4K thành viên, yêu cầu thành viên vẫn chờ duyệt (kiểm tra 18/11); không đọc được bài/bình luận."
+    },
+    {
+      "key": "Facebook Group · 473704433937505",
+      "status": "partial",
+      "added_feedback": 3,
+      "detail": "New posts: ngày 17/11 có 3 bài rao bán (Piyamat, Med Noon, Va Vi — đăng chéo từ group chợ)."
+    },
+    {
+      "key": "Facebook Group · 847315523442353",
+      "status": "blocked",
+      "added_feedback": 0,
+      "detail": "Group riêng tư 3.8K thành viên, vẫn chờ duyệt (kiểm tra 18/11); không đọc được bài/bình luận."
+    },
+    {
+      "key": "Facebook Group · 253674809721451",
+      "status": "partial",
+      "added_feedback": 0,
+      "detail": "New posts: không có bài ngày 17/11 (bài mới nhất vẫn 28/10; nếu tới 27/11 vẫn không có bài sẽ chuyển inactive)."
+    },
+    {
+      "key": "Facebook Group · 493177613552238",
+      "status": "partial",
+      "added_feedback": 3,
+      "detail": "New posts: ngày 17/11 có 3 bài tìm đổi thẻ (16h, 20h, 23h theo permalink); bài \"10 hours ago\" là 18/11."
+    },
+    {
+      "key": "Facebook Fanpage · @playtogetherthailandofficial",
+      "status": "partial",
+      "added_feedback": 0,
+      "detail": "Các bài gần đây (bài \"ไม่เติมแปลว่า = ?\", LINE OpenChat, thông báo 300 kim cương khi chuyển tài khoản…): không có bình luận người dùng ngày 17/11 (bình luận \"1d\" mới nhất là 13:12 16/11 theo tooltip)."
+    },
+    {
+      "key": "YouTube",
+      "status": "partial",
+      "added_feedback": 0,
+      "detail": "RSS 20 kênh active + kênh chính thức: video ngày 17/11 của creator đều không phải Play Together (JAI RAW GTA6/One Piece card, STAG FLATION, AL_STAR Cookie Run, Bennyy PUBG, PP Dog Roblox). Kênh chính thức có 1 video 17/11 (vị trí 15 hộp tiếp tế) với 0 bình luận. Tìm kiếm \"play together ไทย\", \"เพลย์ทูเก็ตเตอร์\", \"play together vng\" (tuần): chỉ kênh Việt Nam/Global, không có video Thái mới ngày 17/11."
+    },
+    {
+      "key": "TikTok",
+      "status": "partial",
+      "added_feedback": 4,
+      "detail": "Hồ sơ creator (lưới video tải sau ~12 s hoặc sau khi bấm \"Làm mới\"; đầu lượt bị HTTP 403 tạm thời, thử lại sau ~10 phút thì được): quét 42 creator (33 có video PT trong 30 ngày/ngoài danh sách + 9 creator_list_2026) + kênh chính thức. Ngày 17/11 có 4 video Play Together tiếng Thái (rukkung2000 review cần câu Tinh Tú Hộ Vệ, black_bunzo 4 việc người mới nên làm, hoysang9, du_dul1_taiyang sự kiện câu cá/xe tuk tuk); bình luận dưới các video này chỉ là \"ทัน/แรก\" (vào kịp/đầu tiên) nên bỏ. Kênh chính thức: bình luận ngày 17/11 đều tiếng Việt, bỏ. @anbam7 báo không tìm thấy tài khoản."
+    }
+  ],
+  "discovery": {
+    "queries": [
+      "facebook group: \"play together ไทย\", \"เพลย์ทูเก็ตเตอร์\"",
+      "youtube: play together ไทย, เพลย์ทูเก็ตเตอร์, play together vng (lọc tuần)",
+      "tiktok: #ptgcreatorth (tìm kiếm video)"
+    ],
+    "added": [],
+    "rejected": [
+      "Không thêm: kết quả tìm group là group Việt Nam (223606940317809, ptvng, 1008259846929991, 1327522681528239, hieuplaytogether, 288780562559568) hoặc không liên quan (ริช 999 ทูเก็ตเตอร์, ครีเอเตอร์…, Character AI, cosplay) — phần lớn đã có trong rejected; kênh YouTube trong kết quả đều là kênh Việt Nam/Global; TikTok #ptgcreatorth chủ yếu creator Việt Nam (boplayvng, bambiiplay, niasplayy, pkixgame, bapzanhoa_30…)."
+    ],
+    "inactive": [],
+    "lookalike": {
+      "seeds_checked": [
+        "black_bunzo",
+        "du_dul1_taiyang",
+        "hoysang9"
+      ],
+      "note": "Mục \"Tài khoản được đề xuất\" trên hồ sơ TikTok chỉ hiện tài khoản Việt Nam (phiên trình duyệt ở VN, chưa đăng nhập TikTok) nên không dùng được; tìm theo #ptgcreatorth ra hotqueen876, m0ssjuabf88888, meow.6678 (video chỉ có hashtag, rất ít view) — mở hồ sơ bị chặn tạm thời nên chưa kết luận, lượt sau kiểm tra lại.",
+      "added": []
+    },
+    "creator_rotation": {
+      "date": "2026-11-17",
+      "tiktok_scanned": 42,
+      "youtube_scanned": 20,
+      "method": "TikTok: trang hồ sơ, lưới video tải sau ~12 s (bấm \"Làm mới\" nếu lỗi); YouTube: RSS từ Bash",
+      "pt_videos_on_D": [
+        "rukkung2000/7709087916592549138",
+        "black_bunzo/7708927690492955922",
+        "hoysang9/7708819919340703028",
+        "du_dul1_taiyang/7709151018155576582"
+      ],
+      "note": "Ngày 17/11 phần lớn creator đăng Free Fire (FFWS 2026, Mama x Free Fire), RoV, MLBB. Còn ~10 creator creator_list_2026 có last_checked cũ nhất (ameer.hamza99970, anwaasmr, anwasedrep, astronad_2003, auuauutok, ayeshaaslam5303, bankner.72, barfibnhqhu, bennyychannel, bestsu_tt, conan_cnnj) để lượt sau."
+    },
+    "needs_user_action": [
+      "Group riêng tư: 3252260471541104 (chưa là thành viên, https://www.facebook.com/groups/3252260471541104/), 356675609124267 và 847315523442353 (vẫn chờ duyệt) — nếu muốn thu thập, người dùng tự tham gia/kiểm tra.",
+      "Kênh YouTube @nnewsrns (Newnew) trong danh sách creator vẫn chưa có channel id — kiểm tra lại link kênh.",
+      "Creator TikTok @anbam7 báo không tìm thấy tài khoản — kiểm tra lại handle trong danh sách creator."
+    ]
+  },
+  "sensor_tower": {
+    "status": "skipped",
+    "note": "Bỏ qua theo runbook; người dùng tự cập nhật tay."
+  },
+  "new_feedback": {
+    "by_source": {
+      "Facebook Group": 40,
+      "TikTok": 4
+    },
+    "by_community": {
+      "Facebook Group · playtogetherth": 26,
+      "Facebook Group · 815754622673816": 6,
+      "Facebook Group · 1772363333745643": 2,
+      "Facebook Group · 473704433937505": 3,
+      "Facebook Group · 493177613552238": 3,
+      "TikTok": 4
+    },
+    "by_kind": {
+      "post": 21,
+      "comment": 19,
+      "video": 4
+    },
+    "by_sentiment": {
+      "Neutral": 30,
+      "Negative": 3,
+      "Positive": 8,
+      "Mixed": 3
+    }
+  }
+}

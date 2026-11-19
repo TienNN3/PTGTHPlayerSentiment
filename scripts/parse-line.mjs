@@ -1,8 +1,10 @@
 // Đọc file .txt xuất từ LINE OpenChat (người dùng tải tay) và tạo staging các tin nhắn cần phân tích.
 // - Bỏ tin hệ thống (joined, set/changed, unsent), Stickers/Photos/Videos, chỉ có emoji, lời chào ngắn, link trơn.
 // - Gộp các tin liền nhau của cùng một người trong vòng 3 phút thành một mục.
-// - Che tên người gửi dạng X***, xoá số điện thoại/email/LINE ID. id ổn định theo ngày|giờ|người gửi|nội dung,
-//   nên tải lại file có khoảng ngày chồng lên nhau không tạo trùng (import-daily bỏ qua id đã có).
+// - Che tên người gửi dạng X***, xoá số điện thoại/email/LINE ID. id ổn định theo ngày|giờ|nội dung (không theo tên,
+//   vì LINE có thể hiện "Unknown" ở lần xuất này và tên thật ở lần sau, hoặc người dùng đổi tên).
+// - Bỏ các tin đã có trong public/data/daily (so theo ngày + giờ + nội dung), nên file mới chồng ngày với file cũ không tạo trùng.
+//   Chạy từ thư mục gốc repo.
 // Usage: node scripts/parse-line.mjs <export.txt> <outDir> [--community "LINE OpenChat · Play Together Thailand"]
 // Kết quả: <outDir>/line-candidates.json (mảng mục chưa dịch, nhóm theo ngày) để dịch + gắn nhãn,
 //          rồi nhập từng ngày bằng scripts/import-daily.mjs (xem docs/daily-collection.md mục "LINE OpenChat").
@@ -25,6 +27,13 @@ const mask = (name) => { const clean = String(name || "").trim(); return clean &
 // Tên hiển thị có thể chứa khoảng trắng: lấy danh sách tên từ các dòng "<tên> joined the chat." để tách đúng.
 const knownNames = new Set(["Unknown"]);
 for (const line of raw.split("\n")) { const joined = line.match(/^\d{2}:\d{2} (.+) joined the chat\.$/); if (joined) knownNames.add(joined[1]); }
+// Người đổi tên sau khi vào nhóm (vd "Chi" → "Chi จีเอง"): nếu mọi tin của một tên đều bắt đầu bằng cùng một chữ
+// thì chữ đó là phần sau của tên hiện tại.
+for (const name of [...knownNames]) {
+  if (name === "Unknown") continue;
+  const nexts = raw.split("\n").map((line) => line.match(/^\d{2}:\d{2} (.+)$/)?.[1]).filter((rest) => rest?.startsWith(`${name} `) && !SYSTEM.test(rest)).map((rest) => rest.slice(name.length + 1).split(" ")[0]);
+  if (nexts.length >= 3 && nexts.every((token) => token === nexts[0]) && !MEDIA.test(nexts[0])) knownNames.add(`${name} ${nexts[0]}`);
+}
 const namesLongestFirst = [...knownNames].sort((a, b) => b.length - a.length);
 // Gom dòng: "HH:MM Tên Nội dung"; dòng không có giờ là phần tiếp theo của tin trước.
 const messages = [];
@@ -56,18 +65,42 @@ for (const m of messages) {
   if (GREETING.test(text) || (/^(?:สวัสดี|ขอบคุณ|ยินดีต้อนรับ)/u.test(text) && [...text].length <= 30)) { skipped.greeting++; continue; }
   const last = groups.at(-1);
   if (last && last.author === m.author && last.date === m.date && minutes(m) - last.lastMinute <= 3 && m.author !== "Unknown") {
-    last.parts.push(text); last.lastMinute = minutes(m);
-  } else groups.push({ date: m.date, time: m.time, author: m.author, parts: [text], lastMinute: minutes(m) });
+    last.parts.push(text); last.times.push(m.time); last.lastMinute = minutes(m);
+  } else groups.push({ date: m.date, time: m.time, author: m.author, parts: [text], times: [m.time], lastMinute: minutes(m) });
 }
 
+// Tin LINE đã nhập trước đó: ngày|giờ|nội dung (đếm số lần, vì có thể có hai tin giống nhau cùng phút).
+const norm = (value) => String(value || "").normalize("NFKC").replace(/\s+/g, " ").trim().toLocaleLowerCase();
+const existing = new Map(), existingTexts = [];
+try {
+  const { readdir } = await import("node:fs/promises");
+  for (const file of (await readdir("public/data/daily")).filter((name) => /^\d{4}-\d{2}-\d{2}\.json$/.test(name))) {
+    const payload = JSON.parse(await readFile(`public/data/daily/${file}`, "utf8"));
+    for (const item of payload.items || []) {
+      if (item.source !== "LINE OpenChat" || item.community !== community) continue;
+      const time = String(item.link).split("T").pop();
+      const key = `${payload.date}|${time}|${norm(item.text_th)}`;
+      existing.set(key, (existing.get(key) || 0) + 1);
+      existingTexts.push({ date: payload.date, time, text: norm(item.text_th) });
+    }
+  }
+} catch { /* chạy ngoài repo: không lọc tin đã có */ }
+const already = { exact: 0, overlap: 0 };
 const candidates = [], seenKeys = new Map();
 for (const g of groups) {
-  let text = g.parts.join("\n").replace(PII, "[redacted]").trim();
+  // Tên nhân vật trong game người chơi gửi để kết bạn (một dòng chỉ gồm chữ Latin/Hàn, không viết hoa toàn bộ như mã code) cũng che.
+  let text = g.parts.join("\n").replace(PII, "[redacted]").split("\n").map((line) => (/^(?=.*[a-z가-힣])[A-Za-z0-9가-힣_.]{2,20}$/.test(line.trim()) && !/^[A-Z0-9_.]+$/.test(line.trim()) && !/^(?:ok|oke|hi|hello|My acc)$/i.test(line.trim())) ? "[redacted]" : line).join("\n").trim();
+  if (/^(?:\[redacted\]\s*)+$/.test(text)) { skipped.short++; continue; }
   if (GREETING.test(text) || (/^(?:สวัสดี|ขอบคุณ|ยินดีต้อนรับ)/u.test(text) && [...text].length <= 30 && !text.includes("\n"))) { skipped.greeting++; continue; }
   if (/^https?:\/\/\S+$/.test(text)) { skipped.link_only++; continue; }
   if ([...text.replace(/\s/g, "")].length < 2) { skipped.short++; continue; }
+  // Đã nhập ở file trước: trùng ngày + giờ + nội dung, hoặc mọi phần của mục này đã có (tin trước đây tách lẻ vì "Unknown").
+  const exactKey = `${g.date}|${g.time}|${norm(text)}`;
+  if (existing.get(exactKey) > 0) { existing.set(exactKey, existing.get(exactKey) - 1); already.exact++; continue; }
+  const lastTime = g.times.at(-1);
+  if (g.parts.every((part) => existingTexts.some((e) => e.date === g.date && e.time >= g.time && e.time <= lastTime && (e.text.includes(norm(part)) || norm(part).includes(e.text))))) { already.overlap++; continue; }
   // Hai người cùng gửi một câu trong cùng phút (vd "เป็นค่ะ") vẫn là hai tin: thêm số thứ tự cho lần lặp.
-  const baseKey = `${slug}|${g.date}|${g.time}|${g.author}|${text}`, seen = (seenKeys.get(baseKey) || 0);
+  const baseKey = `${slug}|${g.date}|${g.time}|${text}`, seen = (seenKeys.get(baseKey) || 0);
   seenKeys.set(baseKey, seen + 1);
   const id = `line-${createHash("sha256").update(seen ? `${baseKey}|${seen}` : baseKey).digest("hex").slice(0, 16)}`;
   candidates.push({ id, source: "LINE OpenChat", community, date: g.date, time: g.time, author_masked: mask(g.author),
@@ -77,5 +110,5 @@ for (const g of groups) {
 await mkdir(outDir, { recursive: true });
 await writeFile(`${outDir}/line-candidates.json`, `${JSON.stringify(candidates, null, 1)}\n`);
 const byDate = candidates.reduce((acc, c) => ((acc[c.date] = (acc[c.date] || 0) + 1), acc), {});
-console.log(`${messages.filter((m) => !m.system).length} messages → ${groups.length} grouped → ${candidates.length} candidates (skipped ${JSON.stringify(skipped)})`);
+console.log(`${messages.filter((m) => !m.system).length} messages → ${groups.length} grouped → ${candidates.length} new candidates (skipped ${JSON.stringify(skipped)}; already imported ${JSON.stringify(already)})`);
 console.log(JSON.stringify(byDate));

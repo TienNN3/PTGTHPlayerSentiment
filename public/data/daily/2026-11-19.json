@@ -1,0 +1,103 @@
+{
+  "date": "2026-11-19",
+  "alerts": [],
+  "items": [
+    {
+      "id": "line-ceadfbf625723367",
+      "source": "LINE OpenChat",
+      "community": "LINE OpenChat · Play Together Thailand",
+      "time": "07:46",
+      "author_masked": "O***",
+      "link": "line-openchat:play-together-thailand#2026-11-19T07:46",
+      "content_kind": "message",
+      "activity_type": "Tin nhắn LINE",
+      "date_basis": "published_at",
+      "text_th": "ใครมีขายมั้ยคะ",
+      "text_vn": "Có ai bán không ạ?",
+      "text_en": "Is anyone selling?",
+      "summary_vn": "Hỏi có ai bán món đang cần không",
+      "summary_en": "Asks whether anyone is selling",
+      "sentiment": "Neutral",
+      "intent": "trade",
+      "keywords": [
+        "bình luận ngắn"
+      ],
+      "theme": "Hoạt động và tính năng trong game",
+      "topic": "Activities (fishing, bugs, pets, housing, jobs, minigames)",
+      "engagement": {
+        "reactions": [],
+        "comment_count": null
+      },
+      "published_label": "07:46",
+      "topic_secondary": [],
+      "segment": "unknown",
+      "severity": null,
+      "confidence": 0.7,
+      "needs_review": true,
+      "translation_method": "ai_contextual",
+      "label_method": "ai_review",
+      "collected_at": "2026-11-19T10:00:00+07:00"
+    }
+  ],
+  "report": {
+    "overview": "Phản hồi ngày 2026-11-19.",
+    "bright_spots": [],
+    "pain_points": [],
+    "segments": {
+      "new": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      },
+      "midgame": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      },
+      "veteran": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      },
+      "payer": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      }
+    },
+    "next_actions": {
+      "new": [],
+      "midgame": [],
+      "veteran": [],
+      "payer": []
+    },
+    "data_health": [
+      "Thu thập hằng ngày: Facebook, YouTube, TikTok (đã che tên tác giả)."
+    ]
+  },
+  "metrics": {
+    "volume": 1,
+    "noise": 0,
+    "by_source": {
+      "LINE OpenChat": 1
+    },
+    "by_sentiment": {
+      "Positive": 0,
+      "Neutral": 1,
+      "Negative": 0,
+      "Mixed": 0
+    },
+    "by_topic": {
+      "Activities (fishing, bugs, pets, housing, jobs, minigames)": 1
+    },
+    "by_segment": {
+      "unknown": 1
+    },
+    "nss": 0,
+    "nss_d1": null,
+    "nss_7d_avg": null,
+    "store": {
+      "gp_avg": null,
+      "ios_avg": null,
+      "star_1": 0,
+      "star_5": 0
+    }
+  },
+  "data_mode": "production"
+}

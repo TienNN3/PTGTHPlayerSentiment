@@ -175,7 +175,7 @@
       "name": "LINE OpenChat Play Together Thailand",
       "type": "line",
       "status": "line",
-      "detail": "Nhóm LINE OpenChat của người chơi Thái (~150 thành viên, mở 06/11/2026). Không thu thập tự động: người dùng xuất file .txt từ LINE và gửi vài ngày một lần; nhập bằng scripts/parse-line.mjs. Dữ liệu hiện có: 14/11 – 16/11/2026 (16/11 đến 13:12). Bỏ tin hệ thống, sticker, ảnh, lời chào; tên người gửi đã che.",
+      "detail": "Nhóm LINE OpenChat của người chơi Thái (mở 06/11/2026). Không thu thập tự động: người dùng xuất file .txt từ LINE và gửi vài ngày một lần; nhập bằng scripts/parse-line.mjs. Dữ liệu hiện có: 14/11 – 19/11/2026 (19/11 đến 07:46), 214 tin. Bỏ tin hệ thống, sticker, ảnh, lời chào; tên người gửi và tên nhân vật trong game đã che.",
       "url": "",
       "discovered_at": "2026-11-16"
     },

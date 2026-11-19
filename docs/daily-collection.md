@@ -60,6 +60,7 @@ Lượt chạy có thể bị lỡ (app đóng lúc 6h, máy tắt, lượt trư
   2. Dịch + gắn nhãn `line-candidates.json` theo đúng thứ tự hội thoại (tin ngắn phải hiểu theo tin xung quanh), cùng các trường như mục 3; `content_kind: "message"`.
   3. Tách theo ngày và nhập từng ngày bằng `node scripts/import-daily.mjs` (`target_date` = ngày đó). Ngày cuối trong file thường chỉ có một phần ngày (đến giờ xuất file): vẫn nhập, lần sau phần còn lại tự bổ sung.
   4. Cập nhật `detail` của nguồn LINE trong `sources.json` (khoảng ngày đã có).
+- Script tự bỏ các tin đã nhập từ file trước (so theo ngày + giờ + nội dung, không theo tên, vì LINE có thể hiện "Unknown" ở lần xuất này và tên thật ở lần sau, hoặc người chơi đổi tên). Tên nhân vật trong game người chơi gửi để kết bạn được che thành `[redacted]`; mã code công khai của creator (viết hoa) giữ nguyên.
 
 ## 2b. Tìm nguồn mới (mỗi lượt, tối đa ~15 phút)
 

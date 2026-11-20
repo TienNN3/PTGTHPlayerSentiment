@@ -1,0 +1,199 @@
+{
+  "target_date": "2026-11-20",
+  "time_zone": "Asia/Bangkok",
+  "checked_at": "2026-11-20T23:54:46.053Z",
+  "status": "partial",
+  "added_feedback": 89,
+  "added_ratings": 0,
+  "collection_complete": false,
+  "summary_vn": "Ngày 20/11/2026: thêm 89 phản hồi — group Community 49 (13 bài + 36 bình luận: khoe/than quay thẻ 5 sao, đăng ảnh mỉa \"tựa game chúng ta yêu\"; lỡ bán súng bắn quỷ sự kiện không mua lại được; không vào được game (đổi mạng thì được); iOS không còn app Global nên không chuyển được sang VNG, link tải báo not found; hỏi chỉ số cần câu mới, sự kiện tuk-tuk còn kịp không), group Official 21 (dự sự kiện khoe tuk-tuk và sự kiện thả đèn Loy Krathong 20–25/11, tìm đổi thẻ), group thẻ 5, group chợ 3, group mua bán 1, YouTube 2 (Wine Channel, kênh mới Rubycia), TikTok 8 (video hoysang9 + 7 bình luận dưới video zbing_z). Fanpage 0 (chỉ bình luận dán code). 3 group riêng tư vẫn chưa vào được. Nguồn mới: 2 kênh YouTube (Rubycia, zbing z.), 2 creator TikTok look-alike (mildkoonchorn, irondaisyyy). Sensor Tower bỏ qua theo runbook.",
+  "sources": [
+    {
+      "key": "Facebook Group · playtogetherth",
+      "status": "partial",
+      "added_feedback": 49,
+      "detail": "New posts + Recent activity, mở từng bài: 13 bài người chơi ngày 20/11 (khoe quay ra 2 thẻ 5 sao; than acc chính quay mãi không ra, đăng ảnh mỉa \"tựa game chúng ta yêu\"; lỡ bán súng bắn quỷ sự kiện không mua lại được; không vào được game — đổi mạng thì vào được; iOS không còn app Global để chuyển sang VNG, link tải báo not found; hỏi sự kiện tuk-tuk còn kịp không; hỏi chỉ số cần câu mới, ao trang trí, lâu đài cầu vồng, bảng hiệu ứng nhẫn kim cương) + 36 bình luận 20/11 (cả dưới bài cũ: mua hết gói thẻ mới đủ bộ, khen thú cưng gấu, thú cưng nhảy theo qua toà nhà). Bỏ bài/bình luận nhân viên (Walaipan, Pemika: code LOYKRATHONG2026, VVIP Pass mới, nhắc chỗ đổi thẻ), bình luận chỉ cảm ơn/tag/\"5555\". Bài 29138013 (\"4 hours ago\", hỏi tắt nhắc nhở chơi lâu) thuộc 21/11. Không mở hết chuỗi trả lời. Dữ liệu 14/09 – 20/11."
+    },
+    {
+      "key": "Facebook Group · 815754622673816",
+      "status": "partial",
+      "added_feedback": 3,
+      "detail": "New posts: ngày 20/11 có 3 bài (bảng giá vật phẩm 5–20 baht, bán tài khoản đăng nhập Facebook có trả góp, Med Noon rao nông sản/nhân sâm/đổi thời tiết). Các bài \"a day ago\" (Va Vi, Fugtong, Med Noon, tìm thẻ, tìm tài khoản 1.000 baht) đã lưu ở 19/11. Không lưu 2 bình luận ngắn dưới bài bảng giá."
+    },
+    {
+      "key": "Facebook Group · 1772363333745643",
+      "status": "partial",
+      "added_feedback": 21,
+      "detail": "New posts: ngày 20/11 có 21 bài người chơi: dự sự kiện khoe xe tuk-tuk (Cha Chaar, Kansinee, Cindy, câu chuyện \"twerk cùng tuk-tuk\" của 오유준…) và sự kiện ảnh \"ปล่อยโคม ปล่อยของ\" Loy Krathong (đăng 19:25 20/11, chạy 20–25/11) — phần lớn chỉ có hashtag; 3 bài tìm đổi thẻ. Bỏ bài chính thức/nhân viên (code ลอยกระทง, PTBEARPETS). Bài 陳怡雯 \"6 hours ago\" thuộc 21/11. Bình luận không có."
+    },
+    {
+      "key": "Facebook Group · 562362538882428",
+      "status": "checked",
+      "added_feedback": 0,
+      "detail": "Không mở lại 21/11 (lượt 19/11: 53 thành viên, bài mới nhất 14/03/2023); giữ inactive."
+    },
+    {
+      "key": "Facebook Group · 3252260471541104",
+      "status": "blocked",
+      "added_feedback": 0,
+      "detail": "Group riêng tư 16.8K thành viên; kiểm tra 21/11 vẫn thấy nút Join group (chưa là thành viên). Không gửi yêu cầu, không đọc được bài."
+    },
+    {
+      "key": "Facebook Group · 356675609124267",
+      "status": "blocked",
+      "added_feedback": 0,
+      "detail": "Group riêng tư 7.4K thành viên, yêu cầu thành viên vẫn chờ duyệt (kiểm tra 21/11); không đọc được bài/bình luận."
+    },
+    {
+      "key": "Facebook Group · 473704433937505",
+      "status": "partial",
+      "added_feedback": 1,
+      "detail": "New posts: ngày 20/11 có 1 bài rao bán (Med Noon 18h trước, đăng chéo từ group chợ)."
+    },
+    {
+      "key": "Facebook Group · 847315523442353",
+      "status": "blocked",
+      "added_feedback": 0,
+      "detail": "Group riêng tư 3.8K thành viên, vẫn chờ duyệt (kiểm tra 21/11); không đọc được bài/bình luận."
+    },
+    {
+      "key": "Facebook Group · 253674809721451",
+      "status": "partial",
+      "added_feedback": 0,
+      "detail": "New posts: không có bài ngày 20/11 (bài mới nhất vẫn 28/10; nếu tới 27/11 vẫn không có bài sẽ chuyển inactive)."
+    },
+    {
+      "key": "Facebook Group · 493177613552238",
+      "status": "partial",
+      "added_feedback": 5,
+      "detail": "New posts: ngày 20/11 có 5 bài tìm/đổi thẻ (có người tìm gấp, tìm thẻ cuối cùng) — ngày cuối sự kiện đổi thẻ."
+    },
+    {
+      "key": "Facebook Fanpage · @playtogetherthailandofficial",
+      "status": "partial",
+      "added_feedback": 0,
+      "detail": "Các bài gần đây (Loy Krathong, VVIP mới, gói Học viện Bầu trời, hộp vàng đảo bị lãng quên, sự kiện thả đèn): ngày 20/11 chỉ có bình luận dán code LOYKRATHONG2026 và bình luận tiếng Việt → 0 phản hồi người dùng."
+    },
+    {
+      "key": "YouTube",
+      "status": "partial",
+      "added_feedback": 2,
+      "detail": "RSS 20 kênh active + kênh chính thức (từ Bash): ngày 20/11 có 1 video PT của Wine Channel (minigame \"Đột phá giới hạn sức mạnh cơ khí\", 0 bình luận); các kênh khác đăng GTA6, PUBG, Brawl Stars, Roblox, quảng cáo. Kênh chính thức không có video 20/11. Tìm kiếm YouTube (tuần) hiển thị được: kênh mới Rubycia (video 20/11 mở thú cưng Baby Gelakius, 0 bình luận) và kênh zbing z. Chuyển 5 kênh creator_list_2026 không có video > 30 ngày sang inactive."
+    },
+    {
+      "key": "TikTok",
+      "status": "partial",
+      "added_feedback": 8,
+      "detail": "Hồ sơ creator (ghim nút \"Mới nhất\" rồi bấm thật): quét 59 creator (39 có video PT trong 30 ngày/ngoài danh sách + 20 creator_list_2026 có last_checked cũ nhất) + kênh chính thức. Ngày 20/11 chỉ @hoysang9 đăng video PT (\"มาตกปลาด้วกัน\", 2 bình luận chỉ emoji/ký tự). 7 bình luận tiếng Thái 20/11 dưới video tuk-tuk của zbing_z (vui được kết bạn với creator, từng chơi game hồi nhỏ). Kênh chính thức: video 19/11 chỉ có bình luận tiếng Việt. @pongsakorn11999 báo không tìm thấy tài khoản. Tìm kiếm \"play together vng ไทย\" và \"#ptgcreatorth\" không gặp CAPTCHA."
+    }
+  ],
+  "discovery": {
+    "queries": [
+      "facebook group: \"play together vng thailand\" (chỉ ra group Việt Nam/Global và group 253674809721451 đã theo dõi)",
+      "youtube: \"play together vng ไทย\", \"เพลย์ทูเก็ตเตอร์\" (lọc tuần) — trang kết quả hiển thị được",
+      "tiktok: \"play together vng ไทย\", \"#ptgcreatorth\" (tìm kiếm video, không gặp CAPTCHA)"
+    ],
+    "added": [
+      {
+        "type": "youtube",
+        "id": "UC8yaViqo3s71TikfvZdN23g",
+        "name": "Rubycia",
+        "status": "active",
+        "evidence": "Video cv7mDMRLVCE ngày 20/11 \"วินาทีเปิดได้สัตว์เลี้ยงเบบี้เจลาคิอุส\" + loạt video nhiệm vụ Siam Town #PTGCreator (13–19/11)"
+      },
+      {
+        "type": "youtube",
+        "id": "UC5zGJZpxeZPFcds5gFcDE7Q",
+        "name": "zbing z.",
+        "status": "active",
+        "evidence": "Livestream 3sIcUM7wEPY \"ช่วยพี่แป้งหารถตุ๊กๆ | PlayTogetherVNG\" (~14/11); kênh YouTube của creator TikTok zbing_z — look-alike creator_list_2026"
+      },
+      {
+        "type": "tiktok",
+        "id": "mildkoonchorn",
+        "name": "Mild Koonchorn",
+        "status": "active",
+        "evidence": "Video 7709837232307260692 ngày 19/11 \"นี่ฉันอยากซิ่งรถตุ๊กตุ๊กหรือนี่\" (~738K follower) — look-alike của zbing_z"
+      },
+      {
+        "type": "tiktok",
+        "id": "irondaisyyy",
+        "name": "ไอร่อนที่แปลว่าเดซี่",
+        "status": "active",
+        "evidence": "Video 7709464388050226453 ngày 18/11 về xe tuk-tuk (~892K follower, creator Roblox) — look-alike nhóm creator Roblox"
+      }
+    ],
+    "rejected": [
+      "TikTok lisora04: đu hashtag #PTGCREATORTH (chủ yếu Where Winds Meet/Project Sekai)",
+      "TikTok manx6dgj.44: đăng hàng loạt 6 video chỉ có hashtag trong vài phút",
+      "Facebook: kết quả tìm group chỉ có group Việt Nam/Global (đa số đã trong rejected)"
+    ],
+    "inactive": [
+      "YouTube UCCu-YpP8A5yyoRpl4cp44fQ (Lukky gamer, video mới nhất 22/01/2025)",
+      "YouTube UCf3meHApqiyR83d7bCQtcOQ (Marshall, 23/03/2026)",
+      "YouTube UCOlrxEtT3HYVfTLOyt567fQ (อาโน๊ต, 29/05/2026)",
+      "YouTube UCqhiFVrkY0kK9oT4raYan3A (อันวาเศษเล็บ, 21/09/2025)",
+      "YouTube UCB5GdRZPGh2laHHIaiDfDow (BANK NER, 11/10/2026)"
+    ],
+    "lookalike": {
+      "seeds_checked": [
+        "zbing_z",
+        "lemondoggopt",
+        "ppdog01"
+      ],
+      "note": "Mục \"tài khoản tương tự\" không hiển thị trên trang hồ sơ; creator tương tự tìm qua tìm kiếm video TikTok (chiến dịch tuk-tuk có trả phí) và tìm kiếm YouTube.",
+      "added": [
+        "mildkoonchorn",
+        "irondaisyyy",
+        "UC5zGJZpxeZPFcds5gFcDE7Q"
+      ]
+    },
+    "creator_rotation": {
+      "date": "2026-11-20",
+      "tiktok_scanned": 59,
+      "youtube_scanned": 20,
+      "method": "TikTok: trang hồ sơ, ghim nút \"Mới nhất\" rồi bấm thật; YouTube: RSS từ Bash",
+      "pt_videos_on_D": [
+        "hoysang9/7710255790052986119",
+        "YouTube Wine Channel/EPVOeyCHhMU",
+        "YouTube Rubycia/cv7mDMRLVCE (kênh mới)"
+      ],
+      "note": "Cập nhật last_pt_video: ppdog01 19/11, tawut_02 17/11. Lượt sau tiếp tục creator_list_2026 có last_checked cũ nhất (từ 16/11)."
+    },
+    "needs_user_action": [
+      "Group riêng tư: 3252260471541104 (chưa là thành viên, https://www.facebook.com/groups/3252260471541104/), 356675609124267 và 847315523442353 (vẫn chờ duyệt) — nếu muốn thu thập, người dùng tự tham gia/kiểm tra.",
+      "Creator TikTok @pongsakorn11999 báo không tìm thấy tài khoản — kiểm tra lại link trong danh sách creator."
+    ]
+  },
+  "sensor_tower": {
+    "status": "skipped",
+    "note": "Bỏ qua theo runbook; người dùng tự cập nhật tay."
+  },
+  "new_feedback": {
+    "by_source": {
+      "Facebook Group": 79,
+      "YouTube": 2,
+      "TikTok": 8
+    },
+    "by_community": {
+      "Facebook Group · playtogetherth": 49,
+      "Facebook Group · 1772363333745643": 21,
+      "Facebook Group · 815754622673816": 3,
+      "Facebook Group · 473704433937505": 1,
+      "Facebook Group · 493177613552238": 5,
+      "YouTube": 2,
+      "TikTok": 8
+    },
+    "by_kind": {
+      "post": 43,
+      "comment": 43,
+      "video": 3
+    },
+    "by_sentiment": {
+      "Neutral": 43,
+      "Positive": 34,
+      "Negative": 10,
+      "Mixed": 2
+    }
+  }
+}

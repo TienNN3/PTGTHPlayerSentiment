@@ -1,0 +1,149 @@
+{
+  "target_date": "2026-11-22",
+  "time_zone": "Asia/Bangkok",
+  "checked_at": "2026-11-22T23:55:50.436Z",
+  "status": "partial",
+  "added_feedback": 56,
+  "added_ratings": 0,
+  "collection_complete": false,
+  "summary_vn": "Ngày 22/11/2026: thêm 56 phản hồi — group Community 34 (8 bài + 26 bình luận: bị ban dù không dùng hack, hoàn tiền thì bị tạm khoá tài khoản, vẫn gặp hack dịch chuyển tranh chỗ đào, sự kiện bắn quái ép nạp, hỏi chuyển tài khoản sang VNG, đề nghị luật chỉ dùng tiếng Thái/Anh, hỏi đáp chế chó anh hùng/máy dò sinh vật), group Official 5 (dự sự kiện ảnh tuk-tuk/Loy Krathong), group thẻ 5, group chợ 2, group mua bán 1, YouTube 5 (4 video + 1 bình luận), TikTok 4 (3 video + 1 bình luận). Fanpage 0 (chỉ bình luận tiếng Việt/dán code). 3 group riêng tư vẫn chưa vào được. Nguồn mới: creator TikTok @pangboyz (look-alike nhóm creator Roblox). Sensor Tower bỏ qua theo runbook.",
+  "sources": [
+    {
+      "key": "Facebook Group · playtogetherth",
+      "status": "partial",
+      "added_feedback": 34,
+      "detail": "New posts + Recent activity, mở từng bài: 8 bài người chơi ngày 22/11 (bị ban dù không hack, hỏi chế chó anh hùng, lập nhóm chat đổi thẻ, tìm dấu vết sinh vật ở đảo Resort, đợt thẻ có giai đoạn 2 không, hộp trang phục Người viếng thăm) + 26 bình luận 22/11 (cả dưới bài cũ: hoàn tiền thì bị tạm khoá tài khoản, vẫn gặp hack dịch chuyển tranh chỗ đào, sự kiện bắn quái ép nạp, đề nghị luật chỉ dùng tiếng Thái/Anh, hỏi có bắt buộc chuyển tài khoản sang VNG). Bỏ bài/bình luận nhân viên (Walaipan, Pemika), lời cảm ơn, chỉ link, bình luận \"5–6 hours ago\" thuộc 23/11. Bài 29149326 (hỏi giờ quái tím) đọc được giờ tuyệt đối 23:53 21/11 nên không thuộc 22/11 (lượt 21/11 đã để lại vì nhãn \"10 hours ago\"). Không mở hết chuỗi trả lời. Dữ liệu 14/09 – 22/11."
+    },
+    {
+      "key": "Facebook Group · 815754622673816",
+      "status": "partial",
+      "added_feedback": 2,
+      "detail": "New posts: ngày 22/11 có 2 bài (Med Noon rao bán nông sản/nhân sâm/đổi thời tiết, tìm mua acc 280 baht). Bài SharpPhoenix mà lượt 21/11 ghi \"thuộc 22/11\" không còn hiển thị (có thể đã xoá)."
+    },
+    {
+      "key": "Facebook Group · 1772363333745643",
+      "status": "partial",
+      "added_feedback": 5,
+      "detail": "New posts: ngày 22/11 có 5 bài người chơi dự sự kiện ảnh xe tuk-tuk / thả đèn Loy Krathong (phần lớn chỉ có hashtag). Bỏ bài nhân viên (Walaipan). Bài 오*** \"5 hours ago\" thuộc 23/11. Không có bình luận người chơi."
+    },
+    {
+      "key": "Facebook Group · 562362538882428",
+      "status": "checked",
+      "added_feedback": 0,
+      "detail": "Không mở lại 23/11 (lượt 19/11: 53 thành viên, bài mới nhất 14/03/2023); giữ inactive."
+    },
+    {
+      "key": "Facebook Group · 3252260471541104",
+      "status": "blocked",
+      "added_feedback": 0,
+      "detail": "Group riêng tư 16.8K thành viên; kiểm tra 23/11 vẫn thấy nút Join group (chưa là thành viên). Không gửi yêu cầu, không đọc được bài."
+    },
+    {
+      "key": "Facebook Group · 356675609124267",
+      "status": "blocked",
+      "added_feedback": 0,
+      "detail": "Group riêng tư 7.4K thành viên, yêu cầu thành viên vẫn chờ duyệt (nút Cancel request, kiểm tra 23/11); không đọc được bài/bình luận."
+    },
+    {
+      "key": "Facebook Group · 473704433937505",
+      "status": "partial",
+      "added_feedback": 1,
+      "detail": "New posts: ngày 22/11 có 1 bài (Med Noon đăng chéo rao bán nông sản/nhân sâm)."
+    },
+    {
+      "key": "Facebook Group · 847315523442353",
+      "status": "blocked",
+      "added_feedback": 0,
+      "detail": "Group riêng tư 3.8K thành viên, vẫn chờ duyệt (kiểm tra 23/11); không đọc được bài/bình luận."
+    },
+    {
+      "key": "Facebook Group · 253674809721451",
+      "status": "partial",
+      "added_feedback": 0,
+      "detail": "New posts: không có bài ngày 22/11 (bài mới nhất vẫn 28/10; nếu tới 27/11 vẫn không có bài sẽ chuyển inactive)."
+    },
+    {
+      "key": "Facebook Group · 493177613552238",
+      "status": "partial",
+      "added_feedback": 5,
+      "detail": "New posts: ngày 22/11 có 5 bài tìm/đổi thẻ (cùng nhãn \"17h\", có vẻ được duyệt cùng lúc ~14:00 22/11). Bài 1108662 là của 19/11."
+    },
+    {
+      "key": "Facebook Fanpage · @playtogetherthailandofficial",
+      "status": "partial",
+      "added_feedback": 0,
+      "detail": "Các bài gần đây (tuk-tuk còn 3 ngày, gói Selfie, Loy Krathong \"ปล่อยโคม ปล่อยของ\", VVIP preview, hộp vàng đảo bị lãng quên, gói Học viện Bầu trời, chào Loy Krathong): ngày 22/11 chỉ có bình luận tiếng Việt và dán code LOYKRATHONG2026 → 0 phản hồi người dùng Thái."
+    },
+    {
+      "key": "YouTube",
+      "status": "partial",
+      "added_feedback": 5,
+      "detail": "RSS 16 kênh active + kênh chính thức (từ Bash): ngày 22/11 có 4 video Play Together tiếng Thái — Teddy Chanelplay (2 video VVIP Pass mùa \"Người kế thừa thánh kiếm\") và Rubycia (đào kho báu tìm bộ đậu Hà Lan, mẹo leo tường) + 1 bình luận tiếng Thái dưới video Rubycia. Các kênh khác đăng GTA6, Free Fire, PUBG, Roblox, Heartopia. Kênh chính thức: video VIP Play Pass 22/11, 0 bình luận. Tìm kiếm YouTube (tuần) \"play together ไทย\", \"เพลย์ทูเก็ตเตอร์\" chỉ ra kênh Việt Nam/game khác."
+    },
+    {
+      "key": "TikTok",
+      "status": "partial",
+      "added_feedback": 4,
+      "detail": "Hồ sơ creator (ghim nút \"Mới nhất\" rồi bấm thật): quét 68 creator (48 có video PT trong 30 ngày/ngoài danh sách + 20 creator_list_2026 có last_checked cũ nhất) + kênh chính thức. Ngày 22/11 có 3 video PT: @sorawit999 (#PTGCREATORTH), @rukkung2000 (khen Pass mới), @teddychanel (VVIP Pass) + 1 bình luận tiếng Thái. Kênh chính thức: không có video 22/11, bình luận 22/11 chỉ có tiếng Việt. @gnox1_taiyang, @homdanghuakomkom báo không tìm thấy tài khoản; @everyfdzilj lưới video không tải; @godjayzz chuyển inactive (video mới nhất 30/09). Không gặp CAPTCHA/403."
+    }
+  ],
+  "discovery": {
+    "queries": [
+      "facebook group: \"play together th\" (chỉ ra group Việt Nam); link group được chia sẻ trong bình luận (facebook.com/share/g/1A6JAm2SSd) dẫn về group Official đã theo dõi",
+      "youtube: \"play together ไทย\", \"เพลย์ทูเก็ตเตอร์\" (tuần) — chỉ kênh Việt Nam/game khác, không có kênh Thái mới",
+      "tiktok: \"play together vng ไทย\" (video) — @pangboyz (mới), @ai_creator1_26 (loại), còn lại đã theo dõi",
+      "look-alike: nhóm creator Roblox (ppdog01, irondaisyyy) và Free Fire (sorawit999, lungtop_taiyang) qua kết quả tìm kiếm + video có tag @playtogetherth.official"
+    ],
+    "added": [
+      {
+        "type": "tiktok",
+        "id": "pangboyz",
+        "name": "pangboyza",
+        "status": "active",
+        "evidence": "Look-alike nhóm creator Roblox; ~1.4M follower; video PT 7709091272371473685 (17/11) tag @Play Together VNG Thailand, ~115.8K like"
+      }
+    ],
+    "rejected": [
+      {
+        "type": "tiktok",
+        "id": "ai_creator1_26",
+        "reason": "Farm hashtag #PTGCREATORTH, nội dung đồ chơi trẻ em tiếng Anh, không phải creator Thái"
+      }
+    ],
+    "needs_user_action": [
+      "Tham gia group riêng tư Play Together TH พูดคุย/ซื้อขาย-แลกเปลี่ยน (16.8K thành viên): https://www.facebook.com/groups/3252260471541104/",
+      "Chờ duyệt 2 group riêng tư đã gửi yêu cầu: https://www.facebook.com/groups/356675609124267/ và https://www.facebook.com/groups/847315523442353/",
+      "Kiểm tra lại handle TikTok không tìm thấy: @gnox1_taiyang, @homdanghuakomkom (và @anbam7, @ameer.hamza99970, @anwaasmr từ lượt trước)"
+    ]
+  },
+  "sensor_tower": {
+    "status": "skipped",
+    "note": "Bỏ qua theo runbook; người dùng tự cập nhật tay."
+  },
+  "new_feedback": {
+    "by_source": {
+      "Facebook Group": 47,
+      "YouTube": 5,
+      "TikTok": 4
+    },
+    "by_community": {
+      "Facebook Group · playtogetherth": 34,
+      "Facebook Group · 815754622673816": 2,
+      "Facebook Group · 473704433937505": 1,
+      "Facebook Group · 493177613552238": 5,
+      "Facebook Group · 1772363333745643": 5,
+      "YouTube": 5,
+      "TikTok": 4
+    },
+    "by_kind": {
+      "post": 21,
+      "comment": 28,
+      "video": 7
+    },
+    "by_sentiment": {
+      "Neutral": 34,
+      "Negative": 6,
+      "Positive": 16
+    }
+  }
+}

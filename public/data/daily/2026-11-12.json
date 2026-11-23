@@ -3792,6 +3792,153 @@
       "translation_method": "ai_contextual",
       "label_method": "ai_review",
       "collected_at": "2026-11-13T05:20:00.000Z"
+    },
+    {
+      "id": "gplay-vng-0fa732f7cf482655",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.vng.playtogether&hl=th",
+      "author_masked": "P***",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "text_th": "สนุกมากเลยครับ",
+      "text_vn": "Vui lắm luôn ạ.",
+      "translation_method": "ai_contextual",
+      "sentiment": "Positive",
+      "confidence": 0.75,
+      "topic": "Other",
+      "topic_secondary": [],
+      "theme": "Trải nghiệm game tích cực",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 5,
+      "intent": "praise",
+      "keywords": [
+        "bình luận ngắn",
+        "khen game"
+      ],
+      "summary_vn": "Bình luận ngắn khen game rất vui.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Happy",
+      "store_tags": [],
+      "app_version": "2.33.1",
+      "text_en": "It's so much fun.",
+      "summary_en": "Short comment saying the game is a lot of fun."
+    },
+    {
+      "id": "gplay-vng-f3921dd501d9b58f",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.vng.playtogether&hl=th",
+      "author_masked": "A***",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "text_th": "เกมส์ดีมากก",
+      "text_vn": "Game hay lắmm.",
+      "translation_method": "ai_contextual",
+      "sentiment": "Positive",
+      "confidence": 0.75,
+      "topic": "Other",
+      "topic_secondary": [],
+      "theme": "Trải nghiệm game tích cực",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 5,
+      "intent": "praise",
+      "keywords": [
+        "bình luận ngắn",
+        "khen game"
+      ],
+      "summary_vn": "Bình luận ngắn khen game rất hay.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Happy",
+      "store_tags": [],
+      "app_version": "2.33.1",
+      "text_en": "Really good game.",
+      "summary_en": "Short comment saying the game is really good."
+    },
+    {
+      "id": "gplay-vng-a2275a5b5afa0a4c",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.vng.playtogether&hl=th",
+      "author_masked": "W***",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "text_th": "สนุกมากมันน่าจะตั้งรูปโปรฟรายได้โดยที่ไม่ต้องลอ็คอินกะเฟสบุ๊ค",
+      "text_vn": "Vui lắm, nhưng lẽ ra nên cho đặt ảnh đại diện mà không cần đăng nhập bằng Facebook.",
+      "translation_method": "ai_contextual",
+      "sentiment": "Mixed",
+      "confidence": 0.75,
+      "topic": "Activities (fishing, bugs, pets, housing, jobs, minigames)",
+      "topic_secondary": [],
+      "theme": "Hoạt động và tính năng trong game",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 5,
+      "intent": "suggestion",
+      "keywords": [
+        "đăng nhập",
+        "khen game"
+      ],
+      "summary_vn": "Đề xuất cho đặt ảnh đại diện không cần đăng nhập Facebook.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Mixed",
+      "store_tags": [
+        "Feature Requests",
+        "Login"
+      ],
+      "app_version": "2.33.1",
+      "text_en": "Really fun, but you should be able to set a profile picture without having to log in with Facebook.",
+      "summary_en": "Suggests allowing profile pictures without logging in via Facebook."
+    },
+    {
+      "id": "appstore-vng-878e2f7c78ee8592",
+      "source": "App Store",
+      "link": "https://apps.apple.com/th/app/id1612175933",
+      "author_masked": "S***",
+      "app_name": "Play Together VNG",
+      "app_id": "1612175933",
+      "text_th": "The best of the best. โครตดี รักเหมือนโลกใบที่สอง เพื่อนๆในเกมน่ารักมากๆ ทำได้ทุกอย่างที่นึกออก ไม่เคยเหงาเลยสักวัน สนับสนุนค่ะ คุณภาพ เลิฟฟฟ",
+      "text_vn": "Tuyệt nhất trong những game tuyệt nhất. Hay cực kỳ, yêu như thế giới thứ hai vậy, bạn bè trong game dễ thương lắm, làm được mọi thứ mình nghĩ ra, chưa ngày nào thấy cô đơn. Ủng hộ nha, chất lượng, yêu lắmmm.",
+      "translation_method": "ai_contextual",
+      "sentiment": "Positive",
+      "confidence": 0.75,
+      "topic": "Other",
+      "topic_secondary": [],
+      "theme": "Trải nghiệm game tích cực",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 5,
+      "intent": "praise",
+      "keywords": [
+        "khen game",
+        "tìm bạn",
+        "giải trí"
+      ],
+      "summary_vn": "Khen game như thế giới thứ hai, bạn bè dễ thương, không cô đơn.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Happy",
+      "store_tags": [
+        "Social And Community",
+        "Service"
+      ],
+      "app_version": "2.33.1",
+      "text_en": "The best of the best. Super good, I love it like a second world. The friends in the game are so lovely, you can do anything you can think of, and I've never felt lonely a single day. Fully support it, great quality, love it sooo much.",
+      "summary_en": "Praises the game as a second world with lovely friends."
     }
   ],
   "report": {
@@ -3827,40 +3974,66 @@
     ]
   },
   "metrics": {
-    "volume": 105,
+    "volume": 109,
     "noise": 0,
     "by_source": {
       "Facebook Group": 91,
       "Facebook Fanpage": 1,
       "YouTube": 5,
-      "TikTok": 8
+      "TikTok": 8,
+      "Google Play": 3,
+      "App Store": 1
     },
     "by_sentiment": {
-      "Positive": 28,
+      "Positive": 31,
       "Neutral": 52,
       "Negative": 15,
-      "Mixed": 10
+      "Mixed": 11
     },
     "by_topic": {
-      "Activities (fishing, bugs, pets, housing, jobs, minigames)": 57,
+      "Activities (fishing, bugs, pets, housing, jobs, minigames)": 58,
       "Social / Scam / Harassment / Toxic": 7,
       "Login / Account / Data": 3,
-      "Other": 30,
+      "Other": 33,
       "Gacha / Shop / Pricing": 7,
       "Bug / Crash / Lag / Performance": 1
     },
     "by_segment": {
-      "unknown": 105
+      "unknown": 109
     },
-    "nss": 12.4,
+    "nss": 14.7,
     "nss_d1": null,
     "nss_7d_avg": null,
     "store": {
-      "gp_avg": null,
-      "ios_avg": null,
+      "gp_avg": 5,
+      "ios_avg": 5,
       "star_1": 0,
-      "star_5": 0
+      "star_5": 4
     }
   },
-  "data_mode": "production"
+  "data_mode": "production",
+  "ratings": [
+    {
+      "platform": "Google Play",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "granularity": "day",
+      "incremental_avg_rating": 5,
+      "total_avg_rating": 4.531,
+      "incremental_rating_count": -0.4964000000000004,
+      "total_rating_count": 385.2029,
+      "source": "Sensor Tower"
+    },
+    {
+      "platform": "App Store",
+      "app_name": "Play Together VNG",
+      "app_id": "1612175933",
+      "granularity": "day",
+      "incremental_avg_rating": 4.7143,
+      "total_avg_rating": 4.0861,
+      "incremental_rating_count": 7,
+      "total_rating_count": 511,
+      "source": "Sensor Tower"
+    }
+  ]
 }

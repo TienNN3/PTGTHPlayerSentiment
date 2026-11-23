@@ -62,6 +62,11 @@ Lượt chạy có thể bị lỡ (app đóng lúc 6h, máy tắt, lượt trư
   4. Cập nhật `detail` của nguồn LINE trong `sources.json` (khoảng ngày đã có).
 - Script tự bỏ các tin đã nhập từ file trước (so theo ngày + giờ + nội dung, không theo tên, vì LINE có thể hiện "Unknown" ở lần xuất này và tên thật ở lần sau, hoặc người chơi đổi tên). Tên nhân vật trong game người chơi gửi để kết bạn được che thành `[redacted]`; mã code công khai của creator (viết hoa) giữ nguyên.
 
+## 2c. Rating và review store (nhập tay khi người dùng gửi file Sensor Tower)
+
+- Rating theo ngày: `node scripts/import-sensortower-vng.mjs --ratings "<Google Play Rating Count…csv>" --ratings "<App Store Rating Count…csv>"`.
+- Review: `node scripts/build-store-staging.mjs .staging/store-<ngày> --google-play "<Google Play Reviews…csv>" --app-store "<App Store Reviews…csv>"` lọc review TH của app VNG chưa có (theo id hoặc nguồn + ngày + nội dung) → dịch + gắn nhãn `in.json` → `node scripts/import-sensortower-vng.mjs --reviews <reviews-labeled.json>`. File review Google Play phải là app **Play Together VNG** (com.vng.playtogether), không phải app Global.
+
 ## 2b. Tìm nguồn mới (mỗi lượt, tối đa ~15 phút)
 
 Mục tiêu: danh sách nguồn không bị cố định. Khi có group cộng đồng, kênh YouTube hay creator TikTok mới nói về Play Together bằng tiếng Thái thì đưa vào theo dõi.

@@ -5545,6 +5545,185 @@
       "translation_method": "ai_contextual",
       "label_method": "ai_review",
       "collected_at": "2026-11-16T14:00:00+07:00"
+    },
+    {
+      "id": "gplay-vng-78f85bc20ffea87f",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.vng.playtogether&hl=th",
+      "author_masked": "G***",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "text_th": "เกมดีมากๆ",
+      "text_vn": "Game hay lắm luôn.",
+      "translation_method": "ai_contextual",
+      "sentiment": "Positive",
+      "confidence": 0.75,
+      "topic": "Other",
+      "topic_secondary": [],
+      "theme": "Trải nghiệm game tích cực",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 5,
+      "intent": "praise",
+      "keywords": [
+        "bình luận ngắn",
+        "khen game"
+      ],
+      "summary_vn": "Bình luận ngắn khen game rất hay.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Happy",
+      "store_tags": [],
+      "app_version": "2.33.1",
+      "text_en": "Really great game.",
+      "summary_en": "Short comment saying the game is really great."
+    },
+    {
+      "id": "gplay-vng-8d84636004ca27e9",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.vng.playtogether&hl=th",
+      "author_masked": "ป***",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "text_th": "เกมสนุกมาก",
+      "text_vn": "Game vui lắm.",
+      "translation_method": "ai_contextual",
+      "sentiment": "Positive",
+      "confidence": 0.75,
+      "topic": "Other",
+      "topic_secondary": [],
+      "theme": "Trải nghiệm game tích cực",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 5,
+      "intent": "praise",
+      "keywords": [
+        "bình luận ngắn",
+        "khen game"
+      ],
+      "summary_vn": "Bình luận ngắn khen game rất vui.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Happy",
+      "store_tags": [],
+      "app_version": null,
+      "text_en": "The game is a lot of fun.",
+      "summary_en": "Short comment saying the game is very fun."
+    },
+    {
+      "id": "gplay-vng-a71a9bf22955af4d",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.vng.playtogether&hl=th",
+      "author_masked": "C***",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "text_th": "แย่มากๆนะครับ",
+      "text_vn": "Tệ lắm luôn ạ.",
+      "translation_method": "ai_contextual",
+      "sentiment": "Negative",
+      "confidence": 0.75,
+      "topic": "Other",
+      "topic_secondary": [],
+      "theme": "Góp ý trải nghiệm chung",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 1,
+      "intent": "complaint",
+      "keywords": [
+        "bình luận ngắn"
+      ],
+      "summary_vn": "Bình luận ngắn chê game rất tệ, không nêu lý do.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Unhappy",
+      "store_tags": [],
+      "app_version": "2.33.1",
+      "text_en": "Really bad.",
+      "summary_en": "Short comment calling the game very bad, no reason given."
+    },
+    {
+      "id": "gplay-vng-125dcce4a2dffec5",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.vng.playtogether&hl=th",
+      "author_masked": "อ***",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "text_th": "เกมสนุกมากแต่อัปเดตบ่อยเกินนรอนานด้วยนิดหน่อยย",
+      "text_vn": "Game vui lắm nhưng cập nhật thường xuyên quá, mà còn phải chờ hơi lâu nữa.",
+      "translation_method": "ai_contextual",
+      "sentiment": "Mixed",
+      "confidence": 0.75,
+      "topic": "Other",
+      "topic_secondary": [],
+      "theme": "Góp ý trải nghiệm chung",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 3,
+      "intent": "complaint",
+      "keywords": [
+        "cập nhật mới",
+        "tải game",
+        "khen game"
+      ],
+      "summary_vn": "Khen game vui nhưng cập nhật quá thường xuyên, chờ lâu.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Mixed",
+      "store_tags": [
+        "Updates And Maintenance",
+        "Performance And Bugs"
+      ],
+      "app_version": "2.33.0",
+      "text_en": "The game is really fun, but it updates way too often, and you have to wait a bit long too.",
+      "summary_en": "Fun game, but updates too often and take a while."
+    },
+    {
+      "id": "appstore-vng-a38236fd802dc307",
+      "source": "App Store",
+      "link": "https://apps.apple.com/th/app/id1612175933",
+      "author_masked": "M***",
+      "app_name": "Play Together VNG",
+      "app_id": "1612175933",
+      "text_th": "ไรมัน. อะไรวะคะเข้าเป็น10กว่ารอบไม่ได้ไม่ค้างไม่ไรเลยลื่นมากเเต่พอขยับปุ้ปจอดำออกเองเชยเอาเหอะคะ",
+      "text_vn": "Cái gì vậy. Cái gì thế này, vào hơn 10 lần mà không được, không đơ không gì cả, mượt lắm, nhưng vừa cử động một cái là màn hình đen rồi tự thoát ra. Thôi kệ đi.",
+      "translation_method": "ai_contextual",
+      "sentiment": "Negative",
+      "confidence": 0.75,
+      "topic": "Bug / Crash / Lag / Performance",
+      "topic_secondary": [],
+      "theme": "Game bị văng và treo",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 1,
+      "intent": "performance",
+      "keywords": [
+        "văng game"
+      ],
+      "summary_vn": "Vừa di chuyển là màn hình đen rồi văng, thử hơn 10 lần.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Unhappy",
+      "store_tags": [
+        "Performance And Bugs"
+      ],
+      "app_version": "2.33.1",
+      "text_en": "What is this? I've tried getting in more than 10 times and can't. No freezing or anything, it runs really smoothly, but as soon as I move, the screen goes black and the game closes by itself. Whatever, forget it.",
+      "summary_en": "Screen goes black and game quits on moving, after 10+ tries."
     }
   ],
   "report": {
@@ -5580,42 +5759,68 @@
     ]
   },
   "metrics": {
-    "volume": 152,
+    "volume": 157,
     "noise": 0,
     "by_source": {
       "Facebook Group": 89,
       "Facebook Fanpage": 3,
       "YouTube": 2,
       "TikTok": 5,
-      "LINE OpenChat": 53
+      "LINE OpenChat": 53,
+      "Google Play": 4,
+      "App Store": 1
     },
     "by_sentiment": {
-      "Positive": 31,
+      "Positive": 33,
       "Neutral": 78,
-      "Negative": 38,
-      "Mixed": 5
+      "Negative": 40,
+      "Mixed": 6
     },
     "by_topic": {
       "Activities (fishing, bugs, pets, housing, jobs, minigames)": 74,
       "Login / Account / Data": 7,
       "Gacha / Shop / Pricing": 11,
-      "Other": 25,
+      "Other": 29,
       "Event & Update content": 8,
       "Topup & Payment": 9,
-      "Bug / Crash / Lag / Performance": 18
+      "Bug / Crash / Lag / Performance": 19
     },
     "by_segment": {
-      "unknown": 152
+      "unknown": 157
     },
-    "nss": -4.6,
+    "nss": -4.5,
     "nss_d1": null,
     "nss_7d_avg": null,
     "store": {
-      "gp_avg": null,
-      "ios_avg": null,
-      "star_1": 0,
-      "star_5": 0
+      "gp_avg": 3.5,
+      "ios_avg": 1,
+      "star_1": 2,
+      "star_5": 2
     }
   },
-  "data_mode": "production"
+  "data_mode": "production",
+  "ratings": [
+    {
+      "platform": "Google Play",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "granularity": "day",
+      "incremental_avg_rating": 2.478,
+      "total_avg_rating": 4.5703,
+      "incremental_rating_count": 1.1360000000000001,
+      "total_rating_count": 386.09209999999996,
+      "source": "Sensor Tower"
+    },
+    {
+      "platform": "App Store",
+      "app_name": "Play Together VNG",
+      "app_id": "1612175933",
+      "granularity": "day",
+      "incremental_avg_rating": 5,
+      "total_avg_rating": 4.1029,
+      "incremental_rating_count": 5,
+      "total_rating_count": 525,
+      "source": "Sensor Tower"
+    }
+  ]
 }

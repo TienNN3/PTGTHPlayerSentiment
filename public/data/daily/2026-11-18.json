@@ -3754,6 +3754,46 @@
       "translation_method": "ai_contextual",
       "label_method": "ai_review",
       "collected_at": "2026-11-19T10:00:00+07:00"
+    },
+    {
+      "id": "appstore-vng-d06c225db29eb03b",
+      "source": "App Store",
+      "link": "https://apps.apple.com/th/app/id1612175933",
+      "author_masked": "k***",
+      "app_name": "Play Together VNG",
+      "app_id": "1612175933",
+      "text_th": "เอารหัสเก่ากลับมาาา. เกมดีน่ารักมีให้ทำหลายอย่างแต่ บช หายคือเราแอบเสียความรู้สึกนะเล่นประมาณ2-3ปีแล้วลบเพราะเมมเต็มพอจะกลับมาโหลดใหม่ บช หาย ตอนแรกคิดว่าเป็นคนเดียว สรุปมีหลายคนที่เจอปัญหาเดียวกันเราเลย อยากให้แก้ไขตรงนี้นะคะมันอาจจะทำให้หลายๆคนมีไฟกลับมาเล่นTT",
+      "text_vn": "Trả lại tài khoản cũ điii. Game hay, dễ thương, có nhiều thứ để làm, nhưng mất tài khoản thì thật sự hơi buồn. Mình chơi khoảng 2-3 năm rồi, xoá game vì đầy bộ nhớ, đến lúc quay lại tải lại thì tài khoản mất luôn. Lúc đầu tưởng chỉ mình bị, hoá ra có nhiều người gặp cùng vấn đề giống mình. Mong game sửa chỗ này nhé, vì có thể nó sẽ giúp nhiều người có lại động lực quay lại chơi TT",
+      "translation_method": "ai_contextual",
+      "sentiment": "Mixed",
+      "confidence": 0.75,
+      "topic": "Login / Account / Data",
+      "topic_secondary": [],
+      "theme": "Đăng nhập tài khoản",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 2,
+      "intent": "account",
+      "keywords": [
+        "mất dữ liệu",
+        "người chơi quay lại",
+        "người chơi lâu năm",
+        "chuyển tài khoản vng"
+      ],
+      "summary_vn": "Người chơi lâu năm quay lại, mất tài khoản sau khi xoá game.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Mixed",
+      "store_tags": [
+        "User Data And Privacy",
+        "Performance And Bugs"
+      ],
+      "app_version": "2.33.2",
+      "text_en": "Give me back my old account! The game is good and cute with lots to do, but losing my account really hurts. I played for about 2-3 years, deleted it because my storage was full, and when I came back and reinstalled, my account was gone. At first I thought it was just me, but it turns out many people have the same problem. Please fix this, it could make a lot of people want to come back and play again TT",
+      "summary_en": "Long-time player returned and lost account after deleting the game."
     }
   ],
   "report": {
@@ -3789,23 +3829,24 @@
     ]
   },
   "metrics": {
-    "volume": 103,
+    "volume": 104,
     "noise": 0,
     "by_source": {
       "Facebook Group": 62,
       "Facebook Fanpage": 1,
       "YouTube": 2,
       "TikTok": 3,
-      "LINE OpenChat": 35
+      "LINE OpenChat": 35,
+      "App Store": 1
     },
     "by_sentiment": {
       "Positive": 15,
       "Neutral": 66,
       "Negative": 19,
-      "Mixed": 3
+      "Mixed": 4
     },
     "by_topic": {
-      "Login / Account / Data": 8,
+      "Login / Account / Data": 9,
       "Activities (fishing, bugs, pets, housing, jobs, minigames)": 80,
       "Event & Update content": 5,
       "Gacha / Shop / Pricing": 5,
@@ -3813,17 +3854,41 @@
       "Other": 3
     },
     "by_segment": {
-      "unknown": 103
+      "unknown": 104
     },
-    "nss": -3.9,
+    "nss": -3.8,
     "nss_d1": null,
     "nss_7d_avg": null,
     "store": {
       "gp_avg": null,
-      "ios_avg": null,
+      "ios_avg": 2,
       "star_1": 0,
       "star_5": 0
     }
   },
-  "data_mode": "production"
+  "data_mode": "production",
+  "ratings": [
+    {
+      "platform": "Google Play",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "granularity": "day",
+      "incremental_avg_rating": 4,
+      "total_avg_rating": 4.6139,
+      "incremental_rating_count": 0.047800000000000065,
+      "total_rating_count": 386.55830000000003,
+      "source": "Sensor Tower"
+    },
+    {
+      "platform": "App Store",
+      "app_name": "Play Together VNG",
+      "app_id": "1612175933",
+      "granularity": "day",
+      "incremental_avg_rating": 3.7778,
+      "total_avg_rating": 4.1123,
+      "incremental_rating_count": 9,
+      "total_rating_count": 543,
+      "source": "Sensor Tower"
+    }
+  ]
 }

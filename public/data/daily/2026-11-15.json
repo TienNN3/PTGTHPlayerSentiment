@@ -2987,6 +2987,226 @@
       "translation_method": "ai_contextual",
       "label_method": "ai_review",
       "collected_at": "2026-11-16T14:00:00+07:00"
+    },
+    {
+      "id": "gplay-vng-f6f2c9773e3bc32d",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.vng.playtogether&hl=th",
+      "author_masked": "P***",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "text_th": "เล่นซะนุก",
+      "text_vn": "Chơi vui ghê.",
+      "translation_method": "ai_contextual",
+      "sentiment": "Positive",
+      "confidence": 0.75,
+      "topic": "Other",
+      "topic_secondary": [],
+      "theme": "Trải nghiệm game tích cực",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 5,
+      "intent": "praise",
+      "keywords": [
+        "bình luận ngắn",
+        "khen game"
+      ],
+      "summary_vn": "Bình luận ngắn khen game chơi vui.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Happy",
+      "store_tags": [],
+      "app_version": null,
+      "text_en": "So fun to play.",
+      "summary_en": "Short comment saying the game is fun."
+    },
+    {
+      "id": "gplay-vng-67c998ac60cdfbc4",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.vng.playtogether&hl=th",
+      "author_masked": "e***",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "text_th": "กูลองมา 3 เดือน 7 วันและกูยังไม่ได้เล่นเลย",
+      "text_vn": "Tao thử suốt 3 tháng 7 ngày rồi mà tao vẫn chưa được chơi lần nào.",
+      "translation_method": "ai_contextual",
+      "sentiment": "Negative",
+      "confidence": 0.75,
+      "topic": "Bug / Crash / Lag / Performance",
+      "topic_secondary": [],
+      "theme": "Game bị văng và treo",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 1,
+      "intent": "performance",
+      "keywords": [
+        "tải game",
+        "đăng nhập"
+      ],
+      "summary_vn": "Bực vì thử hơn 3 tháng vẫn chưa vào chơi được.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Unhappy",
+      "store_tags": [
+        "Performance And Bugs"
+      ],
+      "app_version": null,
+      "text_en": "I've been trying for 3 months and 7 days and I still haven't been able to play at all.",
+      "summary_en": "Frustrated that after over 3 months they still can't play."
+    },
+    {
+      "id": "gplay-vng-069ca62878496c6f",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.vng.playtogether&hl=th",
+      "author_masked": "ช***",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "text_th": "เพราะว่าใช้เน็ตเยอะนี่คือข้อเสียส่วนข้อดีก็คือสนุกมีเพื่อนเยอะและผู้เล่นเยอะไม่เหงา",
+      "text_vn": "Điểm trừ là tốn nhiều dữ liệu mạng, còn điểm cộng là vui, có nhiều bạn bè và đông người chơi nên không thấy cô đơn.",
+      "translation_method": "ai_contextual",
+      "sentiment": "Mixed",
+      "confidence": 0.75,
+      "topic": "Other",
+      "topic_secondary": [],
+      "theme": "Trải nghiệm game tích cực",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 5,
+      "intent": "praise",
+      "keywords": [
+        "khen game",
+        "tìm bạn",
+        "lag"
+      ],
+      "summary_vn": "Khen game vui, đông người chơi nhưng tốn nhiều dữ liệu mạng.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Mixed",
+      "store_tags": [
+        "Performance And Bugs",
+        "Social And Community"
+      ],
+      "app_version": null,
+      "text_en": "The downside is that it uses a lot of mobile data. The upside is that it's fun, you have lots of friends and there are many players, so you never feel lonely.",
+      "summary_en": "Fun with many players, but uses a lot of mobile data."
+    },
+    {
+      "id": "gplay-vng-a78a189ccc038438",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.vng.playtogether&hl=th",
+      "author_masked": "A***",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "text_th": "โหลดช้า",
+      "text_vn": "Tải chậm.",
+      "translation_method": "ai_contextual",
+      "sentiment": "Negative",
+      "confidence": 0.75,
+      "topic": "Bug / Crash / Lag / Performance",
+      "topic_secondary": [],
+      "theme": "Game bị văng và treo",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 2,
+      "intent": "performance",
+      "keywords": [
+        "tải game",
+        "lag"
+      ],
+      "summary_vn": "Phàn nàn game tải chậm.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Unhappy",
+      "store_tags": [
+        "Performance And Bugs"
+      ],
+      "app_version": "2.33.1",
+      "text_en": "Slow loading.",
+      "summary_en": "Complains the game loads slowly."
+    },
+    {
+      "id": "gplay-vng-5b6cfada3f454c99",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.vng.playtogether&hl=th",
+      "author_masked": "N***",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "text_th": "islami in anime song",
+      "text_vn": "islami in anime song (nội dung không rõ nghĩa, có vẻ không liên quan đến game) (?)",
+      "translation_method": "ai_contextual",
+      "sentiment": "Neutral",
+      "confidence": 0.75,
+      "topic": "Other",
+      "topic_secondary": [],
+      "theme": "Góp ý trải nghiệm chung",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 4,
+      "intent": "chat",
+      "keywords": [
+        "bình luận ngắn"
+      ],
+      "summary_vn": "Bình luận ngắn không rõ nghĩa, không liên quan game.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Neutral",
+      "store_tags": [
+        "Content"
+      ],
+      "app_version": null,
+      "text_en": "islami in anime song (unclear meaning, seems unrelated to the game) (?)",
+      "summary_en": "Short unclear comment unrelated to the game."
+    },
+    {
+      "id": "gplay-vng-65f75809b774d81f",
+      "source": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.vng.playtogether&hl=th",
+      "author_masked": "O***",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "text_th": "ใช้เน็ตเยอะไปหน่อย",
+      "text_vn": "Hơi tốn dữ liệu mạng quá.",
+      "translation_method": "ai_contextual",
+      "sentiment": "Negative",
+      "confidence": 0.75,
+      "topic": "Other",
+      "topic_secondary": [],
+      "theme": "Góp ý trải nghiệm chung",
+      "segment": "unknown",
+      "severity": null,
+      "needs_review": true,
+      "rating": 4,
+      "intent": "performance",
+      "keywords": [
+        "lag"
+      ],
+      "summary_vn": "Phàn nàn game hơi tốn dữ liệu mạng.",
+      "label_method": "ai_review",
+      "content_kind": "review",
+      "activity_type": "Đánh giá store",
+      "date_basis": "published_at",
+      "store_sentiment": "Unhappy",
+      "store_tags": [
+        "Performance And Bugs"
+      ],
+      "app_version": null,
+      "text_en": "It uses a bit too much mobile data.",
+      "summary_en": "Complains the game uses too much mobile data."
     }
   ],
   "report": {
@@ -3022,38 +3242,64 @@
     ]
   },
   "metrics": {
-    "volume": 82,
+    "volume": 88,
     "noise": 0,
     "by_source": {
       "Facebook Group": 52,
-      "LINE OpenChat": 30
+      "LINE OpenChat": 30,
+      "Google Play": 6
     },
     "by_sentiment": {
-      "Positive": 13,
-      "Neutral": 49,
-      "Negative": 17,
-      "Mixed": 3
+      "Positive": 14,
+      "Neutral": 50,
+      "Negative": 20,
+      "Mixed": 4
     },
     "by_topic": {
       "Event & Update content": 7,
       "Activities (fishing, bugs, pets, housing, jobs, minigames)": 58,
       "Login / Account / Data": 6,
-      "Other": 4,
+      "Other": 8,
       "Gacha / Shop / Pricing": 6,
-      "Localization (Thai text, wrong translation)": 1
+      "Localization (Thai text, wrong translation)": 1,
+      "Bug / Crash / Lag / Performance": 2
     },
     "by_segment": {
-      "unknown": 82
+      "unknown": 88
     },
-    "nss": -4.9,
+    "nss": -6.8,
     "nss_d1": null,
     "nss_7d_avg": null,
     "store": {
-      "gp_avg": null,
+      "gp_avg": 3.5,
       "ios_avg": null,
-      "star_1": 0,
-      "star_5": 0
+      "star_1": 1,
+      "star_5": 2
     }
   },
-  "data_mode": "production"
+  "data_mode": "production",
+  "ratings": [
+    {
+      "platform": "Google Play",
+      "app_name": "Play Together VNG",
+      "app_id": "com.vng.playtogether",
+      "granularity": "day",
+      "incremental_avg_rating": 3.3073,
+      "total_avg_rating": 4.5133,
+      "incremental_rating_count": 0.19870000000000054,
+      "total_rating_count": 386.2908,
+      "source": "Sensor Tower"
+    },
+    {
+      "platform": "App Store",
+      "app_name": "Play Together VNG",
+      "app_id": "1612175933",
+      "granularity": "day",
+      "incremental_avg_rating": 5,
+      "total_avg_rating": 4.1096,
+      "incremental_rating_count": 4,
+      "total_rating_count": 529,
+      "source": "Sensor Tower"
+    }
+  ]
 }

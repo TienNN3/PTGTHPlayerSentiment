@@ -88,8 +88,13 @@ try {
 const already = { exact: 0, overlap: 0 };
 const candidates = [], seenKeys = new Map();
 for (const g of groups) {
+  // Tên nhân vật: một dòng không khoảng trắng, không có chữ Thái, không phải link/số/mã viết hoa (kể cả chữ kiểu cách như "Bʙᴀꜱᵏᵘᵇ").
+  const isGameName = (value) => value.length >= 2 && value.length <= 25 && !/\s/.test(value) && !/[\u0E00-\u0E7F]/.test(value) && !/^https?:/i.test(value)
+    && !/^[A-Z0-9_.]+$/.test(value) && !/^[\d\p{P}\p{S}]+$/u.test(value) && /\p{L}/u.test(value) && !/^(?:ok|oke|hi|hello|good|thanks?)$/i.test(value);
+  // Link trang cá nhân Facebook (…/user/<id>/, profile.php?id=…) là định danh cá nhân: bỏ phần đó, giữ link group nếu có.
+  g.parts = g.parts.map((part) => part.replace(/(https?:\/\/(?:www\.)?facebook\.com\/groups\/[^/\s]+)\/user\/\d+\/?/g, "$1/").replace(/https?:\/\/(?:www\.)?facebook\.com\/profile\.php\?id=\S+/g, "[redacted]"));
   // Tên nhân vật trong game người chơi gửi để kết bạn (một dòng chỉ gồm chữ Latin/Hàn, không viết hoa toàn bộ như mã code) cũng che.
-  let text = g.parts.join("\n").replace(PII, "[redacted]").split("\n").map((line) => (/^(?=.*[a-z가-힣])[A-Za-z0-9가-힣_.]{2,20}$/.test(line.trim()) && !/^[A-Z0-9_.]+$/.test(line.trim()) && !/^(?:ok|oke|hi|hello|My acc)$/i.test(line.trim())) ? "[redacted]" : line).join("\n").trim();
+  let text = g.parts.join("\n").replace(PII, "[redacted]").split("\n").map((line) => isGameName(line.trim()) ? "[redacted]" : line).join("\n").trim();
   if (/^(?:\[redacted\]\s*)+$/.test(text)) { skipped.short++; continue; }
   if (GREETING.test(text) || (/^(?:สวัสดี|ขอบคุณ|ยินดีต้อนรับ)/u.test(text) && [...text].length <= 30 && !text.includes("\n"))) { skipped.greeting++; continue; }
   if (/^https?:\/\/\S+$/.test(text)) { skipped.link_only++; continue; }

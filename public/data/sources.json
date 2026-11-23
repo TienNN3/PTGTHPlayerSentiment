@@ -175,7 +175,7 @@
       "name": "LINE OpenChat Play Together Thailand",
       "type": "line",
       "status": "line",
-      "detail": "Nhóm LINE OpenChat của người chơi Thái (mở 06/11/2026). Không thu thập tự động: người dùng xuất file .txt từ LINE và gửi vài ngày một lần; nhập bằng scripts/parse-line.mjs. Dữ liệu hiện có: 14/11 – 19/11/2026 (19/11 đến 07:46), 214 tin. Bỏ tin hệ thống, sticker, ảnh, lời chào; tên người gửi và tên nhân vật trong game đã che.",
+      "detail": "Nhóm LINE OpenChat của người chơi Thái (mở 06/11/2026). Không thu thập tự động: người dùng xuất file .txt từ LINE và gửi vài ngày một lần; nhập bằng scripts/parse-line.mjs. Dữ liệu hiện có: 14/11 – 23/11/2026 (23/11 đến 09:31), 333 tin. Bỏ tin hệ thống, sticker, ảnh, lời chào; tên người gửi, tên nhân vật và link trang cá nhân đã che.",
       "url": "",
       "discovered_at": "2026-11-16"
     },
@@ -213,7 +213,7 @@
       "name": "Google Play",
       "type": "store",
       "status": "store",
-      "detail": "Sensor Tower export 13/11 (người dùng tải): rating theo ngày app Play Together VNG (TH) đến 11/11/2026 (4.52★, ~386 lượt); review TH app VNG 15/10 – 11/11: thêm 13 review mới (gồm 9 review khen ngắn trước đó bị bỏ sót do trùng chữ), 42 đã có. Review TH app VNG hiện có: 11/06 – 11/11/2026 (221 review); app Global (HAEGIN) đến 12/09/2026.",
+      "detail": "Sensor Tower export 23/11 (người dùng tải): rating theo ngày app Play Together VNG (TH) đến 21/11/2026 (4.65★, ~387 lượt); review TH app VNG 26/10 – 19/11: thêm 20 review mới, 30 đã có. Review TH app VNG hiện có: 11/06 – 19/11/2026 (241 review); app Global (HAEGIN) đến 12/09/2026.",
       "last_check": {
         "target_date": "2026-10-28",
         "checked_at": "2026-10-29T03:50:00.000Z",
@@ -232,7 +232,7 @@
       "name": "App Store",
       "type": "store",
       "status": "store",
-      "detail": "Sensor Tower export 13/11 (người dùng tải): rating theo ngày app Play Together VNG (TH) đến 11/11/2026 (4.08★, 504 lượt); review TH: thêm 1 review mới (09/11), 10 đã có. Review TH app VNG hiện có: 05/07 – 09/11/2026 (67 review); app Global (HAEGIN) đến 25/06/2026.",
+      "detail": "Sensor Tower export 23/11 (người dùng tải): rating theo ngày app Play Together VNG (TH) đến 21/11/2026 (4.11★, 553 lượt); review TH 01/11 – 20/11: thêm 5 review mới, 3 đã có. Review TH app VNG hiện có: 05/07 – 20/11/2026 (72 review); app Global (HAEGIN) đến 25/06/2026.",
       "last_check": {
         "target_date": "2026-10-28",
         "checked_at": "2026-10-29T03:50:00.000Z",

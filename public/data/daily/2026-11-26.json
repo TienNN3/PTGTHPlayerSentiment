@@ -1,0 +1,442 @@
+{
+  "date": "2026-11-26",
+  "alerts": [],
+  "items": [
+    {
+      "date_basis": "published_at",
+      "source": "YouTube",
+      "community": "YouTube",
+      "link": "https://www.youtube.com/watch?v=Ml4G31hg_-I",
+      "author_masked": "R***",
+      "text_th": "Play Together ตะลุยอัพเดทออกสำรวจทุ่งหิมะอันกว้างใหญ่ #PTGCreator #PlayTogether #PlayTogetherVNG",
+      "text_vn": "Play Together: xông pha bản cập nhật, đi khám phá cánh đồng tuyết rộng lớn #PTGCreator #PlayTogether #PlayTogetherVNG",
+      "text_en": "Play Together: diving into the update and exploring the huge snowfield #PTGCreator #PlayTogether #PlayTogetherVNG",
+      "summary_vn": "Video creator khám phá khu cánh đồng tuyết trong bản cập nhật mới (kèm code PTSNOWFIELD trong bình luận ghim).",
+      "summary_en": "Creator explores the new snowfield area in the update (code PTSNOWFIELD in the pinned comment).",
+      "content_kind": "video",
+      "activity_type": "Video của người chơi",
+      "published_label": "14:28 26/11 (publishDate 2026-11-25T23:28:11-08:00)",
+      "sentiment": "Positive",
+      "intent": "share",
+      "keywords": [
+        "cập nhật mới",
+        "sự kiện",
+        "code quà tặng"
+      ],
+      "theme": "Phần thưởng sự kiện",
+      "engagement": {
+        "reactions": [
+          "Views: 40"
+        ],
+        "comment_count": 1
+      },
+      "id": "youtube-3c6c055f5612d948",
+      "topic": "Event & Update content",
+      "topic_secondary": [],
+      "segment": "unknown",
+      "severity": null,
+      "confidence": 0.7,
+      "needs_review": true,
+      "translation_method": "ai_contextual",
+      "label_method": "ai_review",
+      "collected_at": "2026-11-27T23:33:56.047Z"
+    },
+    {
+      "date_basis": "published_at",
+      "source": "YouTube",
+      "community": "YouTube",
+      "link": "https://www.youtube.com/watch?v=7403yMuAxOc",
+      "author_masked": "T***",
+      "text_th": "อีเว้นท์ใหม่ฤดูหนาว #playtogether #playtogethervng #playtogetherth",
+      "text_vn": "Sự kiện mùa đông mới #playtogether #playtogethervng #playtogetherth",
+      "text_en": "New winter event #playtogether #playtogethervng #playtogetherth",
+      "summary_vn": "Video creator giới thiệu sự kiện mùa đông mới.",
+      "summary_en": "Creator video introducing the new winter event.",
+      "content_kind": "video",
+      "activity_type": "Video của người chơi",
+      "published_label": "17:37 26/11 (publishDate 2026-11-26T02:37:01-08:00)",
+      "sentiment": "Positive",
+      "intent": "share",
+      "keywords": [
+        "sự kiện",
+        "cập nhật mới"
+      ],
+      "theme": "Phần thưởng sự kiện",
+      "engagement": {
+        "reactions": [
+          "Views: 65"
+        ],
+        "comment_count": 0
+      },
+      "id": "youtube-99b71f07ed3fc5ae",
+      "topic": "Event & Update content",
+      "topic_secondary": [],
+      "segment": "unknown",
+      "severity": null,
+      "confidence": 0.7,
+      "needs_review": true,
+      "translation_method": "ai_contextual",
+      "label_method": "ai_review",
+      "collected_at": "2026-11-27T23:33:56.047Z"
+    },
+    {
+      "date_basis": "published_at",
+      "source": "YouTube",
+      "community": "YouTube",
+      "link": "https://www.youtube.com/watch?v=TF3ykBCpIwM",
+      "author_masked": "T***",
+      "text_th": "Play Together : อัพเดท 2.34.0✓อีเว้นท์ฤดูหนาว✓หมีน้อยน่ารักน✓มังกรน้ำแข็ง#playtogether#playtogethervng",
+      "text_vn": "Play Together: cập nhật 2.34.0 ✓ sự kiện mùa đông ✓ gấu nhỏ dễ thương ✓ rồng băng #playtogether #playtogethervng",
+      "text_en": "Play Together: update 2.34.0 ✓ winter event ✓ cute little bear ✓ ice dragon #playtogether #playtogethervng",
+      "summary_vn": "Video creator tổng hợp bản cập nhật 2.34.0: sự kiện mùa đông, thú cưng gấu, rồng băng.",
+      "summary_en": "Creator recaps update 2.34.0: winter event, bear pet, ice dragon.",
+      "content_kind": "video",
+      "activity_type": "Video của người chơi",
+      "published_label": "17:28 26/11 (publishDate 2026-11-26T02:28:04-08:00)",
+      "sentiment": "Positive",
+      "intent": "share",
+      "keywords": [
+        "cập nhật mới",
+        "rồng băng",
+        "thú cưng"
+      ],
+      "theme": "Phần thưởng sự kiện",
+      "engagement": {
+        "reactions": [
+          "Views: 46"
+        ],
+        "comment_count": 0
+      },
+      "id": "youtube-e6093ce5b22a7ec4",
+      "topic": "Event & Update content",
+      "topic_secondary": [],
+      "segment": "unknown",
+      "severity": null,
+      "confidence": 0.7,
+      "needs_review": true,
+      "translation_method": "ai_contextual",
+      "label_method": "ai_review",
+      "collected_at": "2026-11-27T23:33:56.047Z"
+    },
+    {
+      "date_basis": "published_at",
+      "source": "YouTube",
+      "community": "YouTube",
+      "link": "https://www.youtube.com/watch?v=-EQB3NxsxWo",
+      "author_masked": "W***",
+      "text_th": "《Play Together vng 》: อัพเดตกิจกรรมใหม่ 2.34.0 มังกรน้ำแข็งทุ่งหิมะ #playtogethervng #playtogether",
+      "text_vn": "《Play Together VNG》: cập nhật sự kiện mới 2.34.0 – Rồng băng của cánh đồng tuyết #playtogethervng #playtogether",
+      "text_en": "《Play Together VNG》: new event update 2.34.0 – Snowfield Ice Dragon #playtogethervng #playtogether",
+      "summary_vn": "Video creator giới thiệu sự kiện Rồng băng cánh đồng tuyết (đập băng phủ cây trong rừng Elf).",
+      "summary_en": "Creator introduces the Snowfield Ice Dragon event (breaking ice off trees in the Elf forest).",
+      "content_kind": "video",
+      "activity_type": "Video của người chơi",
+      "published_label": "20:16 26/11 (publishDate 2026-11-26T05:16:01-08:00)",
+      "sentiment": "Positive",
+      "intent": "share",
+      "keywords": [
+        "sự kiện",
+        "rồng băng",
+        "cập nhật mới"
+      ],
+      "theme": "Phần thưởng sự kiện",
+      "engagement": {
+        "reactions": [
+          "Views: 41"
+        ],
+        "comment_count": 0
+      },
+      "id": "youtube-30c4f7b82f3f626b",
+      "topic": "Event & Update content",
+      "topic_secondary": [],
+      "segment": "unknown",
+      "severity": null,
+      "confidence": 0.7,
+      "needs_review": true,
+      "translation_method": "ai_contextual",
+      "label_method": "ai_review",
+      "collected_at": "2026-11-27T23:33:56.047Z"
+    },
+    {
+      "date_basis": "published_at",
+      "source": "TikTok",
+      "community": "TikTok",
+      "link": "https://www.tiktok.com/@rukkung2000/video/7712189141676592391",
+      "author_masked": "R***",
+      "text_th": "พรุ่งนี้ธีมCHRISTMASมาแย้วขอเริ่มก่อนละกันนะ🤣❤️#playtogether #playtogethervng #game #แคสเกม #gameplay",
+      "text_vn": "Mai là có theme Giáng sinh rồi, cho mình khởi động trước nhé 🤣❤️ #playtogether #playtogethervng #game #castgame #gameplay",
+      "text_en": "Christmas theme drops tomorrow, so I’m starting early 🤣❤️ #playtogether #playtogethervng #game #gamecast #gameplay",
+      "summary_vn": "Creator háo hức đón theme Giáng sinh trong bản cập nhật mới.",
+      "summary_en": "Creator is excited for the Christmas theme in the new update.",
+      "content_kind": "video",
+      "activity_type": "Video của người chơi",
+      "published_label": "02:12 26/11 (theo ID video)",
+      "sentiment": "Positive",
+      "intent": "share",
+      "keywords": [
+        "giáng sinh",
+        "cập nhật mới",
+        "creator"
+      ],
+      "theme": "Trải nghiệm game tích cực",
+      "engagement": {
+        "reactions": [
+          "Views: 99"
+        ],
+        "comment_count": 0
+      },
+      "id": "tiktok-4a8ad790b39d513e",
+      "topic": "Other",
+      "topic_secondary": [],
+      "segment": "unknown",
+      "severity": null,
+      "confidence": 0.7,
+      "needs_review": true,
+      "translation_method": "ai_contextual",
+      "label_method": "ai_review",
+      "collected_at": "2026-11-27T23:33:56.047Z"
+    },
+    {
+      "date_basis": "published_at",
+      "source": "TikTok",
+      "community": "TikTok",
+      "link": "https://www.tiktok.com/@teddychanel/video/7712426664591953158",
+      "author_masked": "T***",
+      "text_th": "อีเว้นท์ใหม่ฤดูหนาว #PTGCreator #PlayTogetherVNG #playtogethetTH #PlayTogether",
+      "text_vn": "Sự kiện mùa đông mới #PTGCreator #PlayTogetherVNG #playtogetherTH #PlayTogether",
+      "text_en": "New winter event #PTGCreator #PlayTogetherVNG #playtogetherTH #PlayTogether",
+      "summary_vn": "Creator đăng video giới thiệu sự kiện mùa đông mới.",
+      "summary_en": "Creator posts a video about the new winter event.",
+      "content_kind": "video",
+      "activity_type": "Video của người chơi",
+      "published_label": "17:34 26/11 (theo ID video)",
+      "sentiment": "Positive",
+      "intent": "share",
+      "keywords": [
+        "sự kiện",
+        "cập nhật mới"
+      ],
+      "theme": "Phần thưởng sự kiện",
+      "engagement": {
+        "reactions": [
+          "Views: 78"
+        ],
+        "comment_count": 1
+      },
+      "id": "tiktok-03f75d9cc0103835",
+      "topic": "Event & Update content",
+      "topic_secondary": [],
+      "segment": "unknown",
+      "severity": null,
+      "confidence": 0.7,
+      "needs_review": true,
+      "translation_method": "ai_contextual",
+      "label_method": "ai_review",
+      "collected_at": "2026-11-27T23:33:56.047Z"
+    },
+    {
+      "date_basis": "published_at",
+      "source": "TikTok",
+      "community": "TikTok",
+      "link": "https://www.tiktok.com/@phoenix.s56/video/7711935039482694932?comment_id=7712482641132176146",
+      "author_masked": "ค***",
+      "text_th": "แฟนพี่ใช้ลิปอะไรปากแดงจังสีสวยมากอยากซื้อตามจังไปถามแฟนพี่หน่อยนะหนูจะไปซื้อตามด่วนๆซื้อมาเลย 10 อัน",
+      "text_vn": "Bạn gái anh dùng son gì mà môi đỏ thế, màu đẹp quá, muốn mua theo ghê. Hỏi bạn gái anh giùm em nhé, em mua liền 10 cây luôn.",
+      "text_en": "What lipstick does your girlfriend use? Such a nice red, I want to buy it. Ask her for me, I’ll buy 10 right away.",
+      "summary_vn": "Đùa hỏi nhân vật \"bạn gái\" dùng son gì vì môi quá đỏ.",
+      "summary_en": "Jokingly asks what lipstick the \"girlfriend\" character uses.",
+      "content_kind": "comment",
+      "activity_type": "Bình luận",
+      "published_label": "21:11 26/11 (theo ID bình luận)",
+      "sentiment": "Positive",
+      "intent": "chat",
+      "keywords": [
+        "đùa",
+        "ngoại hình nhân vật"
+      ],
+      "theme": "Trải nghiệm game tích cực",
+      "engagement": {
+        "reactions": [],
+        "comment_count": null
+      },
+      "id": "tiktok-397f363e5e9925d3",
+      "topic": "Other",
+      "topic_secondary": [],
+      "segment": "unknown",
+      "severity": null,
+      "confidence": 0.7,
+      "needs_review": true,
+      "translation_method": "ai_contextual",
+      "label_method": "ai_review",
+      "collected_at": "2026-11-27T23:33:56.047Z"
+    },
+    {
+      "date_basis": "published_at",
+      "source": "TikTok",
+      "community": "TikTok",
+      "link": "https://www.tiktok.com/@phoenix.s56/video/7711935039482694932?comment_id=7712462586944160519",
+      "author_masked": "T***",
+      "text_th": "แฟนพี่สาวมากค่ะ",
+      "text_vn": "Bạn gái anh trông \"nữ tính\" ghê ạ.",
+      "text_en": "Your girlfriend looks so girly.",
+      "summary_vn": "Khen nhân vật \"bạn gái\" trong video.",
+      "summary_en": "Compliments the \"girlfriend\" character.",
+      "content_kind": "comment",
+      "activity_type": "Bình luận",
+      "published_label": "19:54 26/11 (theo ID bình luận)",
+      "sentiment": "Positive",
+      "intent": "praise",
+      "keywords": [
+        "ngoại hình nhân vật"
+      ],
+      "theme": "Trải nghiệm game tích cực",
+      "engagement": {
+        "reactions": [],
+        "comment_count": null
+      },
+      "id": "tiktok-a20b39ac351cd214",
+      "topic": "Other",
+      "topic_secondary": [],
+      "segment": "unknown",
+      "severity": null,
+      "confidence": 0.7,
+      "needs_review": true,
+      "translation_method": "ai_contextual",
+      "label_method": "ai_review",
+      "collected_at": "2026-11-27T23:33:56.047Z"
+    },
+    {
+      "date_basis": "published_at",
+      "source": "TikTok",
+      "community": "TikTok",
+      "link": "https://www.tiktok.com/@phoenix.s56/video/7711935039482694932?comment_id=7712471555062006529",
+      "author_masked": "อ***",
+      "text_th": "แฟนพี่น่ารักที่สุดในโลกเลย",
+      "text_vn": "Bạn gái anh dễ thương nhất thế giới luôn.",
+      "text_en": "Your girlfriend is the cutest in the world.",
+      "summary_vn": "Khen nhân vật \"bạn gái\" dễ thương nhất.",
+      "summary_en": "Says the \"girlfriend\" character is the cutest ever.",
+      "content_kind": "comment",
+      "activity_type": "Bình luận",
+      "published_label": "20:28 26/11 (theo ID bình luận)",
+      "sentiment": "Positive",
+      "intent": "praise",
+      "keywords": [
+        "ngoại hình nhân vật"
+      ],
+      "theme": "Trải nghiệm game tích cực",
+      "engagement": {
+        "reactions": [],
+        "comment_count": null
+      },
+      "id": "tiktok-c24cc1bbeb31e427",
+      "topic": "Other",
+      "topic_secondary": [],
+      "segment": "unknown",
+      "severity": null,
+      "confidence": 0.7,
+      "needs_review": true,
+      "translation_method": "ai_contextual",
+      "label_method": "ai_review",
+      "collected_at": "2026-11-27T23:33:56.047Z"
+    },
+    {
+      "date_basis": "published_at",
+      "source": "TikTok",
+      "community": "TikTok",
+      "link": "https://www.tiktok.com/@playtogetherth.official/video/7712022376824818945?comment_id=7712280641819902727",
+      "author_masked": "C***",
+      "text_th": "ผมเล่นตั้งแต่่เกมเปิดครั้งแรกกอ่ะครับ",
+      "text_vn": "Em chơi từ hồi game mới ra mắt lần đầu luôn ạ.",
+      "text_en": "I’ve been playing since the game first launched.",
+      "summary_vn": "Người xem kể đã chơi từ ngày game ra mắt.",
+      "summary_en": "Viewer says they have played since launch day.",
+      "content_kind": "comment",
+      "activity_type": "Bình luận",
+      "published_label": "08:08 26/11 (theo ID bình luận)",
+      "sentiment": "Positive",
+      "intent": "chat",
+      "keywords": [
+        "người chơi lâu năm"
+      ],
+      "theme": "Trải nghiệm game tích cực",
+      "engagement": {
+        "reactions": [],
+        "comment_count": null
+      },
+      "id": "tiktok-d6735cfa6121a0a4",
+      "topic": "Other",
+      "topic_secondary": [],
+      "segment": "unknown",
+      "severity": null,
+      "confidence": 0.7,
+      "needs_review": true,
+      "translation_method": "ai_contextual",
+      "label_method": "ai_review",
+      "collected_at": "2026-11-27T23:33:56.047Z"
+    }
+  ],
+  "report": {
+    "overview": "Phản hồi ngày 2026-11-26.",
+    "bright_spots": [],
+    "pain_points": [],
+    "segments": {
+      "new": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      },
+      "midgame": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      },
+      "veteran": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      },
+      "payer": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      }
+    },
+    "next_actions": {
+      "new": [],
+      "midgame": [],
+      "veteran": [],
+      "payer": []
+    },
+    "data_health": [
+      "Thu thập hằng ngày: Facebook, YouTube, TikTok (đã che tên tác giả)."
+    ]
+  },
+  "metrics": {
+    "volume": 10,
+    "noise": 0,
+    "by_source": {
+      "YouTube": 4,
+      "TikTok": 6
+    },
+    "by_sentiment": {
+      "Positive": 10,
+      "Neutral": 0,
+      "Negative": 0,
+      "Mixed": 0
+    },
+    "by_topic": {
+      "Event & Update content": 5,
+      "Other": 5
+    },
+    "by_segment": {
+      "unknown": 10
+    },
+    "nss": 100,
+    "nss_d1": null,
+    "nss_7d_avg": null,
+    "store": {
+      "gp_avg": null,
+      "ios_avg": null,
+      "star_1": 0,
+      "star_5": 0
+    }
+  },
+  "data_mode": "production"
+}

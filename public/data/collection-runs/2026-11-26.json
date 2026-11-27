@@ -1,0 +1,115 @@
+{
+  "target_date": "2026-11-26",
+  "time_zone": "Asia/Bangkok",
+  "checked_at": "2026-11-27T23:35:00.522Z",
+  "status": "partial",
+  "added_feedback": 10,
+  "added_ratings": 0,
+  "collection_complete": false,
+  "backfill": true,
+  "summary_vn": "Ngày 26/11/2026 (chạy bù lượt 28/11): thêm 10 phản hồi — YouTube 4, TikTok 6 (Positive 10). Toàn bộ Facebook (group + fanpage) bị chặn vì phiên Facebook trong trình duyệt tích hợp đã đăng xuất; cần đăng nhập lại để chạy bù. Không có nguồn mới phù hợp. Sensor Tower bỏ qua theo runbook.",
+  "sources": [
+    {
+      "key": "Facebook Group · playtogetherth",
+      "status": "blocked",
+      "added_feedback": 0,
+      "detail": "Bị chặn lượt 28/11: phiên Facebook trong trình duyệt tích hợp đã đăng xuất (hiện màn \"Tiếp tục dưới tên …\" / nút Đăng nhập; chế độ khách chỉ thấy 1 bài ghim). Không đăng nhập theo quy tắc → chưa thu thập 25–27/11, cần người dùng đăng nhập lại Facebook trong trình duyệt tích hợp rồi chạy bù."
+    },
+    {
+      "key": "Facebook Group · 815754622673816",
+      "status": "blocked",
+      "added_feedback": 0,
+      "detail": "Bị chặn lượt 28/11: phiên Facebook trong trình duyệt tích hợp đã đăng xuất (hiện màn \"Tiếp tục dưới tên …\" / nút Đăng nhập; chế độ khách chỉ thấy 1 bài ghim). Không đăng nhập theo quy tắc → chưa thu thập 25–27/11, cần người dùng đăng nhập lại Facebook trong trình duyệt tích hợp rồi chạy bù."
+    },
+    {
+      "key": "Facebook Group · 1772363333745643",
+      "status": "blocked",
+      "added_feedback": 0,
+      "detail": "Bị chặn lượt 28/11: phiên Facebook trong trình duyệt tích hợp đã đăng xuất (hiện màn \"Tiếp tục dưới tên …\" / nút Đăng nhập; chế độ khách chỉ thấy 1 bài ghim). Không đăng nhập theo quy tắc → chưa thu thập 25–27/11, cần người dùng đăng nhập lại Facebook trong trình duyệt tích hợp rồi chạy bù."
+    },
+    {
+      "key": "Facebook Group · 562362538882428",
+      "status": "checked",
+      "added_feedback": 0,
+      "detail": "Không mở lại 28/11 (Facebook đã đăng xuất; lượt 19/11: bài mới nhất 14/03/2023); giữ inactive."
+    },
+    {
+      "key": "Facebook Group · 3252260471541104",
+      "status": "blocked",
+      "added_feedback": 0,
+      "detail": "Group riêng tư 16.8K thành viên; lượt 28/11 không kiểm tra được vì Facebook đã đăng xuất (lượt 25/11: chưa là thành viên / chờ duyệt)."
+    },
+    {
+      "key": "Facebook Group · 356675609124267",
+      "status": "blocked",
+      "added_feedback": 0,
+      "detail": "Group riêng tư 7.4K thành viên; lượt 28/11 không kiểm tra được vì Facebook đã đăng xuất (lượt 25/11: chưa là thành viên / chờ duyệt)."
+    },
+    {
+      "key": "Facebook Group · 473704433937505",
+      "status": "blocked",
+      "added_feedback": 0,
+      "detail": "Bị chặn lượt 28/11: phiên Facebook trong trình duyệt tích hợp đã đăng xuất (hiện màn \"Tiếp tục dưới tên …\" / nút Đăng nhập; chế độ khách chỉ thấy 1 bài ghim). Không đăng nhập theo quy tắc → chưa thu thập 25–27/11, cần người dùng đăng nhập lại Facebook trong trình duyệt tích hợp rồi chạy bù."
+    },
+    {
+      "key": "Facebook Group · 847315523442353",
+      "status": "blocked",
+      "added_feedback": 0,
+      "detail": "Group riêng tư 3.8K thành viên; lượt 28/11 không kiểm tra được vì Facebook đã đăng xuất (lượt 25/11: chưa là thành viên / chờ duyệt)."
+    },
+    {
+      "key": "Facebook Group · 253674809721451",
+      "status": "blocked",
+      "added_feedback": 0,
+      "detail": "Bị chặn lượt 28/11: phiên Facebook trong trình duyệt tích hợp đã đăng xuất (hiện màn \"Tiếp tục dưới tên …\" / nút Đăng nhập; chế độ khách chỉ thấy 1 bài ghim). Không đăng nhập theo quy tắc → chưa thu thập 25–27/11, cần người dùng đăng nhập lại Facebook trong trình duyệt tích hợp rồi chạy bù."
+    },
+    {
+      "key": "Facebook Group · 493177613552238",
+      "status": "blocked",
+      "added_feedback": 0,
+      "detail": "Bị chặn lượt 28/11: phiên Facebook trong trình duyệt tích hợp đã đăng xuất (hiện màn \"Tiếp tục dưới tên …\" / nút Đăng nhập; chế độ khách chỉ thấy 1 bài ghim). Không đăng nhập theo quy tắc → chưa thu thập 25–27/11, cần người dùng đăng nhập lại Facebook trong trình duyệt tích hợp rồi chạy bù."
+    },
+    {
+      "key": "Facebook Fanpage · @playtogetherthailandofficial",
+      "status": "blocked",
+      "added_feedback": 0,
+      "detail": "Bị chặn lượt 28/11: phiên Facebook trong trình duyệt tích hợp đã đăng xuất (hiện màn \"Tiếp tục dưới tên …\" / nút Đăng nhập; chế độ khách chỉ thấy 1 bài ghim). Không đăng nhập theo quy tắc → chưa thu thập 25–27/11, cần người dùng đăng nhập lại Facebook trong trình duyệt tích hợp rồi chạy bù."
+    },
+    {
+      "key": "YouTube",
+      "status": "partial",
+      "added_feedback": 4,
+      "detail": "RSS: ngày 26/11 có 4 video Play Together tiếng Thái (Rubycia khám phá cánh đồng tuyết; Teddy Chanelplay 2 video sự kiện mùa đông / bản 2.34.0; Wine Channel sự kiện Rồng băng). Bình luận duy nhất dưới video kênh chính thức (hộp quay báo tuyết) là tiếng Việt → bỏ; bình luận dưới video Rubycia là của chủ kênh (code PTSNOWFIELD) → bỏ."
+    },
+    {
+      "key": "TikTok",
+      "status": "partial",
+      "added_feedback": 6,
+      "detail": "Ngày 26/11: 2 video PT (@rukkung2000 khởi động theme Giáng sinh; @teddychanel sự kiện mùa đông), 0 bình luận người xem; 3 bình luận dưới video @phoenix.s56 + 1 bình luận dưới video collab kênh chính thức. Bỏ bình luận tiếng Việt, 1 chữ, follow/tag."
+    }
+  ],
+  "discovery": {
+    "note": "Tìm nguồn mới thực hiện một lần cho lượt 28/11, xem collection-runs/2026-11-27.json."
+  },
+  "sensor_tower": {
+    "status": "skipped",
+    "note": "Bỏ qua theo runbook; người dùng tự cập nhật tay."
+  },
+  "new_feedback": {
+    "by_source": {
+      "YouTube": 4,
+      "TikTok": 6
+    },
+    "by_community": {
+      "YouTube": 4,
+      "TikTok": 6
+    },
+    "by_kind": {
+      "video": 6,
+      "comment": 4
+    },
+    "by_sentiment": {
+      "Positive": 10
+    }
+  }
+}

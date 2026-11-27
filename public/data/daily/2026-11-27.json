@@ -1,0 +1,435 @@
+{
+  "date": "2026-11-27",
+  "alerts": [],
+  "items": [
+    {
+      "date_basis": "published_at",
+      "source": "YouTube",
+      "community": "YouTube",
+      "link": "https://www.youtube.com/watch?v=dr4CtXN8tiU",
+      "author_masked": "R***",
+      "text_th": "Play Together เเพ็คเกจเบ็ดหอกสามแฉกทองคำ สวยอลังการมาก! #PTGCreator #PlayTogether #PlayTogetherVNG",
+      "text_vn": "Play Together: gói cần câu đinh ba vàng, đẹp hoành tráng! #PTGCreator #PlayTogether #PlayTogetherVNG",
+      "text_en": "Play Together: the Golden Trident fishing rod package, gorgeous! #PTGCreator #PlayTogether #PlayTogetherVNG",
+      "summary_vn": "Video creator khoe gói cần câu Đinh ba vàng mới, khen rất đẹp.",
+      "summary_en": "Creator shows off the new Golden Trident fishing rod package and loves how it looks.",
+      "content_kind": "video",
+      "activity_type": "Video của người chơi",
+      "published_label": "16:22 27/11 (publishDate 2026-11-27T01:22:53-08:00)",
+      "sentiment": "Positive",
+      "intent": "share",
+      "keywords": [
+        "cần câu",
+        "gói vật phẩm",
+        "creator"
+      ],
+      "theme": "Trải nghiệm game tích cực",
+      "engagement": {
+        "reactions": [
+          "Views: 40"
+        ],
+        "comment_count": 0
+      },
+      "id": "youtube-f812ed9d64207b5a",
+      "topic": "Other",
+      "topic_secondary": [],
+      "segment": "unknown",
+      "severity": null,
+      "confidence": 0.7,
+      "needs_review": true,
+      "translation_method": "ai_contextual",
+      "label_method": "ai_review",
+      "collected_at": "2026-11-27T23:33:56.047Z"
+    },
+    {
+      "date_basis": "published_at",
+      "source": "YouTube",
+      "community": "YouTube",
+      "link": "https://www.youtube.com/watch?v=LhswC2euGws",
+      "author_masked": "R***",
+      "text_th": "มังกรนํ้าเเข็ง Play Together #PTGCreator #PlayTogether #PlayTogetherVNG",
+      "text_vn": "Rồng băng – Play Together #PTGCreator #PlayTogether #PlayTogetherVNG",
+      "text_en": "Ice Dragon – Play Together #PTGCreator #PlayTogether #PlayTogetherVNG",
+      "summary_vn": "Video creator khoe đã lấy được phương tiện Rồng băng.",
+      "summary_en": "Creator shows off getting the Ice Dragon vehicle.",
+      "content_kind": "video",
+      "activity_type": "Video của người chơi",
+      "published_label": "00:26 27/11 (publishDate 2026-11-26T09:26:53-08:00)",
+      "sentiment": "Positive",
+      "intent": "share",
+      "keywords": [
+        "rồng băng",
+        "phương tiện",
+        "sự kiện"
+      ],
+      "theme": "Phần thưởng sự kiện",
+      "engagement": {
+        "reactions": [
+          "Views: 60"
+        ],
+        "comment_count": 2
+      },
+      "id": "youtube-73440257c626083b",
+      "topic": "Event & Update content",
+      "topic_secondary": [],
+      "segment": "unknown",
+      "severity": null,
+      "confidence": 0.7,
+      "needs_review": true,
+      "translation_method": "ai_contextual",
+      "label_method": "ai_review",
+      "collected_at": "2026-11-27T23:33:56.047Z"
+    },
+    {
+      "date_basis": "published_at",
+      "source": "YouTube",
+      "community": "YouTube",
+      "link": "https://www.youtube.com/watch?v=LhswC2euGws&lc=UgzvmIeaOmpJvTATal54AaABAg",
+      "author_masked": "M***",
+      "text_th": "😅 ขยันจัง วันแรกก็ได้แล้ว",
+      "text_vn": "😅 Siêng ghê, mới ngày đầu đã lấy được rồi.",
+      "text_en": "😅 So dedicated, you got it on day one.",
+      "summary_vn": "Khen creator lấy được rồng băng ngay ngày đầu sự kiện.",
+      "summary_en": "Praises the creator for getting the ice dragon on day one.",
+      "content_kind": "comment",
+      "activity_type": "Bình luận",
+      "published_label": "17 giờ trước (~13:00 27/11)",
+      "sentiment": "Positive",
+      "intent": "praise",
+      "keywords": [
+        "rồng băng",
+        "sự kiện"
+      ],
+      "theme": "Phần thưởng sự kiện",
+      "engagement": {
+        "reactions": [],
+        "comment_count": null
+      },
+      "id": "youtube-79d94ac20e7f0b46",
+      "topic": "Event & Update content",
+      "topic_secondary": [],
+      "segment": "unknown",
+      "severity": null,
+      "confidence": 0.7,
+      "needs_review": true,
+      "translation_method": "ai_contextual",
+      "label_method": "ai_review",
+      "collected_at": "2026-11-27T23:33:56.047Z"
+    },
+    {
+      "date_basis": "published_at",
+      "source": "YouTube",
+      "community": "YouTube",
+      "link": "https://www.youtube.com/watch?v=OBDpk_bajUw&lc=UgyjiepQx9S8c1ZzOh94AaABAg",
+      "author_masked": "M***",
+      "text_th": "😅 เอามาขายเลยดีกว่า ขี้เกียจขุด ครับ เจอบอทแย่งขุดหมด",
+      "text_vn": "😅 Bán thẳng luôn cho rồi, lười đào lắm, toàn gặp bot giành đào hết.",
+      "text_en": "😅 Just sell it directly, I’m tired of digging — bots grab all the dig spots.",
+      "summary_vn": "Dưới video vật phẩm mới ở đảo bí ẩn, người chơi than bot giành hết chỗ đào kho báu, muốn bán thẳng vật phẩm.",
+      "summary_en": "Under the mystery island items video, a player complains bots take all the treasure-dig spots and wants the items sold directly.",
+      "content_kind": "comment",
+      "activity_type": "Bình luận",
+      "published_label": "9 giờ trước (~21:00 27/11)",
+      "sentiment": "Negative",
+      "intent": "complaint",
+      "keywords": [
+        "bot",
+        "đào kho báu"
+      ],
+      "theme": "Tương tác xã hội tiêu cực",
+      "engagement": {
+        "reactions": [],
+        "comment_count": null
+      },
+      "id": "youtube-cbcc92e1fedaff99",
+      "topic": "Social / Scam / Harassment / Toxic",
+      "topic_secondary": [],
+      "segment": "unknown",
+      "severity": null,
+      "confidence": 0.7,
+      "needs_review": true,
+      "translation_method": "ai_contextual",
+      "label_method": "ai_review",
+      "collected_at": "2026-11-27T23:33:56.047Z"
+    },
+    {
+      "date_basis": "published_at",
+      "source": "TikTok",
+      "community": "TikTok",
+      "link": "https://www.tiktok.com/@rukkung2000/video/7712823354595544338",
+      "author_masked": "R***",
+      "text_th": "เรียบร้อยครับ 5 ขวด🤣#playtogether #playtogethervng #game #แคสเกม #gameplay",
+      "text_vn": "Xong rồi nhé, 5 chai 🤣 #playtogether #playtogethervng #game #castgame #gameplay",
+      "text_en": "Done, 5 bottles 🤣 #playtogether #playtogethervng #game #gamecast #gameplay",
+      "summary_vn": "Creator đăng clip vui Play Together (\"xong 5 chai\").",
+      "summary_en": "Creator posts a fun Play Together clip (\"done, 5 bottles\").",
+      "content_kind": "video",
+      "activity_type": "Video của người chơi",
+      "published_label": "19:13 27/11 (theo ID video)",
+      "sentiment": "Positive",
+      "intent": "share",
+      "keywords": [
+        "creator",
+        "đùa"
+      ],
+      "theme": "Trải nghiệm game tích cực",
+      "engagement": {
+        "reactions": [
+          "Views: 83"
+        ],
+        "comment_count": 0
+      },
+      "id": "tiktok-18d80943e0267242",
+      "topic": "Other",
+      "topic_secondary": [],
+      "segment": "unknown",
+      "severity": null,
+      "confidence": 0.7,
+      "needs_review": true,
+      "translation_method": "ai_contextual",
+      "label_method": "ai_review",
+      "collected_at": "2026-11-27T23:33:56.047Z"
+    },
+    {
+      "date_basis": "published_at",
+      "source": "TikTok",
+      "community": "TikTok",
+      "link": "https://www.tiktok.com/@phoenix.s56/video/7711935039482694932?comment_id=7712811320105812788",
+      "author_masked": "ก***",
+      "text_th": "แฟนพี่ปากแดงมากเลยอ่ะ",
+      "text_vn": "Bạn gái anh môi đỏ dữ luôn.",
+      "text_en": "Your girlfriend’s lips are really red.",
+      "summary_vn": "Bình luận về môi đỏ của nhân vật \"bạn gái\" trong video.",
+      "summary_en": "Comments on the \"girlfriend\" character’s red lips.",
+      "content_kind": "comment",
+      "activity_type": "Bình luận",
+      "published_label": "18:27 27/11 (theo ID bình luận)",
+      "sentiment": "Neutral",
+      "intent": "chat",
+      "keywords": [
+        "ngoại hình nhân vật"
+      ],
+      "theme": "Trải nghiệm game tích cực",
+      "engagement": {
+        "reactions": [],
+        "comment_count": null
+      },
+      "id": "tiktok-de0330f2ed85d1b9",
+      "topic": "Other",
+      "topic_secondary": [],
+      "segment": "unknown",
+      "severity": null,
+      "confidence": 0.7,
+      "needs_review": true,
+      "translation_method": "ai_contextual",
+      "label_method": "ai_review",
+      "collected_at": "2026-11-27T23:33:56.047Z"
+    },
+    {
+      "date_basis": "published_at",
+      "source": "TikTok",
+      "community": "TikTok",
+      "link": "https://www.tiktok.com/@phoenix.s56/video/7711935039482694932?comment_id=7712816321608090369",
+      "author_masked": "K***",
+      "text_th": "แต่พี่สวยมากสวยจนหนูอยากเป็นเหมือนพี่เขาเลย",
+      "text_vn": "Nhưng chị ấy đẹp lắm, đẹp tới mức em muốn được như chị ấy luôn.",
+      "text_en": "But she’s so pretty, I want to look just like her.",
+      "summary_vn": "Khen nhân vật trong video đẹp, muốn được giống.",
+      "summary_en": "Says the character is so pretty they want to look like her.",
+      "content_kind": "comment",
+      "activity_type": "Bình luận",
+      "published_label": "18:46 27/11 (theo ID bình luận)",
+      "sentiment": "Positive",
+      "intent": "praise",
+      "keywords": [
+        "ngoại hình nhân vật"
+      ],
+      "theme": "Trải nghiệm game tích cực",
+      "engagement": {
+        "reactions": [],
+        "comment_count": null
+      },
+      "id": "tiktok-84470366013829ae",
+      "topic": "Other",
+      "topic_secondary": [],
+      "segment": "unknown",
+      "severity": null,
+      "confidence": 0.7,
+      "needs_review": true,
+      "translation_method": "ai_contextual",
+      "label_method": "ai_review",
+      "collected_at": "2026-11-27T23:33:56.047Z"
+    },
+    {
+      "date_basis": "published_at",
+      "source": "TikTok",
+      "community": "TikTok",
+      "link": "https://www.tiktok.com/@playtogetherth.official/video/7712022376824818945?comment_id=7712639159916299029",
+      "author_masked": "N***",
+      "text_th": "มีปลาติดสารหนูไหม",
+      "text_vn": "Có cá dính thạch tín không vậy?",
+      "text_en": "Are there any arsenic-contaminated fish?",
+      "summary_vn": "Hỏi đùa trong game có loại cá \"nhiễm thạch tín\" không.",
+      "summary_en": "Jokingly asks if there are \"arsenic\" fish in the game.",
+      "content_kind": "comment",
+      "activity_type": "Bình luận",
+      "published_label": "07:19 27/11 (theo ID bình luận)",
+      "sentiment": "Neutral",
+      "intent": "question",
+      "keywords": [
+        "câu cá",
+        "đùa"
+      ],
+      "theme": "Hoạt động và tính năng trong game",
+      "engagement": {
+        "reactions": [],
+        "comment_count": null
+      },
+      "id": "tiktok-abc283a4366f144f",
+      "topic": "Activities (fishing, bugs, pets, housing, jobs, minigames)",
+      "topic_secondary": [],
+      "segment": "unknown",
+      "severity": null,
+      "confidence": 0.7,
+      "needs_review": true,
+      "translation_method": "ai_contextual",
+      "label_method": "ai_review",
+      "collected_at": "2026-11-27T23:33:56.047Z"
+    },
+    {
+      "date_basis": "published_at",
+      "source": "TikTok",
+      "community": "TikTok",
+      "link": "https://www.tiktok.com/@playtogetherth.official/video/7712022376824818945?comment_id=7712686371573334804",
+      "author_masked": "น***",
+      "text_th": "พี่แป้งก็เล่นหรอ",
+      "text_vn": "Chị Paeng cũng chơi game này hả?",
+      "text_en": "Paeng plays this too?",
+      "summary_vn": "Ngạc nhiên vì creator nổi tiếng cũng chơi Play Together.",
+      "summary_en": "Surprised that the well-known creator also plays Play Together.",
+      "content_kind": "comment",
+      "activity_type": "Bình luận",
+      "published_label": "10:22 27/11 (theo ID bình luận)",
+      "sentiment": "Neutral",
+      "intent": "chat",
+      "keywords": [
+        "creator"
+      ],
+      "theme": "Trải nghiệm game tích cực",
+      "engagement": {
+        "reactions": [],
+        "comment_count": null
+      },
+      "id": "tiktok-9cd48fd9013416df",
+      "topic": "Other",
+      "topic_secondary": [],
+      "segment": "unknown",
+      "severity": null,
+      "confidence": 0.7,
+      "needs_review": true,
+      "translation_method": "ai_contextual",
+      "label_method": "ai_review",
+      "collected_at": "2026-11-27T23:33:56.047Z"
+    },
+    {
+      "date_basis": "published_at",
+      "source": "TikTok",
+      "community": "TikTok",
+      "link": "https://www.tiktok.com/@playtogetherth.official/video/7712022376824818945?comment_id=7712821813616886534",
+      "author_masked": "L***",
+      "text_th": "หนูเล่นเกมตั้งแต่อนุบาล3",
+      "text_vn": "Em chơi game này từ hồi mẫu giáo lớn (lớp lá) rồi.",
+      "text_en": "I’ve played this game since kindergarten.",
+      "summary_vn": "Người xem kể đã chơi game từ khi còn học mẫu giáo.",
+      "summary_en": "Viewer says they have played since kindergarten.",
+      "content_kind": "comment",
+      "activity_type": "Bình luận",
+      "published_label": "19:08 27/11 (theo ID bình luận)",
+      "sentiment": "Positive",
+      "intent": "chat",
+      "keywords": [
+        "người chơi lâu năm"
+      ],
+      "theme": "Trải nghiệm game tích cực",
+      "engagement": {
+        "reactions": [],
+        "comment_count": null
+      },
+      "id": "tiktok-9fd6216836ac4a2b",
+      "topic": "Other",
+      "topic_secondary": [],
+      "segment": "unknown",
+      "severity": null,
+      "confidence": 0.7,
+      "needs_review": true,
+      "translation_method": "ai_contextual",
+      "label_method": "ai_review",
+      "collected_at": "2026-11-27T23:33:56.047Z"
+    }
+  ],
+  "report": {
+    "overview": "Phản hồi ngày 2026-11-27.",
+    "bright_spots": [],
+    "pain_points": [],
+    "segments": {
+      "new": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      },
+      "midgame": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      },
+      "veteran": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      },
+      "payer": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      }
+    },
+    "next_actions": {
+      "new": [],
+      "midgame": [],
+      "veteran": [],
+      "payer": []
+    },
+    "data_health": [
+      "Thu thập hằng ngày: Facebook, YouTube, TikTok (đã che tên tác giả)."
+    ]
+  },
+  "metrics": {
+    "volume": 10,
+    "noise": 0,
+    "by_source": {
+      "YouTube": 4,
+      "TikTok": 6
+    },
+    "by_sentiment": {
+      "Positive": 6,
+      "Neutral": 3,
+      "Negative": 1,
+      "Mixed": 0
+    },
+    "by_topic": {
+      "Other": 6,
+      "Event & Update content": 2,
+      "Social / Scam / Harassment / Toxic": 1,
+      "Activities (fishing, bugs, pets, housing, jobs, minigames)": 1
+    },
+    "by_segment": {
+      "unknown": 10
+    },
+    "nss": 50,
+    "nss_d1": null,
+    "nss_7d_avg": null,
+    "store": {
+      "gp_avg": null,
+      "ios_avg": null,
+      "star_1": 0,
+      "star_5": 0
+    }
+  },
+  "data_mode": "production"
+}

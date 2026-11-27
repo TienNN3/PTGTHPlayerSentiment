@@ -1,0 +1,368 @@
+{
+  "date": "2026-11-25",
+  "alerts": [],
+  "items": [
+    {
+      "date_basis": "published_at",
+      "source": "YouTube",
+      "community": "YouTube",
+      "link": "https://www.youtube.com/watch?v=aC5WW_12HFM",
+      "author_masked": "R***",
+      "text_th": "ท่านพี่เท่หรือไม่ Play Together #PTGCreator #PlayTogether #PlayTogetherVNG",
+      "text_vn": "Huynh đài có ngầu không? Play Together #PTGCreator #PlayTogether #PlayTogetherVNG",
+      "text_en": "Is big bro cool or what? Play Together #PTGCreator #PlayTogether #PlayTogetherVNG",
+      "summary_vn": "Video creator khoe tạo hình nhân vật \"huynh đài\" trong Play Together.",
+      "summary_en": "Creator video showing off a cool \"big bro\" character look in Play Together.",
+      "content_kind": "video",
+      "activity_type": "Video của người chơi",
+      "published_label": "19:41 25/11 (publishDate 2026-11-25T04:41:19-08:00)",
+      "sentiment": "Positive",
+      "intent": "share",
+      "keywords": [
+        "ngoại hình nhân vật",
+        "trang phục",
+        "creator"
+      ],
+      "theme": "Trải nghiệm game tích cực",
+      "engagement": {
+        "reactions": [
+          "Views: 30"
+        ],
+        "comment_count": 0
+      },
+      "id": "youtube-4fe12061755e4b2f",
+      "topic": "Other",
+      "topic_secondary": [],
+      "segment": "unknown",
+      "severity": null,
+      "confidence": 0.7,
+      "needs_review": true,
+      "translation_method": "ai_contextual",
+      "label_method": "ai_review",
+      "collected_at": "2026-11-27T23:33:56.041Z"
+    },
+    {
+      "date_basis": "published_at",
+      "source": "YouTube",
+      "community": "YouTube",
+      "link": "https://www.youtube.com/watch?v=4lBS22DYQSA",
+      "author_masked": "R***",
+      "text_th": "Play Together รีวิวVIP Play Pass ผู้สืบทอดดาบศักดิ์สิทธิ์ #PTGCreator #PlayTogether #PlayTogetherVNG",
+      "text_vn": "Play Together: review VIP Play Pass mùa \"Người kế thừa thánh kiếm\" #PTGCreator #PlayTogether #PlayTogetherVNG",
+      "text_en": "Play Together: review of the VIP Play Pass \"Heir of the Holy Sword\" season #PTGCreator #PlayTogether #PlayTogetherVNG",
+      "summary_vn": "Video creator review VIP Play Pass mùa Người kế thừa thánh kiếm.",
+      "summary_en": "Creator reviews the VIP Play Pass \"Heir of the Holy Sword\" season.",
+      "content_kind": "video",
+      "activity_type": "Video của người chơi",
+      "published_label": "17:38 25/11 (publishDate 2026-11-25T02:38:07-08:00)",
+      "sentiment": "Positive",
+      "intent": "share",
+      "keywords": [
+        "vvip pass",
+        "creator"
+      ],
+      "theme": "Phần thưởng sự kiện",
+      "engagement": {
+        "reactions": [
+          "Views: 60"
+        ],
+        "comment_count": 0
+      },
+      "id": "youtube-9dd6fac01bd975c9",
+      "topic": "Event & Update content",
+      "topic_secondary": [],
+      "segment": "unknown",
+      "severity": null,
+      "confidence": 0.7,
+      "needs_review": true,
+      "translation_method": "ai_contextual",
+      "label_method": "ai_review",
+      "collected_at": "2026-11-27T23:33:56.041Z"
+    },
+    {
+      "date_basis": "published_at",
+      "source": "TikTok",
+      "community": "TikTok",
+      "link": "https://www.tiktok.com/@phoenix.s56/video/7711935039482694932",
+      "author_masked": "P***",
+      "text_th": "#PTGCREATORTH #PLAYTOGETHER #PLAYTOGETHERVNG",
+      "text_vn": "#PTGCREATORTH #PLAYTOGETHER #PLAYTOGETHERVNG (video không có chú thích, chỉ hashtag)",
+      "text_en": "#PTGCREATORTH #PLAYTOGETHER #PLAYTOGETHERVNG (no caption, hashtags only)",
+      "summary_vn": "Video creator trong chiến dịch #PTGCREATORTH, khoe nhân vật \"bạn gái\" trong game; hơn 83K lượt xem, nhiều bình luận.",
+      "summary_en": "Creator video in the #PTGCREATORTH campaign showing an in-game \"girlfriend\" character; 83K+ views and many comments.",
+      "content_kind": "video",
+      "activity_type": "Video của người chơi",
+      "published_label": "09:46 25/11 (theo ID video)",
+      "sentiment": "Positive",
+      "intent": "share",
+      "keywords": [
+        "creator",
+        "ngoại hình nhân vật"
+      ],
+      "theme": "Trải nghiệm game tích cực",
+      "engagement": {
+        "reactions": [
+          "Views: 83.2K"
+        ],
+        "comment_count": 50
+      },
+      "id": "tiktok-8ce97b3b6abd06f3",
+      "topic": "Other",
+      "topic_secondary": [],
+      "segment": "unknown",
+      "severity": null,
+      "confidence": 0.7,
+      "needs_review": true,
+      "translation_method": "ai_contextual",
+      "label_method": "ai_review",
+      "collected_at": "2026-11-27T23:33:56.041Z"
+    },
+    {
+      "date_basis": "published_at",
+      "source": "TikTok",
+      "community": "TikTok",
+      "link": "https://www.tiktok.com/@phoenix.s56/video/7711935039482694932?comment_id=7711975471911666452",
+      "author_masked": "เ***",
+      "text_th": "แฟนพี่ปากโครตแดงน่ารักมาก",
+      "text_vn": "Bạn gái anh môi đỏ chót, dễ thương quá.",
+      "text_en": "Your girlfriend has super red lips, so cute.",
+      "summary_vn": "Khen nhân vật \"bạn gái\" trong video môi đỏ, dễ thương.",
+      "summary_en": "Compliments the in-game \"girlfriend\" character’s red lips.",
+      "content_kind": "comment",
+      "activity_type": "Bình luận",
+      "published_label": "12:24 25/11 (theo ID bình luận)",
+      "sentiment": "Positive",
+      "intent": "praise",
+      "keywords": [
+        "ngoại hình nhân vật"
+      ],
+      "theme": "Trải nghiệm game tích cực",
+      "engagement": {
+        "reactions": [
+          "Like: 10"
+        ],
+        "comment_count": null
+      },
+      "id": "tiktok-0d75cb90d7091092",
+      "topic": "Other",
+      "topic_secondary": [],
+      "segment": "unknown",
+      "severity": null,
+      "confidence": 0.7,
+      "needs_review": true,
+      "translation_method": "ai_contextual",
+      "label_method": "ai_review",
+      "collected_at": "2026-11-27T23:33:56.041Z"
+    },
+    {
+      "date_basis": "published_at",
+      "source": "TikTok",
+      "community": "TikTok",
+      "link": "https://www.tiktok.com/@phoenix.s56/video/7711935039482694932?comment_id=7711995909241193237",
+      "author_masked": "ซ***",
+      "text_th": "แฟนพี่เป็นลิง😂",
+      "text_vn": "Bạn gái anh là con khỉ à 😂",
+      "text_en": "Your girlfriend is a monkey 😂",
+      "summary_vn": "Trêu nhân vật \"bạn gái\" trong video trông như con khỉ.",
+      "summary_en": "Jokes that the \"girlfriend\" character looks like a monkey.",
+      "content_kind": "comment",
+      "activity_type": "Bình luận",
+      "published_label": "13:43 25/11 (theo ID bình luận)",
+      "sentiment": "Neutral",
+      "intent": "chat",
+      "keywords": [
+        "đùa",
+        "ngoại hình nhân vật"
+      ],
+      "theme": "Trải nghiệm game tích cực",
+      "engagement": {
+        "reactions": [],
+        "comment_count": null
+      },
+      "id": "tiktok-ea595c0c6a01be5a",
+      "topic": "Other",
+      "topic_secondary": [],
+      "segment": "unknown",
+      "severity": null,
+      "confidence": 0.7,
+      "needs_review": true,
+      "translation_method": "ai_contextual",
+      "label_method": "ai_review",
+      "collected_at": "2026-11-27T23:33:56.041Z"
+    },
+    {
+      "date_basis": "published_at",
+      "source": "TikTok",
+      "community": "TikTok",
+      "link": "https://www.tiktok.com/@phoenix.s56/video/7711935039482694932?comment_id=7711948069684642561",
+      "author_masked": "ต***",
+      "text_th": "แฟนพี่โคตรสวยโคตรน่ารักโคตรตรงสเปค",
+      "text_vn": "Bạn gái anh đẹp quá, dễ thương quá, đúng gu luôn.",
+      "text_en": "Your girlfriend is so pretty and cute, totally my type.",
+      "summary_vn": "Khen nhân vật \"bạn gái\" trong video đẹp, đúng gu.",
+      "summary_en": "Says the \"girlfriend\" character is pretty and exactly their type.",
+      "content_kind": "comment",
+      "activity_type": "Bình luận",
+      "published_label": "10:37 25/11 (theo ID bình luận)",
+      "sentiment": "Positive",
+      "intent": "praise",
+      "keywords": [
+        "ngoại hình nhân vật"
+      ],
+      "theme": "Trải nghiệm game tích cực",
+      "engagement": {
+        "reactions": [
+          "Like: 1"
+        ],
+        "comment_count": null
+      },
+      "id": "tiktok-caa68ecfc395066a",
+      "topic": "Other",
+      "topic_secondary": [],
+      "segment": "unknown",
+      "severity": null,
+      "confidence": 0.7,
+      "needs_review": true,
+      "translation_method": "ai_contextual",
+      "label_method": "ai_review",
+      "collected_at": "2026-11-27T23:33:56.041Z"
+    },
+    {
+      "date_basis": "published_at",
+      "source": "TikTok",
+      "community": "TikTok",
+      "link": "https://www.tiktok.com/@phoenix.s56/video/7711935039482694932?comment_id=7712001724362736436",
+      "author_masked": "M***",
+      "text_th": "ไม่เห็นเลย",
+      "text_vn": "Chẳng thấy gì cả.",
+      "text_en": "I can’t see anything.",
+      "summary_vn": "Nói không thấy (nhân vật/chi tiết) trong video.",
+      "summary_en": "Says they can’t see it in the video.",
+      "content_kind": "comment",
+      "activity_type": "Bình luận",
+      "published_label": "14:05 25/11 (theo ID bình luận)",
+      "sentiment": "Neutral",
+      "intent": "chat",
+      "keywords": [
+        "creator"
+      ],
+      "theme": "Góp ý trải nghiệm chung",
+      "engagement": {
+        "reactions": [],
+        "comment_count": null
+      },
+      "id": "tiktok-7039c6ed45eb2d75",
+      "topic": "Other",
+      "topic_secondary": [],
+      "segment": "unknown",
+      "severity": null,
+      "confidence": 0.7,
+      "needs_review": true,
+      "translation_method": "ai_contextual",
+      "label_method": "ai_review",
+      "collected_at": "2026-11-27T23:33:56.041Z"
+    },
+    {
+      "date_basis": "published_at",
+      "source": "TikTok",
+      "community": "TikTok",
+      "link": "https://www.tiktok.com/@playtogetherth.official/video/7712022376824818945?comment_id=7712100824521442055",
+      "author_masked": "พ***",
+      "text_th": "พี่แป้งผม add ชื่อพี่ไปตั้งนานทำไมไม่แอดผมรหัสผม[redacted]",
+      "text_vn": "Chị Paeng ơi, em gửi kết bạn tên chị lâu rồi, sao chị không chấp nhận em? Mã của em là [redacted].",
+      "text_en": "Paeng, I sent you a friend request ages ago, why haven’t you added me? My code is [redacted].",
+      "summary_vn": "Dưới video hợp tác của kênh chính thức, người xem nhờ creator chấp nhận kết bạn trong game.",
+      "summary_en": "Under the official collab video, a viewer asks the creator to accept their in-game friend request.",
+      "content_kind": "comment",
+      "activity_type": "Bình luận",
+      "published_label": "20:30 25/11 (theo ID bình luận)",
+      "sentiment": "Neutral",
+      "intent": "social",
+      "keywords": [
+        "tìm bạn",
+        "creator"
+      ],
+      "theme": "Hoạt động và tính năng trong game",
+      "engagement": {
+        "reactions": [
+          "Like: 6"
+        ],
+        "comment_count": null
+      },
+      "id": "tiktok-4275f93c3e8ccce3",
+      "topic": "Activities (fishing, bugs, pets, housing, jobs, minigames)",
+      "topic_secondary": [],
+      "segment": "unknown",
+      "severity": null,
+      "confidence": 0.7,
+      "needs_review": true,
+      "translation_method": "ai_contextual",
+      "label_method": "ai_review",
+      "collected_at": "2026-11-27T23:33:56.041Z"
+    }
+  ],
+  "report": {
+    "overview": "Phản hồi ngày 2026-11-25.",
+    "bright_spots": [],
+    "pain_points": [],
+    "segments": {
+      "new": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      },
+      "midgame": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      },
+      "veteran": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      },
+      "payer": {
+        "summary": "Không đủ dữ liệu.",
+        "links": []
+      }
+    },
+    "next_actions": {
+      "new": [],
+      "midgame": [],
+      "veteran": [],
+      "payer": []
+    },
+    "data_health": [
+      "Thu thập hằng ngày: Facebook, YouTube, TikTok (đã che tên tác giả)."
+    ]
+  },
+  "metrics": {
+    "volume": 8,
+    "noise": 0,
+    "by_source": {
+      "YouTube": 2,
+      "TikTok": 6
+    },
+    "by_sentiment": {
+      "Positive": 5,
+      "Neutral": 3,
+      "Negative": 0,
+      "Mixed": 0
+    },
+    "by_topic": {
+      "Other": 6,
+      "Event & Update content": 1,
+      "Activities (fishing, bugs, pets, housing, jobs, minigames)": 1
+    },
+    "by_segment": {
+      "unknown": 8
+    },
+    "nss": 62.5,
+    "nss_d1": null,
+    "nss_7d_avg": null,
+    "store": {
+      "gp_avg": null,
+      "ios_avg": null,
+      "star_1": 0,
+      "star_5": 0
+    }
+  },
+  "data_mode": "production"
+}
